@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q01",
+    "ksb": ["K1"],
+    "stem": "Geoffrey Rose's “prevention paradox” states that:",
+    "options": [
+      "A preventive measure that brings large benefit to the community offers little to each participating individual.",
+      "Interventions targeting high-risk individuals always prevent more cases than population-wide measures.",
+      "Preventing disease is, paradoxically, more expensive than treating it.",
+      "Individuals at the highest risk gain the least from preventive interventions."
+    ],
+    "answer": 0,
+    "rationale": "Rose's paradox is that a measure delivering large benefit to a whole population often offers little perceptible benefit to each individual taking part, which weakens individual motivation. It is a central argument for population-level rather than purely high-risk strategies."
+  },
+  {
+    "id": "q02",
+    "ksb": ["K1"],
+    "stem": "A key advantage of Rose's population strategy over the high-risk strategy is that it:",
+    "options": [
+      "Requires screening to identify everyone above a defined risk threshold.",
+      "Shifts the whole distribution of risk, addressing the many cases that arise from the large number of people at moderate risk.",
+      "Concentrates resources on the small number of individuals at greatest risk.",
+      "Avoids the need for any structural or environmental change."
+    ],
+    "answer": 1,
+    "rationale": "The population strategy aims to move the entire risk distribution downwards. Because most cases often arise from the many people at small-to-moderate risk rather than the few at high risk, it can prevent more cases overall. The high-risk strategy, by contrast, screens for and targets individuals above a threshold."
+  },
+  {
+    "id": "q03",
+    "ksb": ["K5"],
+    "stem": "A national breast cancer screening programme is an example of which type of prevention?",
+    "options": [
+      "Primary prevention",
+      "Secondary prevention",
+      "Tertiary prevention",
+      "Quaternary prevention"
+    ],
+    "answer": 1,
+    "rationale": "Screening detects disease at an early, often presymptomatic stage so it can be treated sooner: this is secondary prevention. Primary prevention stops disease arising at all (e.g. immunisation); tertiary prevention reduces the impact or complications of established disease (e.g. cardiac rehabilitation)."
+  },
+  {
+    "id": "q04",
+    "ksb": ["K5"],
+    "stem": "Which statement correctly distinguishes incidence from prevalence?",
+    "options": [
+      "Incidence counts existing cases; prevalence counts new cases.",
+      "Incidence measures new cases arising over a period; prevalence measures all existing cases at a given time.",
+      "Incidence and prevalence are interchangeable measures of disease frequency.",
+      "Prevalence applies only to infectious disease; incidence only to chronic disease."
+    ],
+    "answer": 1,
+    "rationale": "Incidence is the rate of new cases in a population over a defined period. Prevalence is the proportion with the condition at a point (or over a period) in time, so it reflects both incidence and how long the condition lasts."
+  },
+  {
+    "id": "q05",
+    "ksb": ["K8"],
+    "stem": "In the Dahlgren and Whitehead “rainbow” model, which of these layers sits closest to the individual?",
+    "options": [
+      "General socioeconomic, cultural and environmental conditions",
+      "Living and working conditions",
+      "Social and community networks",
+      "Individual lifestyle factors"
+    ],
+    "answer": 3,
+    "rationale": "Moving outward from fixed factors at the centre (age, sex, hereditary factors), the model runs: individual lifestyle factors, then social and community networks, then living and working conditions, with general socioeconomic, cultural and environmental conditions as the outer layer. Outer layers shape the inner ones."
+  },
+  {
+    "id": "q06",
+    "ksb": ["K8"],
+    "stem": "Marmot's phrase “the causes of the causes” refers to:",
+    "options": [
+      "The biological mechanisms linking risk factors to disease.",
+      "The underlying social and economic conditions that shape exposure to proximal risk factors.",
+      "Genetic predispositions that cause chronic disease.",
+      "The direct behavioural choices individuals make day to day."
+    ],
+    "answer": 1,
+    "rationale": "Marmot points upstream from proximal risk factors such as smoking or diet to the social determinants: the conditions in which people are born, grow, live, work and age, which shape those risk factors in the first place."
+  },
+  {
+    "id": "q07",
+    "ksb": ["S3"],
+    "stem": "Legislating to remove industrial trans fats from the food supply is a clean example of a population-level intervention because it:",
+    "options": [
+      "Targets only individuals already diagnosed with cardiovascular disease.",
+      "Lowers cardiovascular risk across the whole population without requiring individuals to change their behaviour.",
+      "Relies on individuals correctly interpreting food labels.",
+      "Has no measurable effect on population health outcomes."
+    ],
+    "answer": 1,
+    "rationale": "Removing industrial trans fats shifts the population's risk downwards through a structural change to the food environment, with no demand on individual behaviour or motivation. This sidesteps the prevention paradox's main weakness and makes the healthier option the default."
+  },
+  {
+    "id": "q08",
+    "ksb": ["B2"],
+    "stem": "“Health equity” is best described as:",
+    "options": [
+      "Providing every group with identical resources regardless of need.",
+      "The absence of avoidable, unfair and remediable differences in health between population groups.",
+      "Ensuring that all health outcomes are statistically identical.",
+      "A synonym for health equality."
+    ],
+    "answer": 1,
+    "rationale": "Equity concerns the fairness of differences: those that are avoidable, unfair and remediable, often addressed by allocating resources according to need. Equality (identical resources or outcomes) is a different idea and can entrench disadvantage."
+  }
+]
