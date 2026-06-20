@@ -3,110 +3,163 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HCIS L7 Revision Quiz</title>
+<title>HCIS L7 AM1 Knowledge Check</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    /* Change --accent to rebrand in one line. This is close to the JGA teal. */
-    --accent:#0c5266;
-    --accent-soft:#0c526612;
-    --paper:#faf7f2;
-    --card:#ffffff;
-    --ink:#1c2227;
-    --ink-soft:#5b6670;
-    --line:#e7e0d6;
-    --correct:#2f7a52;
-    --correct-soft:#2f7a5214;
-    --wrong:#b0301e;
-    --wrong-soft:#b0301e12;
+    /* JGA brand palette. The single red is D64226; do not introduce a second red. */
+    --red:#D64226;          /* footer bar, H1 titles, the mock CTA, "not quite" feedback */
+    --teal:#0C5266;         /* structural accent: sub-headers, pills, progress, selected */
+    --ink:#000000;          /* body text, black by default */
+    --slate:#5A6B70;        /* secondary text inside chips and cards only */
+    --paper:#FFFFFF;        /* background, always white */
+    --card:#F4F2EC;         /* default card fill, warm off-white */
+    --card-border:#D9D5CA;  /* warm grey border / divider */
+    --red-tint:#F0C9C0;     /* highlight / stat fill */
+    --teal-tint:#E8F0F2;    /* teal-family fill, hover */
+    --correct:#2F7A52;      /* functional green for a correct answer */
+    --correct-soft:#2F7A5214;
+    --wrong:#D64226;        /* brand red doubles as the incorrect signal */
+    --wrong-soft:#D6422612;
     --radius:14px;
-    --sans:"IBM Plex Sans", system-ui, -apple-system, sans-serif;
-    --serif:"Fraunces", Georgia, serif;
+    --sans:"Poppins", system-ui, -apple-system, sans-serif;
   }
   *{box-sizing:border-box}
   html,body{margin:0}
   body{
     font-family:var(--sans);
     color:var(--ink);
-    background:
-      radial-gradient(1200px 600px at 50% -10%, #ffffff 0%, var(--paper) 55%) fixed;
+    background:var(--paper);
     line-height:1.5;
     -webkit-font-smoothing:antialiased;
     min-height:100vh;
     display:flex;
-    justify-content:center;
-    padding:32px 18px 80px;
+    flex-direction:column;
+    align-items:center;
+    padding:32px 18px 64px;   /* bottom clears the fixed footer bar */
   }
   .wrap{width:100%;max-width:660px}
 
-  header.masthead{margin-bottom:26px}
+  header.masthead{margin-bottom:24px}
   .kicker{
-    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--accent);font-weight:600;margin:0 0 6px;
+    font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--teal);font-weight:600;margin:0 0 6px;
   }
   .masthead h1{
-    font-family:var(--serif);font-weight:500;font-size:30px;
-    line-height:1.1;margin:0;letter-spacing:-.01em;
+    font-weight:700;font-size:29px;color:var(--red);
+    line-height:1.12;margin:0;letter-spacing:-.01em;
   }
-  .rule{height:1px;background:var(--line);margin:18px 0 0}
+  .rule{height:1px;background:var(--card-border);margin:16px 0 0}
 
   .card{
-    background:var(--card);border:1px solid var(--line);
-    border-radius:var(--radius);padding:26px;
-    box-shadow:0 1px 0 #0000000a, 0 16px 40px -28px #0c526640;
+    background:#fff;border:1px solid var(--card-border);
+    border-radius:var(--radius);padding:24px;
     animation:rise .42s cubic-bezier(.2,.7,.2,1) both;
   }
   @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;transition:none !important}
+  }
 
-  /* Start + results lead copy */
-  .lead{font-family:var(--serif);font-size:21px;line-height:1.32;margin:0 0 10px;font-weight:400}
-  .sub{color:var(--ink-soft);margin:0 0 22px;font-size:15px}
+  .lead{font-size:18px;line-height:1.35;margin:0 0 4px;font-weight:600;color:var(--ink)}
+  .sub{color:var(--slate);margin:0 0 18px;font-size:14px}
 
   .btn{
     appearance:none;border:0;cursor:pointer;font-family:var(--sans);
     font-weight:600;font-size:15px;border-radius:10px;padding:13px 20px;
-    background:var(--accent);color:#fff;transition:transform .08s ease, filter .15s ease;
+    background:var(--teal);color:#fff;transition:filter .15s ease, transform .08s ease;
   }
-  .btn:hover{filter:brightness(1.07)}
+  .btn:hover{filter:brightness(1.08)}
   .btn:active{transform:translateY(1px)}
   .btn:disabled{opacity:.4;cursor:not-allowed;filter:none}
-  .btn.ghost{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 1.5px var(--accent)}
+  .btn.ghost{background:transparent;color:var(--teal);box-shadow:inset 0 0 0 1.5px var(--teal)}
 
-  /* Progress */
+  /* ---- menu: length selector ---- */
+  .len-row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:2px 0 20px}
+  .len-label{font-size:13px;color:var(--slate)}
+  .seg{display:inline-flex;border:1.5px solid var(--card-border);border-radius:9px;overflow:hidden}
+  .seg button{
+    appearance:none;border:0;background:#fff;font-family:var(--sans);font-size:13.5px;font-weight:500;
+    padding:7px 15px;cursor:pointer;color:var(--ink);border-left:1.5px solid var(--card-border);
+  }
+  .seg button:first-child{border-left:0}
+  .seg button.active{background:var(--teal);color:#fff}
+
+  /* ---- menu: mock hero ---- */
+  .mock-hero{
+    width:100%;text-align:left;border:0;border-radius:12px;background:var(--red);color:#fff;
+    padding:15px 18px;cursor:pointer;display:grid;gap:3px;
+    transition:filter .15s ease, transform .08s ease;
+  }
+  .mock-hero:hover{filter:brightness(1.06)}
+  .mock-hero:active{transform:translateY(1px)}
+  .mock-hero .mh-title{font-weight:600;font-size:16px}
+  .mock-hero .mh-sub{font-size:12.5px;opacity:.92}
+  .mock-hero.disabled{
+    background:var(--card);color:var(--slate);cursor:not-allowed;
+    border:1.5px solid var(--card-border);
+  }
+  .mock-hero.disabled .mh-title{color:var(--ink)}
+
+  /* ---- menu: single-KSB list ---- */
+  .zone-head{
+    font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);
+    font-weight:600;margin:22px 0 10px;
+  }
+  .menu-list{display:grid;gap:8px}
+  .ksb-item{
+    display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;
+    text-align:left;border:1.5px solid var(--card-border);background:#fff;border-radius:11px;
+    padding:11px 14px;font-family:var(--sans);color:var(--ink);cursor:pointer;
+    transition:border-color .12s ease, background .12s ease;
+  }
+  .ksb-item:hover:not(:disabled){border-color:var(--teal);background:var(--teal-tint)}
+  .ksb-item:disabled{opacity:.5;cursor:not-allowed}
+  .ksb-item .code{
+    font-weight:600;color:var(--teal);background:var(--teal-tint);
+    padding:3px 8px;border-radius:7px;font-size:12.5px;letter-spacing:.03em;
+    min-width:40px;text-align:center;
+  }
+  .ksb-item .label{font-size:14.5px;line-height:1.25}
+  .ksb-item .count{font-size:12.5px;color:var(--slate);white-space:nowrap}
+
+  .menu-note{font-size:12.5px;color:var(--slate);margin:14px 0 0}
+
+  /* ---- progress ---- */
   .progress-row{display:flex;align-items:center;justify-content:space-between;
-    font-size:12.5px;color:var(--ink-soft);letter-spacing:.02em;margin-bottom:14px}
-  .ksb-pill{font-weight:600;color:var(--accent);background:var(--accent-soft);
-    padding:3px 9px;border-radius:999px;font-size:11.5px;letter-spacing:.06em}
-  .bar{height:4px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:22px}
-  .bar > span{display:block;height:100%;background:var(--accent);border-radius:99px;
+    font-size:12.5px;color:var(--slate);letter-spacing:.02em;margin-bottom:13px}
+  .ksb-pill{font-weight:600;color:var(--teal);background:var(--teal-tint);
+    padding:3px 9px;border-radius:999px;font-size:11.5px;letter-spacing:.05em}
+  .bar{height:4px;background:var(--card-border);border-radius:99px;overflow:hidden;margin-bottom:22px}
+  .bar > span{display:block;height:100%;background:var(--teal);border-radius:99px;
     transition:width .4s cubic-bezier(.3,.8,.2,1)}
 
-  .stem{font-family:var(--serif);font-size:20px;line-height:1.35;margin:0 0 20px;font-weight:400}
+  .stem{font-size:19px;line-height:1.4;margin:0 0 20px;font-weight:500;color:var(--ink)}
 
   .options{display:grid;gap:10px;margin:0 0 20px}
   .opt{
-    text-align:left;border:1.5px solid var(--line);background:#fff;border-radius:11px;
-    padding:14px 16px;font:inherit;color:var(--ink);cursor:pointer;display:flex;gap:12px;
-    align-items:flex-start;transition:border-color .12s ease, background .12s ease;
-    animation:rise .4s both;
+    text-align:left;border:1.5px solid var(--card-border);background:#fff;border-radius:11px;
+    padding:14px 16px;font-family:var(--sans);font-size:15px;color:var(--ink);cursor:pointer;
+    display:flex;gap:12px;align-items:flex-start;
+    transition:border-color .12s ease, background .12s ease;animation:rise .4s both;
   }
-  .opt:hover:not(:disabled){border-color:var(--accent)}
+  .opt:hover:not(:disabled){border-color:var(--teal)}
   .opt:disabled{cursor:default}
   .opt .tick{
-    flex:0 0 22px;height:22px;border-radius:50%;border:1.5px solid var(--line);
+    flex:0 0 22px;height:22px;border-radius:50%;border:1.5px solid var(--card-border);
     display:grid;place-items:center;font-size:12px;font-weight:700;color:transparent;margin-top:1px;
   }
-  .opt.selected{border-color:var(--accent);background:var(--accent-soft)}
-  .opt.selected .tick{background:var(--accent);border-color:var(--accent);color:#fff}
+  .opt.selected{border-color:var(--teal);background:var(--teal-tint)}
+  .opt.selected .tick{background:var(--teal);border-color:var(--teal);color:#fff}
   .opt.correct{border-color:var(--correct);background:var(--correct-soft)}
   .opt.correct .tick{background:var(--correct);border-color:var(--correct);color:#fff}
   .opt.wrong{border-color:var(--wrong);background:var(--wrong-soft)}
   .opt.wrong .tick{background:var(--wrong);border-color:var(--wrong);color:#fff}
 
   .feedback{
-    border-left:3px solid var(--accent);background:var(--accent-soft);
+    border-left:3px solid var(--teal);background:var(--teal-tint);
     padding:14px 16px;border-radius:0 10px 10px 0;margin:0 0 22px;
     font-size:14.5px;color:var(--ink);animation:rise .35s both;
   }
@@ -116,159 +169,160 @@
   .feedback.right .verdict{color:var(--correct)}
   .feedback.wrong-fb .verdict{color:var(--wrong)}
 
-  .actions{display:flex;justify-content:flex-end;gap:12px}
+  .actions{display:flex;justify-content:flex-end;gap:12px;flex-wrap:wrap}
 
-  /* Results */
-  .score-big{font-family:var(--serif);font-size:54px;line-height:1;font-weight:500;letter-spacing:-.02em}
-  .score-big small{font-size:24px;color:var(--ink-soft)}
-  .score-pct{color:var(--ink-soft);font-size:15px;margin:6px 0 0}
-  .verdict-line{margin:18px 0 4px;font-size:15.5px}
+  /* ---- results ---- */
+  .result-mode{font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--teal);font-weight:600;margin:0 0 10px}
+  .score-big{font-weight:700;font-size:52px;line-height:1;letter-spacing:-.02em;color:var(--ink)}
+  .score-big small{font-size:23px;color:var(--slate);font-weight:600}
+  .score-pct{color:var(--slate);font-size:15px;margin:6px 0 0}
+  .verdict-line{margin:16px 0 4px;font-size:15.5px}
 
-  .ksb-head{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
-    font-weight:600;margin:26px 0 12px}
-  .ksb-row{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;
-    padding:9px 0;border-top:1px solid var(--line)}
-  .ksb-row .code{font-weight:600;font-size:14px}
-  .ksb-track{height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+  .ksb-head{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);
+    font-weight:600;margin:24px 0 12px}
+  .ksb-row{display:grid;grid-template-columns:54px 1fr auto;gap:12px;align-items:center;
+    padding:9px 0;border-top:1px solid var(--card-border)}
+  .ksb-row .code{font-weight:600;font-size:14px;color:var(--teal)}
+  .ksb-track{height:8px;background:var(--card-border);border-radius:99px;overflow:hidden}
   .ksb-track > span{display:block;height:100%;border-radius:99px;background:var(--correct);
     transition:width .5s cubic-bezier(.3,.8,.2,1)}
   .ksb-track > span.weak{background:var(--wrong)}
-  .ksb-meta{font-size:13px;color:var(--ink-soft);white-space:nowrap;display:flex;gap:8px;align-items:center}
-  .review-tag{color:var(--wrong);font-weight:600;font-size:11px;letter-spacing:.05em;
+  .ksb-meta{font-size:13px;color:var(--slate);white-space:nowrap;display:flex;gap:8px;align-items:center}
+  .review-tag{color:var(--wrong);font-weight:600;font-size:11px;letter-spacing:.04em;
     background:var(--wrong-soft);padding:2px 7px;border-radius:99px}
 
-  .notice{font-size:12.5px;color:var(--ink-soft);margin-top:18px;text-align:center}
-  .footnote{font-size:12px;color:var(--ink-soft);margin-top:26px;text-align:center}
+  /* per-question review (single-KSB results) */
+  .review-list{display:grid;gap:7px;margin-top:6px}
+  .review-row{display:grid;grid-template-columns:auto auto 1fr;gap:11px;align-items:start;
+    padding:10px 12px;border-radius:9px;background:var(--card);font-size:13.5px}
+  .review-row .rmark{font-weight:700;line-height:1.3}
+  .review-row.ok .rmark{color:var(--correct)}
+  .review-row.no .rmark{color:var(--wrong)}
+  .review-row .rnum{color:var(--slate);font-weight:600;line-height:1.3}
+  .review-row .rstem{color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;
+    -webkit-box-orient:vertical;overflow:hidden}
+
+  .footnote{font-size:12px;color:var(--slate);margin-top:22px;text-align:center}
+
+  /* ---- mandated JGA footer bar ---- */
+  .jga-footer{
+    position:fixed;left:0;right:0;bottom:0;height:34px;background:var(--red);
+    display:flex;align-items:center;justify-content:flex-end;padding:0 18px;z-index:10;
+  }
+  .jga-footer span{color:#fff;font-size:12px;letter-spacing:.01em}
+  .jga-footer .jga{font-weight:700}
+  .jga-footer .tag{opacity:.85;font-weight:400}
+
   @media (max-width:480px){
-    .masthead h1{font-size:25px}
-    .card{padding:20px}
-    .stem{font-size:18px}
+    .masthead h1{font-size:24px}
+    .card{padding:19px}
+    .stem{font-size:17px}
+    .len-row{flex-direction:column;align-items:flex-start;gap:8px}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="masthead">
-    <p class="kicker">HCIS Level 7 &middot; Revision</p>
-    <h1>Public Health Knowledge Check</h1>
+    <p class="kicker" id="kicker"></p>
+    <h1 id="title"></h1>
     <div class="rule"></div>
   </header>
   <main id="app" aria-live="polite"></main>
   <p class="footnote" id="src-note"></p>
 </div>
 
+<footer class="jga-footer">
+  <span><span class="jga">JGA</span> <span class="tag">| Developing Futures</span></span>
+</footer>
+
 <script>
 /* ----------------------------------------------------------------------------
-   CONFIG
-   - QUESTION_BANK_URL: where to load the bank from. Use "questions.json" when
-     it sits next to this file (e.g. on GitHub Pages). Leave as null to use the
-     built-in sample bank below.
-   - QUIZ_LENGTH: how many questions to sample per attempt (used when stratified
-     sampling is OFF).
-   - WEAK_THRESHOLD: KSBs scoring below this fraction are flagged for review.
+   CONFIG  (everything you would normally change lives here)
 
-   Stratified sampling:
-   - STRATIFY_BY_KSB: when true, ignore QUIZ_LENGTH and instead draw up to
-     PER_KSB questions from each code in KSB_LIST. Defaults to OFF; switch it on
-     once the bank is large enough to support an even draw across KSBs.
-   - KSB_LIST: the KSB codes to draw from, in any order.
-   - PER_KSB: how many questions to draw per KSB.
+   QUESTION_BANK_URL : where to load the bank from. "questions.json" loads the
+                       file beside this page (the GitHub Pages case). null uses
+                       the built-in sample bank.
+   PAGE_KICKER/TITLE : the masthead text.
+   LENGTH_OPTIONS    : the question-count buttons offered on the menu.
+   DEFAULT_LENGTH    : which of those is selected when the page opens.
+                       (Both modes cap at the number of questions available.)
+   MOCK_ENABLED      : the full mock is OFF by default. Leave it false until the
+                       bank holds enough questions across enough KSBs to be worth
+                       sitting, then set it true.
+   WEAK_THRESHOLD    : a KSB scoring below this fraction (0.6 = 60%) is flagged
+                       for review on the mock results screen.
+   AM1_KSBS          : the AM1-assessed KSB codes, in menu order. Fixed for L7.
+   KSB_LABELS        : short, learner-facing names for the menu rows. A code with
+                       no label here falls back to showing the bare code.
 ---------------------------------------------------------------------------- */
 const QUESTION_BANK_URL = "questions.json";
-const QUIZ_LENGTH = 8;
+
+const PAGE_KICKER = "HCIS Level 7 \u00B7 AM1";
+const PAGE_TITLE  = "Knowledge Check";
+
+const LENGTH_OPTIONS = [10, 20, 30];
+const DEFAULT_LENGTH = 20;
+
+const MOCK_ENABLED = false;
+
 const WEAK_THRESHOLD = 0.6;
 
-const STRATIFY_BY_KSB = false;
-const KSB_LIST = ["K1", "K5", "K8", "S3", "B2"];
-const PER_KSB = 2;
+const AM1_KSBS = ["K1","K3","K4","K5","K6","K7","K8","K9","K10","K12","K17","K18","K19","K22","K24","K30"];
 
-/* Built-in sample bank. KSB codes here are PLACEHOLDERS: map them to the real
-   HCIS L7 standard. Each item: id, ksb[], stem, options[], answer (index), rationale. */
+const KSB_LABELS = {
+  K1:"Applied statistics and epidemiology",
+  K3:"Evaluating methods and tools",
+  K4:"Data-driven modelling",
+  K5:"Economic forecasting and modelling",
+  K6:"Health and care data sources",
+  K7:"Clinical terminologies",
+  K8:"Data standards and flows",
+  K9:"Designing data systems",
+  K10:"Health systems and pathways",
+  K12:"Determinants of health",
+  K17:"Appraising evidence",
+  K18:"Legal and ethical data use",
+  K19:"Data sharing and linkage",
+  K22:"Organisational theory and change",
+  K24:"Project management",
+  K30:"Safeguarding"
+};
+
+/* Built-in sample bank, used only if the remote bank cannot be reached. */
 const SAMPLE_BANK = [
-  { id:"q01", ksb:["K1"],
-    stem:"Geoffrey Rose's \u201Cprevention paradox\u201D states that:",
+  { id:"s01", ksb:["K1"], stem:"Geoffrey Rose's \u201Cprevention paradox\u201D states that:",
     options:[
       "A preventive measure that brings large benefit to the community offers little to each participating individual.",
       "Interventions targeting high-risk individuals always prevent more cases than population-wide measures.",
       "Preventing disease is, paradoxically, more expensive than treating it.",
       "Individuals at the highest risk gain the least from preventive interventions."
     ], answer:0,
-    rationale:"Rose's paradox is that a measure delivering large benefit to a whole population often offers little perceptible benefit to each individual taking part, which weakens individual motivation. It is a central argument for population-level rather than purely high-risk strategies." },
-
-  { id:"q02", ksb:["K1"],
-    stem:"A key advantage of Rose's population strategy over the high-risk strategy is that it:",
-    options:[
-      "Requires screening to identify everyone above a defined risk threshold.",
-      "Shifts the whole distribution of risk, addressing the many cases that arise from the large number of people at moderate risk.",
-      "Concentrates resources on the small number of individuals at greatest risk.",
-      "Avoids the need for any structural or environmental change."
-    ], answer:1,
-    rationale:"The population strategy aims to move the entire risk distribution downwards. Because most cases often arise from the many people at small-to-moderate risk rather than the few at high risk, it can prevent more cases overall. The high-risk strategy, by contrast, screens for and targets individuals above a threshold." },
-
-  { id:"q03", ksb:["K5"],
-    stem:"A national breast cancer screening programme is an example of which type of prevention?",
-    options:["Primary prevention","Secondary prevention","Tertiary prevention","Quaternary prevention"],
-    answer:1,
-    rationale:"Screening detects disease at an early, often presymptomatic stage so it can be treated sooner: this is secondary prevention. Primary prevention stops disease arising at all (e.g. immunisation); tertiary prevention reduces the impact or complications of established disease (e.g. cardiac rehabilitation)." },
-
-  { id:"q04", ksb:["K5"],
-    stem:"Which statement correctly distinguishes incidence from prevalence?",
-    options:[
-      "Incidence counts existing cases; prevalence counts new cases.",
-      "Incidence measures new cases arising over a period; prevalence measures all existing cases at a given time.",
-      "Incidence and prevalence are interchangeable measures of disease frequency.",
-      "Prevalence applies only to infectious disease; incidence only to chronic disease."
-    ], answer:1,
-    rationale:"Incidence is the rate of new cases in a population over a defined period. Prevalence is the proportion with the condition at a point (or over a period) in time, so it reflects both incidence and how long the condition lasts." },
-
-  { id:"q05", ksb:["K8"],
-    stem:"In the Dahlgren and Whitehead \u201Crainbow\u201D model, which of these layers sits closest to the individual?",
-    options:[
-      "General socioeconomic, cultural and environmental conditions",
-      "Living and working conditions",
-      "Social and community networks",
-      "Individual lifestyle factors"
-    ], answer:3,
-    rationale:"Moving outward from fixed factors at the centre (age, sex, hereditary factors), the model runs: individual lifestyle factors, then social and community networks, then living and working conditions, with general socioeconomic, cultural and environmental conditions as the outer layer. Outer layers shape the inner ones." },
-
-  { id:"q06", ksb:["K8"],
-    stem:"Marmot's phrase \u201Cthe causes of the causes\u201D refers to:",
-    options:[
-      "The biological mechanisms linking risk factors to disease.",
-      "The underlying social and economic conditions that shape exposure to proximal risk factors.",
-      "Genetic predispositions that cause chronic disease.",
-      "The direct behavioural choices individuals make day to day."
-    ], answer:1,
-    rationale:"Marmot points upstream from proximal risk factors such as smoking or diet to the social determinants: the conditions in which people are born, grow, live, work and age, which shape those risk factors in the first place." },
-
-  { id:"q07", ksb:["S3"],
-    stem:"Legislating to remove industrial trans fats from the food supply is a clean example of a population-level intervention because it:",
-    options:[
-      "Targets only individuals already diagnosed with cardiovascular disease.",
-      "Lowers cardiovascular risk across the whole population without requiring individuals to change their behaviour.",
-      "Relies on individuals correctly interpreting food labels.",
-      "Has no measurable effect on population health outcomes."
-    ], answer:1,
-    rationale:"Removing industrial trans fats shifts the population's risk downwards through a structural change to the food environment, with no demand on individual behaviour or motivation. This sidesteps the prevention paradox's main weakness and makes the healthier option the default." },
-
-  { id:"q08", ksb:["B2"],
-    stem:"\u201CHealth equity\u201D is best described as:",
-    options:[
-      "Providing every group with identical resources regardless of need.",
-      "The absence of avoidable, unfair and remediable differences in health between population groups.",
-      "Ensuring that all health outcomes are statistically identical.",
-      "A synonym for health equality."
-    ], answer:1,
-    rationale:"Equity concerns the fairness of differences: those that are avoidable, unfair and remediable, often addressed by allocating resources according to need. Equality (identical resources or outcomes) is a different idea and can entrench disadvantage." }
+    rationale:"Rose's paradox is that a measure delivering large benefit to a whole population often offers little perceptible benefit to each individual taking part." },
+  { id:"s02", ksb:["K5"], stem:"A national breast cancer screening programme is an example of which type of prevention?",
+    options:["Primary prevention","Secondary prevention","Tertiary prevention","Quaternary prevention"], answer:1,
+    rationale:"Screening detects disease at an early, often presymptomatic stage so it can be treated sooner: secondary prevention." },
+  { id:"s03", ksb:["K8"], stem:"In the Dahlgren and Whitehead \u201Crainbow\u201D model, which layer sits closest to the individual?",
+    options:["General socioeconomic conditions","Living and working conditions","Social and community networks","Individual lifestyle factors"], answer:3,
+    rationale:"Moving outward from fixed factors at the centre, the first layer is individual lifestyle factors." }
 ];
 
 /* ------------------------------- ENGINE --------------------------------- */
 const app = document.getElementById("app");
 const srcNote = document.getElementById("src-note");
+document.getElementById("kicker").textContent = PAGE_KICKER;
+document.getElementById("title").textContent = PAGE_TITLE;
+
 let bank = [];
-let quiz = [];      // prepared, sampled questions for this attempt
-let idx = 0;        // current question index
-let results = [];   // { id, ksb[], correct }
+let quiz = [];            // sampled, prepared questions for this attempt
+let idx = 0;              // current question index
+let results = [];         // { id, ksb[], correct, stem }
+let mode = null;          // "mock" | "ksb"
+let activeKsb = null;     // the chosen code when mode === "ksb"
+let quizLength = DEFAULT_LENGTH;
+let selected = null;      // selected option index for the current question
+let answered = false;     // whether the current question has been checked
 
 function shuffle(a){
   a = a.slice();
@@ -276,79 +330,170 @@ function shuffle(a){
   return a;
 }
 
+function ksbsOf(q){ return Array.isArray(q.ksb) ? q.ksb : (q.ksb ? [q.ksb] : []); }
+function bankCount(code){ return bank.filter(q => ksbsOf(q).includes(code)).length; }
+
 function prepare(q){
-  // shuffle options while tracking which is correct
-  const tagged = q.options.map((text,i)=>({text, correct:i===q.answer}));
+  const tagged = (q.options||[]).map((text,i)=>({text, correct:i===q.answer}));
   const opts = shuffle(tagged);
-  return { id:q.id, ksb:q.ksb||["(untagged)"], stem:q.stem, rationale:q.rationale,
-           options:opts, correctIndex:opts.findIndex(o=>o.correct) };
+  return { id:q.id, ksb:ksbsOf(q).length?ksbsOf(q):["(untagged)"], stem:q.stem,
+           rationale:q.rationale, options:opts, correctIndex:opts.findIndex(o=>o.correct) };
 }
 
 async function loadBank(){
   if(QUESTION_BANK_URL){
     try{
       const r = await fetch(QUESTION_BANK_URL, {cache:"no-store"});
-      if(!r.ok) throw new Error(r.status);
-      bank = await r.json();
-      srcNote.textContent = "Question bank loaded from remote source.";
+      if(!r.ok) throw new Error("HTTP "+r.status);
+      const data = await r.json();
+      if(!Array.isArray(data) || data.length===0) throw new Error("empty or malformed bank");
+      bank = data;
+      srcNote.textContent = "Question bank loaded.";
       return;
     }catch(e){
       console.warn("Remote bank failed, using built-in sample.", e);
-      srcNote.textContent = "Could not reach the remote bank; showing the built-in sample.";
+      srcNote.textContent = "Could not load the question bank; showing a small built-in sample.";
+      bank = SAMPLE_BANK;
+      return;
     }
-  } else {
-    srcNote.textContent = "Showing the built-in sample bank. Set QUESTION_BANK_URL to load from your repo.";
   }
+  srcNote.textContent = "Showing the built-in sample bank.";
   bank = SAMPLE_BANK;
 }
 
-function startScreen(){
-  let desc;
-  if(STRATIFY_BY_KSB){
-    desc = `Up to ${PER_KSB} question${PER_KSB!==1?"s":""} from each of ${KSB_LIST.length} KSBs, drawn from a bank of ${bank.length}.`;
-  } else {
-    const n = Math.min(QUIZ_LENGTH, bank.length);
-    desc = `${n} question${n!==1?"s":""} this time, drawn at random from a bank of ${bank.length}.`;
-  }
+/* ------------------------------- MENU ----------------------------------- */
+function menuScreen(){
+  const mockReady = MOCK_ENABLED && AM1_KSBS.some(c=>bankCount(c)>0);
+
+  const lenButtons = LENGTH_OPTIONS.map(n =>
+    `<button data-len="${n}" class="${n===quizLength?"active":""}">${n}</button>`).join("");
+
+  const mockHtml = mockReady
+    ? `<button class="mock-hero" id="mock">
+         <span class="mh-title">Sit a full mock</span>
+         <span class="mh-sub">A stratified spread across the AM1 KSBs, like the real test.</span>
+       </button>`
+    : `<div class="mock-hero disabled" aria-disabled="true">
+         <span class="mh-title">Full mock</span>
+         <span class="mh-sub">Unlocks once enough questions are in the bank.</span>
+       </div>`;
+
+  const rows = AM1_KSBS.map(code=>{
+    const count = bankCount(code);
+    const label = KSB_LABELS[code] || code;
+    const dis = count===0 ? "disabled" : "";
+    return `<button class="ksb-item" data-ksb="${code}" ${dis} ${dis?'aria-disabled="true"':''}>
+              <span class="code">${code}</span>
+              <span class="label">${label}</span>
+              <span class="count">${count} question${count===1?"":"s"}</span>
+            </button>`;
+  }).join("");
+
   app.innerHTML = `
     <section class="card">
-      <p class="lead">A short, randomly drawn set to test your grasp of the core ideas.</p>
-      <p class="sub">${desc} You will get feedback after each answer, a final score, and a breakdown by KSB.</p>
-      <button class="btn" id="start">Start the quiz</button>
+      <p class="lead">Practise for AM1.</p>
+      <p class="sub">Sit a full mock, or work through a single area you want to firm up. Feedback comes after every answer.</p>
+
+      <div class="len-row">
+        <span class="len-label">Questions per set</span>
+        <div class="seg" id="seg" role="group" aria-label="Questions per set">${lenButtons}</div>
+      </div>
+
+      ${mockHtml}
+
+      <p class="zone-head">Or focus on a single area</p>
+      <div class="menu-list">${rows}</div>
     </section>`;
-  document.getElementById("start").onclick = beginQuiz;
+
+  // length selector: update state and active styling without rebuilding the list
+  document.querySelectorAll("#seg button").forEach(b=>{
+    b.onclick = ()=>{
+      quizLength = parseInt(b.dataset.len,10);
+      document.querySelectorAll("#seg button").forEach(x=>x.classList.toggle("active", x===b));
+    };
+  });
+
+  const mockBtn = document.getElementById("mock");
+  if(mockBtn) mockBtn.onclick = ()=>{ mode="mock"; activeKsb=null; beginQuiz(); };
+
+  document.querySelectorAll(".ksb-item").forEach(b=>{
+    if(b.disabled) return;
+    b.onclick = ()=>{ mode="ksb"; activeKsb=b.dataset.ksb; beginQuiz(); };
+  });
 }
 
+/* ----------------------------- BUILD QUIZ ------------------------------- */
 function buildQuiz(){
-  if(STRATIFY_BY_KSB){
-    const used = new Set();
-    const chosen = [];
-    // Draw PER_KSB from each code in turn. A question already taken for one
-    // code is not reused for another, so multi-KSB items are not duplicated.
-    KSB_LIST.forEach(code=>{
-      const pool = shuffle(bank.filter(q => (q.ksb||[]).includes(code) && !used.has(q.id)));
-      pool.slice(0, PER_KSB).forEach(q=>{ used.add(q.id); chosen.push(q); });
-    });
-    return shuffle(chosen).map(prepare);   // mix so questions are not grouped by KSB
-  }
-  const n = Math.min(QUIZ_LENGTH, bank.length);
-  return shuffle(bank).slice(0,n).map(prepare);
+  if(mode==="mock") return buildMock(quizLength);
+  // single KSB
+  const pool = bank.filter(q => ksbsOf(q).includes(activeKsb));
+  const n = Math.min(quizLength, pool.length);
+  return shuffle(pool).slice(0, n).map(prepare);
 }
 
+function buildMock(target){
+  // draw only AM1-tagged questions, spread as evenly as possible across the
+  // KSBs that actually have questions, without reusing a question across codes.
+  const codes = shuffle(AM1_KSBS.filter(c => bankCount(c) > 0));
+  const am1Pool = bank.filter(q => ksbsOf(q).some(k => AM1_KSBS.includes(k)));
+  const cap = Math.min(target, am1Pool.length);
+  if(cap===0) return [];
+
+  const used = new Set();
+  const chosen = [];
+  const base = Math.floor(cap / codes.length);
+  const rem = cap % codes.length;
+
+  codes.forEach((code,i)=>{
+    const alloc = base + (i < rem ? 1 : 0);
+    const pool = shuffle(bank.filter(q => ksbsOf(q).includes(code) && !used.has(q.id)));
+    pool.slice(0, alloc).forEach(q=>{ used.add(q.id); chosen.push(q); });
+  });
+
+  // top up if some KSBs were short of their allocation
+  if(chosen.length < cap){
+    const spare = shuffle(am1Pool.filter(q => !used.has(q.id)));
+    for(const q of spare){
+      if(chosen.length>=cap) break;
+      used.add(q.id); chosen.push(q);
+    }
+  }
+  return shuffle(chosen).map(prepare);
+}
+
+/* -------- the single reset point: clears ALL per-attempt state --------- */
 function beginQuiz(){
   quiz = buildQuiz();
-  idx = 0; results = [];
+  idx = 0;
+  results = [];
+  selected = null;
+  answered = false;
+  if(quiz.length===0){ renderEmpty(); return; }
   renderQuestion();
 }
 
+function renderEmpty(){
+  app.innerHTML = `
+    <section class="card">
+      <p class="lead">Nothing to show yet.</p>
+      <p class="sub">There are no questions available for that choice. Try another area.</p>
+      <div class="actions"><button class="btn ghost" id="back">Back to menu</button></div>
+    </section>`;
+  document.getElementById("back").onclick = menuScreen;
+}
+
 function renderQuestion(){
+  // start every question from a clean slate, regardless of how we arrived here
+  selected = null;
+  answered = false;
+
   const q = quiz[idx];
   const pct = (idx/quiz.length)*100;
   app.innerHTML = `
     <section class="card" id="qcard">
       <div class="progress-row">
         <span>Question ${idx+1} of ${quiz.length}</span>
-        <span class="ksb-pill">${q.ksb.join(" &middot; ")}</span>
+        <span class="ksb-pill">${q.ksb.join(" \u00B7 ")}</span>
       </div>
       <div class="bar"><span style="width:${pct}%"></span></div>
       <p class="stem">${q.stem}</p>
@@ -358,6 +503,7 @@ function renderQuestion(){
         <button class="btn" id="check" disabled>Check answer</button>
       </div>
     </section>`;
+
   const optsEl = document.getElementById("opts");
   q.options.forEach((o,i)=>{
     const b = document.createElement("button");
@@ -369,7 +515,6 @@ function renderQuestion(){
   document.getElementById("check").onclick = checkAnswer;
 }
 
-let selected = null;
 function selectOption(i){
   if(answered) return;
   selected = i;
@@ -377,41 +522,67 @@ function selectOption(i){
   document.getElementById("check").disabled = false;
 }
 
-let answered = false;
 function checkAnswer(){
+  if(selected===null || answered) return;
   const q = quiz[idx];
   answered = true;
   const correct = selected === q.correctIndex;
-  results.push({ id:q.id, ksb:q.ksb, correct });
+  results.push({ id:q.id, ksb:q.ksb, correct, stem:q.stem });
 
-  const opts = [...document.querySelectorAll(".opt")];
-  opts.forEach((el,j)=>{
+  [...document.querySelectorAll(".opt")].forEach((el,j)=>{
     el.disabled = true;
     if(j===q.correctIndex) el.classList.add("correct");
     else if(j===selected) el.classList.add("wrong");
     el.classList.remove("selected");
   });
 
-  const fb = document.getElementById("fb");
-  fb.innerHTML = `
+  document.getElementById("fb").innerHTML = `
     <div class="feedback ${correct?"right":"wrong-fb"}">
       <span class="verdict">${correct?"Correct":"Not quite"}</span>
-      ${q.rationale}
+      ${q.rationale||""}
     </div>`;
 
   const btn = document.getElementById("check");
   const last = idx === quiz.length-1;
   btn.textContent = last ? "See results" : "Next question";
   btn.disabled = false;
-  btn.onclick = ()=>{ if(last) renderResults(); else { idx++; selected=null; answered=false; renderQuestion(); } };
+  btn.onclick = ()=>{ if(last) renderResults(); else { idx++; renderQuestion(); } };
 }
 
+/* ------------------------------ RESULTS --------------------------------- */
 function renderResults(){
   const total = results.length;
   const score = results.filter(r=>r.correct).length;
-  const pct = Math.round((score/total)*100);
+  const pct = total ? Math.round((score/total)*100) : 0;
 
-  // per-KSB tally; a question contributes to each of its KSBs
+  let verdict = "Solid grasp of the core ideas.";
+  if(pct < 50) verdict = "Worth another pass over the fundamentals.";
+  else if(pct < 75) verdict = "A good base, with a few areas to firm up.";
+
+  const modeLine = mode==="mock"
+    ? "Full mock"
+    : `Single area \u00B7 ${activeKsb} \u00B7 ${KSB_LABELS[activeKsb]||""}`;
+
+  const detail = mode==="mock" ? ksbBreakdownHtml() : reviewListHtml();
+
+  app.innerHTML = `
+    <section class="card">
+      <p class="result-mode">${modeLine}</p>
+      <div class="score-big">${score}<small> / ${total}</small></div>
+      <p class="score-pct">${pct}% correct</p>
+      <p class="verdict-line">${verdict}</p>
+      ${detail}
+      <div class="actions" style="margin-top:24px">
+        <button class="btn ghost" id="menu">Back to menu</button>
+        <button class="btn" id="again">Try a new set</button>
+      </div>
+    </section>`;
+
+  document.getElementById("again").onclick = beginQuiz;   // same mode, fresh draw, full reset
+  document.getElementById("menu").onclick = menuScreen;
+}
+
+function ksbBreakdownHtml(){
   const byKsb = {};
   results.forEach(r=>{
     r.ksb.forEach(k=>{
@@ -420,11 +591,6 @@ function renderResults(){
     });
   });
   const codes = Object.keys(byKsb).sort();
-
-  let verdict = "Solid grasp of the core ideas.";
-  if(pct < 50) verdict = "Worth another pass over the fundamentals.";
-  else if(pct < 75) verdict = "A good base, with a few areas to firm up.";
-
   const rows = codes.map(k=>{
     const {correct,total} = byKsb[k];
     const frac = correct/total;
@@ -436,22 +602,21 @@ function renderResults(){
         <span class="ksb-meta">${correct}/${total}${weak?'<span class="review-tag">REVIEW</span>':''}</span>
       </div>`;
   }).join("");
-
-  app.innerHTML = `
-    <section class="card">
-      <div class="score-big">${score}<small> / ${total}</small></div>
-      <p class="score-pct">${pct}% correct</p>
-      <p class="verdict-line">${verdict}</p>
-      <p class="ksb-head">By knowledge, skill or behaviour</p>
-      ${rows}
-      <div class="actions" style="margin-top:24px">
-        <button class="btn ghost" id="again">Try a new set</button>
-      </div>
-    </section>`;
-  document.getElementById("again").onclick = beginQuiz;
+  return `<p class="ksb-head">By knowledge, skill or behaviour</p>${rows}`;
 }
 
-(async function init(){ await loadBank(); startScreen(); })();
+function reviewListHtml(){
+  const rows = results.map((r,i)=>`
+    <div class="review-row ${r.correct?"ok":"no"}">
+      <span class="rmark">${r.correct?"&#10003;":"&#10007;"}</span>
+      <span class="rnum">Q${i+1}</span>
+      <span class="rstem">${r.stem}</span>
+    </div>`).join("");
+  return `<p class="ksb-head">Your answers</p><div class="review-list">${rows}</div>`;
+}
+
+/* -------------------------------- INIT ---------------------------------- */
+(async function init(){ await loadBank(); menuScreen(); })();
 </script>
 </body>
 </html>
