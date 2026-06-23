@@ -205,6 +205,18 @@
 
   .footnote{font-size:12px;color:var(--slate);margin-top:22px;text-align:center}
 
+  /* Report-a-problem link: quiet and secondary, so it never competes with the
+     answer buttons. Sits at the foot of the live card and under each reviewed
+     item. */
+  .report-row{margin-top:18px;padding-top:14px;border-top:1px solid var(--card-border);text-align:center}
+  .report-link{
+    display:inline-block;font-size:12.5px;color:var(--slate);
+    text-decoration:none;border-bottom:1px dotted var(--slate);
+    padding-bottom:1px;transition:color .12s ease, border-color .12s ease;
+  }
+  .report-link:hover{color:var(--teal);border-bottom-color:var(--teal)}
+  .review-row .report-link{margin-top:6px;font-size:12px}
+
   /* ---- mandated JGA footer bar ---- */
   .jga-footer{
     position:fixed;left:0;right:0;bottom:0;height:34px;background:var(--red);
@@ -288,6 +300,26 @@ const KSB_LABELS = {
   K22:"Organisational theory and change",
   K24:"Project management",
   K30:"Safeguarding"
+};
+
+/* ----------------------------------------------------------------------------
+   REPORT-A-PROBLEM FORM
+   A "Report a problem" link is rendered on each question (live and in the
+   end-of-quiz review). It opens a Google Form with the question's id and KSB
+   pre-filled, so reports land in one place already stamped with which item
+   they concern.
+
+   To point it at a different form, replace the three values below:
+   - base:     the form's /viewform URL
+   - entryQID: the entry.NNN id of the "Question ID" field
+   - entryKSB: the entry.NNN id of the "KSB" field
+   Get these from the form editor: three-dots menu -> "Get pre-filled link",
+   fill the two fields, copy the link, and read the entry ids and base URL off
+   it. If base is left empty, the report link is simply not rendered.        */
+const REPORT_FORM = {
+  base:     "https://docs.google.com/forms/d/e/1FAIpQLSfNM7EmehiBnzWS2BYzaS1O7eNUh8KOT0X_kY465TM8ZKV6Tg/viewform",
+  entryQID: "entry.1842187187",
+  entryKSB: "entry.1575293762"
 };
 
 /* Built-in sample bank, used only if the remote bank cannot be reached. */
@@ -482,6 +514,25 @@ function renderEmpty(){
   document.getElementById("back").onclick = menuScreen;
 }
 
+/* Build a "Report a problem" link for one question: opens the Google Form with
+   the question id and KSB pre-filled. Returns "" if the form is not configured,
+   so callers can drop the link cleanly when no form is set. */
+function reportLink(q){
+  if(!REPORT_FORM.base) return "";
+  const params = new URLSearchParams({usp:"pp_url"});
+  if(REPORT_FORM.entryQID) params.set(REPORT_FORM.entryQID, q.id || "");
+  if(REPORT_FORM.entryKSB) params.set(REPORT_FORM.entryKSB, (q.ksb||[]).join(", "));
+  return `${REPORT_FORM.base}?${params.toString()}`;
+}
+
+/* The anchor markup, or "" if unconfigured. label lets the two placements read
+   slightly differently without duplicating the build logic. */
+function reportLinkHTML(q, label){
+  const href = reportLink(q);
+  if(!href) return "";
+  return `<a class="report-link" href="${href}" target="_blank" rel="noopener">${label}</a>`;
+}
+
 function renderQuestion(){
   // start every question from a clean slate, regardless of how we arrived here
   selected = null;
@@ -502,6 +553,7 @@ function renderQuestion(){
       <div class="actions">
         <button class="btn" id="check" disabled>Check answer</button>
       </div>
+      <div class="report-row">${reportLinkHTML(q, "Report a problem with this question")}</div>
     </section>`;
 
   const optsEl = document.getElementById("opts");
@@ -610,7 +662,10 @@ function reviewListHtml(){
     <div class="review-row ${r.correct?"ok":"no"}">
       <span class="rmark">${r.correct?"&#10003;":"&#10007;"}</span>
       <span class="rnum">Q${i+1}</span>
-      <span class="rstem">${r.stem}</span>
+      <div>
+        <span class="rstem">${r.stem}</span>
+        ${reportLinkHTML(r, "Report a problem")}
+      </div>
     </div>`).join("");
   return `<p class="ksb-head">Your answers</p><div class="review-list">${rows}</div>`;
 }
