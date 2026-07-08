@@ -7693,5 +7693,905 @@
     ],
     "answer": 3,
     "rationale": "A Secure Data Environment is defined by analysing data in a controlled setting without releasing the raw data. A data warehouse is a central store and does not by itself define analyse-in-place access. A submission cycle concerns the timing of routine data collection. An application programming interface is a route for exchanging data between systems."
+  },
+  {
+    "id": "K9-001",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "In a data pipeline, the term raw data is best understood as data that has:",
+    "options": [
+      "been published as a final output with accompanying metadata and methodology",
+      "been ingested in its original form, before cleaning or transformation",
+      "been organised, documented and shaped into a form ready for a specific analysis",
+      "had obvious errors corrected and inconsistent formats standardised, but is not yet shaped for analysis"
+    ],
+    "answer": 1,
+    "rationale": "Raw data is the source material as first received, with no cleaning or transformation. Data that has had errors corrected and formats standardised is cleaned data, a later stage. Data shaped and documented for a specific analysis is curated or analysis-ready data. A published output with metadata sits at the dissemination end, not at ingestion."
+  },
+  {
+    "id": "K9-002",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "The stage described as curated or analysis-ready data differs from cleaned data chiefly in that it has additionally been:",
+    "options": [
+      "received from the source system without any processing applied",
+      "organised and documented into a form fit for a particular analytical purpose",
+      "encrypted and placed behind role-based access controls for security",
+      "stripped of duplicate rows and corrected for obvious data-entry errors"
+    ],
+    "answer": 1,
+    "rationale": "Curated or analysis-ready data goes beyond cleaning by being shaped and documented for a specific analytical purpose. Removing duplicates and correcting entry errors is the cleaning step that precedes it. Data received without processing is raw data. Encryption and access control are security properties of a store, not a processing stage."
+  },
+  {
+    "id": "K9-003",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Describing data movement as a pipeline is mainly a way of expressing that:",
+    "options": [
+      "data moves through a defined sequence of stages from source towards use",
+      "data is held in a single store that several teams can query directly",
+      "every analysis must be rebuilt by hand each time it is needed",
+      "data is exchanged between two organisations under a sharing agreement"
+    ],
+    "answer": 0,
+    "rationale": "A pipeline is the idea of data passing through a defined sequence of stages on its way from source to use. A single shared store that teams query is a storage arrangement, not a pipeline. Rebuilding analyses by hand is the opposite of a pipeline's automation. Exchange between organisations under an agreement is a data-sharing concept, not a pipeline."
+  },
+  {
+    "id": "K9-004",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A batch refresh is best characterised by the fact that data is:",
+    "options": [
+      "collected and processed in grouped sets on a schedule rather than continuously",
+      "made available only through a secure research environment to approved analysts",
+      "held permanently unchanged once it has first been loaded into the store",
+      "processed item by item as each new record arrives, with minimal delay"
+    ],
+    "answer": 0,
+    "rationale": "A batch refresh groups records and processes them on a schedule. Processing each record as it arrives with minimal delay describes streaming, the alternative cadence. Data held unchanged after first load describes an immutable store, not a refresh pattern. Availability only through a secure environment is an access-control property, unrelated to cadence."
+  },
+  {
+    "id": "K9-005",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Streaming is most useful, compared with batch processing, when the priority is:",
+    "options": [
+      "acting on each new record with as little delay as possible",
+      "reprocessing the entire dataset together at a fixed time each day",
+      "keeping the long-term archive of historical records unchanged",
+      "restricting who may query the data through assigned access roles"
+    ],
+    "answer": 0,
+    "rationale": "Streaming suits situations where low delay on each new record matters most. Reprocessing the whole dataset at a fixed time is batch processing, the opposite cadence. Keeping a historical archive unchanged is a retention concern. Restricting who may query the data is access control, not a cadence choice."
+  },
+  {
+    "id": "K9-006",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A surveillance team receives a nightly file containing all of the previous day's laboratory results in one transfer. This arrangement is an example of:",
+    "options": [
+      "a streaming feed, because results are delivered to the team as a continuous flow",
+      "an object store, because the file is held as a single unstructured blob",
+      "a batch refresh, because records are grouped and delivered on a fixed schedule",
+      "a curated dataset, because the results have been shaped for a specific analysis"
+    ],
+    "answer": 2,
+    "rationale": "Grouping a day's records into one scheduled nightly transfer is a batch refresh. A streaming feed would deliver each result continuously as it arose, not once a night. Whether the data has been shaped for analysis is a processing-stage question, separate from the delivery cadence. How the file is stored is a storage-model question, not a cadence."
+  },
+  {
+    "id": "K9-007",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An analyst notes that a dataset has had inconsistent date formats standardised and impossible values removed, but has not yet been joined or documented for any particular study. This dataset is best described as being at the:",
+    "options": [
+      "dissemination stage, since it is ready to be published as a statistical output",
+      "cleaned stage, with standardisation done but no shaping for a specific analysis",
+      "raw stage, since no processing of any kind has yet been applied to it",
+      "curated stage, since it has been documented and shaped for a defined analysis"
+    ],
+    "answer": 1,
+    "rationale": "Standardising formats and removing impossible values is the cleaning stage. Raw data would have had no processing at all, which is not the case here. Curated data would additionally be joined, documented and shaped for a specific analysis, which has not happened. Dissemination concerns published outputs, which is further downstream again."
+  },
+  {
+    "id": "K9-008",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Within a processing pipeline, the main reason to keep the raw, cleaned and curated forms as distinct stages is that it:",
+    "options": [
+      "removes the need to apply any access controls to the underlying data",
+      "means the data no longer needs to be exchanged between separate systems",
+      "guarantees that the published outputs will require no documented methodology",
+      "lets each transformation be traced and rerun without losing the original source"
+    ],
+    "answer": 3,
+    "rationale": "Keeping the stages distinct lets each transformation be traced and rerun while the original source is preserved. It does not remove the need for access controls, which apply regardless. It says nothing about whether outputs need documented methodology, which they still do. And it has no bearing on whether systems need to exchange data."
+  },
+  {
+    "id": "K9-009",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Describing a refresh as continuous rather than scheduled is, in pipeline terms, a statement about the system's:",
+    "options": [
+      "delivery cadence, meaning how often new data becomes available",
+      "provenance, meaning the traceability of data back to its source",
+      "access method, meaning how a consumer retrieves the data",
+      "storage model, meaning the type of store the data is held in"
+    ],
+    "answer": 0,
+    "rationale": "Whether a refresh is continuous or scheduled is a statement about delivery cadence. The type of store the data sits in is the storage model, a separate property. How a consumer retrieves the data is the access method. Traceability back to source is provenance, which is unaffected by how often data refreshes."
+  },
+  {
+    "id": "K9-010",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "When data is said to be analysis-ready, the readiness being claimed is principally that the data has been:",
+    "options": [
+      "transferred to a second organisation under an agreed sharing arrangement",
+      "assigned a retention period after which it will be securely deleted",
+      "shaped and documented so a specific intended analysis can be run on it",
+      "received directly from the source with its original structure intact"
+    ],
+    "answer": 2,
+    "rationale": "Analysis-ready means the data has been shaped and documented for the intended analysis. Data with its original source structure intact is raw data. Transfer to another organisation under agreement is data sharing, not readiness. Assigning a retention period is a governance property and does not make data analysis-ready."
+  },
+  {
+    "id": "K9-011",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A data warehouse is best described as a store designed to hold:",
+    "options": [
+      "large unstructured files such as images and documents as discrete objects",
+      "structured, integrated data organised to support analysis across sources",
+      "the current operational records of a single application for day-to-day transactions",
+      "raw data of many kinds in its native form, structured or otherwise, kept for later use"
+    ],
+    "answer": 1,
+    "rationale": "A data warehouse holds structured, integrated data arranged for analysis across sources. A store that keeps raw data of many kinds in native form is a data lake. A store for large unstructured files as discrete objects is blob or object storage. A store of current operational records for one application is a transactional database."
+  },
+  {
+    "id": "K9-012",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A data lake is distinguished from a data warehouse mainly by the fact that it:",
+    "options": [
+      "holds only data that has been cleaned and curated before it is allowed in",
+      "holds structured records in tables linked by keys for a single application's use",
+      "holds data of varied kinds in its native form, without requiring a fixed structure first",
+      "holds structured data that has already been integrated and modelled for analysis"
+    ],
+    "answer": 2,
+    "rationale": "A data lake takes data of varied kinds in native form without imposing structure up front. Holding structured, modelled, integrated data is the warehouse it is contrasted with. Holding tables linked by keys for one application is a relational database. Requiring data to be cleaned and curated before entry is the opposite of a lake, which accepts raw data and defers structure."
+  },
+  {
+    "id": "K9-013",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Blob or object storage is the storage model most suited to holding:",
+    "options": [
+      "the day-to-day operational transactions of a single live application",
+      "large unstructured items such as images and documents, kept as whole objects",
+      "integrated structured data modelled specifically for cross-source analysis",
+      "rows and columns of structured records linked to one another by their keys"
+    ],
+    "answer": 1,
+    "rationale": "Blob or object storage suits large unstructured items kept as self-contained objects. Rows and columns linked by keys describe a relational database. Integrated structured data modelled for analysis is a warehouse. Day-to-day operational transactions of one application are held in a transactional database."
+  },
+  {
+    "id": "K9-014",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A relational or transactional database is the appropriate storage model when the main need is to:",
+    "options": [
+      "record and update structured operational data reliably as transactions occur",
+      "integrate data from many sources into a single model for analytical querying",
+      "keep unstructured media files as discrete objects for later retrieval",
+      "store large volumes of mixed raw data without deciding its structure beforehand"
+    ],
+    "answer": 0,
+    "rationale": "A relational or transactional database suits reliable recording and updating of structured operational data as transactions happen. Storing mixed raw data without a predetermined structure is a data lake. Keeping unstructured media as discrete objects is object storage. Integrating many sources into one analytical model is a data warehouse."
+  },
+  {
+    "id": "K9-015",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "In a relational database, a key is best understood as a column or set of columns used to:",
+    "options": [
+      "store large binary files such as images alongside the structured records",
+      "define which users are permitted to read or write the table's contents",
+      "record the schedule on which the table is refreshed from its source",
+      "identify rows uniquely and to relate rows in one table to rows in another"
+    ],
+    "answer": 3,
+    "rationale": "A key identifies rows uniquely and relates rows across tables. Storing large binary files is the role of object storage, not a key. The refresh schedule is a cadence property held outside the table structure. Defining who may read or write is access control, governed separately from keys."
+  },
+  {
+    "id": "K9-016",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A join in a relational database is the operation that:",
+    "options": [
+      "stacks the rows of one table onto another that has the same columns",
+      "appends two text values end to end to form a single longer value",
+      "combines rows from two tables by matching them on a related column",
+      "splits one wide table into several narrower related tables"
+    ],
+    "answer": 2,
+    "rationale": "A join combines rows from two tables by matching on a related column. Stacking rows from a same-shaped table is a union, which adds rows rather than relating them. Appending two text values end to end is concatenation, an operation on values not tables. Splitting one wide table into narrower related ones is decomposition during normalisation, not a join."
+  },
+  {
+    "id": "K9-017",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A normalised relational structure is one in which data is organised so that:",
+    "options": [
+      "records are held as unstructured objects rather than rows and columns",
+      "all the fields a report needs are gathered into a single wide table",
+      "each fact is stored once across related tables, reducing duplication",
+      "data is grouped and delivered to consumers on a fixed schedule"
+    ],
+    "answer": 2,
+    "rationale": "A normalised structure stores each fact once across related tables to reduce duplication. Gathering all the fields a report needs into one wide table describes a flattened or analytical structure. Holding records as unstructured objects is object storage. Delivering data on a fixed schedule is a cadence, not a structural choice."
+  },
+  {
+    "id": "K9-018",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A flattened or analytical table is often preferred over a normalised structure for analysis because it:",
+    "options": [
+      "stores each fact only once across many related tables, which reduces duplication",
+      "brings the fields together into one table, so analytical querying is simpler",
+      "keeps data as discrete unstructured objects that are retrieved by name",
+      "limits access to the data to a defined set of approved analyst roles"
+    ],
+    "answer": 1,
+    "rationale": "A flattened table gathers the needed fields into one place, making analytical querying simpler. Storing each fact once across many tables is the normalised structure it is contrasted with. Keeping data as discrete unstructured objects is object storage. Limiting access to approved roles is access control, unrelated to table shape."
+  },
+  {
+    "id": "K9-019",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "SQL is best recognised as:",
+    "options": [
+      "the standard language used to query and manipulate data held in structured tables",
+      "a storage model used for keeping large unstructured files as discrete named objects",
+      "a framework for mapping one coding scheme onto another between systems",
+      "a method of transferring grouped records to consumers on a fixed schedule"
+    ],
+    "answer": 0,
+    "rationale": "SQL is the standard language for querying and manipulating data in structured tables. A model for keeping unstructured files as objects is object storage. Transferring grouped records on a schedule is a batch cadence. Mapping one coding scheme onto another is an interoperability activity, not a query language."
+  },
+  {
+    "id": "K9-020",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Retrieving data through an API rather than a provided extract chiefly means the consumer:",
+    "options": [
+      "receives a fixed file of data prepared and sent to them by the provider",
+      "requests data programmatically from the system through a defined interface",
+      "works with the data only inside a secure research environment under controls",
+      "connects directly to the underlying database tables to run their own queries"
+    ],
+    "answer": 1,
+    "rationale": "An API lets the consumer request data programmatically through a defined interface. Receiving a fixed prepared file is a provided extract. Connecting straight to the underlying tables is a direct database connection. Working only inside a secure environment under controls describes querying within a trusted research environment."
+  },
+  {
+    "id": "K9-021",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Being given a provided extract as an access method means that the consumer:",
+    "options": [
+      "queries the live system themselves through a programmatic interface on demand",
+      "is granted a direct connection to the provider's underlying database tables",
+      "receives a prepared file or dataset selected and supplied to them by the provider",
+      "may analyse the data only within a controlled secure data environment"
+    ],
+    "answer": 2,
+    "rationale": "A provided extract is a prepared file or dataset the provider selects and supplies. Querying the live system through a programmatic interface is API access. A direct connection to the underlying tables is a direct database connection. Being confined to a controlled environment for analysis is the trusted research environment model."
+  },
+  {
+    "id": "K9-022",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An arrangement where analysts work on data inside a controlled environment they cannot remove it from, with outputs checked before release, is usually called a:",
+    "options": [
+      "a data sharing agreement or data processing contract",
+      "data warehouse or analytical data store",
+      "provided extract or data download",
+      "Trusted Research Environment or Secure Data Environment"
+    ],
+    "answer": 3,
+    "rationale": "An environment analysts work inside, cannot remove data from, with outputs checked before release, is a Trusted Research Environment or Secure Data Environment. A data warehouse or analytical store is a storage model, not a controlled access setting. A provided extract or download is precisely data that leaves the provider, the opposite of this. A data sharing agreement is a legal instrument governing transfer, not the controlled environment itself."
+  },
+  {
+    "id": "K9-023",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A team needs to store scanned consent forms and recordings from a focus group so that each can be retrieved later as a complete file. The most suitable storage model is:",
+    "options": [
+      "a relational database",
+      "blob or object storage",
+      "a data warehouse",
+      "a transactional database"
+    ],
+    "answer": 1,
+    "rationale": "Whole files such as scanned forms and recordings are best kept as self-contained objects, which is blob or object storage. A relational database holds structured rows linked by keys, not whole files. A data warehouse holds integrated structured data modelled for analysis. A transactional database records a single application's live operations. None of the three suits storing whole files for later retrieval."
+  },
+  {
+    "id": "K9-024",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An analyst is told they may not remove the data from the provider's system, and that any results they produce will be reviewed before they can take them away. This access arrangement is most consistent with:",
+    "options": [
+      "querying within a secure data environment",
+      "receiving a provided extract",
+      "a direct database connection",
+      "an application programming interface (API)"
+    ],
+    "answer": 0,
+    "rationale": "Not being allowed to remove data, with outputs reviewed before release, is the secure data environment model. A direct database connection would let the analyst pull data to their own tools. A provided extract is data they take away to work on freely. An API returns data to wherever the analyst requests it. The latter three all let data leave the provider, so none fits the stated controls."
+  },
+  {
+    "id": "K9-025",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "In general terms, interoperability between two separate information systems refers to their ability to:",
+    "options": [
+      "refresh their data on the same fixed schedule at the same time each day",
+      "be operated by the same team using one shared set of login credentials",
+      "hold their data on the same physical server within a single shared building",
+      "exchange data and use it meaningfully, so the combined information makes sense"
+    ],
+    "answer": 3,
+    "rationale": "Interoperability is the ability of separate systems to exchange data and use it meaningfully together. Sharing a physical server is co-location, not interoperability. Being run by one team with shared logins is an operational arrangement. Refreshing on the same schedule is a matter of cadence, not of exchanging meaning."
+  },
+  {
+    "id": "K9-026",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A shared or standard vocabulary is valuable when combining data from different systems mainly because it:",
+    "options": [
+      "lets the same real-world thing be recognised as the same across the systems",
+      "allows the combined data to be refreshed continuously rather than in batches",
+      "ensures that each fact will be stored once across the joined tables",
+      "removes the need for either system to record where its data came from"
+    ],
+    "answer": 0,
+    "rationale": "A shared vocabulary lets the same real-world thing be recognised as the same across systems, which is what makes combination meaningful. It does not remove the need to record provenance. It has nothing to do with refresh cadence. Storing each fact once is a normalisation property of one database, not a benefit of shared vocabulary across systems."
+  },
+  {
+    "id": "K9-027",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Mapping between two coding schemes is best described as:",
+    "options": [
+      "agreeing a single shared scheme that both systems will adopt instead",
+      "combining rows from two tables by matching them on a shared key",
+      "setting out which codes in one scheme correspond to which codes in another",
+      "translating the free-text labels in one system into a standard spelling"
+    ],
+    "answer": 2,
+    "rationale": "Mapping establishes which codes in one scheme correspond to which in another. Agreeing a single shared scheme is standardisation, which removes the need to map rather than being mapping itself. Combining rows on a shared key is a database join within one system. Standardising free-text spelling is a cleaning step on labels, not a correspondence between code sets."
+  },
+  {
+    "id": "K9-028",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A general reason that mapping between two coding schemes can be imperfect is that:",
+    "options": [
+      "the two schemes were published by different organisations",
+      "one scheme uses numbers for its codes and the other uses letters",
+      "one scheme is stored inside a database and the other inside a spreadsheet",
+      "the schemes may have overlapping categories, so some concepts do not line up"
+    ],
+    "answer": 3,
+    "rationale": "Mapping is imperfect mainly because the schemes may carve up concepts differently, with overlapping categories that do not line up cleanly. The storage medium of each scheme has no bearing on whether codes correspond. Being published by different organisations does not by itself prevent a clean mapping. Whether codes are numeric or alphabetic is a surface format difference, not a reason concepts fail to align."
+  },
+  {
+    "id": "K9-029",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "The main practical motivation for getting separate health and care systems to exchange and combine data is to:",
+    "options": [
+      "ensure each system uses an identical schedule for refreshing its data",
+      "reduce the total number of physical servers the whole organisation has to run",
+      "combine what separate systems each hold about the same people or events",
+      "allow each system to be queried using exactly the same access role"
+    ],
+    "answer": 2,
+    "rationale": "Separate systems are combined so that partial information each holds about the same people or events can be brought together. Reducing the server count is an infrastructure saving, not the motivation for combining meaning. Identical refresh schedules concern cadence. Shared access roles concern who may query, neither of which is the purpose of combining data."
+  },
+  {
+    "id": "K9-030",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Two registries record the same diagnoses using different code sets, and an analyst finds that several codes in one have no exact equivalent in the other. This situation most directly illustrates:",
+    "options": [
+      "a data quality problem, because one registry must have coded its records wrongly",
+      "a loss of provenance, because it is no longer clear which registry a code came from",
+      "incomplete harmonisation, because no shared vocabulary has been agreed between them",
+      "the imperfection of mapping, because the schemes do not divide concepts identically"
+    ],
+    "answer": 3,
+    "rationale": "Codes with no exact equivalent across schemes is the classic imperfection of mapping. Incomplete harmonisation is close and tempting, but harmonisation is the broader goal mapping serves; the specific phenomenon here is the imperfect correspondence itself. It is not a data quality problem: both registries may have coded correctly within their own scheme. It is not a loss of provenance, since each code's source registry is still known."
+  },
+  {
+    "id": "K9-031",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "When two systems agree to use a common vocabulary so their data can be combined, the principle being applied is:",
+    "options": [
+      "mapping",
+      "harmonisation",
+      "normalisation",
+      "validation"
+    ],
+    "answer": 1,
+    "rationale": "Agreeing a common vocabulary so data can be combined is harmonisation. Mapping is the close alternative: it relates one scheme's codes to another's after the fact, rather than agreeing a shared vocabulary up front, which makes it the tempting wrong answer. Normalisation concerns storing each fact once within one database. Validation confirms a dataset is fit for use. Only harmonisation names the agreement on a shared vocabulary."
+  },
+  {
+    "id": "K9-032",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Treating interoperability as a design principle, rather than as a feature of any single product, means focusing on:",
+    "options": [
+      "whether separate systems can exchange and combine data, however each is built",
+      "which single supplier's database the whole organisation should standardise on",
+      "how many user roles each individual system defines internally",
+      "how often each individual system refreshes its own stored data"
+    ],
+    "answer": 0,
+    "rationale": "As a design principle, interoperability is about whether separate systems can exchange and combine data meaningfully regardless of how each is built. Choosing one supplier's database is a procurement decision, not the principle. How often a system refreshes is its own cadence. How many roles a system defines is its own access design. None of those is the cross-system exchange of meaning."
+  },
+  {
+    "id": "K9-033",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Data lineage is best described as a record of:",
+    "options": [
+      "how often the data is refreshed from its originating system",
+      "where data came from and how it was transformed into its current form",
+      "how long the data will be kept before it is securely deleted",
+      "which users are permitted to read or to change the data at each stage"
+    ],
+    "answer": 1,
+    "rationale": "Lineage records where data came from and how it was transformed to reach its current form. Which users may read or change it is access control. How long it is kept before deletion is retention. How often it refreshes is cadence. Only lineage concerns the origin-and-transformation history of the data."
+  },
+  {
+    "id": "K9-034",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Saying that a dataset is fit for use is a judgement that it is:",
+    "options": [
+      "of high enough quality to serve any future purpose it might be put to",
+      "accessible to every member of staff across the organisation",
+      "stored in the most modern storage model currently available",
+      "good enough in quality and content for the particular purpose at hand"
+    ],
+    "answer": 3,
+    "rationale": "Fitness for use judges whether data is good enough for the particular purpose at hand. Being accessible to all staff is an access matter and often undesirable. The storage model is irrelevant to fitness. Being good enough for any future purpose overreaches: fitness is always relative to a specific use, not a guarantee for all uses, which is the tempting but wrong generalisation."
+  },
+  {
+    "id": "K9-035",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Validation, in the sense used for a dataset, is the activity of:",
+    "options": [
+      "checking that every user has been assigned an appropriate access role",
+      "evaluating the sequence of transformations the data has passed through",
+      "confirming that a dataset meets defined expectations and is fit to be used",
+      "confirming where each record in the dataset was originally sourced from"
+    ],
+    "answer": 2,
+    "rationale": "Validation confirms a dataset meets defined expectations and is fit to use. Evaluating the sequence of transformations is reviewing lineage, a related but distinct activity. Confirming where each record was sourced is establishing provenance, again neighbouring but not the same. Checking that users have appropriate access roles is an access-control review, not a judgement about the data itself."
+  },
+  {
+    "id": "K9-036",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "In the context of an analysis, version control supports reproducibility mainly by:",
+    "options": [
+      "keeping a copy of the final output in a second location as a backup",
+      "recording changes to code and inputs so a result can be regenerated later",
+      "recording who approved the analysis before it was published",
+      "storing each successive result so the most recent one can always be found"
+    ],
+    "answer": 1,
+    "rationale": "Version control records changes to code and inputs so a result can be regenerated, which is what supports reproducibility. Storing only the results would not let them be regenerated, since the inputs behind them are not kept. Recording who approved the work is an audit of sign-off, not of inputs. Keeping a backup of the final output protects against loss but does not capture how the output was produced."
+  },
+  {
+    "id": "K9-037",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Reproducibility of an analysis is the property that:",
+    "options": [
+      "the analysis runs faster each time it is repeated on the same machine",
+      "the same conclusion can be reached using different data and a different method",
+      "the result can be produced again only by the analyst who originally ran it",
+      "the same inputs and method can be rerun by someone else to give the same result"
+    ],
+    "answer": 3,
+    "rationale": "Reproducibility means the same inputs and method can be rerun, by someone else, to the same result. Reaching the same conclusion from different data and methods is replication, a distinct and often-confused idea. A result only the original analyst can produce is the opposite of reproducible. Running faster on repetition is a performance matter with no bearing on whether the result can be regenerated."
+  },
+  {
+    "id": "K9-038",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An analyst is deciding whether to rely on a dataset for an important publication. Knowing its provenance helps most because it lets the analyst:",
+    "options": [
+      "work out exactly how the dataset should be split into normalised tables",
+      "decide how often the dataset will need to be refreshed in future",
+      "see where the data came from and how it was handled, to weigh trust",
+      "establish which access roles should be granted over the dataset"
+    ],
+    "answer": 2,
+    "rationale": "Provenance shows where data came from and how it was handled, letting the analyst judge how far to trust it for the publication. Deciding how to split the data into normalised tables is a structural design task, unrelated to trust. Setting access roles is an access-control decision. Deciding refresh frequency is a cadence question. Only knowing origin and handling speaks to trustworthiness."
+  },
+  {
+    "id": "K9-039",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A team maintains a dataset that is updated each month, and needs to be able to recover exactly which records and values it contained at an earlier point in time. The capability they need is:",
+    "options": [
+      "a streaming feed, so the dataset is updated continuously rather than monthly",
+      "role-based access control, so only approved staff can change the data",
+      "a retention schedule, so older data is deleted once it is no longer needed",
+      "version control of the dataset, so an earlier state of the data can be recovered"
+    ],
+    "answer": 3,
+    "rationale": "Recovering exactly what a dataset contained at an earlier point is version control applied to the data itself. A retention schedule deletes old data rather than preserving past states, the opposite of what is needed. Role-based access control governs who may change the data, not whether earlier states can be recovered. A streaming feed changes update frequency but keeps no history of past states."
+  },
+  {
+    "id": "K9-040",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An analyst is offered a dataset that is broadly accurate but is missing several fields the planned study needs. Judging whether to use it is fundamentally a question of:",
+    "options": [
+      "data retention",
+      "reproducibility",
+      "data lineage",
+      "fitness for use"
+    ],
+    "answer": 3,
+    "rationale": "Weighing a dataset's content against a study's needs is a fitness-for-use judgement. Data lineage is the record of where the data came from and how it was transformed, which does not settle whether it suits this study. Retention concerns how long to keep the data. Reproducibility concerns whether an analysis can be rerun to the same result. Only fitness for use addresses suitability for the purpose."
+  },
+  {
+    "id": "K9-041",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Validation and lineage answer different questions about a dataset. Validation asks:",
+    "options": [
+      "does this dataset meet expectations, while lineage asks how recent it is",
+      "is this dataset complete, while lineage asks whether it is accurate",
+      "is this dataset accurate, while lineage asks whether it is fit to use",
+      "is this dataset fit to use, while lineage asks where it came from"
+    ],
+    "answer": 3,
+    "rationale": "Validation asks whether a dataset is fit to use; lineage asks where it came from and how it changed. The completeness-versus-accuracy split names two quality dimensions but assigns neither to lineage correctly. Meeting expectations is part of validation, but lineage is about origin, not recency. The last option swaps the two ideas, putting fitness under lineage. Only the fit-versus-origin split matches each term to its real question."
+  },
+  {
+    "id": "K9-042",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Keeping a documented record of how a published output was produced primarily helps because it:",
+    "options": [
+      "allows the result to be checked and reproduced by someone other than its author",
+      "removes the need to apply any retention period to the underlying data",
+      "means the data no longer needs to be validated before it is used",
+      "lets the output be stored as an unstructured object rather than a table"
+    ],
+    "answer": 0,
+    "rationale": "A documented record of how an output was produced lets others check and reproduce it. It does not remove the need for a retention period, which applies regardless. It has no bearing on whether the output is stored as an object or a table. And it does not replace validation, which confirms fitness before use."
+  },
+  {
+    "id": "K9-043",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "As a system design property, role-based access control (RBAC) grants access on the basis of:",
+    "options": [
+      "a set of attributes such as location, device or time of the request",
+      "a credential such as a password or key held by whoever is making the request",
+      "the identity of each named individual, with permissions set person by person",
+      "the role a user holds, with permissions attached to roles not individuals"
+    ],
+    "answer": 3,
+    "rationale": "Role-based access control grants access by the role a user holds, with permissions attached to roles. Setting permissions person by person is individual-based access control, the very approach RBAC replaces. Granting on attributes such as location, device or time is attribute-based access control, a different model. Granting on possession of a credential is authentication, which establishes who is asking rather than what their role permits."
+  },
+  {
+    "id": "K9-044",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "The principle of least privilege means that each user is given:",
+    "options": [
+      "the same standard set of access that every other user receives",
+      "access to anything not explicitly forbidden to them",
+      "access matched to what their task requires, and not beyond it",
+      "access decided by how senior they are in the organisation"
+    ],
+    "answer": 2,
+    "rationale": "Least privilege matches each user's access to what their task requires, and not beyond it. A uniform standard set for everyone ignores what each task actually requires. Granting everything not explicitly forbidden is the opposite default: permissive rather than minimal. Tying access to seniority grants by rank rather than by need, which can give senior staff far more than their task requires."
+  },
+  {
+    "id": "K9-045",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A system is required to delete records automatically once they reach a set age. The design property this requirement calls for is:",
+    "options": [
+      "retention, expressed as a rule for how long data is kept before disposal",
+      "role-based access control, granting access according to a user's role",
+      "validation, confirming that the data meets defined expectations",
+      "least privilege, limiting each user to the access their task needs"
+    ],
+    "answer": 0,
+    "rationale": "A rule that deletes records once they reach a set age is a retention property. Least privilege limits how much access each user has, not how long data is kept. Role-based access control decides who may reach the data, again not its lifespan. Validation confirms the data is fit to use. Only retention governs how long data is held before disposal."
+  },
+  {
+    "id": "K9-046",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Why is role-based access control usually preferred to setting each individual's permissions separately?",
+    "options": [
+      "as people change jobs their access follows the role, not reset by hand",
+      "it lets a user hold several different sets of permissions at the same time",
+      "it allows access to be granted without anyone needing to approve it first",
+      "it makes each individual's permissions independent of everyone else's"
+    ],
+    "answer": 0,
+    "rationale": "Role-based access control is preferred because access follows the role: when people move jobs their access changes with the role rather than being edited by hand each time. Holding several permission sets at once is not the advantage and is usually avoided. Removing the need for approval is not a property of RBAC and would weaken control. Making each person's permissions wholly independent describes individual-based access, the approach RBAC moves away from."
+  },
+  {
+    "id": "K9-047",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A new analyst is given access only to the specific tables their project requires, rather than to the whole database. This is the clearest example of:",
+    "options": [
+      "segregation of duties",
+      "data minimisation",
+      "least privilege",
+      "role-based access control"
+    ],
+    "answer": 2,
+    "rationale": "Confining a user to only the tables their project needs is least privilege. Role-based access control is the close alternative: it is the mechanism by which such limits are often applied, but the principle being illustrated is the minimal grant itself. Data minimisation concerns collecting and keeping no more data than needed, not access scope. Segregation of duties splits a task across people so no one holds total control, which is a different control entirely."
+  },
+  {
+    "id": "K9-048",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A dissemination platform must ensure that, once a dataset's agreed holding period has passed, the data is removed. The property this refers to is:",
+    "options": [
+      "reproducibility",
+      "least privilege",
+      "validation",
+      "retention"
+    ],
+    "answer": 3,
+    "rationale": "Keeping data for a set period and then removing it is retention. Least privilege limits how much access each user has, not how long data is kept. Validation confirms a dataset is fit for its purpose. Reproducibility concerns whether an analysis can be rerun to the same result. Only retention covers holding then removing data on a schedule."
+  },
+  {
+    "id": "K9-049",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Considered as system design properties rather than as a legal framework, RBAC, least privilege and retention are best described as:",
+    "options": [
+      "coding schemes that two separate systems map between in order to exchange data",
+      "stages that data passes through on its way from source to use",
+      "capabilities a storage and dissemination solution must be able to support",
+      "delivery mechanisms by which finished outputs reach their audience"
+    ],
+    "answer": 2,
+    "rationale": "RBAC, least privilege and retention are capabilities a storage and dissemination solution must support. Coding schemes mapped between systems are an interoperability concept. Stages data passes through are processing stages. Delivery mechanisms for finished outputs are dissemination channels. Only the description as supportable capabilities fits these three as design properties."
+  },
+  {
+    "id": "K9-050",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "If a system can attach permissions to roles but cannot confine users to the minimum access they need, it supports:",
+    "options": [
+      "least privilege but not role-based access control",
+      "validation but not retention",
+      "role-based access control but not least privilege",
+      "retention but not role-based access control"
+    ],
+    "answer": 2,
+    "rationale": "Attaching permissions to roles is role-based access control; failing to confine users to the minimum needed means least privilege is not enforced, so the system has the former but not the latter. The reverse pairing is the wrong way round. Retention concerns holding periods, not access. Validation concerns fitness for use, not access at all."
+  },
+  {
+    "id": "K9-051",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "In the context of a published output, metadata is best described as:",
+    "options": [
+      "information describing the data: its coverage, production and limitations",
+      "the index of earlier editions showing how the output has changed over time",
+      "the documented method setting out each step taken to produce the figures",
+      "the summary commentary that interprets the main findings for readers"
+    ],
+    "answer": 0,
+    "rationale": "Metadata is information describing the data: its coverage, how it was produced and its limitations. A documented method setting out each step is methodology, which sits alongside metadata but describes the process rather than the data. Summary commentary interprets findings, which is part of the publication's content, not data description. An index of earlier editions is version history. All three are real companions to a published output, which is what makes them tempting."
+  },
+  {
+    "id": "K9-052",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Publishing a documented methodology alongside a statistical output mainly serves to:",
+    "options": [
+      "set the fixed period after which the underlying data will be deleted",
+      "let users understand how the figures were produced and judge them",
+      "decide which storage model the underlying data should sit in",
+      "determine the schedule on which the output will be refreshed"
+    ],
+    "answer": 1,
+    "rationale": "A documented methodology lets users understand how figures were produced and judge them. Setting a deletion period is retention. Choosing a storage model is a technical decision separate from the methodology. Setting a refresh schedule is cadence. Only the documented methodology explains how the output was made."
+  },
+  {
+    "id": "K9-053",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "Applying version control to a published output means that:",
+    "options": [
+      "only the most recent edition is kept and earlier ones are discarded",
+      "each successive edition is tracked, so users can tell which they have",
+      "the output is re-issued automatically whenever the source data changes",
+      "each edition is checked for errors before it is allowed to be released"
+    ],
+    "answer": 1,
+    "rationale": "Version control of an output tracks successive editions so users can tell which they have. Checking each edition for errors before release is quality assurance, which may happen alongside but is a different activity. Keeping only the latest edition and discarding the rest is the opposite of version control, which preserves the history. Automatic re-issue on data change is a refresh behaviour, not version tracking."
+  },
+  {
+    "id": "K9-054",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An analytical dataset, as a dissemination artefact, is best described as:",
+    "options": [
+      "a finished set of tables and charts presenting the results of an analysis",
+      "a live dashboard letting users explore current figures without downloading them",
+      "a written report interpreting the findings for a non-technical audience",
+      "a prepared dataset released so that others can carry out their own analysis"
+    ],
+    "answer": 3,
+    "rationale": "An analytical dataset is data prepared and released so others can run their own analysis. A finished set of tables and charts is a statistical output presenting results, not the underlying data for reanalysis. A written report interprets findings rather than supplying data. A live dashboard offers exploration without giving users the data. All three wrong options are dissemination artefacts, but only an analytical dataset hands over data for others to analyse."
+  },
+  {
+    "id": "K9-055",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A statistical publication differs from a served data feed mainly in that the publication:",
+    "options": [
+      "updates continuously as new records arrive at its source",
+      "presents finished figures and commentary for readers to take in directly",
+      "supplies the underlying records for the recipient's own system to process",
+      "is tailored to the specific query each recipient sends it"
+    ],
+    "answer": 1,
+    "rationale": "A statistical publication presents finished figures and commentary for readers to take in directly. Supplying the underlying records for another system to process is exactly what a data feed does, the contrast being drawn. Updating continuously as records arrive describes a live feed, not a fixed publication. Being tailored to each recipient's query describes an interface that responds on demand, again unlike a fixed publication."
+  },
+  {
+    "id": "K9-056",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A dashboard, as a delivery mechanism, is most appropriate when the audience needs to:",
+    "options": [
+      "read a single fixed written summary of the findings that will never change",
+      "receive a formal document they can cite and file as a record",
+      "watch and explore a set of current indicators, without handling the data",
+      "take away the underlying records to combine with their own data"
+    ],
+    "answer": 2,
+    "rationale": "A dashboard suits an audience that needs to watch and explore current indicators without handling the data. A single fixed summary that will not change is a static report or publication. Taking away the underlying records to combine elsewhere calls for a data extract or feed. A formal citable document to file is a published report. Each wrong option names a real delivery mechanism better suited to a different need."
+  },
+  {
+    "id": "K9-057",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "When choosing a delivery mechanism, why do its access and permission implications matter?",
+    "options": [
+      "different mechanisms expose different amounts of data, needing different controls",
+      "the mechanism decides how often the published figures will get refreshed in future",
+      "the mechanism determines how much the data will cost to store",
+      "the mechanism fixes the level of detail the analysis can ever reach"
+    ],
+    "answer": 0,
+    "rationale": "Access and permission implications matter because different mechanisms expose different amounts of data, so each needs its own controls. How often figures refresh is a cadence question set separately from access. Storage cost is a resourcing matter, not an access implication. The level of detail an analysis can reach is set by the data collected, not by the delivery mechanism. Only the exposure-and-control point bears on access and permissions."
+  },
+  {
+    "id": "K9-058",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "An audience needs to monitor a small set of indicators that change daily and wants to explore them themselves without being given the raw records. The most suitable delivery mechanism is:",
+    "options": [
+      "a dashboard, which presents current indicators without exposing the raw records",
+      "a one-off statistical publication, which presents fixed figures that do not update",
+      "a served data feed, which supplies the raw records for their own systems to process",
+      "a direct database connection, which lets them query the underlying tables themselves"
+    ],
+    "answer": 0,
+    "rationale": "Indicators that change daily, explored interactively without handing over raw records, point to a dashboard. A served data feed would supply the raw records, the opposite of what is wanted. A direct connection would expose the underlying tables. A one-off publication presents fixed figures that do not update daily, so it does not meet the need."
+  },
+  {
+    "id": "K9-059",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A team wants to release a prepared dataset so that external researchers can run their own analyses on it. The dissemination artefact they are producing is best described as:",
+    "options": [
+      "a dashboard, presenting indicators for interactive viewing",
+      "an analytical dataset, released for others to analyse themselves",
+      "a statistical publication, presenting finished figures and commentary",
+      "a documented methodology, explaining how an output was produced"
+    ],
+    "answer": 1,
+    "rationale": "A prepared dataset released for others to analyse is an analytical dataset. A dashboard presents indicators for viewing, not a dataset to analyse. A statistical publication presents finished figures and commentary, not raw data for reanalysis. A documented methodology explains how an output was made; it is not itself the dataset."
+  },
+  {
+    "id": "K9-060",
+    "ksb": [
+      "K9"
+    ],
+    "stem": "A published report includes information stating what each field means, the period the data covers and how the figures were derived. This accompanying information is best described as:",
+    "options": [
+      "data lineage internal to the pipeline that produced the output",
+      "role-based access control governing who may read the published output",
+      "a retention schedule setting when the output will be deleted",
+      "metadata and documented methodology supporting the published output"
+    ],
+    "answer": 3,
+    "rationale": "Information on what fields mean, the coverage and how figures were derived is metadata together with documented methodology. Role-based access control governs who may read the output, not what it describes. Lineage is an internal pipeline record of transformations, not user-facing accompanying information. A retention schedule sets deletion timing, which is not what this information provides."
   }
 ]
