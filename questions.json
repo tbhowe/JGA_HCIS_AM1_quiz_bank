@@ -11743,5 +11743,905 @@
     ],
     "answer": 1,
     "rationale": "Compliance and assurance are kept up by ongoing checks over time, evidenced through audits and assurance toolkits. The receiver's checks do not discharge the sharer's own assurance even if periodic; renewing the lawful basis does not itself provide continuing assurance; and a single start-of-arrangement sign-off, however thorough, does not keep pace with change. Options A and C are now also recurring-activity shaped, so the key is not the only ongoing option."
+  },
+  {
+    "id": "K22-001",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A hierarchical organisational structure is best described as one in which:",
+    "options": [
+      "influence follows unwritten relationships and norms rather than the formal chart",
+      "most staff report directly to a small number of senior managers, with few layers in between",
+      "staff report to both a functional manager and a project or product manager at the same time",
+      "authority runs through several layers, with each role reporting to a single manager above it"
+    ],
+    "answer": 3,
+    "rationale": "A hierarchical structure has multiple vertical layers and a clear chain of command, so each role answers to one manager above it. Reporting directly to a few senior managers with little in between describes a flat structure. Reporting to a functional and a project manager at once describes a matrix. Influence flowing through unwritten norms rather than the chart describes informal culture, not formal structure."
+  },
+  {
+    "id": "K22-002",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "The defining feature of a flat organisational structure is that:",
+    "options": [
+      "reporting relationships follow informal norms rather than the official chart",
+      "there are few management layers, so each manager has a wide span of control",
+      "authority passes down through many vertical layers with a clear chain of command",
+      "staff report at the same time to a functional lead and a project lead"
+    ],
+    "answer": 1,
+    "rationale": "A flat structure removes management layers, which widens each manager's span of control. Many vertical layers with a clear chain of command describes a hierarchical structure. Reporting to a functional lead and a project lead at once describes a matrix. Reporting shaped by informal norms rather than the official chart describes informal culture, not the formal structure."
+  },
+  {
+    "id": "K22-003",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In a matrix organisational structure, staff typically:",
+    "options": [
+      "take direction mainly from team norms and relationships rather than named managers",
+      "work with very few layers of management between them and the top",
+      "report to both a functional manager and a project or product manager at the same time",
+      "report through a single chain of command to one manager above them"
+    ],
+    "answer": 2,
+    "rationale": "A matrix structure gives staff two lines of accountability at once, usually a functional manager and a project or product manager. Reporting through a single chain to one manager describes a hierarchical structure. Few layers between staff and the top describes a flat structure. Direction from norms and relationships rather than named managers describes informal culture."
+  },
+  {
+    "id": "K22-004",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "What best distinguishes an organisation's formal structure from its informal culture?",
+    "options": [
+      "formal structure is the designed system of roles and reporting lines, while informal culture is the shared norms and unwritten rules that emerge around it",
+      "formal structure is what staff invent to get work done, while informal culture is what management writes down",
+      "formal structure is the organisation's published set of values, while informal culture is the pattern of daily working relationships",
+      "formal structure and informal culture are two names for the same thing seen at different moments"
+    ],
+    "answer": 0,
+    "rationale": "Formal structure is the deliberately designed arrangement of roles, reporting lines and governance; informal culture is the shared norms and unwritten rules that grow up around that design. Casting formal structure as the published values statement mislabels it. Treating the two as the same thing denies a real distinction between what is designed and what emerges. Saying staff invent the structure while management writes down the culture reverses which of the two is designed and which emerges."
+  },
+  {
+    "id": "K22-005",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Within an organisation's formal structure, governance refers to:",
+    "options": [
+      "the number of management layers between front-line staff and the top",
+      "the degree to which staff feel able to raise concerns without fear",
+      "the shared norms and behaviours that shape how colleagues actually work together",
+      "the arrangements for accountability, decision rights and oversight of how the organisation is run"
+    ],
+    "answer": 3,
+    "rationale": "Governance is the formal arrangement for accountability, decision rights and oversight: who is answerable for what and how decisions are authorised. Shared norms and behaviours describe informal culture. The number of layers between staff and the top describes how tall or flat the structure is. Staff feeling able to raise concerns describes psychological safety."
+  },
+  {
+    "id": "K22-006",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "An organisation's reporting lines and defined roles are examples of its:",
+    "options": [
+      "psychological contract",
+      "formal structure",
+      "group dynamics",
+      "informal culture"
+    ],
+    "answer": 1,
+    "rationale": "Reporting lines and defined roles are part of the formal structure, the documented design of who reports to whom. Informal culture is the unwritten norms that guide behaviour. Group dynamics are the patterns of interaction that emerge within a team. The psychological contract is the unspoken mutual expectations between staff and employer."
+  },
+  {
+    "id": "K22-007",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A team's informal culture is best captured by:",
+    "options": [
+      "the reporting lines and defined roles set out in its formal structure",
+      "the values the organisation publishes about how it would like people to behave",
+      "the governance arrangements that fix decision rights and accountability",
+      "the shared norms and unwritten rules that shape how people actually behave"
+    ],
+    "answer": 3,
+    "rationale": "Informal culture is the shared norms and unwritten rules that shape how people actually behave. The values an organisation publishes are stated aspirations, which may differ from how people really act. Reporting lines and defined roles are the formal structure. Governance arrangements fix decision rights and accountability, which is again a formal matter rather than an emergent norm."
+  },
+  {
+    "id": "K22-008",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Psychological safety in a team is best described as:",
+    "options": [
+      "a shared belief that members can speak up, ask questions or admit mistakes without fear of punishment or ridicule",
+      "a shared sense that the team's work is low in stress and free of demanding targets",
+      "an agreement that members will avoid open disagreement to keep relationships smooth",
+      "an assurance that mistakes will pass without comment or consequence"
+    ],
+    "answer": 0,
+    "rationale": "Psychological safety is the shared belief that speaking up, questioning or admitting a mistake will not be met with punishment or ridicule. It is not about low stress or an absence of demanding targets. It does not mean avoiding disagreement; open challenge is exactly what safety is meant to enable. And it does not mean errors go unexamined; accountability and safety sit together."
+  },
+  {
+    "id": "K22-009",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A recognised drawback of a very flat organisational structure is that:",
+    "options": [
+      "approval must travel through many layers, which slows decisions down",
+      "unwritten norms gradually come to override the documented roles",
+      "each manager oversees a wide span of staff, which can stretch supervision and support",
+      "staff answer to two managers whose priorities may pull in different directions"
+    ],
+    "answer": 2,
+    "rationale": "A flat structure widens each manager's span of control, so supervision and support can be stretched thin. Approval crawling through many layers is a drawback of a tall hierarchical structure. Two managers with competing priorities is a feature of a matrix structure. Norms overriding documented roles describes cultural drift, which can happen under any structure and is not specific to a flat one."
+  },
+  {
+    "id": "K22-010",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In organisational behaviour, the term group dynamics refers to:",
+    "options": [
+      "the patterns of interaction, influence and relationships that develop between the members of a group",
+      "the tendency of a group to converge on a view and suppress dissent",
+      "the formal reporting lines and defined roles that structure a group's work",
+      "the shared belief that members can raise concerns without fear"
+    ],
+    "answer": 0,
+    "rationale": "Group dynamics are the patterns of interaction, influence and relationships that develop between the members of a group. Formal reporting lines and defined roles are the formal structure, not the emergent interaction. The shared belief that concerns can be raised without fear is psychological safety. A group converging on a view and suppressing dissent is groupthink, one particular dynamic rather than the whole idea."
+  },
+  {
+    "id": "K22-011",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Groupthink is best described as:",
+    "options": [
+      "a decision-making approach that openly seeks consensus while still airing disagreement",
+      "the shared confidence that members can voice disagreement without penalty",
+      "a pattern in which the desire for agreement leads a group to suppress doubts and settle on a poor decision",
+      "the broad set of interaction and influence patterns found within any group"
+    ],
+    "answer": 2,
+    "rationale": "Groupthink is the pattern where the pull toward agreement leads a group to silence doubts and settle on a poor decision. The broad set of interaction and influence patterns within any group is group dynamics, of which groupthink is one case. Openly seeking consensus while still airing disagreement is healthy consensus-building, not groupthink, because dissent is heard rather than suppressed. The shared confidence that members can disagree without penalty is psychological safety, which tends to guard against groupthink."
+  },
+  {
+    "id": "K22-012",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A project team notices a flaw in their chosen approach late in planning, but no one raises it because the group seems united and enthusiastic, and challenging it feels awkward. This is best characterised as:",
+    "options": [
+      "team cohesion",
+      "group dynamics",
+      "groupthink",
+      "a lack of psychological safety"
+    ],
+    "answer": 2,
+    "rationale": "No one voices a known flaw because the group's unity and enthusiasm make dissent feel awkward, which is groupthink: the pull to preserve consensus overrides members' own doubts. A lack of psychological safety would also keep people quiet, but through fear of how speaking up would be received, rather than a wish to maintain agreement. Team cohesion is the unity itself; groupthink is what happens when that cohesion tips into suppressing dissent. Group dynamics is the general term for how members interact, of which groupthink is one specific and damaging case."
+  },
+  {
+    "id": "K22-013",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "After a reporting error reaches a client, a team holds a review focused on how the process allowed the mistake and what to change, rather than on who was at fault. This response is most characteristic of:",
+    "options": [
+      "a blame culture",
+      "a learning culture",
+      "psychological safety",
+      "systems thinking"
+    ],
+    "answer": 1,
+    "rationale": "A review that examines how the process allowed the error and what to change, rather than who to blame, is the mark of a learning culture. A blame culture would set out to establish who was at fault. Systems thinking is the close miss: looking at how the process allowed the error has a systems flavour, but systems thinking is a way of analysing interdependencies, not a culture's stance toward error. Psychological safety is the belief that people can speak up without fear, an enabling condition for such a review rather than the culture the review itself shows."
+  },
+  {
+    "id": "K22-014",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Transformational leadership is best described as a style in which the leader:",
+    "options": [
+      "sets clear tasks and rewards or corrects performance against them",
+      "makes decisions alone and expects them to be carried out",
+      "steps back and leaves the team largely to determine its own approach",
+      "inspires and motivates people around a shared vision, encouraging them to exceed their own expectations"
+    ],
+    "answer": 3,
+    "rationale": "Transformational leadership works by inspiring people around a shared vision and lifting their motivation beyond what they thought they could do. Setting tasks and rewarding or correcting performance against them is transactional leadership. Making decisions alone and expecting compliance is autocratic. Stepping back and leaving the team to its own approach is laissez-faire."
+  },
+  {
+    "id": "K22-015",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Transactional leadership is best described as a style in which the leader:",
+    "options": [
+      "involves the team in reaching decisions together",
+      "motivates through clear expectations and rewards or sanctions tied to performance",
+      "raises people's motivation by appealing to a shared vision and purpose",
+      "adjusts the approach according to the readiness of the people being led"
+    ],
+    "answer": 1,
+    "rationale": "Transactional leadership runs on exchange: clear expectations with rewards or sanctions attached to performance. Raising motivation through a shared vision and purpose is transformational. Involving the team in reaching decisions is democratic. Adjusting the approach to the readiness of those being led is situational."
+  },
+  {
+    "id": "K22-016",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Autocratic leadership is best described as a style in which the leader:",
+    "options": [
+      "inspires the team toward a shared vision rather than issuing instructions",
+      "makes decisions unilaterally and directs the team to carry them out",
+      "shares decision-making with the team and seeks their input",
+      "leaves the team free to make most decisions themselves"
+    ],
+    "answer": 1,
+    "rationale": "Autocratic leadership means the leader decides alone and directs the team to act. Sharing decisions and seeking input is democratic. Leaving the team free to decide most things is laissez-faire. Inspiring toward a shared vision rather than instructing is transformational."
+  },
+  {
+    "id": "K22-017",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Democratic leadership is best described as a style in which the leader:",
+    "options": [
+      "involves the team in decisions and reaches them through participation and discussion",
+      "makes the decisions alone and issues them as instructions",
+      "offers little direction and lets the team set its own course",
+      "ties rewards and sanctions to how people perform against set tasks"
+    ],
+    "answer": 0,
+    "rationale": "Democratic leadership brings the team into decisions, reaching them through participation and discussion. Deciding alone and issuing instructions is autocratic. Offering little direction and letting the team set its own course is laissez-faire. Tying rewards and sanctions to performance against tasks is transactional."
+  },
+  {
+    "id": "K22-018",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Laissez-faire leadership is best described as a style in which the leader:",
+    "options": [
+      "takes a hands-off approach, delegating widely and intervening little",
+      "keeps tight personal control over decisions and their execution",
+      "changes the approach to suit the situation and the people involved",
+      "builds decisions jointly with the team through discussion"
+    ],
+    "answer": 0,
+    "rationale": "Laissez-faire leadership is hands-off: the leader delegates widely and steps in only rarely. Keeping tight personal control over decisions is autocratic. Building decisions jointly through discussion is democratic. Changing the approach to suit the situation and people is situational."
+  },
+  {
+    "id": "K22-019",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Situational leadership is best described as a style in which the leader:",
+    "options": [
+      "involves the team in shared decision-making as a matter of course",
+      "inspires people through a compelling shared vision",
+      "relies mainly on rewards and sanctions linked to performance",
+      "varies the approach according to the task and the readiness of the people being led"
+    ],
+    "answer": 3,
+    "rationale": "Situational leadership adapts the approach to the task in hand and the readiness of the people being led. Relying on rewards and sanctions linked to performance is transactional. Inspiring people through a shared vision is transformational. Involving the team in shared decision-making as standard is democratic; a situational leader might do this in some circumstances but not as a fixed rule."
+  },
+  {
+    "id": "K22-020",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A team leader sets out a clear picture of where the team is heading, connects each person's work to that goal, and lifts people to do more than they thought they could. This is most consistent with:",
+    "options": [
+      "transactional leadership",
+      "transformational leadership",
+      "autocratic leadership",
+      "situational leadership"
+    ],
+    "answer": 1,
+    "rationale": "Painting a picture of where the team is heading and lifting people beyond what they thought they could do is transformational leadership. Transactional leadership would work through rewards and sanctions tied to performance. Autocratic leadership would have the leader decide and direct without this appeal to shared purpose. Situational leadership would vary the approach with each person's readiness rather than leading throughout on a shared goal."
+  },
+  {
+    "id": "K22-021",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In leadership, the main purpose of a compelling vision is to:",
+    "options": [
+      "define the reporting lines and decision rights across the team",
+      "set out the detailed steps and deadlines by which work will be delivered",
+      "give people a shared sense of direction and a picture of the future they are working towards",
+      "specify the rewards and penalties attached to individual performance"
+    ],
+    "answer": 2,
+    "rationale": "A vision gives people a shared sense of direction and a picture of the future they are working towards, which is what makes it motivating. Setting out detailed steps and deadlines is planning, not vision. Specifying rewards and penalties for performance is the mechanism of transactional leadership. Defining reporting lines and decision rights is a matter of structure and governance."
+  },
+  {
+    "id": "K22-022",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A manager whose influence rests mainly on the formal authority of their role is drawing on:",
+    "options": [
+      "expert power",
+      "positional power",
+      "referent power",
+      "reward power"
+    ],
+    "answer": 1,
+    "rationale": "Influence that rests on the formal authority of a role is positional power, which comes from where the role sits in the structure. Expert power comes from valued knowledge or skill. Referent power comes from the respect or identification others feel towards the person. Reward power comes from control over things others want, such as pay, recognition or opportunities."
+  },
+  {
+    "id": "K22-023",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A data analyst has no line-management authority, but colleagues across the organisation seek her advice and defer to her judgement because of her deep expertise. Her influence rests mainly on:",
+    "options": [
+      "expert power",
+      "coercive power",
+      "referent power",
+      "positional power"
+    ],
+    "answer": 0,
+    "rationale": "Colleagues deferring to her because of deep expertise is expert power, which comes from valued knowledge and skill. Referent power would come from personal respect or a wish to be like her, rather than from her expertise as such. Positional power would come from formal authority in the structure, which the scenario says she does not have. Coercive power would rest on the ability to impose penalties, which is not what is drawing colleagues to her."
+  },
+  {
+    "id": "K22-024",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Influencing, in the sense used in organisational behaviour, is best understood as:",
+    "options": [
+      "adjusting your leadership approach to the readiness of each team member",
+      "issuing instructions that others are required to follow because of your position",
+      "setting rewards and sanctions so that people perform to expectations",
+      "getting others to willingly support a course of action without relying on formal authority to compel them"
+    ],
+    "answer": 3,
+    "rationale": "Influencing is bringing others to willingly support a course of action without needing formal authority to compel them. Issuing instructions that must be followed because of position is the use of positional power, not influence. Adjusting approach to each member's readiness is situational leadership. Setting rewards and sanctions to drive performance is the transactional mechanism."
+  },
+  {
+    "id": "K22-025",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A central principle of principled, or interest-based, negotiation is to:",
+    "options": [
+      "split the difference between the two opening positions to reach a quick settlement",
+      "look past each side's stated positions to the underlying interests, so options that suit both can be found",
+      "hold firmly to your opening position so the other side moves towards you",
+      "treat the outcome as a fixed pie, where whatever one side gains the other loses"
+    ],
+    "answer": 1,
+    "rationale": "Interest-based negotiation looks past stated positions to the underlying interests, which is what lets options emerge that suit both sides. Holding firmly to an opening position turns the negotiation into a contest over positions rather than needs. Splitting the difference reaches a quick settlement but meets in the middle without exploring what each side actually needs, so it can leave value unclaimed. Treating the outcome as a fixed pie assumes one side's gain is always the other's loss, which forecloses joint solutions."
+  },
+  {
+    "id": "K22-026",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In negotiation, having a clear sense of what you will do if no agreement is reached mainly helps you to:",
+    "options": [
+      "hold out for your ideal outcome and reject anything short of it",
+      "judge whether a proposed deal is better than your alternative, and decline it if it is not",
+      "anchor more ambitiously, since you have a fallback if the talks fail",
+      "strengthen your hand by making that alternative clear to the other side"
+    ],
+    "answer": 1,
+    "rationale": "Knowing what you will do if there is no agreement gives you a benchmark: you can judge whether a proposed deal beats that alternative and decline it if it does not. Anchoring more ambitiously can follow from having a fallback, but it is a tactic that flows from the alternative rather than the main thing the alternative does for you. Holding out for your ideal outcome confuses the alternative with your aspiration: the alternative sets the point below which no deal is worth taking, not a licence to reject everything short of your best case. Making the alternative clear to the other side can strengthen your hand at times, but it can equally give away leverage, so it is a situational tactic rather than the primary purpose."
+  },
+  {
+    "id": "K22-027",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "The difference between intrinsic and extrinsic motivation is that:",
+    "options": [
+      "intrinsic motivation applies to individuals, while extrinsic motivation applies to whole teams",
+      "intrinsic motivation comes from pay and benefits, while extrinsic motivation comes from a sense of purpose",
+      "intrinsic motivation is a response to praise and recognition, while extrinsic motivation is a response to pay and conditions",
+      "intrinsic motivation comes from the satisfaction of the work itself, while extrinsic motivation comes from outside rewards or pressures"
+    ],
+    "answer": 3,
+    "rationale": "Intrinsic motivation arises from the satisfaction of the work itself; extrinsic motivation comes from outside the work, such as pay, recognition or pressure. Saying intrinsic comes from pay and extrinsic from purpose reverses the two. Treating praise and recognition as intrinsic is a common slip: they feel personal, but they are rewards that come from outside the task, so they are extrinsic just as pay is. And the distinction is not about individuals versus teams; both kinds operate at the individual level."
+  },
+  {
+    "id": "K22-028",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In Herzberg's two-factor theory, hygiene factors are those that:",
+    "options": [
+      "determine motivation only for senior staff, not for junior staff",
+      "drive high motivation and satisfaction when they are present and rich",
+      "cause dissatisfaction when they are poor, but do not create strong motivation when they are good",
+      "matter early in a career but cease to have any effect later on"
+    ],
+    "answer": 2,
+    "rationale": "In Herzberg's theory, hygiene factors such as pay, conditions and policies cause dissatisfaction when they are poor but do not by themselves create strong motivation when they are good. The factors that drive motivation and satisfaction when present are the motivators, such as achievement, recognition and responsibility, which are a different group. The theory does not divide the factors by seniority, and it does not claim hygiene factors stop mattering later in a career."
+  },
+  {
+    "id": "K22-029",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "According to Herzberg's theory, if an organisation improves pay and working conditions but changes nothing else, the most likely result is that staff will:",
+    "options": [
+      "feel a short-lived lift, then drift back to their earlier dissatisfaction",
+      "become less dissatisfied, but not necessarily more motivated",
+      "lose motivation, because the rewards begin to undermine their commitment",
+      "become both more satisfied and, as a direct result, more motivated"
+    ],
+    "answer": 1,
+    "rationale": "Pay and working conditions are hygiene factors, so improving them mainly reduces dissatisfaction; it does not by itself generate strong motivation, which comes from the motivators. Expecting staff to become more satisfied and, as a result, more motivated is the very conflation Herzberg warned against, since reducing dissatisfaction is not the same as building motivation. Losing motivation because rewards undermine commitment describes the overjustification idea from self-determination theory, not Herzberg. And a short-lived lift followed by a drift back to dissatisfaction describes adaptation to a new normal, which is a different account from Herzberg's."
+  },
+  {
+    "id": "K22-030",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Maslow's hierarchy of needs proposes that:",
+    "options": [
+      "people pursue all their needs at once, giving equal weight to each",
+      "people are driven mainly by pay and conditions, with other needs playing little part",
+      "people tend to attend to lower-level needs such as security before higher-level needs such as esteem and self-fulfilment",
+      "people's needs are shaped entirely by the expectations set out in their contract"
+    ],
+    "answer": 2,
+    "rationale": "Maslow's hierarchy proposes that people tend to satisfy lower-level needs, such as safety and security, before being strongly driven by higher-level ones such as esteem and self-fulfilment. Pursuing all needs at once with equal weight is the opposite of a hierarchy. Being driven mainly by pay and conditions reduces motivation to hygiene factors, which is closer to one part of Herzberg's account. And needs shaped entirely by the terms of a contract describes the psychological contract idea, not Maslow."
+  },
+  {
+    "id": "K22-031",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "An employee's pay, security and place in the team are all comfortably met. They now say what drives them most is work that stretches them and lets them grow towards their full potential. In Maslow's terms, they are mainly seeking:",
+    "options": [
+      "safety needs",
+      "self-actualisation needs",
+      "belonging needs",
+      "esteem needs"
+    ],
+    "answer": 1,
+    "rationale": "Wanting work that stretches them and helps them grow towards their full potential points to self-actualisation, the top of Maslow's hierarchy. Esteem needs are about recognition, status and respect from others, which is close but distinct from the drive to realise one's potential. Belonging needs are about acceptance and connection with others, which the scenario says are already met. Safety needs are about security and stability, also already met here."
+  },
+  {
+    "id": "K22-032",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Equity theory explains motivation in terms of:",
+    "options": [
+      "whether the factors causing dissatisfaction have been separated from those causing motivation",
+      "whether people's basic needs are met before they pursue higher ambitions",
+      "whether people feel their autonomy, competence and relatedness are supported",
+      "whether people see the ratio of their inputs to rewards as fair compared with others"
+    ],
+    "answer": 3,
+    "rationale": "Equity theory holds that motivation depends on whether people see the ratio of what they put in to what they get out as fair, judged against a comparison with others. Meeting basic needs before higher ambitions is Maslow's hierarchy. Separating the causes of dissatisfaction from the causes of motivation is Herzberg's two-factor theory. Support for autonomy, competence and relatedness is self-determination theory."
+  },
+  {
+    "id": "K22-033",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "An analyst learns that a colleague doing very similar work, with similar experience, is paid noticeably more. According to equity theory, the analyst is most likely to:",
+    "options": [
+      "reduce the effort they put in, to bring their own input into line with the lower reward",
+      "raise their effort further, treating the gap as a spur to prove their worth",
+      "look to the intrinsic satisfaction of the work to offset the disappointment",
+      "accept the position, on the basis that their own pay has not actually changed"
+    ],
+    "answer": 0,
+    "rationale": "Equity theory predicts that perceiving an unfair ratio of inputs to rewards, against a comparison other, creates tension the person acts to reduce, and a common way is to bring their own inputs down to match the lower reward. Raising effort further as a spur is a real human reaction, but the reverse of what the theory expects under under-reward. Looking to the intrinsic satisfaction of the work is a reasonable way to cope, but it belongs more to self-determination theory than to equity theory's account of the reaction. Accepting it because their own pay has not changed misses the theory's core point, that the sense of unfairness comes from the comparison, not from any drop in absolute reward."
+  },
+  {
+    "id": "K22-034",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Self-determination theory holds that people are most motivated when three needs are met. These are:",
+    "options": [
+      "fairness, comparison and reward",
+      "autonomy, competence and relatedness",
+      "achievement, recognition and responsibility",
+      "security, esteem and self-fulfilment"
+    ],
+    "answer": 1,
+    "rationale": "Self-determination theory identifies autonomy, competence and relatedness as the three needs that, when supported, sustain motivation. Security, esteem and self-fulfilment are levels from Maslow's hierarchy. Achievement, recognition and responsibility are examples of Herzberg's motivators. Fairness, comparison and reward are the language of equity theory."
+  },
+  {
+    "id": "K22-035",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Self-determination theory warns that offering strong external rewards for an activity people already enjoy can:",
+    "options": [
+      "weaken their intrinsic motivation, so they value the activity less for its own sake",
+      "permanently strengthen their intrinsic motivation for the activity",
+      "leave intrinsic motivation untouched, changing only how hard they work",
+      "make the reward the only thing that now sustains any effort at all"
+    ],
+    "answer": 0,
+    "rationale": "Self-determination theory holds that heavy external rewards for something people already enjoy can crowd out intrinsic motivation, so the activity comes to feel done for the reward rather than for itself. Permanently strengthening intrinsic motivation is the opposite, assuming rewards always deepen interest. Leaving intrinsic motivation untouched and changing only effort misses the point that the rewards can alter why people value the activity, not just how much they do. Claiming the reward becomes the only thing sustaining any effort overstates it, since intrinsic motivation is weakened rather than wiped out."
+  },
+  {
+    "id": "K22-036",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "The psychological contract between an employee and employer refers to:",
+    "options": [
+      "the formal written terms of employment set out in the signed contract",
+      "the reporting line that sets out who the employee is accountable to",
+      "the unwritten, mutual expectations each side holds about what they will give and receive",
+      "the organisation's published statement of its values and behaviours"
+    ],
+    "answer": 2,
+    "rationale": "The psychological contract is the set of unwritten, mutual expectations each side holds about what they owe and are owed, beyond anything written down. The formal written terms are the legal employment contract, which is a different thing. A published statement of values is a formal expression of culture, not a mutual expectation between two parties. The reporting line is part of the formal structure."
+  },
+  {
+    "id": "K22-037",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "When an employee feels the psychological contract has been breached, for example after a promised opportunity fails to materialise, the most likely effect is:",
+    "options": [
+      "a loss of trust in that one manager, while commitment to the organisation stays intact",
+      "a lasting drop in trust and commitment, even though no written term was broken",
+      "grounds for a formal grievance, since the promise created a binding obligation",
+      "a brief dip that soon passes, since nothing in the written contract was lost"
+    ],
+    "answer": 1,
+    "rationale": "A breach of the psychological contract tends to produce a lasting fall in trust and commitment, because the sense of mutual obligation has been let down, even though nothing written was broken. Treating it as grounds for a formal grievance mistakes the unwritten expectation for a binding contractual term, which it is not. Expecting a brief dip that soon passes underestimates how durably a broken promise affects the relationship. And confining the loss of trust to the one manager, while commitment to the organisation stays intact, misreads the psychological contract, which is held with the employer broadly, so the damage tends to spread to how the person sees the organisation."
+  },
+  {
+    "id": "K22-038",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Which of the following best describes an intrinsically motivated reason for doing a piece of work?",
+    "options": [
+      "doing it to avoid criticism from a manager",
+      "taking it on because a respected colleague asked as a favour",
+      "completing it to earn a bonus tied to the deadline",
+      "finding the problem itself genuinely absorbing and wanting to solve it well"
+    ],
+    "answer": 3,
+    "rationale": "Being absorbed in the problem and wanting to solve it well for its own sake is intrinsic motivation, arising from the work itself. Working to earn a bonus is extrinsic, driven by an external reward. Doing it to avoid criticism is extrinsic, driven by an external pressure. Taking it on as a favour to a respected colleague is also extrinsic, driven by a social relationship rather than the work itself."
+  },
+  {
+    "id": "K22-039",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Lewin's model of organisational change describes it as a sequence of:",
+    "options": [
+      "diagnosing the system, mapping interdependencies, then intervening at leverage points",
+      "creating urgency, building a coalition, then embedding the change in the culture",
+      "building awareness and desire, then the knowledge and ability to change",
+      "unfreezing current ways of working, making the change, then refreezing the new ways"
+    ],
+    "answer": 3,
+    "rationale": "Lewin's model sets out three phases: unfreezing established ways of working, making the change, and refreezing so the new ways become settled. Creating urgency and building a coalition are steps from Kotter's model. Building awareness, desire, knowledge and ability describes the ADKAR model. Diagnosing a system and intervening at leverage points is the language of systems thinking, not Lewin."
+  },
+  {
+    "id": "K22-040",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In Lewin's model, the purpose of the unfreezing stage is to:",
+    "options": [
+      "lock in the new ways of working so they become the accepted norm",
+      "put the change into practice by altering systems and behaviours",
+      "loosen people's attachment to current ways of working and build readiness for something different",
+      "map the interdependencies in the system before acting"
+    ],
+    "answer": 2,
+    "rationale": "Unfreezing is about loosening people's attachment to the current ways and creating the readiness and motivation to change. Locking in the new ways so they become normal is refreezing, the final stage. Putting the change into practice by altering systems and behaviours is the middle change stage. Mapping interdependencies before acting is systems thinking, not a stage of Lewin's model."
+  },
+  {
+    "id": "K22-041",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A distinctive emphasis of Kotter's model of change, especially at the start, is:",
+    "options": [
+      "reducing the change to the smallest set of leverage points in the system",
+      "unfreezing, changing and then refreezing the ways of working",
+      "establishing a sense of urgency and building a guiding coalition to lead the change",
+      "supporting each individual through awareness, desire, knowledge, ability and reinforcement"
+    ],
+    "answer": 2,
+    "rationale": "Kotter's model opens by establishing a sense of urgency and forming a guiding coalition with the influence to drive the change. Unfreezing, changing and refreezing is Lewin's three-phase model. Supporting each individual through awareness, desire, knowledge, ability and reinforcement is the ADKAR model. Reducing the change to a few leverage points is the language of systems thinking."
+  },
+  {
+    "id": "K22-042",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In Kotter's model, deliberately creating short-term wins during a change is intended to:",
+    "options": [
+      "give managers a checkpoint at which to decide whether the change should continue",
+      "signal that the change is largely complete, so the effort can begin to wind down",
+      "reward the people leading the change, which is the main point of the step",
+      "build visible early progress that maintains momentum and support for the change"
+    ],
+    "answer": 3,
+    "rationale": "Short-term wins give visible early progress that keeps up momentum and shores up support while the longer change continues. Reading them as a signal that the change is largely complete is the premature-victory trap Kotter specifically warns against, since the change is usually far from embedded at that stage. They are not a checkpoint for deciding whether to continue; they are a means of sustaining a change already under way, not a go or no-go gate. And while early wins can help reward and encourage those leading the change, that is a side benefit rather than the main point, which is momentum and credibility."
+  },
+  {
+    "id": "K22-043",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "The ADKAR model approaches change primarily at the level of:",
+    "options": [
+      "the individual, guiding each person through awareness, desire, knowledge, ability and reinforcement",
+      "the team, moving it through forming, storming, norming and performing",
+      "the whole organisation, reshaping its structures and systems in sequence",
+      "the market, aligning the change with external competitive pressures"
+    ],
+    "answer": 0,
+    "rationale": "ADKAR is an individual-level model: it guides each person through awareness, desire, knowledge, ability and reinforcement. Reshaping structures and systems across the whole organisation is the focus of organisation-level models such as Lewin's and Kotter's. Aligning change with external competitive pressures is a matter of strategy, not the ADKAR model. Moving a team through forming, storming, norming and performing is Tuckman's stages of team development, a different idea altogether."
+  },
+  {
+    "id": "K22-044",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A new analytics tool has been installed and staff have been trained to use it, but many still avoid it because they are not convinced it is better than their old way of working. In ADKAR terms, the element most clearly missing is:",
+    "options": [
+      "ability",
+      "desire",
+      "knowledge",
+      "reinforcement"
+    ],
+    "answer": 1,
+    "rationale": "Staff have been trained, so they have the knowledge and ability to use the tool, but they are not convinced it is worthwhile, which is a gap in desire, the willingness to take part in the change. Ability is present, since they have been trained to use it. Knowledge is present for the same reason. Reinforcement concerns what keeps the change in place after adoption, which is not yet the issue when people are still declining to adopt it at all."
+  },
+  {
+    "id": "K22-045",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A key reason for involving stakeholders early in a change is that it:",
+    "options": [
+      "builds understanding and ownership, which tends to reduce later resistance",
+      "shifts responsibility for making the change work onto the stakeholders",
+      "means the change can proceed without needing to address objections",
+      "removes the need to communicate about the change once it is under way"
+    ],
+    "answer": 0,
+    "rationale": "Involving stakeholders early builds understanding and a sense of ownership, which tends to lower resistance later. It does not remove the need for ongoing communication, which stays important throughout. It does not let the change proceed without addressing objections; involvement surfaces concerns to be worked through rather than making them disappear. And it does not shift responsibility for making the change work onto stakeholders, which remains with those leading it."
+  },
+  {
+    "id": "K22-046",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Resistance to change in an organisation is best understood as:",
+    "options": [
+      "a response often rooted in genuine concerns such as fear of loss, uncertainty or past experience",
+      "something that disappears once the change is formally announced",
+      "proof that the proposed change is the wrong one",
+      "a sign that the people involved are simply being difficult or obstructive"
+    ],
+    "answer": 0,
+    "rationale": "Resistance usually reflects genuine concerns, such as fear of loss, uncertainty about the future or memories of past change, rather than mere awkwardness. Treating it as people being difficult dismisses those underlying concerns. It is not proof the change is wrong; resistance can arise even to well-judged changes. And it does not vanish on announcement; if anything, a formal announcement can bring it to the surface."
+  },
+  {
+    "id": "K22-047",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Several experienced staff push back on a new process, raising specific worries about how it will affect data quality. The most constructive response, in change-management terms, is to:",
+    "options": [
+      "engage with their concerns and use them to refine how the change is carried out",
+      "postpone the change until the staff drop their objections",
+      "route around the resisters by working only with those already on board",
+      "press ahead firmly so the change is not delayed by objections"
+    ],
+    "answer": 0,
+    "rationale": "Engaging with the concerns and using them to improve how the change is implemented treats resistance as useful information, which is the constructive approach. Pressing ahead firmly overrides concerns that might be legitimate and can harden resistance. Postponing until objections are dropped simply stalls the change without addressing anything. And working only with the willing leaves the resisters, and their concerns about data quality, unaddressed, storing up problems later."
+  },
+  {
+    "id": "K22-048",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In the context of organisational change, co-design means:",
+    "options": [
+      "designing the change around the available technology first",
+      "designing the change centrally, then explaining it clearly to those affected",
+      "letting each team design its own version of the change independently",
+      "designing the change together with the people who will be affected by it"
+    ],
+    "answer": 3,
+    "rationale": "Co-design means working out the change together with the people it will affect, so their knowledge and needs shape it. Designing it centrally and then explaining it is communication after the fact, not co-design. Letting each team design its own version independently is fragmentation, not the shared design that co-design implies. And designing around the available technology first puts the tools before the people, which is not what co-design means."
+  },
+  {
+    "id": "K22-049",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A key benefit of transparency during a period of change is that it:",
+    "options": [
+      "removes the need to involve people in decisions",
+      "guarantees that staff will support the change",
+      "builds trust and reduces the rumour and speculation that fill an information vacuum",
+      "speeds up the change by reducing the amount that needs to be explained"
+    ],
+    "answer": 2,
+    "rationale": "Being open during change builds trust and cuts down the rumour and speculation that spread when people are left in the dark. It does not guarantee support; being open about a difficult change can still meet disagreement. It does not remove the need to involve people; transparency and involvement are different things. And it does not speed the change by reducing explanation; if anything it means explaining more, not less."
+  },
+  {
+    "id": "K22-050",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Organisational learning refers to:",
+    "options": [
+      "the way an organisation as a whole captures and adapts from experience, so lessons outlast the individuals who learned them",
+      "the process by which new staff are brought up to speed when they join",
+      "the formal record of qualifications held across the workforce",
+      "the sum of the training courses each individual employee completes"
+    ],
+    "answer": 0,
+    "rationale": "Organisational learning is about the organisation as a whole capturing and adapting from experience, so that what is learned is held in its routines and knowledge rather than lost when individuals leave. The training courses individuals complete are individual learning, which is not the same as the organisation learning. Bringing new staff up to speed is induction, a narrower activity. And a record of qualifications is a static inventory, not the ongoing adaptation the term describes."
+  },
+  {
+    "id": "K22-051",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Systems thinking approaches a problem by:",
+    "options": [
+      "tackling the biggest part of the problem first and working down from there",
+      "gathering the views of everyone affected before deciding what to do",
+      "looking at how the parts interrelate and how the behaviour of the whole emerges from those connections",
+      "tracing the problem back to its single root cause and fixing that"
+    ],
+    "answer": 2,
+    "rationale": "Systems thinking looks at how the parts of a situation interrelate and how the behaviour of the whole emerges from those connections. Tracing a problem to a single root cause and fixing that is root-cause analysis, which systems thinking cautions against, since in a system a problem usually arises from interactions rather than one isolated cause. Gathering the views of everyone affected is stakeholder consultation, a useful step but a different thing from analysing how the system behaves. And tackling the biggest part first and working down still treats the parts separately, missing the connections between them."
+  },
+  {
+    "id": "K22-052",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "For a change to last rather than fade once attention moves on, the most important thing is to:",
+    "options": [
+      "put incentives in place to reward people for using the new approach",
+      "rely on the continued enthusiasm of those who championed the change",
+      "embed the new ways of working into everyday routines, so they become how things are normally done",
+      "keep communicating the reasons for the change so they stay front of mind"
+    ],
+    "answer": 2,
+    "rationale": "A change lasts when the new ways are embedded into everyday routines and norms, so they become simply how things are done and need no special effort to keep alive. Continuing to communicate the reasons helps, but a change held up only by repeated messaging tends to slip once the messaging stops. Incentives can encourage adoption, but the change then depends on the incentive staying in place rather than becoming the norm. And relying on the enthusiasm of those who championed it leaves the change exposed once they move on, which is exactly the fade the question is about."
+  },
+  {
+    "id": "K22-053",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "The recognised order of the stages a team typically moves through as it develops is:",
+    "options": [
+      "storming, forming, performing, norming",
+      "norming, forming, storming, performing",
+      "forming, norming, storming, performing",
+      "forming, storming, norming, performing"
+    ],
+    "answer": 3,
+    "rationale": "Teams are commonly described as developing through forming, then storming, then norming, then performing: the team first comes together, then works through conflict as roles and positions are contested, then settles shared norms, and only then performs at its best. The other sequences rearrange those stages and so misorder the progression, for example by placing conflict before the team has formed, or settling norms before the conflict that produces them."
+  },
+  {
+    "id": "K22-054",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A recently formed project team has moved past initial politeness and is now openly clashing over priorities, roles and who should lead on what. In terms of team development, the team is most likely in the:",
+    "options": [
+      "storming stage",
+      "performing stage",
+      "forming stage",
+      "norming stage"
+    ],
+    "answer": 0,
+    "rationale": "Open conflict over priorities, roles and leadership, once the initial politeness has worn off, is the storming stage, where differences surface as the team finds its feet. The forming stage is the earlier, more cautious coming-together, before such conflict emerges. The norming stage comes once the team has worked through those differences and settled shared ways of working. The performing stage is when the team is working effectively towards its goals, past the conflict."
+  },
+  {
+    "id": "K22-055",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A team in the performing stage of its development is best described as one that:",
+    "options": [
+      "has just come together and is still working out its purpose and roles",
+      "works effectively and largely self-manages, with energy focused on the task rather than on internal friction",
+      "is openly working through conflict over roles and priorities",
+      "has agreed its ways of working but has not yet delivered much"
+    ],
+    "answer": 1,
+    "rationale": "In the performing stage a team works effectively and can largely manage itself, with its energy going into the task rather than into internal friction. A team just coming together and working out purpose and roles is at the forming stage. A team openly working through conflict is storming. And a team that has agreed its ways of working but not yet delivered much is around the norming stage, one step before performing."
+  },
+  {
+    "id": "K22-056",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In a team context, team dynamics refers to:",
+    "options": [
+      "the combined technical skills the members individually bring to the work",
+      "the formal division of tasks and responsibilities across the team",
+      "the patterns of interaction, influence and cohesion that shape how members work together",
+      "the seniority ranking that decides whose view carries most weight"
+    ],
+    "answer": 2,
+    "rationale": "Team dynamics are the patterns of interaction, influence and cohesion that shape how members work together. The combined technical skills members bring are individual inputs, not the pattern of interaction between them. The formal division of tasks is the team's structure rather than its dynamics. And a seniority ranking that decides whose view counts is a formal or hierarchical matter, not the emergent way the team actually works together."
+  },
+  {
+    "id": "K22-057",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Which of the following is most likely to undermine healthy team dynamics?",
+    "options": [
+      "a few members dominating discussion so that others stop contributing",
+      "members sometimes working alone before bringing their parts together",
+      "open disagreement about the best way forward before deciding",
+      "a tight deadline that puts the whole team under time pressure"
+    ],
+    "answer": 0,
+    "rationale": "A few members dominating so that others fall silent is the clearest underminer here, because the team loses everyone else's contribution and the cohesion that depends on broad participation. Open disagreement before deciding looks disruptive but is usually a sign of a healthy team, provided it is handled well. Members working alone at times before combining their work is a normal part of how teams operate, not a threat to their dynamics. A tight deadline can add strain, but time pressure affects any team and is not in itself a breakdown in how members work together, unlike a pattern of domination that silences people."
+  },
+  {
+    "id": "K22-058",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "Belbin team roles describe:",
+    "options": [
+      "a fixed personality type that stays the same across every situation",
+      "the formal job or functional role each member holds, such as analyst or manager",
+      "the technical skills and expertise each member brings to the work",
+      "the characteristic ways individuals tend to contribute to a team, such as coordinating, shaping ideas or finishing work"
+    ],
+    "answer": 3,
+    "rationale": "Belbin team roles describe the characteristic ways people tend to contribute to a team, such as coordinating others, shaping ideas or seeing work through to completion. They are not the formal job or functional role someone holds, such as analyst or manager, which is a position rather than a behavioural contribution. They are not a fixed personality type either: Belbin describes how people tend to behave in a team, which can shift with the team and the task, rather than a trait fixed for all time. And they are not the technical skills a member brings, which are about what someone can do rather than how they tend to contribute to the group."
+  },
+  {
+    "id": "K22-059",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "A team is full of people who are good at generating ideas and pushing them forward, but the work keeps stalling because no one attends to the details or sees tasks through to the finish. In Belbin's terms, the team is short of:",
+    "options": [
+      "a shaping role, to drive the ideas forward more forcefully",
+      "another idea-generating role, to add still more options",
+      "a completer-finisher role, focused on detail and following through to the end",
+      "a coordinating role, to allocate the ideas among members"
+    ],
+    "answer": 2,
+    "rationale": "The team generates plenty of ideas but nothing gets finished, which points to a gap in the completer-finisher role, the contribution focused on detail and seeing work through. Adding another idea-generating role would deepen the surplus the team already has, not fix the gap. A coordinating role helps organise contributions but does not itself supply the follow-through that is missing. And a shaping role drives ideas forward with energy, which the team already has in abundance, so more of it would not address the failure to finish."
+  },
+  {
+    "id": "K22-060",
+    "ksb": [
+      "K22"
+    ],
+    "stem": "In terms of how teams develop, why do they typically not perform at their best as soon as they are formed?",
+    "options": [
+      "members first need time to build up the technical skills the work demands",
+      "they usually lack clear goals and direction until leadership provides them",
+      "new teams are typically under-resourced when they start, which holds them back",
+      "they need to work through earlier stages, including surfacing and resolving conflict, before they can perform effectively"
+    ],
+    "answer": 3,
+    "rationale": "In terms of team development, teams usually pass through earlier stages, forming and then storming and norming, working through conflict and settling how they operate, before they reach the performing stage. A lack of clear goals can certainly hold a new team back, but that is a matter of direction rather than the team's own development. Time to build technical skills can matter too, yet the development model is about how members come to work together, not their individual skill level. And limited resources can slow any team, but that is a practical constraint rather than the developmental reason the question asks about."
   }
 ]
