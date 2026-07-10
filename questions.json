@@ -9493,5 +9493,455 @@
     ],
     "answer": 3,
     "rationale": "Intermediate care is time-limited, given for a short defined period to maximise independence, which sets it apart from ongoing long-term care. It is not provided indefinitely, since its short duration is central to the concept. It is delivered around and after a hospital stay rather than only on the acute ward itself. Connecting people to community activities describes social prescribing, not the recovery focus of intermediate care."
+  },
+  {
+    "id": "K30-001",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "A local authority is coordinating a multi-agency response to concerns about a child's welfare. The statutory guidance that governs how the agencies should work together in this case is:",
+    "options": [
+      "the Care Act 2014",
+      "the Data Protection Act 2018",
+      "Working Together to Safeguard Children",
+      "the Mental Capacity Act 2005"
+    ],
+    "answer": 2,
+    "rationale": "Working Together to Safeguard Children is the statutory guidance for multi-agency work where a child's welfare is in question. The Care Act 2014 sets the equivalent duties for adults with care and support needs, not children. The Mental Capacity Act 2005 governs decisions for people who lack capacity, which is a different question again. The Data Protection Act 2018 governs the handling of personal data, not the safeguarding response itself. Each is real legislation in this landscape, so the candidate has to match the child multi-agency case to the guidance that covers it."
+  },
+  {
+    "id": "K30-002",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "The principal statutory basis for safeguarding an adult with care and support needs who is at risk of abuse or neglect is:",
+    "options": [
+      "the Health and Social Care Act 2012",
+      "the Care Act 2014",
+      "the Equality Act 2010",
+      "the Mental Capacity Act 2005"
+    ],
+    "answer": 1,
+    "rationale": "The Care Act 2014 places the safeguarding duties in respect of adults at risk. The Mental Capacity Act 2005 governs decision-making for people who lack capacity, which can be relevant but is not the safeguarding basis itself. The Health and Social Care Act 2012 concerns the structure and commissioning of health services. The Equality Act 2010 concerns discrimination and protected characteristics. Each is real legislation an analyst might encounter, so the candidate must identify the one that carries adult safeguarding duties."
+  },
+  {
+    "id": "K30-003",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "The Prevent duty is concerned specifically with:",
+    "options": [
+      "protecting adults at risk from abuse and neglect",
+      "reducing the risk of people being drawn into terrorism or supporting it",
+      "coordinating the response to high-risk domestic abuse",
+      "safeguarding and promoting the welfare of children in need"
+    ],
+    "answer": 1,
+    "rationale": "Prevent is the duty to have regard to the need to stop people being drawn into terrorism. The adult-abuse option describes Care Act 2014 safeguarding. The high-risk domestic abuse option describes what a MARAC coordinates. The children's welfare option describes the aim of Working Together. Each is a genuine safeguarding function in this KSB, so the candidate must know what marks Prevent out from the others."
+  },
+  {
+    "id": "K30-004",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst notices that a data record concerns an 82 year old living alone who appears to be at risk of neglect by a paid carer. In terms of the relevant safeguarding regime, this situation falls primarily under:",
+    "options": [
+      "the remit of the Local Authority Designated Officer",
+      "the decision-making provisions of the Mental Capacity Act 2005",
+      "the Prevent duty",
+      "the adult safeguarding duties of the Care Act 2014"
+    ],
+    "answer": 3,
+    "rationale": "An adult at risk of neglect engages Care Act 2014 adult safeguarding. The Mental Capacity Act 2005 governs decisions where a person lacks capacity, which may or may not apply here and is not the safeguarding basis itself. Prevent concerns radicalisation, which is not what the scenario describes. The Local Authority Designated Officer deals with allegations against people who work with children, which does not fit an older adult. The candidate has to route the subject to the correct regime rather than the most familiar-sounding one."
+  },
+  {
+    "id": "K30-005",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "A specified authority's obligation under the Prevent duty is best understood as:",
+    "options": [
+      "a statutory duty to have due regard to the need to prevent people being drawn into terrorism",
+      "a duty triggered once a criminal offence has been identified",
+      "an obligation that applies to individual practitioners rather than to the organisation",
+      "a discretionary programme an organisation may adopt if it chooses to"
+    ],
+    "answer": 0,
+    "rationale": "Prevent is a statutory duty on specified authorities to have due regard to stopping radicalisation. Describing it as discretionary is wrong: it is a legal duty, not an opt-in. Placing it on individuals rather than the organisation misstates where the duty sits. Tying it to an identified criminal offence is wrong because Prevent is about earlier risk, before offending. The three wrong readings are the common misconceptions about the duty's status."
+  },
+  {
+    "id": "K30-006",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "In local safeguarding arrangements, the distinction between the national statutory framework and local procedures is that:",
+    "options": [
+      "local procedures set the specific duties that apply, while national guidance provides the broad framework and processes to follow",
+      "national guidance sets the duties and expectations, while local procedures set out who to contact and the steps to follow in that area",
+      "national guidance and local procedures are alternative routes, and an employee may follow whichever they prefer",
+      "local procedures override national guidance where the two differ on a duty"
+    ],
+    "answer": 1,
+    "rationale": "National statutory guidance sets the duties; local procedures translate them into named contacts and steps for the area, which is where 'who to contact for advice' is found. The inverted option wrongly puts the specific duties in local procedure and the framework in national guidance. The override option is wrong because local procedure implements rather than overrides statutory duty. The alternative-routes option is wrong because the two are layered, not interchangeable. The candidate must grasp how the national and local levels relate."
+  },
+  {
+    "id": "K30-007",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "The main function of a Multi-Agency Safeguarding Hub (MASH) is to:",
+    "options": [
+      "handle allegations made against people who work with children",
+      "bring agencies together to share information and triage incoming safeguarding referrals",
+      "agree a safety plan for victims at high risk of domestic abuse",
+      "take lead responsibility for safeguarding within a single organisation"
+    ],
+    "answer": 1,
+    "rationale": "A MASH brings agencies together to pool information and triage referrals. Taking lead responsibility within one organisation describes a Designated Safeguarding Lead. Handling allegations against people who work with children describes the LADO. Agreeing a safety plan for high-risk domestic abuse describes a MARAC. Each is a real safeguarding function in this KSB, so the candidate must know which body does which job rather than reading it off the grammar."
+  },
+  {
+    "id": "K30-008",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "The Local Authority Designated Officer (LADO) is the point of contact specifically for:",
+    "options": [
+      "allegations that a person who works with children may have harmed a child or poses a risk to children",
+      "concerns that a child in the community is being neglected or abused by a family member",
+      "coordinating support for the highest-risk victims of domestic abuse",
+      "decisions about how a patient's confidential information may be used"
+    ],
+    "answer": 0,
+    "rationale": "The LADO handles allegations against adults who work with children. A concern about a child harmed by a family member is a general safeguarding referral, routed to the MASH or children's social care, not the LADO. Confidential-information decisions sit with a Caldicott Guardian. High-risk domestic abuse coordination is a MARAC function. The candidate must separate allegations against staff from safeguarding concerns about children in general."
+  },
+  {
+    "id": "K30-009",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "A Multi-Agency Risk Assessment Conference (MARAC) exists to:",
+    "options": [
+      "triage the full range of incoming safeguarding referrals for an area",
+      "bring agencies together to share information and agree a plan for victims at high risk of domestic abuse",
+      "advise an organisation on the lawful use of patient confidential information",
+      "take lead responsibility for safeguarding arrangements within a single organisation"
+    ],
+    "answer": 1,
+    "rationale": "A MARAC is the multi-agency forum for the highest-risk domestic abuse cases. Triaging the full range of referrals describes a MASH. Advising on confidential information describes a Caldicott Guardian. Taking lead responsibility within one organisation describes a Designated Safeguarding Lead. Each is a real function in this KSB, and the candidate has to fix the MARAC on high-risk domestic abuse specifically."
+  },
+  {
+    "id": "K30-010",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "Within an organisation, the role held by a Caldicott Guardian is to:",
+    "options": [
+      "triage multi-agency safeguarding referrals as they come in",
+      "safeguard the confidentiality and appropriate use of patient information and advise on lawful sharing",
+      "manage allegations made against staff who work with children",
+      "chair the multi-agency response to high-risk domestic abuse"
+    ],
+    "answer": 1,
+    "rationale": "A Caldicott Guardian protects patient confidential information and advises on when sharing is appropriate. Triaging referrals describes a MASH. Managing allegations against staff describes the LADO. Chairing the domestic-abuse response describes a MARAC. The three wrong answers are the other named roles and forums, so the candidate must tie the Caldicott Guardian to information rather than to a safeguarding process."
+  },
+  {
+    "id": "K30-011",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst becomes concerned that a colleague who runs data-skills sessions for a youth group may have behaved inappropriately towards a child. Within safeguarding arrangements, the two roles most directly relevant are:",
+    "options": [
+      "the Multi-Agency Risk Assessment Conference and the Caldicott Guardian",
+      "the Multi-Agency Safeguarding Hub and the Local Authority Designated Officer",
+      "the Multi-Agency Safeguarding Hub and the Designated Safeguarding Lead",
+      "the Designated Safeguarding Lead and the Local Authority Designated Officer"
+    ],
+    "answer": 3,
+    "rationale": "An allegation against a person who works with children goes to the internal Designated Safeguarding Lead first and then to the LADO, whose remit is exactly allegations against such staff. The MASH and LADO pairing puts the right allegations officer with a general triage hub rather than the internal lead. The MARAC and Caldicott pairing applies a domestic-abuse forum and an information role, neither of which fits. The MASH and DSL pairing has the right internal lead but routes onward to general triage rather than the LADO. The candidate must pair the internal lead with the LADO for a staff allegation."
+  },
+  {
+    "id": "K30-012",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst spots something in a dataset that looks like a child may be at risk of harm, and is unsure who to tell first. Following usual safeguarding arrangements, the analyst should:",
+    "options": [
+      "wait until the pattern is confirmed in the data before telling anyone",
+      "raise it with the organisation's Designated Safeguarding Lead",
+      "raise it with their line manager",
+      "submit a referral directly to the Multi-Agency Safeguarding Hub"
+    ],
+    "answer": 1,
+    "rationale": "The usual internal step is to raise a concern with the Designated Safeguarding Lead, who advises on referral. Going straight to the MASH bypasses the organisation's own internal process. Treating it as a line-management matter understates a safeguarding concern. Waiting for confirmation risks leaving a child at risk while the analyst self-verifies. The candidate must know the internal first point of contact."
+  },
+  {
+    "id": "K30-013",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An organisation needs advice on whether a particular use of identifiable patient information should go ahead. The role whose remit this most directly falls within is:",
+    "options": [
+      "the Caldicott Guardian",
+      "the Local Authority Designated Officer",
+      "the Data Protection Officer",
+      "the Designated Safeguarding Lead"
+    ],
+    "answer": 0,
+    "rationale": "The Caldicott Guardian advises on whether a use of patient confidential information is appropriate and in patients' interests, which is the judgement described. The Data Protection Officer's focus is legal compliance with data protection law, a related but narrower and more legalistic remit. The Designated Safeguarding Lead leads safeguarding, not information use. The Local Authority Designated Officer handles allegations against staff who work with children. The candidate has to separate the confidentiality judgement from adjacent legal and safeguarding roles."
+  },
+  {
+    "id": "K30-014",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "A case involves an adult assessed as being at high risk of serious harm from domestic abuse, and agencies need to share information and agree a coordinated safety plan. The forum designed for this is:",
+    "options": [
+      "a review by the organisation's Caldicott Guardian",
+      "a Multi-Agency Safeguarding Hub (MASH)",
+      "a referral to the Local Authority Designated Officer (LADO)",
+      "a Multi-Agency Risk Assessment Conference (MARAC)"
+    ],
+    "answer": 3,
+    "rationale": "A MARAC is the forum for coordinating safety planning for high-risk domestic abuse. A MASH triages incoming referrals generally rather than running the safety plan for a high-risk case. The LADO handles allegations against people who work with children, which is not what this case is. A Caldicott Guardian review concerns information use, not safety planning. The candidate must distinguish the risk conference from the triage hub in particular."
+  },
+  {
+    "id": "K30-015",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "A commonly used way of describing the sequence for handling a safeguarding concern is captured by the four words:",
+    "options": [
+      "notice, discuss, delay, review",
+      "identify, escalate, resolve, close",
+      "recognise, respond, record, report",
+      "observe, assess, diagnose, treat"
+    ],
+    "answer": 2,
+    "rationale": "The four Rs of safeguarding are recognise, respond, record and report. The observe-assess-diagnose-treat sequence is a clinical framing, not a safeguarding one. The identify-escalate-resolve-close wording describes generic incident or case management. The notice-discuss-delay-review wording embeds delay, which runs against prompt safeguarding action. The candidate must recognise the specific four-word safeguarding sequence."
+  },
+  {
+    "id": "K30-016",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "Within the recognise, respond, record, report sequence, the 'respond' step for an analyst who is not a safeguarding specialist mainly involves:",
+    "options": [
+      "taking appropriate action on the concern",
+      "reassuring the person involved that no further action will be needed",
+      "carrying out an investigation to establish whether the concern is well founded",
+      "deciding independently whether the threshold for a statutory referral is met"
+    ],
+    "answer": 0,
+    "rationale": "For a non-specialist, responding means taking appropriate action on the concern, chiefly by raising it promptly with the right person, not investigating. Carrying out an investigation goes beyond the analyst's role and can compromise a later enquiry. Deciding the statutory threshold alone is a specialist judgement, not the analyst's. Offering reassurance that nothing further is needed pre-empts the process. The candidate must grasp that responding is about routing, not resolving."
+  },
+  {
+    "id": "K30-017",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "The idea of a safeguarding 'threshold' is best understood as:",
+    "options": [
+      "the point at which a concern is serious enough to warrant a formal safeguarding referral",
+      "the seniority a member of staff must reach before they are permitted to raise a concern",
+      "the deadline by which a concern must be closed once it has been opened",
+      "the maximum number of concerns an analyst may hold before they must report them together"
+    ],
+    "answer": 0,
+    "rationale": "A threshold is the level of seriousness at which a concern warrants a formal referral. It is not a quota of accumulated concerns, which misreads 'threshold' as a count. It is not a seniority bar on who may raise a concern, since anyone can raise one. It is not a closure deadline, which confuses the threshold with timescales. The candidate must read threshold as a level of concern, not a number, rank or date."
+  },
+  {
+    "id": "K30-018",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst has raised a safeguarding concern through the proper channel, but believes it has not been acted on and the risk remains. Following local safeguarding arrangements, the analyst should:",
+    "options": [
+      "follow the local escalation procedure to raise the matter further",
+      "raise it again through the same channel",
+      "record that the concern was raised and consider their own duty discharged",
+      "take the concern to a different agency in the hope of a quicker response"
+    ],
+    "answer": 0,
+    "rationale": "Local arrangements include an escalation route for when a concern seems not to have been acted on, and the analyst should use it. Taking it to a different agency instead sidesteps the agreed escalation route. Recording that the concern was raised and treating the duty as discharged leaves a live risk unaddressed. Simply re-sending through the same channel that has not responded is not the same as formally escalating. The candidate must know that escalation follows a defined route until a concern is properly resolved."
+  },
+  {
+    "id": "K30-019",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "While cleaning a dataset, an analyst finds records suggesting a vulnerable adult has attended emergency care repeatedly with injuries that are poorly explained. The analyst should read this primarily as:",
+    "options": [
+      "a data quality issue to be logged for the dataset's error report",
+      "an outlier in the data that should be excluded before the analysis is run",
+      "a possible safeguarding concern that should be raised through the proper channel",
+      "a coding inconsistency to be standardised during the cleaning step"
+    ],
+    "answer": 2,
+    "rationale": "A pattern of poorly explained injuries in a vulnerable adult is a possible safeguarding concern and should be raised through the proper channel. Excluding it as an outlier treats a welfare signal as a statistical nuisance. Logging it as a data quality issue files it away as an error rather than acting on it. Standardising it as a coding inconsistency erases the very pattern that matters. The candidate must recognise that this is a safeguarding matter, not one of the ordinary data-handling responses."
+  },
+  {
+    "id": "K30-020",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "Good practice for the 'record' step when handling a safeguarding concern is to:",
+    "options": [
+      "make a prompt, factual note of what was observed and done",
+      "write a considered account once the outcome of any referral is known",
+      "record a clear judgement on whether abuse has occurred",
+      "keep the details informal and unwritten to protect the person's privacy"
+    ],
+    "answer": 0,
+    "rationale": "Recording means a prompt, factual note of what was seen and done, kept separate from opinion. Writing a considered account only once the outcome is known loses detail and delays the record. Recording a judgement on whether abuse occurred overreaches the analyst's role and omits the underlying facts. Keeping it unwritten for privacy leaves no reliable account and can obstruct a later enquiry. The candidate must know recording is prompt, factual and contemporaneous."
+  },
+  {
+    "id": "K30-021",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "In the context of a safeguarding concern, the duty of confidentiality is best understood as:",
+    "options": [
+      "overriding, so information must be withheld unless the person consents to sharing",
+      "a matter of individual discretion, with no bearing on safeguarding decisions",
+      "important but not absolute, so it can be outweighed where sharing is necessary to protect someone at risk",
+      "suspended entirely, so any information may be shared freely once a concern arises"
+    ],
+    "answer": 2,
+    "rationale": "Confidentiality is important but can be outweighed when sharing is necessary to protect someone at risk. Treating it as overriding unless the person consents would block protective sharing that consent is not required for. Treating it as entirely suspended goes too far the other way and invites disproportionate sharing. Calling it a matter of discretion with no bearing on safeguarding ignores that it is a real duty to be weighed. The candidate must hold the middle position: weighable, not absolute and not void."
+  },
+  {
+    "id": "K30-022",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "Sharing information without the individual's consent in a safeguarding situation is:",
+    "options": [
+      "permitted after a court has authorised the disclosure",
+      "unlawful in all circumstances unless the individual has first agreed",
+      "required in every safeguarding case regardless of the specific risk",
+      "lawful where it is necessary to protect a person at risk and there is a proper basis for doing so"
+    ],
+    "answer": 3,
+    "rationale": "Sharing without consent can be lawful where it is necessary to protect someone at risk and there is a proper basis. Saying it is unlawful without prior agreement misstates the law, which does allow protective sharing without consent. Saying it is required in every case regardless of risk removes the necessity test. Saying it needs a court order first invents a barrier that does not apply to safeguarding sharing. The candidate must know consent is not the only lawful basis."
+  },
+  {
+    "id": "K30-023",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst holds information relevant to protecting a child, but the family has explicitly refused consent for it to be shared. The most appropriate reading is that:",
+    "options": [
+      "the information may be shared only if the concern involves a member of the family",
+      "consent must be sought again in writing before anything can be shared",
+      "the refusal of consent settles the matter and the information cannot be shared",
+      "the information may still be shared where doing so is necessary to protect the child, because consent is not the only lawful basis"
+    ],
+    "answer": 3,
+    "rationale": "Where sharing is necessary to protect a child, it can proceed without consent, since consent is not the only lawful basis. Treating the refusal as settling the matter wrongly makes consent decisive. Limiting sharing to cases where the concern involves a family member invents a condition that does not govern protective sharing. Insisting on renewed written consent first imposes a step that protective sharing does not require. The candidate must place necessity above consent when a child is at risk."
+  },
+  {
+    "id": "K30-024",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "When information is shared for safeguarding purposes, the principle of proportionality means that:",
+    "options": [
+      "information should be shared equally with every partner agency involved in the area",
+      "anonymised information may be shared, whatever the purpose",
+      "as much information as possible should be shared so nothing useful is withheld",
+      "what is shared should be relevant and limited to what the recipient needs for the safeguarding purpose"
+    ],
+    "answer": 3,
+    "rationale": "Proportionate sharing means disclosing what is relevant and no more than the recipient needs for the purpose. Sharing as much as possible ignores the limiting principle. Sharing equally with every partner regardless of need over-discloses to those who do not need it. Restricting to anonymised information only would often defeat the safeguarding purpose, which usually needs identifiable detail. The candidate must read proportionality as relevance and necessity, not maximal or blanket sharing."
+  },
+  {
+    "id": "K30-025",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "During a safeguarding matter, an individual tells an analyst that they do not want any of their information passed on and reminds the analyst of their duty of confidentiality. The analyst should understand that:",
+    "options": [
+      "the stated objection removes any basis for sharing the information further",
+      "the matter should be paused until the individual can be persuaded to withdraw the objection",
+      "the objection is a serious consideration but does not by itself prevent sharing that is necessary to protect someone at risk",
+      "the duty of confidentiality no longer applies once a concern has been raised"
+    ],
+    "answer": 2,
+    "rationale": "An objection must be weighed but does not override sharing that is necessary to protect someone at risk. Treating the objection as removing any basis for sharing gives it a veto it does not have. Saying confidentiality no longer applies at all overstates the position and licenses disproportionate sharing. Pausing to persuade the person to withdraw the objection can leave a live risk unaddressed. The candidate must weigh the objection without treating it as decisive or as voiding the duty entirely."
+  },
+  {
+    "id": "K30-026",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "Reflected in the Caldicott principles is the idea that:",
+    "options": [
+      "protecting confidentiality should take priority over safeguarding concerns",
+      "the duty to share information applies to anonymised data alone",
+      "the duty to share information can be as important as the duty to protect confidentiality when someone's safety is at stake",
+      "confidentiality and sharing are separate concerns that need not be weighed against each other"
+    ],
+    "answer": 2,
+    "rationale": "The Caldicott principles include the idea that a duty to share can be as important as the duty to protect confidential information where safety is at stake. Putting confidentiality ahead of safeguarding concerns ignores that balance. Restricting the duty to share to anonymised data misstates it, since safeguarding sharing is often identifiable. Saying the two never need weighing denies the trade-off the principles are built to manage. The candidate must recognise sharing and protecting as balanced duties."
+  },
+  {
+    "id": "K30-027",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "Where records may be relevant to a safeguarding concern, good practice is to:",
+    "options": [
+      "preserve them as they are, without altering or deleting anything, so an accurate account remains available",
+      "delete the sensitive details once the concern has been reported onward",
+      "tidy them up to remove anything that might be misread before passing them on",
+      "keep a summary and discard the underlying records"
+    ],
+    "answer": 0,
+    "rationale": "Records relevant to a concern should be preserved intact so an accurate account survives. Tidying them to remove what might be misread alters the evidence and can obscure the picture. Deleting sensitive details after reporting removes exactly what a later enquiry may need. Keeping only a summary loses the underlying detail. The candidate must know preservation means leaving relevant records unaltered."
+  },
+  {
+    "id": "K30-028",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst in an unfamiliar situation is unsure exactly how to handle a safeguarding concern. The most appropriate course is to:",
+    "options": [
+      "adapt a process from a previous employer that seemed to work well",
+      "follow the organisation's local safeguarding procedures and seek advice from the named contact rather than improvising an approach",
+      "devise a sensible approach of their own and proceed without consulting anyone",
+      "wait to see whether a colleague raises the same concern first"
+    ],
+    "answer": 1,
+    "rationale": "When unsure, the analyst should follow local procedures and seek advice from the named contact. Devising an independent approach without consulting anyone bypasses arrangements designed for consistency. Waiting for a colleague to raise it first risks inaction on a live concern. Importing a process from a previous employer ignores that arrangements are local and may differ. The candidate must default to the local process and its named contacts."
+  },
+  {
+    "id": "K30-029",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "One reason a safeguarding note should be made promptly rather than written up well after the event is that:",
+    "options": [
+      "a later note carries more weight because it can take account of the outcome",
+      "prompt notes are required so that they can be shared publicly if needed",
+      "a contemporaneous note is more likely to capture detail accurately before memory fades or is influenced by later events",
+      "timing makes little difference provided the note is written at some point"
+    ],
+    "answer": 2,
+    "rationale": "A prompt, contemporaneous note captures detail more accurately before memory fades. Claiming a later note carries more weight for reflecting the outcome inverts the point, since hindsight can distort the account. Tying prompt notes to public sharing misstates why timing matters. Saying timing makes little difference denies the value of contemporaneous recording. The candidate must know why prompt recording is preferred."
+  },
+  {
+    "id": "K30-030",
+    "ksb": [
+      "K30"
+    ],
+    "stem": "An analyst who wants to know exactly who to contact for advice about a safeguarding concern in their area should look first to:",
+    "options": [
+      "national statutory guidance, which lists the specific local contacts to use",
+      "a colleague's personal recollection of who was contacted on a past occasion",
+      "whichever national helpline appears first in a general internet search",
+      "their organisation's local safeguarding procedures, which set out the named contacts and routes for that area"
+    ],
+    "answer": 3,
+    "rationale": "Local safeguarding procedures set out the named contacts and routes for the area, so they are where to look first. National statutory guidance sets duties but does not list local contacts, so it will not give the specific name. A helpline from a general search may be neither correct nor local. A colleague's recollection is informal and may be out of date. The candidate must know that the local procedures hold the named contacts, which is the heart of this KSB."
   }
 ]
