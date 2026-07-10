@@ -8593,5 +8593,905 @@
     ],
     "answer": 3,
     "rationale": "Information on what fields mean, the coverage and how figures were derived is metadata together with documented methodology. Role-based access control governs who may read the output, not what it describes. Lineage is an internal pipeline record of transformations, not user-facing accompanying information. A retention schedule sets deletion timing, which is not what this information provides."
+  },
+  {
+    "id": "K7-001",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The continuous period a patient spends in hospital from admission to discharge, however many consultants take responsibility for their care during it, is known as:",
+    "options": [
+      "an inpatient pathway",
+      "a finished consultant episode",
+      "an attendance",
+      "an inpatient spell"
+    ],
+    "answer": 3,
+    "rationale": "The whole admission-to-discharge stay is a spell, and it can hold several consultant episodes within it. A consultant episode is only the portion of that stay under one named consultant, so it is a part of the spell rather than the whole. An attendance is a non-admitted contact and does not describe an inpatient stay. A pathway is a broader route of care that can span several settings, not the single continuous stay itself."
+  },
+  {
+    "id": "K7-002",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The period of a hospital stay during which a patient is under the continuous care of one named consultant is called:",
+    "options": [
+      "an attendance",
+      "a consultant episode",
+      "an inpatient spell",
+      "a ward stay"
+    ],
+    "answer": 1,
+    "rationale": "Care under a single named consultant is a consultant episode, and a stay may contain more than one if responsibility transfers. The full admission-to-discharge stay is a spell, the larger unit that holds the episodes. A ward stay is not a defined activity unit, since a patient can change ward without the responsible consultant changing. An attendance is a non-admitted contact, not a period of inpatient care."
+  },
+  {
+    "id": "K7-003",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient is admitted under a respiratory physician, then responsibility passes to a cardiologist two days later before discharge. Which single stay-and-count description fits?",
+    "options": [
+      "two attendances within one pathway",
+      "two spells, each with one consultant episode",
+      "one spell made up of two consultant episodes",
+      "one spell made up of one consultant episode"
+    ],
+    "answer": 2,
+    "rationale": "The admission-to-discharge stay is one spell, and because responsible care moved between two named consultants it contains two consultant episodes. Counting one episode ignores the transfer of care. Counting two spells double-counts a single continuous stay. Attendances are non-admitted contacts and do not describe an inpatient stay at all."
+  },
+  {
+    "id": "K7-004",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "An admission that is arranged and booked in advance, rather than arising from an emergency or urgent unplanned need, is described as:",
+    "options": [
+      "elective care",
+      "a daycase",
+      "non-elective care",
+      "ambulatory emergency care"
+    ],
+    "answer": 0,
+    "rationale": "A planned, booked-ahead admission is elective care. Non-elective care is the opposite, an emergency or urgent unplanned admission. Ambulatory emergency care is a same-day emergency route, so it is unplanned by nature. A daycase describes length of stay, planned same-day admission, which is a separate axis from whether care was planned or unplanned."
+  },
+  {
+    "id": "K7-005",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient arrives at the emergency department acutely unwell and is admitted the same evening for urgent treatment. In activity terms this admission is best classed as:",
+    "options": [
+      "a daycase",
+      "an outpatient attendance",
+      "elective care",
+      "non-elective care"
+    ],
+    "answer": 3,
+    "rationale": "An urgent, unplanned admission through the emergency route is non-elective care. Elective care would require the admission to have been planned and booked ahead, which this was not. A daycase is a planned same-day admission, again not matching an emergency presentation. An outpatient attendance involves no admission at all, whereas this patient was admitted."
+  },
+  {
+    "id": "K7-006",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A contact at which a patient is seen and assessed at a clinic without being admitted to a hospital bed is recorded as:",
+    "options": [
+      "an ambulatory emergency care episode",
+      "an outpatient attendance",
+      "an inpatient spell",
+      "a daycase"
+    ],
+    "answer": 1,
+    "rationale": "A clinic contact with no admission to a bed is an outpatient attendance. A daycase does involve admission to a bed, just without an overnight stay, so it is one step more than an attendance. An inpatient spell is an admitted stay from admission to discharge. Ambulatory emergency care is an emergency same-day route rather than a routine clinic contact."
+  },
+  {
+    "id": "K7-007",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A planned admission in which the patient occupies a bed but is admitted and discharged on the same day, with no overnight stay, is a:",
+    "options": [
+      "short-stay non-elective admission",
+      "outpatient attendance",
+      "same day emergency care episode",
+      "daycase"
+    ],
+    "answer": 3,
+    "rationale": "A planned same-day admission that uses a bed without an overnight stay is a daycase. An outpatient attendance uses no bed at all, so it falls short of a daycase. A short-stay non-elective admission is unplanned and emergency-driven, unlike the planned daycase. Same day emergency care is also an emergency route, whereas a daycase is planned in advance."
+  },
+  {
+    "id": "K7-008",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A recorded contact at an outpatient clinic or emergency department where the patient is not admitted to an inpatient bed is an:",
+    "options": [
+      "attendance",
+      "inpatient spell",
+      "consultant episode",
+      "elective admission"
+    ],
+    "answer": 0,
+    "rationale": "A non-admitted contact at a clinic or emergency department is an attendance. An inpatient spell is an admitted stay from admission to discharge, the admitted counterpart. A consultant episode is a portion of an admitted stay under one consultant, so it too requires admission. An elective admission is a planned admitted stay, again not a non-admitted contact."
+  },
+  {
+    "id": "K7-009",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient arrives as an emergency, is investigated and treated over a few hours, and is discharged home the same day without ever being admitted to an inpatient bed. Which term best describes this?",
+    "options": [
+      "a daycase",
+      "a delayed transfer of care",
+      "same day emergency care",
+      "an outpatient attendance"
+    ],
+    "answer": 2,
+    "rationale": "An emergency patient assessed, treated and discharged the same day without inpatient admission is receiving same day emergency care. A daycase is a planned same-day admission, not an emergency presentation, and it does involve a booked bed. An outpatient attendance involves no emergency assessment-and-treatment of this kind. A delayed transfer of care is the opposite situation, a patient ready to leave but unable to, rather than one discharged promptly."
+  },
+  {
+    "id": "K7-010",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The care model in which emergency patients are managed and sent home the same day without an overnight admission, now most often referred to as same day emergency care, was previously known as:",
+    "options": [
+      "ambulatory emergency care",
+      "reablement",
+      "intermediate care",
+      "elective daycase surgery"
+    ],
+    "answer": 0,
+    "rationale": "The same-day emergency, admission-avoiding model was previously termed ambulatory emergency care, with same day emergency care now the common label for it. Intermediate care is short-term recovery support after acute illness, not an emergency front-door model. Elective daycase surgery is planned, not emergency, care. Reablement is home-based support to regain independence, a community service rather than an emergency route."
+  },
+  {
+    "id": "K7-011",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The process of quickly assessing patients on arrival to sort them by clinical urgency and decide the order in which they are seen is:",
+    "options": [
+      "casemix classification",
+      "clinical acuity scoring",
+      "triage",
+      "risk stratification"
+    ],
+    "answer": 2,
+    "rationale": "Sorting arriving patients by urgency to order who is seen first is triage. Risk stratification groups a whole population by future risk to target care, not arrivals in a queue. Casemix classification groups completed activity by the type and complexity of cases, a coding and funding purpose rather than a sorting-on-arrival one. Clinical acuity scoring rates how unwell an individual is at a point in time, which can feed triage but is not the sorting process itself."
+  },
+  {
+    "id": "K7-012",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The waiting time measured from a patient's referral to the start of their treatment is known as the:",
+    "options": [
+      "delayed transfer of care period",
+      "finished consultant episode",
+      "referral to treatment (RTT) waiting time",
+      "inpatient spell from admission to discharge"
+    ],
+    "answer": 2,
+    "rationale": "The time from referral to the start of treatment is the referral to treatment waiting time, tracked by the RTT clock. An inpatient spell measures a stay from admission to discharge, a different interval entirely. A delayed transfer of care period is time a patient waits to leave once ready for discharge, at the end of care rather than before it starts. A consultant episode is a portion of an admitted stay under one consultant, not a referral-to-treatment measure."
+  },
+  {
+    "id": "K7-013",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient returning to hospital as an emergency shortly after being discharged from a previous admission is recorded as a:",
+    "options": [
+      "delayed transfer of care",
+      "readmission",
+      "non-elective new attendance",
+      "transfer of care"
+    ],
+    "answer": 1,
+    "rationale": "An emergency return soon after discharge is a readmission, often used as an indicator of care quality. A delayed transfer of care is a patient still in hospital who is ready to leave but cannot, not one who has left and come back. A transfer of care is the handover of a patient between services or settings, not a return to hospital. An attendance is a non-admitted contact, whereas a readmission is a fresh admission."
+  },
+  {
+    "id": "K7-014",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The status of a patient whose acute clinical treatment is complete and who no longer needs a hospital bed on medical grounds, whether or not they have actually left, is:",
+    "options": [
+      "delayed transfer of care",
+      "reablement",
+      "step-down care",
+      "medically fit for discharge"
+    ],
+    "answer": 3,
+    "rationale": "A patient whose acute treatment is done and who no longer needs a bed on clinical grounds is medically fit for discharge. A delayed transfer of care describes what happens next if such a patient cannot leave, so it is a consequence rather than the status itself. Reablement is a home-based service to regain independence after leaving. Step-down care is a lower-intensity setting a patient may move to, not the clinical-readiness status."
+  },
+  {
+    "id": "K7-015",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient finished acute treatment four days ago and no longer needs a hospital bed on medical grounds, but remains in hospital because a community care package is not yet ready. This ongoing situation is a:",
+    "options": [
+      "readmission",
+      "delayed transfer of care",
+      "consultant episode",
+      "medically fit for discharge status on its own"
+    ],
+    "answer": 1,
+    "rationale": "A patient who is ready to leave but held in hospital because the next setting is not ready is a delayed transfer of care. A consultant episode is a period of care under a named consultant, not a discharge delay. A readmission is a return to hospital after leaving, the opposite direction of travel. Being medically fit for discharge describes the clinical readiness, but on its own it does not capture the delay caused by the package not being ready, which is the point here."
+  },
+  {
+    "id": "K7-016",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Conditions for which timely and effective care outside hospital can often prevent the need for an emergency admission, such as some cases of asthma or heart failure, are termed:",
+    "options": [
+      "multimorbid conditions",
+      "ambulatory care sensitive conditions",
+      "non-elective admissions",
+      "ambulatory emergency care presentations"
+    ],
+    "answer": 1,
+    "rationale": "Conditions where good out-of-hospital care can head off an emergency admission are ambulatory care sensitive conditions, a current term the NHS still uses as a marker of community care quality. This is a separate term from ambulatory emergency care, which is a same-day hospital route for emergencies rather than a class of conditions, so the two should not be confused. A non-elective admission is any unplanned emergency admission, not specifically one that better community care could have avoided. Multimorbidity is the presence of several long-term conditions in one person, a different idea from admission preventability."
+  },
+  {
+    "id": "K7-017",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The number of new cases of a condition arising in a population over a defined period is measured by its:",
+    "options": [
+      "incidence",
+      "prevalence",
+      "burden of disease",
+      "casemix"
+    ],
+    "answer": 0,
+    "rationale": "New cases arising over a period are counted by incidence. Prevalence counts all existing cases at a point or over a period, new and long-standing together, so it captures a different quantity. Burden of disease aggregates the total impact of illness, combining death and disability, rather than counting new cases. Casemix describes the mix of case types and complexity in an activity dataset, not the rate of new disease."
+  },
+  {
+    "id": "K7-018",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The proportion of a population that has a given condition at a particular point in time, counting both long-standing and recent cases, is its:",
+    "options": [
+      "prevalence",
+      "incidence",
+      "multimorbidity",
+      "avoidable mortality"
+    ],
+    "answer": 0,
+    "rationale": "All existing cases at a point in time, old and new together, are counted by prevalence. Incidence counts only new cases arising over a period, so it excludes the long-standing ones. Avoidable mortality concerns deaths that could have been prevented, not the proportion currently living with a condition. Multimorbidity is the presence of several conditions in one person, not the population share with a single condition."
+  },
+  {
+    "id": "K7-019",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "For a long-lasting chronic condition where people live for many years after diagnosis, the measure that will be considerably higher than the other, because cases accumulate rather than resolve, is the:",
+    "options": [
+      "attack rate",
+      "case fatality",
+      "incidence",
+      "prevalence"
+    ],
+    "answer": 3,
+    "rationale": "In a long-lasting condition cases build up in the population, so prevalence rises well above the rate of new cases. Incidence stays comparatively low because it counts new cases each period, regardless of how long people live with the condition. Case fatality is the proportion of cases who die, not a count of existing cases. An attack rate is a form of incidence used in outbreaks, so it too counts new cases rather than accumulated ones."
+  },
+  {
+    "id": "K7-020",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A report states that on a single survey date, twelve in every hundred adults in an area were living with diagnosed diabetes. This figure is a measure of:",
+    "options": [
+      "incidence",
+      "prevalence",
+      "burden of disease",
+      "risk stratification"
+    ],
+    "answer": 1,
+    "rationale": "A count of all people living with a condition on a given date is prevalence. Incidence would instead count only new diagnoses arising over a period, not the total living with it. Burden of disease combines mortality and disability into an overall impact measure, not a simple proportion with a condition. Risk stratification sorts a population by future risk, which is not what a point-in-time proportion describes."
+  },
+  {
+    "id": "K7-021",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Sorting a population into groups according to their likely future risk of poor outcomes, so that care and resources can be targeted at those most likely to need them, is:",
+    "options": [
+      "casemix adjustment",
+      "segmentation",
+      "risk stratification",
+      "triage"
+    ],
+    "answer": 2,
+    "rationale": "Grouping a population by future risk to target care is risk stratification. Segmentation also divides a population, but by shared characteristics or needs rather than specifically by predicted risk. Triage sorts patients presenting now by immediate clinical urgency, not a population by future risk. Casemix adjustment accounts for the mix of case complexity when comparing activity, a different purpose again."
+  },
+  {
+    "id": "K7-022",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Dividing a population into groups that share similar characteristics or care needs, in order to design services around each group, is known as:",
+    "options": [
+      "risk stratification",
+      "segmentation",
+      "triage",
+      "multimorbidity"
+    ],
+    "answer": 1,
+    "rationale": "Grouping a population by shared characteristics or needs to shape services is segmentation. Risk stratification divides by predicted future risk specifically, which is a narrower basis than shared needs generally. Triage sorts individuals presenting now by urgency, not a whole population by shared traits. Multimorbidity describes one person having several conditions, not a way of dividing a population."
+  },
+  {
+    "id": "K7-023",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A team divides its registered patients into bands representing low, moderate and high likelihood of an unplanned admission in the coming year, so it can offer intensive support to the highest band. This is an example of:",
+    "options": [
+      "risk stratification",
+      "triage",
+      "segmentation",
+      "casemix classification"
+    ],
+    "answer": 0,
+    "rationale": "Banding a population by predicted future risk to target the highest-risk group is risk stratification. Segmentation would group by shared characteristics or needs rather than specifically by modelled future risk. Casemix classification groups completed activity by case type and complexity, not patients by future risk. Triage orders patients presenting now by immediate urgency, not by a year-ahead risk of admission."
+  },
+  {
+    "id": "K7-024",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The range and relative complexity of the types of case a service treats, often used when comparing activity or costs fairly between providers, is captured by its:",
+    "options": [
+      "risk stratification",
+      "incidence",
+      "prevalence",
+      "casemix"
+    ],
+    "answer": 3,
+    "rationale": "The mix and complexity of case types a service handles is its casemix, used to make fair comparisons. Incidence counts new cases of a condition in a population, not the complexity mix of a service's workload. Risk stratification sorts a population by future risk, a forward-looking targeting tool rather than a description of treated activity. Prevalence counts existing cases in a population, again not the complexity profile of a service."
+  },
+  {
+    "id": "K7-025",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The presence of two or more long-term health conditions in the same individual at the same time is described as:",
+    "options": [
+      "casemix",
+      "multimorbidity",
+      "comorbidity",
+      "health inequality"
+    ],
+    "answer": 1,
+    "rationale": "Two or more long-term conditions coexisting in one person is multimorbidity, which treats the conditions together without singling one out. Comorbidity frames additional conditions relative to one main index condition, so it centres on a primary diagnosis rather than treating them as equals. Casemix is the complexity mix of a service's caseload, not a state within one person. Health inequality concerns unfair differences in health between groups, not multiple conditions in an individual."
+  },
+  {
+    "id": "K7-026",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Unfair and avoidable differences in health outcomes between different groups in the population, such as between more and less deprived areas, are termed:",
+    "options": [
+      "avoidable mortality",
+      "health inequalities",
+      "wider determinants of health",
+      "burden of disease"
+    ],
+    "answer": 1,
+    "rationale": "Unfair, avoidable differences in health between groups are health inequalities. The wider determinants of health are the social and economic factors that drive such differences, which are causes rather than the differences themselves. Avoidable mortality is deaths that could have been prevented, a specific outcome measure rather than a between-group gap. Burden of disease aggregates the overall impact of illness in a population, not the disparity between groups."
+  },
+  {
+    "id": "K7-027",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Deaths that could have been avoided through good quality healthcare once a condition had developed, such as timely and effective treatment, fall under the treatable component of:",
+    "options": [
+      "burden of disease",
+      "preventable mortality",
+      "case fatality",
+      "avoidable mortality"
+    ],
+    "answer": 3,
+    "rationale": "Avoidable mortality is the umbrella term covering deaths that could be averted, and its treatable component concerns those avoidable through good healthcare after onset. Preventable mortality is the other component, concerning deaths avoidable by stopping the condition arising in the first place through wider public health action, so it sits before onset rather than after. Case fatality is the proportion of people with a condition who die from it, not a classification of avoidability. Burden of disease aggregates total impact of illness, not specifically deaths that could have been averted."
+  },
+  {
+    "id": "K7-028",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A combined measure that brings together years of life lost to early death and years lived with disability, to express the total impact of a condition on a population, is its:",
+    "options": [
+      "incidence",
+      "prevalence",
+      "burden of disease",
+      "avoidable mortality"
+    ],
+    "answer": 2,
+    "rationale": "A measure combining early death and disability into a single total impact is burden of disease. Prevalence counts existing cases at a point in time, without weighting for death or disability. Incidence counts new cases over a period, again a simple count rather than a combined impact measure. Avoidable mortality concerns deaths that could have been averted, so it addresses one part of impact rather than the whole death-plus-disability total."
+  },
+  {
+    "id": "K7-029",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The social, economic and environmental conditions in which people live, such as housing, income, education and employment, which shape health outside of healthcare itself, are the:",
+    "options": [
+      "clinical risk factors",
+      "wider determinants of health",
+      "health inequalities",
+      "indices of deprivation"
+    ],
+    "answer": 1,
+    "rationale": "The social and economic conditions shaping health beyond healthcare are the wider determinants of health. Indices of deprivation are tools that measure and rank deprivation using such factors, so they are a measurement instrument rather than the conditions themselves. Health inequalities are the unfair differences in outcomes that the determinants help produce, an effect rather than the underlying conditions. Clinical risk factors are individual biological or behavioural characteristics, a narrower category than the broad social determinants."
+  },
+  {
+    "id": "K7-030",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A tool that combines several domains, such as income, employment, education and housing, to produce an overall ranking of how deprived small areas are relative to one another is an:",
+    "options": [
+      "measure of health inequality",
+      "incidence rate",
+      "index of deprivation",
+      "casemix index"
+    ],
+    "answer": 2,
+    "rationale": "A composite tool ranking small areas by combined deprivation domains is an index of deprivation. A measure of health inequality captures a gap in outcomes between groups, not a ranking of areas by deprivation. An incidence rate counts new cases of a condition, unrelated to area-level deprivation ranking. A casemix index summarises the complexity of a service's caseload, a different kind of index entirely."
+  },
+  {
+    "id": "K7-031",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The English Index of Multiple Deprivation combines several weighted domains such as income, employment and education. Which of the following is not one of the domains that make up the IMD?",
+    "options": [
+      "deprivation relating to barriers to housing and services",
+      "the ethnic composition of the area's residents",
+      "deprivation relating to health and disability",
+      "deprivation relating to crime"
+    ],
+    "answer": 1,
+    "rationale": "The IMD is built from domains including income, employment, education, health and disability, crime, barriers to housing and services, and living environment, so the ethnic composition of an area is not one of them, and deprivation is measured without reference to ethnicity. Crime is one of the seven domains. Health and disability is one of the seven domains. Barriers to housing and services is one of the seven domains. The task is to spot the factor that does not feed into the index."
+  },
+  {
+    "id": "K7-032",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "An analyst notes that a patient lives in an area ranked among the most deprived and concludes the patient must personally be deprived. The flaw is that the Index of Multiple Deprivation measures:",
+    "options": [
+      "the average income of the individuals living in the area, so a high deprivation rank means that every resident must have a low income",
+      "the personal deprivation of each named resident, so the area rank can simply be read straight off as any one individual's circumstances",
+      "the number of deprived individuals living in the area, so it counts affected people rather than ranking the place against others",
+      "the relative deprivation of a small area as a whole, so individual residents may be more or less deprived than the area's rank suggests"
+    ],
+    "answer": 3,
+    "rationale": "The IMD ranks small areas by relative deprivation, so an individual in a deprived area may be better or worse off than the area's rank implies, which is the analyst's error. It does not measure each resident's personal deprivation, so the rank cannot be read straight off as an individual's circumstances. It is not simply an average income measure, since it combines several weighted domains rather than income alone. It does not count deprived individuals; it produces a relative ranking of the area itself."
+  },
+  {
+    "id": "K7-033",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Areas in England are grouped into deprivation deciles, with decile 1 being the most deprived tenth. What does it mean to say a neighbourhood is in the most deprived decile?",
+    "options": [
+      "it is among the tenth of neighbourhoods in England with the highest relative deprivation",
+      "a tenth of the people living in that neighbourhood are themselves classed as deprived",
+      "its overall deprivation score is roughly ten times the national average score",
+      "one in ten of its residents falls into the most deprived group in the country"
+    ],
+    "answer": 0,
+    "rationale": "Deprivation deciles rank neighbourhoods against all others in England, so the most deprived decile is the tenth of neighbourhoods with the highest relative deprivation. It does not mean a tenth of that neighbourhood's people are deprived, since the decile ranks the area against others rather than describing a share of its residents. It does not mean the score is ten times the average, since a decile is a rank band, not a multiple of a score. It does not mean one in ten residents falls in the most deprived national group, which again confuses a share of people with a ranking of the place."
+  },
+  {
+    "id": "K7-034",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "An area's Index of Multiple Deprivation score and rank are best understood as a measure of:",
+    "options": [
+      "the change in the area's deprivation compared with its own score in the previous release of the index",
+      "how deprived the area is relative to all other areas in England, rather than an absolute amount of deprivation",
+      "the proportion of the area's own residents who are living in poverty at the given point in time being measured",
+      "the absolute level of deprivation in the area, measured on a fixed scale that does not depend on any other areas"
+    ],
+    "answer": 1,
+    "rationale": "The IMD is a relative measure, so a score and rank place an area against all other areas in England rather than giving an absolute quantity of deprivation. It is not an absolute figure on a fixed scale, since the whole index is built to compare areas with one another. It is not a straightforward poverty headcount of residents, since it combines several weighted domains rather than counting people in poverty. It is not a change measure against a previous release, since a rank describes position now rather than movement over time."
+  },
+  {
+    "id": "K7-035",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "An area is described as being in deprivation decile 1. Taking the usual convention that decile 1 is the most deprived tenth, this tells you the area is:",
+    "options": [
+      "among the tenth most deprived areas in the ranking",
+      "among the tenth least deprived areas in the ranking",
+      "of exactly average deprivation for the country",
+      "one where disease incidence is highest"
+    ],
+    "answer": 0,
+    "rationale": "Under the usual convention decile 1 is the most deprived tenth, so the area sits among the most deprived. Reading it as the least deprived tenth inverts the convention. An average-deprivation area would fall in the middle deciles, not decile 1. Deprivation decile ranks deprivation, not disease incidence, so it does not by itself tell you where incidence is highest."
+  },
+  {
+    "id": "K7-036",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "When a team attributes much of the health gap between two neighbourhoods to differences in housing quality, employment and income rather than to differences in medical treatment, they are pointing to the role of:",
+    "options": [
+      "differences in clinical acuity between the two neighbourhoods",
+      "differences in comorbidity between patients in the two neighbourhoods",
+      "the wider determinants of health",
+      "differences in the casemix treated across the two neighbourhoods"
+    ],
+    "answer": 2,
+    "rationale": "Attributing a health gap to housing, employment and income points to the wider determinants of health, the social and economic drivers of outcomes. Clinical acuity is how unwell an individual patient is at a moment, not a neighbourhood-level social factor. Casemix is the complexity mix of a service's caseload, unrelated to social conditions between neighbourhoods. Comorbidity concerns additional conditions alongside a main diagnosis in a patient, not the social causes of a population health gap."
+  },
+  {
+    "id": "K7-037",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A recorded clinical decision that cardiopulmonary resuscitation should not be attempted if a particular patient's heart or breathing stops is a:",
+    "options": [
+      "clinical acuity rating",
+      "DNACPR decision",
+      "delayed transfer of care",
+      "frailty assessment"
+    ],
+    "answer": 1,
+    "rationale": "A recorded decision not to attempt CPR at cardiac or respiratory arrest is a DNACPR decision. A delayed transfer of care is a discharge delay, unrelated to resuscitation decisions. A frailty assessment gauges a patient's overall vulnerability and decline, not a specific resuscitation instruction. A clinical acuity rating measures how acutely unwell a patient is, which may inform care but is not a decision about CPR."
+  },
+  {
+    "id": "K7-038",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient has a DNACPR decision in place and a relative worries this means treatments such as antibiotics or pain relief will now be withheld. The correct understanding is that a DNACPR decision:",
+    "options": [
+      "automatically classifies the patient as being at the end of life and dying imminently",
+      "transfers responsibility for the patient entirely to the palliative care team",
+      "withdraws all active medical treatment, including antibiotics and pain relief, from that point onward",
+      "applies to attempting cardiopulmonary resuscitation and does not stop other appropriate treatment"
+    ],
+    "answer": 3,
+    "rationale": "A DNACPR decision concerns whether CPR is attempted, and other appropriate treatments continue as normal. Reading it as withdrawing all treatment overstates it well beyond resuscitation. It does not by itself declare a patient to be at end of life, which is a separate clinical judgement. It does not in itself hand care to palliative services, which would be a distinct referral."
+  },
+  {
+    "id": "K7-039",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A state of increased vulnerability arising from a decline across several body systems, in which a minor illness or event can trigger a large deterioration in a person's health, is:",
+    "options": [
+      "multimorbidity",
+      "comorbidity",
+      "clinical acuity",
+      "frailty"
+    ],
+    "answer": 3,
+    "rationale": "Reduced reserve across body systems, where a small event causes a large deterioration, is frailty. Comorbidity is the presence of additional conditions alongside a main diagnosis, which is about disease count rather than overall reserve. Clinical acuity is how acutely unwell someone is at a moment, a snapshot of severity rather than a background state of vulnerability. Multimorbidity is having several long-term conditions, which often accompanies frailty but is not the same as reduced physiological reserve."
+  },
+  {
+    "id": "K7-040",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A measure of how severely unwell a patient is at a given moment, and therefore how much immediate clinical attention and resource they require, is their:",
+    "options": [
+      "frailty",
+      "comorbidity",
+      "clinical acuity",
+      "casemix"
+    ],
+    "answer": 2,
+    "rationale": "How acutely unwell a patient is right now, driving immediate care needs, is clinical acuity. Frailty is a longer-standing state of reduced reserve, not a snapshot of current severity. Comorbidity is the presence of additional diagnoses, which is about the burden of conditions rather than momentary severity. Casemix is the complexity mix of a whole service's caseload, not an individual patient's current severity."
+  },
+  {
+    "id": "K7-041",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "An older patient with longstanding reduced physiological reserve arrives with a mild infection but is currently stable and not acutely unwell. The term describing their background vulnerability, as distinct from how unwell they are at this moment, is:",
+    "options": [
+      "readmission risk",
+      "clinical acuity",
+      "frailty",
+      "comorbidity"
+    ],
+    "answer": 2,
+    "rationale": "The background state of reduced reserve, separate from present severity, is frailty. Clinical acuity would describe how unwell the patient is at this moment, which the situation says is low, so it captures the wrong axis. Comorbidity concerns additional diagnoses rather than a state of vulnerability. Readmission risk is the likelihood of returning to hospital after discharge, not a description of background reserve."
+  },
+  {
+    "id": "K7-042",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The presence of one or more additional conditions occurring alongside a primary condition that is the main focus of care is termed:",
+    "options": [
+      "frailty",
+      "multimorbidity",
+      "casemix",
+      "comorbidity"
+    ],
+    "answer": 3,
+    "rationale": "Additional conditions accompanying a main index condition are comorbidity, framed around that primary diagnosis. Multimorbidity treats several coexisting conditions together without singling one out as primary, so it differs in framing. Frailty is a state of reduced physiological reserve, not a count of accompanying conditions. Casemix is the complexity profile of a service's caseload, not conditions within one patient."
+  },
+  {
+    "id": "K7-043",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The feature that distinguishes multimorbidity from comorbidity is that multimorbidity:",
+    "options": [
+      "considers several coexisting long-term conditions together without designating one as the primary condition",
+      "frames the additional conditions in relation to one main condition that is the focus of care",
+      "always involves a greater number of separate conditions than comorbidity does in the very same patient",
+      "refers to the pattern of conditions across a whole population rather than within a single individual"
+    ],
+    "answer": 0,
+    "rationale": "Multimorbidity considers coexisting conditions together with no single index condition, which is what sets it apart from comorbidity. It is not defined by a higher count of conditions; the difference is framing, not number. Both terms describe conditions within an individual, not a population, so shifting to population level misstates it. Framing the additional conditions around one main condition is the description of comorbidity itself, so it is the inverse of what the stem asks for."
+  },
+  {
+    "id": "K7-044",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A standardised aggregate score based on routine physiological measurements such as pulse, blood pressure, respiratory rate and temperature, used to flag patients who may be deteriorating, is:",
+    "options": [
+      "a frailty index",
+      "NEWS2",
+      "a clinical acuity band",
+      "a casemix score"
+    ],
+    "answer": 1,
+    "rationale": "An aggregate of routine vital signs used to detect deterioration is NEWS2, the National Early Warning Score. A frailty index summarises accumulated deficits to gauge vulnerability, not current vital signs. A clinical acuity band is a broad categorisation of how unwell a patient is, not this specific vital-signs aggregate. A casemix score summarises caseload complexity, unrelated to bedside physiological monitoring."
+  },
+  {
+    "id": "K7-045",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A nurse records a rising NEWS2 score for a patient and a colleague assumes this score names the underlying diagnosis. The correct understanding is that NEWS2:",
+    "options": [
+      "signals the degree of physiological disturbance and prompts escalation, without identifying the cause",
+      "removes the need for any further clinical assessment once a given escalation threshold is reached",
+      "measures the patient's long-term frailty and background reserve rather than their current state",
+      "provides a specific underlying diagnosis based on the particular pattern of the vital signs recorded"
+    ],
+    "answer": 0,
+    "rationale": "NEWS2 flags the size of physiological disturbance and triggers escalation, but it does not tell you the cause, which the colleague misunderstands. It does not yield a diagnosis, since it aggregates vital signs rather than identifying disease. It reflects the current state, not long-term frailty, so it is not a reserve measure. It supports rather than replaces clinical assessment, which remains necessary at any score."
+  },
+  {
+    "id": "K7-046",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "On a ward, a set of worsening vital-sign observations is combined into a single rising number that triggers a call for urgent senior review. The tool producing that number is:",
+    "options": [
+      "NEWS2",
+      "a frailty score",
+      "a clinical acuity assessment",
+      "a triage category"
+    ],
+    "answer": 0,
+    "rationale": "A single aggregate of worsening vital signs that triggers escalation is NEWS2. A triage category sorts patients by urgency on arrival rather than tracking an inpatient's vital signs over time. A clinical acuity assessment judges overall severity but is not this specific aggregated vital-signs number. A frailty score gauges background vulnerability, not a real-time deterioration signal from observations."
+  },
+  {
+    "id": "K7-047",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A patient admitted primarily for treatment of heart failure also has longstanding type 2 diabetes and osteoarthritis that are being managed alongside. In relation to the heart failure admission, the diabetes and arthritis are best described as:",
+    "options": [
+      "comorbidities",
+      "the primary diagnosis",
+      "ambulatory care sensitive conditions",
+      "acute presentations"
+    ],
+    "answer": 0,
+    "rationale": "Additional longstanding conditions managed alongside the main reason for admission are comorbidities relative to that primary diagnosis. Calling them acute presentations misreads longstanding stable conditions as new emergencies. They are not the primary diagnosis, since heart failure is the main focus of this admission. Ambulatory care sensitive conditions is a class of conditions where good community care can prevent admission, which is a different framing from a patient's accompanying diagnoses."
+  },
+  {
+    "id": "K7-048",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The most accurate understanding of frailty is that it is:",
+    "options": [
+      "a temporary reduction in physical fitness that resolves fully once the acute illness passes",
+      "a condition that people inevitably develop once they pass a fixed chronological age threshold",
+      "a direct synonym for having several separately diagnosed long-term conditions at once",
+      "a state of reduced physiological reserve that is related to but not the same as chronological age"
+    ],
+    "answer": 3,
+    "rationale": "Frailty is a state of reduced reserve that correlates with age but is not determined by it, so younger people can be frail and older people need not be. It is not something everyone acquires at a set age, since it varies between individuals. It is not simply having several conditions, which is multimorbidity, a related but distinct idea. It is not merely a passing dip in fitness during illness, since it describes a more enduring underlying vulnerability."
+  },
+  {
+    "id": "K7-049",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Short-term care provided to help a person recover and regain independence after illness or a hospital stay, so as to avoid an unnecessary admission or support a safe discharge, is:",
+    "options": [
+      "social prescribing",
+      "reablement",
+      "intermediate care",
+      "a delayed transfer of care"
+    ],
+    "answer": 2,
+    "rationale": "Short-term, time-limited care that supports recovery and independence around a hospital stay is intermediate care. Reablement is one specific approach within that broad idea, focused on actively relearning daily tasks, so it is narrower than intermediate care as a whole. Social prescribing connects people to non-clinical community activities, not recovery-focused care after illness. A delayed transfer of care is a discharge delay, not a form of recovery support."
+  },
+  {
+    "id": "K7-050",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A form of support focused on actively helping a person relearn how to carry out daily activities for themselves, so they regain independence rather than having tasks done for them, is:",
+    "options": [
+      "reablement",
+      "step-down care",
+      "social prescribing",
+      "ordinary domiciliary care"
+    ],
+    "answer": 0,
+    "rationale": "Support aimed at relearning daily tasks to regain independence is reablement, which is deliberately active rather than doing things for the person. Ordinary domiciliary care tends to do tasks for the person on an ongoing basis, the opposite emphasis to reablement. Step-down care is a lower-intensity setting a patient moves to after acute care, defined by setting rather than the relearning goal. Social prescribing links people to community activities, not daily-living relearning."
+  },
+  {
+    "id": "K7-051",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A discharge team wants a service whose defining aim is to actively coach a patient to relearn washing, dressing and cooking for themselves, rather than simply providing a period of general recovery support. The service that specifically fits this active-relearning aim is:",
+    "options": [
+      "a social prescribing referral",
+      "step-down care",
+      "reablement",
+      "intermediate care in general"
+    ],
+    "answer": 2,
+    "rationale": "The service defined by actively coaching relearning of daily tasks is reablement. Intermediate care in general is the broader category of short-term recovery support, of which reablement is the more specific, relearning-focused form. Step-down care describes moving to a lower-intensity setting, not the active-relearning aim. A social prescribing referral connects the patient to community activities, which does not match the daily-living coaching described."
+  },
+  {
+    "id": "K7-052",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "Care provided in a lower-intensity setting to which a patient moves once they no longer need acute hospital care but are not yet ready to go straight home, is:",
+    "options": [
+      "reablement",
+      "ambulatory emergency care",
+      "step-down care",
+      "intermediate care"
+    ],
+    "answer": 2,
+    "rationale": "A lower-intensity setting bridging acute care and home is step-down care, defined by the move down a level of intensity. Intermediate care is the broader recovery-support category; step-down is one route within that landscape, distinguished by the setting change. Reablement is defined by its active-relearning goal, not by moving to a less intensive setting. Ambulatory emergency care is a same-day emergency route at the hospital front door, the opposite end of the pathway."
+  },
+  {
+    "id": "K7-053",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A colleague asks how step-down care relates to intermediate care. The most accurate answer is that step-down care:",
+    "options": [
+      "is a wholly separate service that sits entirely outside the intermediate care landscape and is unrelated to it",
+      "is simply another name for reablement, sharing the same active-relearning goal under a different label",
+      "refers to gradually reducing the intensity of a patient's medication rather than moving their care setting",
+      "is one part of the broader intermediate care landscape, describing a move to a less intensive setting after acute care"
+    ],
+    "answer": 3,
+    "rationale": "Step-down care sits within the broader intermediate care landscape, describing the move to a less intensive setting after acute treatment. Treating it as wholly unrelated to intermediate care misses that it is part of the same recovery landscape. It is not simply reablement renamed, since reablement is defined by active relearning rather than a change of setting. It concerns the level of care setting, not a reduction in medication."
+  },
+  {
+    "id": "K7-054",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A scheme in which a link worker connects a patient to non-clinical community activities and sources of support, such as exercise groups, befriending or debt advice, to improve wellbeing, is:",
+    "options": [
+      "social prescribing",
+      "risk stratification",
+      "reablement",
+      "intermediate care"
+    ],
+    "answer": 0,
+    "rationale": "Connecting people to non-clinical community support to improve wellbeing is social prescribing. Reablement is active support to relearn daily living tasks, a clinical-recovery aim rather than a community-connection one. Intermediate care is short-term recovery care around a hospital stay, not linkage to community activities. Risk stratification sorts a population by future risk and does not describe connecting individuals to community support."
+  },
+  {
+    "id": "K7-055",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A GP judges that a patient's low mood is driven largely by isolation and financial worry, and refers them to a link worker for community groups and debt advice rather than starting medication. This referral is an example of:",
+    "options": [
+      "reablement",
+      "social prescribing",
+      "step-down care",
+      "a non-elective referral"
+    ],
+    "answer": 1,
+    "rationale": "Referring a patient to non-clinical community support for social drivers of ill health is social prescribing. Reablement would involve actively helping the patient relearn daily living tasks, which is not what the referral provides. Step-down care is a move to a lower-intensity care setting after acute care, unrelated to community support for isolation. A non-elective referral concerns emergency admission, which does not fit a planned community referral."
+  },
+  {
+    "id": "K7-056",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "After a hospital stay a patient is placed for two weeks in a community unit that provides a lower level of care than the acute ward, to continue recovering before going home. This service is best described as:",
+    "options": [
+      "reablement",
+      "social prescribing",
+      "step-down care",
+      "a daycase"
+    ],
+    "answer": 2,
+    "rationale": "A short placement in a lower-intensity community unit to continue recovery after acute care is step-down care. Reablement is defined by active relearning of daily tasks, not by the placement in a less intensive setting described here. Social prescribing connects people to community activities, not a residential recovery placement. A daycase is a planned same-day hospital admission, unrelated to a two-week recovery placement."
+  },
+  {
+    "id": "K7-057",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "The feature that distinguishes reablement from ordinary ongoing home care is that reablement:",
+    "options": [
+      "works with the person to rebuild their ability to do tasks themselves, aiming to reduce their need for support over time",
+      "is delivered only as an inpatient service in a hospital setting rather than in the person's own home",
+      "carries on providing the same fixed set of tasks indefinitely, with no aim of reducing the support given over time",
+      "connects the person to non-clinical community groups and activities instead of providing hands-on personal care"
+    ],
+    "answer": 0,
+    "rationale": "Reablement is distinguished by its active aim to rebuild the person's own ability and reduce their need for support over time. Ordinary home care tends to provide tasks on an ongoing basis without that reduction aim, which is the contrast being drawn. Reablement is typically delivered in the person's own home, not confined to hospital. Connecting people to community groups describes social prescribing, not the personal-care relearning of reablement."
+  },
+  {
+    "id": "K7-058",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A practice employs a link worker whose role is to spend time understanding patients' non-medical needs and connect them to local services and activities. This role is the central feature of:",
+    "options": [
+      "intermediate care",
+      "reablement",
+      "triage",
+      "social prescribing"
+    ],
+    "answer": 3,
+    "rationale": "A link worker connecting patients to non-medical local services and activities is the central feature of social prescribing. Reablement centres on active relearning of daily tasks, not linkage to community services. Intermediate care provides short-term recovery care around a hospital stay, not the community-connection role of a link worker. Triage sorts patients by clinical urgency on arrival, a wholly different function."
+  },
+  {
+    "id": "K7-059",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "In a discharge pathway, a bed used to take patients who are ready to leave the acute ward but need a further period of lower-intensity care before home is best termed a:",
+    "options": [
+      "delayed transfer of care",
+      "reablement placement",
+      "step-down bed",
+      "social prescribing referral"
+    ],
+    "answer": 2,
+    "rationale": "A bed taking patients down from acute care to a lower-intensity setting before home is a step-down bed. A reablement placement is defined by active relearning of daily tasks, not simply a lower-intensity bed. A social prescribing referral connects a person to community activities, not a care bed. A delayed transfer of care is a patient stuck in hospital when ready to leave, which describes a problem rather than a planned step-down bed."
+  },
+  {
+    "id": "K7-060",
+    "ksb": [
+      "K7"
+    ],
+    "stem": "A defining feature of intermediate care, distinguishing it from ongoing long-term care, is that it is:",
+    "options": [
+      "available only to patients who are still admitted on an acute hospital ward",
+      "provided on an open-ended basis, continuing for as long as the person wishes to receive it",
+      "focused on connecting people to community activities and groups rather than on recovery",
+      "time-limited, provided for a short defined period with the aim of maximising independence"
+    ],
+    "answer": 3,
+    "rationale": "Intermediate care is time-limited, given for a short defined period to maximise independence, which sets it apart from ongoing long-term care. It is not provided indefinitely, since its short duration is central to the concept. It is delivered around and after a hospital stay rather than only on the acute ward itself. Connecting people to community activities describes social prescribing, not the recovery focus of intermediate care."
   }
 ]
