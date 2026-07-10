@@ -9943,5 +9943,905 @@
     ],
     "answer": 3,
     "rationale": "Local safeguarding procedures set out the named contacts and routes for the area, so they are where to look first. National statutory guidance sets duties but does not list local contacts, so it will not give the specific name. A helpline from a general search may be neither correct nor local. A colleague's recollection is informal and may be out of date. The candidate must know that the local procedures hold the named contacts, which is the heart of this KSB."
+  },
+  {
+    "id": "K18-001",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An analyst is using a hospital patient dataset for a service evaluation. UK GDPR applies to this work because the dataset:",
+    "options": [
+      "contains clinical detail about diagnoses and treatment",
+      "was collected by an NHS body exercising a public function",
+      "is being used for a purpose beyond the patients' direct care",
+      "allows living individuals to be identified, directly or indirectly"
+    ],
+    "answer": 3,
+    "rationale": "Every option is true of this dataset, but UK GDPR is engaged specifically because the data allows living individuals to be identified. The clinical detail is what makes it special category data, an added condition rather than the trigger for GDPR itself. The secondary purpose and the public-function origin bear on Caldicott duties and the choice of lawful basis, but neither determines whether GDPR applies."
+  },
+  {
+    "id": "K18-002",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "How does the Data Protection Act 2018 sit alongside UK GDPR?",
+    "options": [
+      "it governs public sector processing, while UK GDPR governs the private sector",
+      "it is the earlier Act that UK GDPR was written to replace",
+      "it sets out how UK GDPR applies in domestic law, including exemptions and special category conditions",
+      "it contains the lawful bases for processing that UK GDPR refers to"
+    ],
+    "answer": 2,
+    "rationale": "The Data Protection Act 2018 tailors UK GDPR within domestic law, adding exemptions and conditions such as those for special category data. It is not an earlier Act being replaced; the two are designed to work together. It does not split public and private processing between the two regimes. The lawful bases sit in UK GDPR itself, not in the Act."
+  },
+  {
+    "id": "K18-003",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A public health team wants to analyse hospital data to monitor a disease trend. Which provides the most appropriate lawful basis under UK GDPR for processing this personal data?",
+    "options": [
+      "a public task carried out in the exercise of official authority",
+      "the explicit consent of every patient in the dataset",
+      "consent obtained from the patient during their original treatment",
+      "the legitimate interests of the analytics team"
+    ],
+    "answer": 0,
+    "rationale": "Public health monitoring by a body with official authority relies on the public task basis. Consent given for treatment does not extend to secondary analysis, so it cannot be reused here. Legitimate interests is generally unavailable to public authorities for their official tasks. Seeking fresh explicit consent from every patient is impractical and is not the intended basis for population surveillance."
+  },
+  {
+    "id": "K18-004",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Because health data is special category data, a team analysing it must have:",
+    "options": [
+      "a lawful basis, which for health data is sufficient on its own",
+      "a completed Data Protection Impact Assessment before any processing",
+      "a lawful basis and, in addition, a separate condition for processing special category data",
+      "the explicit consent of each individual, as the only available condition"
+    ],
+    "answer": 2,
+    "rationale": "Special category data requires a lawful basis plus an additional condition, the two together. A lawful basis alone is enough for ordinary personal data but not for special category data, which is the distinction being tested. Explicit consent is one available condition but not the only one; public health and other conditions exist. A Data Protection Impact Assessment is often needed but is a separate requirement, not the special category condition."
+  },
+  {
+    "id": "K18-005",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Which document sets out, before a project starts, the risks a new processing activity poses to individuals and how those risks will be reduced?",
+    "options": [
+      "a data protection policy",
+      "a Data Protection Impact Assessment",
+      "a record of processing activities",
+      "a data sharing agreement"
+    ],
+    "answer": 1,
+    "rationale": "A Data Protection Impact Assessment identifies and mitigates the risks a proposed activity poses to individuals, done before the processing begins. A data sharing agreement sets terms between organisations. A record of processing activities documents what processing is carried out. A data protection policy states the organisation's general rules. Each is a real governance document with a different job."
+  },
+  {
+    "id": "K18-006",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Which of these processing activities most clearly requires a Data Protection Impact Assessment?",
+    "options": [
+      "routine monthly reporting from an existing, approved dataset",
+      "correcting data-quality errors in a dataset already held for its original purpose",
+      "publishing anonymised aggregate figures in a routine report",
+      "large-scale linkage of health records drawn from several sources"
+    ],
+    "answer": 3,
+    "rationale": "New large-scale linkage from several sources is high-risk processing and calls for a Data Protection Impact Assessment. Routine reporting from an approved dataset, correcting errors within an existing purpose, and publishing anonymised aggregates are all lower-risk or fall outside the personal-data risk the assessment addresses."
+  },
+  {
+    "id": "K18-007",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A team plans to link primary care and social care records into a new dataset. When should the Data Protection Impact Assessment be carried out?",
+    "options": [
+      "after the linkage, so the assessment can describe what was actually built",
+      "only if the linked dataset will hold identifiable data",
+      "before the linkage begins, so the assessment can shape how the processing is designed",
+      "only if the linked data will be shared outside the organisation"
+    ],
+    "answer": 2,
+    "rationale": "A Data Protection Impact Assessment is a design-stage tool: done beforehand, it shapes how high-risk processing is built. Doing it afterwards defeats that purpose. It is not limited to cases where the data is identifiable, since risk can arise even from pseudonymised linkage, nor is it triggered only by external sharing."
+  },
+  {
+    "id": "K18-008",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A member of the public wants to see internal reports a hospital holds about its waiting-list performance. Which right allows them to request this information?",
+    "options": [
+      "the right to rectification under UK GDPR",
+      "the right to erasure under UK GDPR",
+      "the right of access through a subject access request",
+      "the right of access under the Freedom of Information Act"
+    ],
+    "answer": 3,
+    "rationale": "Freedom of information gives a right of access to recorded information a public authority holds, which covers organisational reports like these. A subject access request is only for the requester's own personal data, which this is not. Rectification and erasure are data protection rights over one's own personal data, not routes to organisational information."
+  },
+  {
+    "id": "K18-009",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Under the Freedom of Information Act, a public authority may withhold requested information when:",
+    "options": [
+      "the information is held electronically rather than on paper",
+      "locating the information would take more than twenty working days",
+      "the requester has not explained why they want the information",
+      "an exemption applies, for example personal data about identifiable third parties"
+    ],
+    "answer": 3,
+    "rationale": "Information can be withheld where a lawful exemption applies, such as third-party personal data whose release would breach data protection. Taking time to locate information does not by itself permit refusal, though a separate cost limit exists. A requester need not give a reason for a freedom of information request. The format in which information is held has no bearing on whether it must be disclosed."
+  },
+  {
+    "id": "K18-010",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A public authority must normally respond to a Freedom of Information request within:",
+    "options": [
+      "one calendar month",
+      "seventy-two hours",
+      "twenty-eight calendar days",
+      "twenty working days"
+    ],
+    "answer": 3,
+    "rationale": "The standard freedom of information limit is twenty working days. One calendar month is the subject access request limit. Seventy-two hours is the personal data breach notification window. Twenty-eight calendar days is a plausible-sounding but incorrect figure."
+  },
+  {
+    "id": "K18-011",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A journalist makes a Freedom of Information request for information about patients treated at a hospital. Which response would breach the data protection principles?",
+    "options": [
+      "releasing the patient records with direct identifiers removed but otherwise intact",
+      "withholding the patient-level data because a personal information exemption applies",
+      "declining to release patient-level data but explaining what can be provided",
+      "providing aggregate figures with small numbers suppressed"
+    ],
+    "answer": 0,
+    "rationale": "Releasing records with only the direct identifiers removed still leaves individuals identifiable from the remaining detail, so it would breach the data protection principles. Withholding the patient-level data under the personal information exemption is the correct response. Providing suppressed aggregates, and declining while explaining what can be shared, are both proper ways to meet the information need without disclosing personal data."
+  },
+  {
+    "id": "K18-012",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "When an NHS analytics team decides which data to collect and how it will be analysed, it is acting as the:",
+    "options": [
+      "supervisory authority, because it oversees compliance",
+      "data controller, because it determines the purposes and means of processing",
+      "joint controller, because it shares the data with other NHS bodies",
+      "data processor, because it handles the data on the records' behalf"
+    ],
+    "answer": 1,
+    "rationale": "The controller determines the purposes and means of processing, which is what deciding what to collect and how to analyse it means. Joint controllership would arise only if another body jointly determined those purposes and means, which is not stated here. A processor acts solely on a controller's instructions. The supervisory authority is the regulator, not a party to the processing."
+  },
+  {
+    "id": "K18-013",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A dataset has had names and NHS numbers removed but keeps full postcode, date of birth and ethnicity. Under UK GDPR this data is:",
+    "options": [
+      "personal data only for the fields that directly name a person",
+      "no longer personal data, because the direct identifiers have been removed",
+      "personal data only if someone actually attempts to identify an individual",
+      "still personal data, because individuals could be identified indirectly from the combination of fields"
+    ],
+    "answer": 3,
+    "rationale": "Identifiability includes indirect identification, and postcode with date of birth and ethnicity can single a person out, so this remains personal data. Removing direct identifiers alone does not make data non-personal. The test is whether identification is reasonably likely, not whether an attempt is actually made. Identifiability attaches to the record as a whole, not field by field."
+  },
+  {
+    "id": "K18-014",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A dataset has had its direct identifiers replaced with a code, and the code key is held separately by another team. In data protection terms this data:",
+    "options": [
+      "becomes personal data only at the point someone uses the key",
+      "is still personal data, because re-identification remains possible using the key",
+      "is anonymous while the key is held by a different team",
+      "is anonymous provided the analyst never has access to the key"
+    ],
+    "answer": 1,
+    "rationale": "Pseudonymised data stays personal data throughout, because a means of re-identification exists in the key. It is not personal only at the moment of re-linking; the status holds continuously. Where the key sits, or whether one particular analyst can reach it, does not make the data anonymous, since the means of re-identification still exists."
+  },
+  {
+    "id": "K18-015",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Which of these datasets can be treated as anonymised, and therefore outside data protection law?",
+    "options": [
+      "one where names have been replaced with unique reference codes",
+      "one where names and addresses are removed but full date of birth and postcode remain",
+      "one where each record has been encrypted for secure storage",
+      "one aggregated to area level so that no individual can be distinguished from the figures"
+    ],
+    "answer": 3,
+    "rationale": "Aggregating to a level where no individual can be picked out is genuine anonymisation. Replacing names with codes is pseudonymisation, which is reversible. Encryption protects data but is undone with the key. Removing names while keeping full date of birth and postcode still leaves individuals identifiable. Only the aggregated dataset is anonymous."
+  },
+  {
+    "id": "K18-016",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Pseudonymised and anonymised data differ in that pseudonymised data:",
+    "options": [
+      "becomes automatically anonymous the moment the code key is deleted",
+      "can be linked back to individuals, and so remains personal data",
+      "gives individuals the same degree of protection as anonymised data",
+      "has had fewer identifiers removed, but is also outside data protection law"
+    ],
+    "answer": 1,
+    "rationale": "Pseudonymised data can be re-linked to individuals, so it stays personal data, whereas anonymised data cannot. It is not outside data protection law. Deleting the key can be a step towards anonymisation but does not automatically achieve it, since other re-identification routes may remain. It does not offer the same protection as anonymisation, which removes the link entirely."
+  },
+  {
+    "id": "K18-017",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An analyst receives a dataset where names have been swapped for reference numbers, and a separate file linking numbers to names is held by the information governance team. This dataset is:",
+    "options": [
+      "pseudonymised, and therefore still personal data",
+      "anonymised, and therefore outside data protection law",
+      "identifiable, because the analyst can see the names",
+      "aggregated, and therefore safe to publish"
+    ],
+    "answer": 0,
+    "rationale": "A separate key that can restore identity makes this pseudonymised, which remains personal data. It is not anonymised because re-identification is possible via the key. It has not been aggregated. The analyst cannot see the names directly, but the existence of the key keeps it personal data."
+  },
+  {
+    "id": "K18-018",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Pseudonymised data still requires strong safeguards mainly because:",
+    "options": [
+      "pseudonyms can become inaccurate if records are updated over time",
+      "it falls outside the organisation's usual access controls",
+      "the code key could be lost, making the data impossible to analyse",
+      "individuals could be re-identified by combining it with other available data"
+    ],
+    "answer": 3,
+    "rationale": "The reason safeguards are needed is that individuals could be re-identified by linking the data with other information. Losing the key would hamper re-identification, not analysis, and is not the safeguarding reason. Pseudonyms do not become inaccurate through updates. Pseudonymised data is not outside access controls; it remains subject to them."
+  },
+  {
+    "id": "K18-019",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Role-based access control means that access to data is granted according to:",
+    "options": [
+      "the specific datasets the user personally requests access to",
+      "the seniority of the user within the organisation",
+      "the length of time the user has worked with the data",
+      "a user's job role and the tasks that role needs to perform"
+    ],
+    "answer": 3,
+    "rationale": "Role-based access control ties access to the functions of a defined role. Seniority and tenure are organisational factors, not the basis for access. Granting access on personal request rather than by role is a different, and weaker, model that role-based control is designed to replace."
+  },
+  {
+    "id": "K18-020",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Least privilege and need-to-know are related but distinct principles, in that least privilege:",
+    "options": [
+      "limits the level of access a role is granted, while need-to-know limits access to specific information for a specific task",
+      "is a technical control, while need-to-know is only an informal expectation",
+      "limits access by seniority, while need-to-know limits it by job role",
+      "applies to electronic systems, while need-to-know applies only to paper records"
+    ],
+    "answer": 0,
+    "rationale": "Least privilege keeps a role's access to the minimum its functions require, while need-to-know further restricts access to the particular information a specific task needs. Neither is based on seniority. Both apply regardless of whether records are electronic or paper. Both are enforceable governance requirements, not one formal and one informal."
+  },
+  {
+    "id": "K18-021",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A new analyst needs to run one report on outpatient waiting times. Applying least privilege, they should be granted:",
+    "options": [
+      "access to the outpatient waiting-time data needed for that report",
+      "access to the full outpatient record, so the figures can be checked in context",
+      "the standard access profile given to all analysts in the team",
+      "access to the waiting-time data plus the related datasets they are likely to need next"
+    ],
+    "answer": 0,
+    "rationale": "Least privilege limits access to what the specific task needs now, here the outpatient waiting-time data. Adding the full record for context, applying a standard team-wide profile, or provisioning ahead for likely future work each grant more than the current task requires, however reasonable they sound."
+  },
+  {
+    "id": "K18-022",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Access controls and de-identification techniques protect data in different ways because access controls:",
+    "options": [
+      "remove identifiers, while de-identification restricts user permissions",
+      "protect data at rest, while de-identification protects data in transit",
+      "apply only to published outputs, while de-identification applies only to stored data",
+      "limit who can reach the data, while de-identification limits what the data reveals"
+    ],
+    "answer": 3,
+    "rationale": "Access controls govern who can reach data; de-identification reduces how identifying the data itself is. The second option reverses the two. Both can apply to stored and published data, so the third is wrong. Neither maps onto a rest-versus-transit split; that distinction belongs to storage security, not to these two controls."
+  },
+  {
+    "id": "K18-023",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Full anonymisation is not always the right control for an analytical dataset because:",
+    "options": [
+      "anonymisation must be repeated each time the dataset is accessed",
+      "it can remove detail the analysis needs, and some re-identification risk can still remain",
+      "once anonymised, data can no longer be corrected if an error is found",
+      "anonymised data cannot be linked, so it is unsuitable for any published output"
+    ],
+    "answer": 1,
+    "rationale": "Anonymising can strip out detail the analysis relies on, and in rich or linked data some residual risk can remain, so it is not automatically the right choice. Anonymised data is in fact well suited to published aggregate outputs. Being unable to correct anonymised data is not a general limitation that rules it out, and anonymisation is applied to the data, not repeated at each access."
+  },
+  {
+    "id": "K18-024",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A team needs to publish district-level attendance figures and, separately, to link individual records for a follow-up study. The appropriate data states are:",
+    "options": [
+      "anonymised data for both, including the linkage study",
+      "pseudonymised data for both the publication and the linkage",
+      "identifiable data for both, to keep maximum detail",
+      "anonymised aggregates for publication and pseudonymised records for the linkage study"
+    ],
+    "answer": 3,
+    "rationale": "A public output should be anonymised aggregates, while linkage needs a stable pseudonym to match records, so pseudonymised data fits the study. Using pseudonymised or identifiable data for the publication over-exposes it. Fully anonymising the linkage data would remove the ability to match records."
+  },
+  {
+    "id": "K18-025",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "The Caldicott Principles are concerned specifically with:",
+    "options": [
+      "the rights individuals have over their own personal data",
+      "the appropriate use and protection of confidential patient information",
+      "the conditions under which data may be transferred internationally",
+      "the lawful bases available for processing personal data"
+    ],
+    "answer": 1,
+    "rationale": "The Caldicott Principles govern how confidential patient information is used and protected. The lawful bases for processing sit in UK GDPR. The rights individuals hold over their own data are also a data protection matter, not a Caldicott one. International transfer conditions are a separate part of data protection law. Each wrong option is a real governance topic a candidate might attribute to Caldicott."
+  },
+  {
+    "id": "K18-026",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An analyst is asked to set out, for a proposed piece of work, exactly why each item of confidential information is needed. This request reflects the Caldicott principle to:",
+    "options": [
+      "use the minimum necessary confidential information",
+      "use confidential information only when it is necessary",
+      "access information on a strict need-to-know basis",
+      "justify the purpose of using confidential information"
+    ],
+    "answer": 3,
+    "rationale": "Setting out why each item of information is needed is the justify-the-purpose principle. Using the minimum necessary concerns how little identifiable data to use once a purpose is set. Using information only when necessary concerns whether to use confidential data at all. Need-to-know governs which people may see it. The three wrong options are genuine principles that are easily confused with justifying the purpose."
+  },
+  {
+    "id": "K18-027",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Before starting a piece of work, an analyst checks whether the purpose could be achieved without using any confidential information at all. Which Caldicott principle does this apply?",
+    "options": [
+      "use the minimum necessary confidential information",
+      "understand and comply with the law",
+      "justify the purpose of each use of confidential information",
+      "do not use confidential information unless it is necessary"
+    ],
+    "answer": 3,
+    "rationale": "Testing whether the purpose can be met without any confidential information is the necessity principle. The minimum-necessary principle applies once some confidential information will be used, limiting how much. Justifying the purpose concerns having a defined reason. Complying with the law is a separate obligation. Necessity and minimum-necessary are the pair most often confused, which is what this item tests."
+  },
+  {
+    "id": "K18-028",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An analyst pulls a dataset, notices it includes identifiable fields the analysis will not use, and removes them before starting. This applies the Caldicott principle to:",
+    "options": [
+      "use confidential information only when it is necessary",
+      "access information on a strict need-to-know basis",
+      "justify the purpose of the work",
+      "use the minimum necessary confidential information"
+    ],
+    "answer": 3,
+    "rationale": "Removing identifiable fields the analysis does not need applies the minimum-necessary principle. The necessity principle governs whether to use confidential data at all, which is a prior question. Need-to-know governs who may see the data, not which fields are extracted. Justifying the purpose concerns the reason for the work overall."
+  },
+  {
+    "id": "K18-029",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Within a project team, each analyst is given access only to the confidential information their particular task requires, not to the whole dataset. This is the Caldicott principle of:",
+    "options": [
+      "strict need-to-know access",
+      "everyone being aware of their responsibilities",
+      "using the minimum necessary confidential information",
+      "justifying the purpose of each use"
+    ],
+    "answer": 0,
+    "rationale": "Restricting each person's access to what their task requires is the need-to-know principle. Minimum-necessary concerns how much confidential information is used for a purpose, rather than who can see it. Justifying the purpose concerns the reason for use. Everyone being aware of responsibilities concerns staff understanding, not access. Need-to-know and minimum-necessary are the closest pair here."
+  },
+  {
+    "id": "K18-030",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A team lead makes sure every member of staff who handles confidential patient information understands their duty of confidentiality. This reflects the Caldicott principle that:",
+    "options": [
+      "the use of confidential information must be justified",
+      "everyone with access to confidential information should be aware of their responsibilities",
+      "the duty to share can be as important as the duty to protect",
+      "access should be on a strict need-to-know basis"
+    ],
+    "answer": 1,
+    "rationale": "Ensuring staff understand their duty of confidentiality is the awareness-of-responsibilities principle. Need-to-know governs who may access data, a related but different point about access rather than understanding. The duty to share and justifying the purpose are separate principles. Need-to-know is the tempting near-miss because both concern staff and access."
+  },
+  {
+    "id": "K18-031",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An organisation ensures its handling of confidential information meets both the Caldicott Principles and its obligations under data protection law. This reflects the Caldicott principle to:",
+    "options": [
+      "understand and comply with the law",
+      "ensure everyone understands their responsibilities",
+      "use the minimum necessary confidential information",
+      "justify the purpose of using the information"
+    ],
+    "answer": 0,
+    "rationale": "Meeting legal obligations alongside the principles is the comply-with-the-law principle. Justifying the purpose, using the minimum necessary, and ensuring staff understand their responsibilities are all separate principles that do not concern legal compliance directly."
+  },
+  {
+    "id": "K18-032",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A clinician needs information held by another team to treat a patient safely, and an analyst helps make it available. Which Caldicott principle supports doing so?",
+    "options": [
+      "justify the purpose of the use",
+      "the duty to share information can be as important as the duty to protect it",
+      "use the minimum necessary confidential information",
+      "access information on a strict need-to-know basis"
+    ],
+    "answer": 1,
+    "rationale": "Making information available where withholding it could harm the patient's care is the duty-to-share principle. Minimum-necessary and need-to-know both tend to restrict information and could be misread as reasons to withhold. Justifying the purpose concerns having a defined reason. The duty-to-share principle is what positively supports sharing here."
+  },
+  {
+    "id": "K18-033",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An organisation publishes clear information for patients explaining how their data is used, including for planning and research. This reflects the Caldicott principle that:",
+    "options": [
+      "the duty to share can be as important as the duty to protect",
+      "the use of confidential information must be justified",
+      "patients should be informed about how their confidential information is used",
+      "confidential information should only be used when it is necessary"
+    ],
+    "answer": 2,
+    "rationale": "Telling patients how their data is used, including secondary uses, is the inform-patients principle. The duty to share concerns making information available for care. Justifying the purpose concerns the reason for a use. The necessity principle concerns whether to use confidential data at all. Only informing patients matches the situation."
+  },
+  {
+    "id": "K18-034",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An analyst can complete a mortality analysis using age band, sex and area, but the extract they received also includes full postcode and date of birth. They should:",
+    "options": [
+      "use only the fields the analysis needs and not the postcode or date of birth",
+      "use all the fields provided, since the extract was formally approved for release",
+      "aggregate the postcode to a larger area and keep the full date of birth",
+      "retain the extra fields but restrict who on the team can see them"
+    ],
+    "answer": 0,
+    "rationale": "The minimum-necessary principle means using only the fields the analysis needs and not holding the postcode or date of birth. Formal approval of the extract does not justify using more than the task requires. Restricting who sees the extra fields is an access control, not a reason to hold data that is not needed. Keeping full date of birth while coarsening the postcode still retains an identifiable field the analysis does not use."
+  },
+  {
+    "id": "K18-035",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A colleague in another team asks for a copy of an identifiable patient dataset that may be useful to their work. The analyst should:",
+    "options": [
+      "share it once the colleague confirms they will store it securely",
+      "share it, since both work for the same organisation under the same policies",
+      "share it only if the colleague has a defined need for that information in their role",
+      "share a version with direct identifiers removed so it is no longer confidential"
+    ],
+    "answer": 2,
+    "rationale": "Need-to-know means sharing only where the colleague's role gives a defined need, which a vague possibility of usefulness does not. Common employment does not create that need. Removing direct identifiers does not necessarily make the data non-confidential, since re-identification may remain possible. A promise of secure storage does not establish a need to receive the data."
+  },
+  {
+    "id": "K18-036",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A patient is treated by two teams, and information held by one would improve the care the other gives. The analyst supporting them should recognise that:",
+    "options": [
+      "the information should be shared only in a de-identified form",
+      "the information should be shared only after the patient gives written consent",
+      "the decision to share should wait until a data sharing agreement is in place",
+      "sharing the information for the patient's care is expected, as withholding it could cause harm"
+    ],
+    "answer": 3,
+    "rationale": "The duty-to-share principle expects proportionate sharing for the patient's direct care where withholding could cause harm. Requiring written consent, insisting on de-identification, or waiting for a data sharing agreement are cautious-sounding steps that would obstruct timely care in this situation."
+  },
+  {
+    "id": "K18-037",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Using health data for a secondary purpose means using it for:",
+    "options": [
+      "a purpose other than the individual's direct care, such as planning or research",
+      "any purpose that involves sharing the data with another organisation",
+      "any purpose that requires linking the data with another dataset",
+      "any purpose that was not part of the original reason for collecting the data"
+    ],
+    "answer": 0,
+    "rationale": "Secondary use is use beyond the individual's direct care, such as planning, commissioning or research. It is not defined by whether another organisation is involved, whether the purpose differs from the original collection reason, or whether linkage is required. Each wrong option is a plausible but incorrect way of drawing the line."
+  },
+  {
+    "id": "K18-038",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "The data protection principle of accountability requires an organisation to:",
+    "options": [
+      "keep a record of consent from every individual whose data it holds",
+      "ensure its data processors are contractually responsible for compliance",
+      "be able to demonstrate how it meets its data protection obligations",
+      "appoint a data protection officer who then holds sole responsibility for compliance"
+    ],
+    "answer": 2,
+    "rationale": "Accountability requires an organisation to demonstrate its compliance, through records, policies and governance. Appointing a data protection officer does not transfer responsibility to that person alone. Responsibility cannot be shifted wholesale to processors by contract. Holding consent records is only relevant where consent is the basis, and is not what accountability means."
+  },
+  {
+    "id": "K18-039",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A small-area table is most likely to allow an individual to be identified when a cell:",
+    "options": [
+      "holds a zero, showing no one in the area has the condition",
+      "holds a count of one that also equals the total for its row",
+      "holds a count that is small relative to the area's population",
+      "holds a count that differs sharply from neighbouring areas"
+    ],
+    "answer": 1,
+    "rationale": "A count of one that equals its row total pins the whole of that row's characteristic to a single person, which is the clearest disclosure. A count that is simply small relative to the population is not necessarily disclosive on its own. A genuine zero reveals no individual. A count that stands out from its neighbours may be interesting but does not by itself identify anyone."
+  },
+  {
+    "id": "K18-040",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Two separately published tables about the same small area can lead to re-identification when:",
+    "options": [
+      "one table's figures can be subtracted from another's to isolate a single person",
+      "one table reports counts and the other reports percentages",
+      "both tables use the same rounding base for their counts",
+      "both tables are published on the same date by the same team"
+    ],
+    "answer": 0,
+    "rationale": "Re-identification by differencing happens when figures from one table can be combined with another to isolate an individual, the jigsaw effect. Using the same rounding base, publishing on the same day, or mixing counts and percentages does not by itself let anyone single a person out."
+  },
+  {
+    "id": "K18-041",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "In statistical disclosure control, suppression refers to:",
+    "options": [
+      "combining several categories into a single larger group",
+      "banding a continuous variable into ranges",
+      "removing or hiding a value in a cell that is too small to publish safely",
+      "rounding a count to the nearest base such as five"
+    ],
+    "answer": 2,
+    "rationale": "Suppression removes or hides a risky cell so its value is not shown. Combining categories is aggregation, rounding to a base is rounding, and banding a continuous variable is grouping."
+  },
+  {
+    "id": "K18-042",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "In statistical disclosure control, aggregation reduces disclosure risk by:",
+    "options": [
+      "deleting the specific cell that presents the risk",
+      "combining categories or areas so that counts are based on larger groups",
+      "reporting values only as broad percentages",
+      "rounding each published count to a fixed base"
+    ],
+    "answer": 1,
+    "rationale": "Aggregation combines categories or geographies into larger groups, raising the counts and lowering risk. Deleting the cell is suppression, rounding to a base is rounding, and switching to percentages is a different presentation choice, not aggregation."
+  },
+  {
+    "id": "K18-043",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "In statistical disclosure control, grouping reduces disclosure risk by:",
+    "options": [
+      "combining separate geographic areas into one",
+      "rounding published counts to the nearest base",
+      "banding a continuous variable such as age into ranges rather than exact values",
+      "removing a small cell so its value is not shown"
+    ],
+    "answer": 2,
+    "rationale": "Grouping bands a continuous variable into ranges, for example age into ten-year bands, so exact values are not disclosed. Removing a cell is suppression, rounding to a base is rounding, and merging areas is aggregation."
+  },
+  {
+    "id": "K18-044",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "In statistical disclosure control, rounding counts to a fixed base reduces disclosure risk by:",
+    "options": [
+      "suppressing any cell below a set threshold",
+      "merging categories until each group is large enough",
+      "replacing exact counts with rounded figures so small numbers are obscured",
+      "banding a continuous variable into ranges"
+    ],
+    "answer": 2,
+    "rationale": "Rounding to a base, such as the nearest five, hides the exact small counts that create risk. Banding a continuous variable is grouping, suppressing below a threshold is suppression, and merging categories is aggregation."
+  },
+  {
+    "id": "K18-045",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Secondary suppression is applied in a table because, once a small cell has been suppressed:",
+    "options": [
+      "its value could be recovered from the row and column totals unless another cell is also suppressed",
+      "the remaining cells become statistically unreliable",
+      "the table must be rounded to a consistent base",
+      "the suppressed cell still displays as a zero"
+    ],
+    "answer": 0,
+    "rationale": "Secondary suppression hides a further cell so the primary suppressed value cannot be back-calculated from the totals. It is not about reliability, does not require rounding, and is separate from how a suppressed cell is displayed."
+  },
+  {
+    "id": "K18-046",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A team has a table with several very small area-level counts. Choosing between suppression and aggregation, they should recognise that aggregation:",
+    "options": [
+      "rounds the counts, while suppression bands them into ranges",
+      "applies only to totals, while suppression applies only to individual cells",
+      "keeps all areas visible by combining them into larger groupings, while suppression hides the small cells outright",
+      "removes the small cells, while suppression combines areas"
+    ],
+    "answer": 2,
+    "rationale": "Aggregation preserves coverage by combining areas into larger units, whereas suppression hides individual small cells. The second option swaps the two definitions. Rounding and banding are different techniques. Neither technique is restricted to totals or individual cells in the way described."
+  },
+  {
+    "id": "K18-047",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Rounding and suppression differ in that rounding:",
+    "options": [
+      "hides specific cells, whereas suppression alters every count",
+      "is used for large tables, whereas suppression is used for small tables",
+      "alters every published count to a base while keeping all cells visible, whereas suppression hides specific cells",
+      "applies only to percentages, whereas suppression applies only to counts"
+    ],
+    "answer": 2,
+    "rationale": "Rounding changes all counts to a base but leaves every cell showing, while suppression removes particular cells. The second option reverses the two. Neither is confined to percentages or counts, or to table size, in the way stated."
+  },
+  {
+    "id": "K18-048",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A report will publish a two-way table by small locality and rare condition, and several inner cells contain ones and twos. To protect these cells the analyst should:",
+    "options": [
+      "suppress the small inner cells and suppress a second cell in each affected row and column",
+      "replace the small inner cells with zero and note that small counts were removed",
+      "round the small inner cells up to the nearest five and leave the totals exact",
+      "suppress only the small inner cells, leaving the row and column totals as published"
+    ],
+    "answer": 0,
+    "rationale": "Suppressing the small cells alone is not enough, because they can be recovered from the row and column totals, so a second cell must also be suppressed in each affected row and column. Leaving the totals exact defeats the suppression. Rounding the cells but not the totals lets the exact value be recovered from the difference. Replacing the cells with zero misstates the data and, with exact totals, still allows recovery."
+  },
+  {
+    "id": "K18-049",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Which of these outputs would normally need disclosure control applied before it is published?",
+    "options": [
+      "a regional total covering several million residents",
+      "a breakdown of a rare condition by small locality and age band",
+      "a single national total for all patients treated in the year",
+      "a percentage change in attendances across the whole country"
+    ],
+    "answer": 1,
+    "rationale": "A rare condition broken down by small locality and age band produces small cells that can identify individuals, so it needs disclosure control. A single national total, a regional total over millions, and a whole-country percentage change are all large aggregates from which no individual can be picked out."
+  },
+  {
+    "id": "K18-050",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Applying disclosure control to a set of figures is different from being transparent about them, in that transparency means:",
+    "options": [
+      "explaining the methods and the disclosure control that were applied to the output",
+      "showing every original value before any disclosure control was applied",
+      "listing the individuals who fall into each small category",
+      "publishing the record-level data so users can reproduce the figures"
+    ],
+    "answer": 0,
+    "rationale": "Transparency means being open about how the figures were produced, including the disclosure control applied, so users can interpret them. Publishing the record-level data, showing the pre-control values, or listing the individuals in small categories would each disclose the very information the control was meant to protect."
+  },
+  {
+    "id": "K18-051",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A national statistic is published with a note stating how it was compiled, its coverage, and its known limitations. This supporting information is:",
+    "options": [
+      "secondary suppression, which protects the figure from disclosure",
+      "metadata, which helps users interpret the figure correctly",
+      "a data sharing agreement, which sets terms for reuse",
+      "an audit trail, which records who accessed the figure"
+    ],
+    "answer": 1,
+    "rationale": "Information describing what a figure covers, how it was compiled and its limitations is metadata, which supports correct interpretation. An audit trail records access. Secondary suppression is a disclosure-control step within a table. A data sharing agreement sets terms between organisations. Each wrong option is a real governance item with a different role."
+  },
+  {
+    "id": "K18-052",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An analyst notices a live public dashboard tile showing two patients with a rare condition in a named town. Which response actually removes the disclosure risk?",
+    "options": [
+      "keep the tile but reduce the decimal places shown on the figure",
+      "keep the count of two but add a note that individuals should not be identified",
+      "aggregate the tile up to a larger geography where the count is no longer small",
+      "keep the town-level tile but change its heading to the county name"
+    ],
+    "answer": 2,
+    "rationale": "Aggregating to a larger geography raises the count so no individual can be picked out, which removes the risk. Relabelling the heading while keeping the town-level count leaves the disclosive figure in place. A note asking readers not to identify anyone does not change the data. Reducing decimal places does nothing to a small whole-number count."
+  },
+  {
+    "id": "K18-053",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "An organisation sets out that a particular type of record must be kept for eight years and then securely destroyed. This rule is part of its:",
+    "options": [
+      "access control policy",
+      "encryption standard",
+      "retention policy",
+      "disclosure control procedure"
+    ],
+    "answer": 2,
+    "rationale": "A rule on how long to keep records and when to destroy them is a retention policy. An access control policy sets who may reach the data. An encryption standard governs how it is protected in storage. A disclosure control procedure governs what may be shown in published outputs."
+  },
+  {
+    "id": "K18-054",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A dataset is held on an encrypted server, with access restricted to named staff and regular backups taken. These measures are all aspects of:",
+    "options": [
+      "data minimisation",
+      "secure storage",
+      "data retention",
+      "disclosure control"
+    ],
+    "answer": 1,
+    "rationale": "Encryption, restricted access and backups are all ways of protecting held data against unauthorised access, loss or damage, which is secure storage. Data minimisation concerns holding no more data than needed. Disclosure control concerns published outputs. Data retention concerns how long data is kept."
+  },
+  {
+    "id": "K18-055",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A laptop holding encrypted health data is lost. Encryption helps in this situation because it:",
+    "options": [
+      "makes the data unreadable to whoever finds the laptop, unless they also have the key",
+      "allows the data to be recovered from a backup copy",
+      "prevents the data from being copied off the laptop",
+      "records that the laptop has been lost so the breach can be investigated"
+    ],
+    "answer": 0,
+    "rationale": "Encryption protects confidentiality: without the key, a finder cannot read the data. It does not log the loss, does not stop data being copied, and does not itself provide a backup for recovery. Each wrong option is a protection people often assume encryption gives but it does not."
+  },
+  {
+    "id": "K18-056",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "Encryption and pseudonymisation serve different purposes because encryption:",
+    "options": [
+      "removes identifiers, while pseudonymisation scrambles the whole record",
+      "applies only in transit, while pseudonymisation applies only at rest",
+      "makes data unreadable without a key, while pseudonymisation replaces identifiers so records can still be analysed",
+      "is reversible, while pseudonymisation is permanent"
+    ],
+    "answer": 2,
+    "rationale": "Encryption conceals the whole content until decrypted, whereas pseudonymisation swaps identifiers so the data stays usable for analysis. The second option reverses the two. Encryption is not limited to data in transit. Both are reversible with the relevant key, so the last option is wrong on both counts."
+  },
+  {
+    "id": "K18-057",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "When health data is sent between two organisations over a network, encryption in transit protects it by:",
+    "options": [
+      "making the data unreadable if it is intercepted on the way",
+      "recording which organisation sent and received the data",
+      "ensuring only authorised staff at the receiving end can log in",
+      "confirming that the data arrived complete and unaltered"
+    ],
+    "answer": 0,
+    "rationale": "Encryption in transit keeps the data unreadable to anyone who intercepts it in transfer. Confirming the data is complete and unaltered is integrity checking. Recording sender and receiver is logging. Controlling who can log in at the far end is authentication. Each wrong option is a real network-security function that is not what encryption in transit does."
+  },
+  {
+    "id": "K18-058",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A manager suspects a member of staff has looked at records they had no reason to view. The governance mechanism that would establish what happened is the:",
+    "options": [
+      "encryption keys, which protect the stored records",
+      "audit trail, which records who accessed which records and when",
+      "access control list, which sets who is permitted to view records",
+      "retention schedule, which sets how long records are kept"
+    ],
+    "answer": 1,
+    "rationale": "An audit trail is the log that shows what was actually accessed, so it can confirm or rule out inappropriate viewing. An access control list defines permissions but does not record use. Encryption protects data but does not log access. A retention schedule concerns disposal timing."
+  },
+  {
+    "id": "K18-059",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "A project has finished and its identifiable dataset is no longer needed, but the dataset's retention period has not yet expired. The team should:",
+    "options": [
+      "dispose of it immediately, since the project no longer needs it",
+      "keep it securely until the retention period expires, then dispose of it",
+      "anonymise it now and keep the anonymised version with no time limit",
+      "keep it indefinitely, since the retention period is only a minimum"
+    ],
+    "answer": 1,
+    "rationale": "A retention period sets how long the data must be kept, so it should be held securely until that period expires and then disposed of. Disposing of it early can breach the retention requirement. The period is not merely a minimum to be exceeded at will. Anonymising and keeping the result indefinitely may be defensible in some cases but is not the default answer to a still-running retention period for the identifiable data."
+  },
+  {
+    "id": "K18-060",
+    "ksb": [
+      "K18"
+    ],
+    "stem": "When deciding whether a completed project's dataset may still be held, the governing question is:",
+    "options": [
+      "whether the data can be held securely enough to manage the risk",
+      "whether the data still has potential analytical value to the organisation",
+      "whether a lawful purpose and an applicable retention requirement still justify holding it",
+      "whether deleting it now would fall short of the retention schedule"
+    ],
+    "answer": 2,
+    "rationale": "Whether the data may be held turns on whether a lawful purpose and a retention requirement still justify it. Potential analytical value does not by itself justify holding identifiable data. Being able to store it securely is necessary but does not create a reason to keep it. Deleting early can breach a retention schedule, but that is a separate point and not the governing test for whether holding the data is justified."
   }
 ]
