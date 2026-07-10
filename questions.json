@@ -10843,5 +10843,905 @@
     ],
     "answer": 2,
     "rationale": "Whether the data may be held turns on whether a lawful purpose and a retention requirement still justify it. Potential analytical value does not by itself justify holding identifiable data. Being able to store it securely is necessary but does not create a reason to keep it. Deleting early can breach a retention schedule, but that is a separate point and not the governing test for whether holding the data is justified."
+  },
+  {
+    "id": "K19-001",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Two organisations want to put in place the document that sets out the terms on which they will share a specified dataset. Which instrument does this?",
+    "options": [
+      "A Data Sharing Agreement",
+      "A memorandum of understanding setting out the two organisations' shared aims for the sharing",
+      "A data protection impact assessment for the sharing",
+      "A data processing agreement appointing one organisation to act on the other's instructions"
+    ],
+    "answer": 0,
+    "rationale": "A DSA sets the binding terms of a controller-to-controller share. A data processing agreement governs a processor acting on a controller's instructions, a different relationship; a DPIA assesses the sharing's risks but sets no terms; an MOU on the sharing records shared aims without binding terms. Each is a document a candidate could genuinely reach for when two organisations share data."
+  },
+  {
+    "id": "K19-002",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A Data Sharing Agreement would typically record which of the following?",
+    "options": [
+      "The purpose of the share, the risks it poses, and the mitigations for each risk",
+      "The data items held, how long each is retained, and when each is destroyed",
+      "The purpose of the share, its expected benefits, and the two organisations' shared aims",
+      "The parties, the purpose, the data items shared, and the controls that apply"
+    ],
+    "answer": 3,
+    "rationale": "A DSA records who the parties are, the purpose, the specific data items, and the controls governing the share. Risks and mitigations belong in a DPIA; aims and expected benefits belong in an MOU or business case; retention and destruction timing belong in a retention schedule. Each wrong option is a genuine governance documents contents, matched in breadth to the key so the item cannot be solved by picking the fullest list."
+  },
+  {
+    "id": "K19-003",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A Data Sharing Agreement is put in place to govern which of the following situations?",
+    "options": [
+      "One organisation disclosing data to a separate organisation for that organisation's own use",
+      "A parent body distributing data to its own regional offices",
+      "A supplier processing data on the organisation's behalf under its instructions",
+      "A public body publishing an open dataset that any organisation may reuse"
+    ],
+    "answer": 0,
+    "rationale": "A DSA governs a controller-to-controller disclosure, where the receiving organisation uses the data for its own purposes. A supplier acting on instructions is a processor arrangement governed by a processing agreement; publishing open data is a publication decision, not a governed share to a named party; distributing within one corporate body is internal governance. Each is a real data movement a candidate might think a DSA covers."
+  },
+  {
+    "id": "K19-004",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Why do organisations that jointly decide how and why shared data is used need joint governance documentation?",
+    "options": [
+      "Because each party's regulator requires a separate copy of the other party's internal policies",
+      "Because a joint record lets the parties share a single lawful basis rather than each holding its own",
+      "Because responsibility for the shared data rests with more than one party, so the arrangements must be agreed and recorded between them",
+      "Because the arrangements need to be settled between the parties, and a verbal understanding would be enough if both agreed"
+    ],
+    "answer": 2,
+    "rationale": "Joint determination means responsibility is shared, so the arrangements must be jointly agreed and written down. Regulators do not require parties to file each others internal policies; a joint document does not merge two lawful bases into one, since each party still needs its own basis; and a verbal understanding is not enough precisely because the arrangements must be recorded, not just agreed. Each wrong option is a believable but mistaken reason rather than an obvious overreach."
+  },
+  {
+    "id": "K19-005",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "In the context of cross-organisational data sharing, data mapping refers to:",
+    "options": [
+      "recording what data flows where, to whom, and for what purpose",
+      "matching records about the same person across two datasets",
+      "listing the data items each party is permitted to receive",
+      "producing a plain-language summary of the sharing for the public"
+    ],
+    "answer": 0,
+    "rationale": "Data mapping documents the flows: what data moves, between whom, and why. Matching records across datasets is linkage; a plain-language summary for the public is a transparency notice; listing permitted data items is part of a sharing agreements schedule. Each is a real governance activity a candidate must distinguish from mapping, rather than a pun or a technical chore."
+  },
+  {
+    "id": "K19-006",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation runs a data mapping audit on a data-sharing arrangement. What is such an audit primarily checking?",
+    "options": [
+      "Whether the volume of data shared exceeds what the agreed purpose requires",
+      "Whether a lawful basis was recorded for each flow that is taking place",
+      "Whether every data subject has been individually notified of the sharing",
+      "Whether the data flows happening in practice match the flows that were documented and agreed"
+    ],
+    "answer": 3,
+    "rationale": "A mapping audit compares actual flows against the documented, agreed ones. Checking notification is a transparency step, checking a recorded basis is a governance check on paperwork rather than on flows, and checking data volume against purpose is a minimisation review. Each is a real assurance activity aimed at something other than flow-versus-record."
+  },
+  {
+    "id": "K19-007",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Two organisations are about to begin a data linkage. Which of these must be established before the data is shared, rather than after?",
+    "options": [
+      "The named individuals whose records the two datasets are expected to have in common",
+      "The data quality checks to be run on the linked dataset once it is produced",
+      "The lawful basis and the agreed terms for the sharing",
+      "The identifiers each dataset will be matched on during the linkage"
+    ],
+    "answer": 2,
+    "rationale": "The lawful basis and the sharing terms must exist before any data moves, since they authorise and govern the share. Agreeing the match identifiers and running quality checks are real linkage tasks, but they are carried out as part of doing the linkage rather than as preconditions for being allowed to share; and the specific individuals in common cannot be known until the match is run. The discrimination is legal precondition versus operational step, which needs K19 knowledge rather than ordinary timing intuition."
+  },
+  {
+    "id": "K19-008",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A Data Sharing Agreement sets out the roles and responsibilities of each party in order to:",
+    "options": [
+      "record the order in which each party will carry out its part of the work",
+      "make clear which organisation is accountable for which aspect of the shared data",
+      "establish which organisation's policies take precedence if the two conflict",
+      "set out which staff in each organisation are permitted to access the data"
+    ],
+    "answer": 1,
+    "rationale": "Defining roles and responsibilities fixes which party is answerable for each aspect of the shared data. Naming permitted staff is access control, sequencing the work is project planning, and resolving policy conflicts is a governance detail; each is a real thing a sharing arrangement might address, but none is what roles and responsibilities is there to establish."
+  },
+  {
+    "id": "K19-009",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Two public bodies each have a lawful basis to share data for a joint purpose. Why would a Data Sharing Agreement still be needed?",
+    "options": [
+      "Because a lawful basis covers the sharing organisation, and a separate agreement covers the receiving one",
+      "Because a lawful basis permits the sharing but does not set out how the data will be handled between the parties",
+      "Because a lawful basis authorises the sharing but a written agreement is what makes it legally binding on both parties",
+      "Because a lawful basis covers sharing the data, and a separate agreement is needed to link it"
+    ],
+    "answer": 1,
+    "rationale": "A lawful basis makes the sharing permissible; the DSA governs how it is actually handled between the parties. It is not the agreement that supplies legal force to the basis; a single basis is not split into one per organisation; and linkage does not require its own separate authorising agreement beyond the sharing terms. Each wrong option is a plausible confusion about the division of labour between basis and agreement, without leaning on an absolute."
+  },
+  {
+    "id": "K19-010",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation runs a data mapping audit across its sharing arrangements. Which of these is it most likely to surface?",
+    "options": [
+      "A dataset being shared with a partner that appears in no data sharing agreement",
+      "A partner organisation that has not completed its annual security training",
+      "A shared dataset that contains a higher error rate than expected",
+      "A data sharing agreement that is written in unclear language"
+    ],
+    "answer": 0,
+    "rationale": "A mapping audit surfaces flows that are happening but undocumented, so a share to a partner named in no agreement is exactly its kind of finding. Unclear agreement wording is a drafting issue, incomplete training is a security-assurance matter, and a data error rate is a quality issue; all are governance-adjacent but none is what a mapping audit detects."
+  },
+  {
+    "id": "K19-011",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Two NHS trusts have agreed to share patient data for a joint service evaluation. Which document formalises the arrangement between them?",
+    "options": [
+      "A data processing agreement, under which one trust processes the data on the other's instructions",
+      "A Data Sharing Agreement",
+      "A memorandum of understanding recording the two trusts' shared aims for the evaluation",
+      "A data protection impact assessment covering the evaluation"
+    ],
+    "answer": 1,
+    "rationale": "A DSA is the binding instrument that formalises a controller-to-controller share between the two trusts. A processing agreement fits only if one trust acts on the others instructions, which is not this joint evaluation; an MOU records aims without binding terms; a DPIA assesses the evaluations risks but formalises nothing between the parties. Each is a document genuinely in play when two trusts share data."
+  },
+  {
+    "id": "K19-012",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A colleague believes that once a Data Sharing Agreement is signed, the organisation has everything it needs to start sharing. What is the flaw in this belief?",
+    "options": [
+      "A signed agreement needs a separate data protection impact assessment completed before it takes effect",
+      "A signed agreement authorises the first share, but each later share under it needs re-signing",
+      "A signed agreement sets the terms of sharing but a lawful basis for the sharing must also exist",
+      "A signed agreement is enough for non-identifiable data, but identifiable data needs more"
+    ],
+    "answer": 2,
+    "rationale": "A DSA settles how sharing is done, but a lawful basis must exist independently, so a signature alone is not sufficient. A DPIA may be advisable but is not a precondition for the agreement taking effect; a DSA governs an ongoing arrangement without re-signing per share; and it applies regardless of whether the data is identifiable. Each wrong option is a believable procedural misconception rather than something a non-expert can rule out by general reasoning."
+  },
+  {
+    "id": "K19-013",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation is about to share data with a partner. What does having a lawful basis for the sharing establish?",
+    "options": [
+      "That the practical terms of the sharing have been agreed between the parties",
+      "That the risks of the sharing have been assessed and mitigated",
+      "That the sharing is permitted in principle, whatever practical arrangements follow",
+      "That the individuals concerned have been told their data is being shared"
+    ],
+    "answer": 2,
+    "rationale": "A lawful basis establishes that the sharing is permitted in principle. Agreeing the practical terms is the job of a data sharing agreement, assessing and mitigating risk is a risk assessment, and telling individuals is a transparency step. Each distractor is a real, adjacent governance activity a candidate could confuse with the basis."
+  },
+  {
+    "id": "K19-014",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation relies on its statutory functions as the basis for sharing data. This means the sharing is justified because:",
+    "options": [
+      "it is carried out to exercise a duty or power the organisation has been given to perform its role",
+      "the sharing is necessary to protect someone's life in an emergency",
+      "the individuals concerned have agreed in advance to the sharing",
+      "the sharing serves a broad benefit to the wider public"
+    ],
+    "answer": 0,
+    "rationale": "A statutory-functions basis rests on a duty or power the organisation has been given to carry out its role. A broad public benefit is the separate public-interest basis; protecting someones life is the vital-interests basis; prior agreement by individuals is consent. Each distractor is a genuine alternative basis a candidate must tell apart from statutory functions, and the key no longer simply echoes the word statutory."
+  },
+  {
+    "id": "K19-015",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Sharing data in the public interest is a lawful basis that rests on:",
+    "options": [
+      "the sharing being agreed to by most of the individuals in the dataset",
+      "the sharing delivering a benefit to society or the community at large",
+      "the sharing being necessary to protect someone's vital interests",
+      "the sharing being required by a specific legal duty the organisation holds"
+    ],
+    "answer": 1,
+    "rationale": "A public-interest basis turns on a genuine benefit to society or the community. A specific legal duty is the statutory-functions basis; protecting vital interests is a separate basis; agreement by most individuals is closer to consent and is not what public interest means. The key states the substance rather than echoing the phrase public interest."
+  },
+  {
+    "id": "K19-016",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "How does a statutory-functions basis differ from a public-interest basis for sharing?",
+    "options": [
+      "A statutory-functions basis needs no defined purpose, whereas a public-interest basis does",
+      "A statutory-functions basis can justify sharing any data, whereas a public-interest basis is limited to non-identifiable data",
+      "A statutory-functions basis rests on a benefit to society; a public-interest basis rests on a specific legal duty",
+      "A statutory-functions basis rests on a specific legal duty or power; a public-interest basis rests on a benefit to society"
+    ],
+    "answer": 3,
+    "rationale": "The two differ in what they rest on: a defined legal duty or power versus a benefit to society. Option B swaps the two; option D wrongly claims a statutory basis needs no purpose; option A invents a data-type limit neither basis carries. Using society rather than the public removes the plain-word cue, so the candidate must know which basis rests on which ground."
+  },
+  {
+    "id": "K19-017",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "In a data-sharing arrangement, accountability for the decision to share means:",
+    "options": [
+      "the organisation has recorded the sharing in its data map so the flow is documented",
+      "the organisation has obtained sign-off for the share from the receiving party",
+      "the organisation has a signed data sharing agreement covering the share",
+      "the organisation can identify who made the decision and justify why the sharing was appropriate"
+    ],
+    "answer": 3,
+    "rationale": "Accountability means being able to show who took the decision and why it was appropriate. Documenting the flow in a data map, holding a signed agreement, and getting the receivers sign-off are all real governance steps that support a share but none discharges accountability for the decision itself, which is about being able to justify it. Each wrong option is a genuine control a candidate might mistake for accountability rather than an obvious dodge."
+  },
+  {
+    "id": "K19-018",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Data was originally collected by an organisation for direct care. It now wishes to share that data with a partner for a different purpose. What does this mean for the lawful basis?",
+    "options": [
+      "A new basis is needed only if the data is identifiable at the point of sharing",
+      "The partner's own lawful basis for holding the data covers the disclosure to it",
+      "A lawful basis must exist for the new sharing purpose; the original collection does not automatically cover it",
+      "The original basis for direct care extends to the new purpose because the data is unchanged"
+    ],
+    "answer": 2,
+    "rationale": "A lawful basis attaches to a purpose, so a new sharing purpose needs its own basis regardless of how the data was first collected. The original direct-care basis does not stretch to an unrelated purpose; the partners basis does not retrospectively legitimise the disclosure to it; and the need for a basis does not depend on whether the data is identifiable. The three distractors now pull in different directions rather than repeating no further basis needed."
+  },
+  {
+    "id": "K19-019",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An analyst must share aggregated figures with a national body to meet a mandatory reporting return that the organisation is required to submit. Which lawful basis most naturally applies?",
+    "options": [
+      "Sharing in the public interest",
+      "The prior agreement of the individuals in the data",
+      "The consent the national body has given to receive the figures",
+      "The organisation's statutory functions"
+    ],
+    "answer": 3,
+    "rationale": "A mandatory reporting return the organisation is required to submit engages its statutory functions: it shares to discharge a duty attached to its role. Public interest is a real basis but a looser fit than a specific obligation; prior agreement of individuals does not apply to a compulsory return; and the recipients consent to receive figures is not a basis for the sharer to disclose. The stem no longer signals statutory by naming the law."
+  },
+  {
+    "id": "K19-020",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation offers a signed Data Sharing Agreement as its lawful basis for a share. Why is that the wrong kind of document to cite?",
+    "options": [
+      "A Data Sharing Agreement governs how a share is conducted, whereas a lawful basis is what makes the share permissible",
+      "A Data Sharing Agreement applies to the dataset, whereas a lawful basis applies to each individual in it",
+      "A Data Sharing Agreement records the parties' intentions, whereas a lawful basis must be approved by a regulator",
+      "A Data Sharing Agreement covers the sharing organisation, whereas a lawful basis covers the receiving one"
+    ],
+    "answer": 0,
+    "rationale": "A DSA and a lawful basis do different jobs: the agreement sets out how the share is conducted, the basis is what makes it permissible in the first place, so citing the agreement as the basis confuses the two. A basis is not something a regulator approves; a basis is not split into one for each party; and a basis attaches to the sharing purpose, not to each named individual. Each distractor is a believable misconception about how the two documents relate, and the item tests the distinction rather than repeating item 012."
+  },
+  {
+    "id": "K19-021",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Whether a lawful basis for a share exists is judged mainly against:",
+    "options": [
+      "the sensitivity of the data being shared",
+      "the purpose for which the data is to be shared",
+      "the benefit the recipient expects to gain from the data",
+      "the security of the method used to share it"
+    ],
+    "answer": 1,
+    "rationale": "A lawful basis is judged against the purpose of the sharing. Sensitivity and transfer security affect how a share must be safeguarded but not whether a basis exists; and the recipients expected benefit is not what determines the sharers basis. Replacing volume with the recipients benefit gives a second reason-shaped option, so the key is no longer the only abstract one."
+  },
+  {
+    "id": "K19-022",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A colleague proposes sharing a dataset with a partner 'because it would be useful for their research'. Why is usefulness not, on its own, a lawful basis for the sharing?",
+    "options": [
+      "Because a lawful basis has to be an identifiable ground applied to the sharing purpose, not simply a claim that the data would be useful",
+      "Because usefulness to the partner is a benefit the partner must weigh, not the sharer",
+      "Because a basis can rest on benefit only where the sharing is also in the public interest",
+      "Because usefulness describes what the data is for, which is the purpose rather than the basis"
+    ],
+    "answer": 0,
+    "rationale": "A lawful basis must be an identifiable ground tied to the sharing purpose; it would be useful names a benefit, not a basis. Usefulness is for the partner to weigh, not the sharer; usefulness describes the purpose, which still needs a basis behind it; and benefit does not become a basis by being recast as public interest. The three distractors are distinct claims rather than a parallel only once X template, and the key is no longer the conspicuously longest option."
+  },
+  {
+    "id": "K19-023",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A cross-organisational data share is legitimate when it has:",
+    "options": [
+      "confirmation that the receiving organisation has a lawful basis to hold the data",
+      "a signed data sharing agreement between the two organisations",
+      "agreement from the individuals whose data is being shared",
+      "an identifiable lawful basis together with a defined purpose for the sharing"
+    ],
+    "answer": 3,
+    "rationale": "A legitimate share needs a basis tied to a defined purpose. Individuals' agreement is one possible basis but not a general requirement; a signed agreement governs conduct without itself legitimising the share; and the receiver having its own basis to hold the data does not authorise the disclosure to it. Removing the near-duplicate whatever the purpose option takes away the matched-pair cue, so the candidate must know what legitimacy actually requires."
+  },
+  {
+    "id": "K19-024",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Being accountable for a data-sharing decision requires an organisation to:",
+    "options": [
+      "register the sharing decision with the relevant regulator",
+      "obtain independent approval of the sharing from its data protection officer before proceeding",
+      "ensure the receiving organisation records the same justification in its own files",
+      "be able to demonstrate the basis and reasoning for the sharing, not merely assert that one exists"
+    ],
+    "answer": 3,
+    "rationale": "Accountability means being able to demonstrate the basis and reasoning on request, rather than simply claiming a basis exists. A DPO may advise but their approval is not what accountability requires; the receiver duplicating the justification does not discharge the sharer's own accountability; and there is no general requirement to register each sharing decision with a regulator. Each distractor is a believable governance step a candidate might mistake for the core of accountability."
+  },
+  {
+    "id": "K19-025",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A team preparing a data share lists every field in its dataset to send to a partner, though the partner's agreed purpose needs only a few of them. Data minimisation requires the team to:",
+    "options": [
+      "send whichever fields the partner requests, since it knows its own needs",
+      "send all the fields but flag which ones the partner should rely on",
+      "send the full dataset now to avoid a second request if needs change later",
+      "send only the fields the partner's agreed purpose actually needs"
+    ],
+    "answer": 3,
+    "rationale": "Minimisation means sending only the data the agreed purpose needs, so the extra fields are withheld. Flagging which to rely on still discloses everything; deferring to whatever the partner asks for lets the recipient set the scope rather than the purpose; and sending everything to pre-empt a later request is the might be useful reasoning minimisation rules out. The options no longer split into send all versus send less, so the candidate cannot pick on the word minimise alone."
+  },
+  {
+    "id": "K19-026",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner receives data under a share agreed for service evaluation. Which requirement does purpose limitation place on that data?",
+    "options": [
+      "only the minimum data needed for the evaluation was sent to the partner",
+      "the data is used only for the service evaluation that was agreed",
+      "the extent of the share was proportionate to the evaluation's aim",
+      "the data was transferred to the partner through a secure channel"
+    ],
+    "answer": 1,
+    "rationale": "Purpose limitation constrains what the received data may be used for: the agreed purpose only. Sending the minimum is minimisation, proportionate extent is proportionality, and a secure channel is a transfer control. The three neighbours are all real requirements on the same share, so only knowing the distinction picks the key."
+  },
+  {
+    "id": "K19-027",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "What is the difference between data minimisation and purpose limitation?",
+    "options": [
+      "Minimisation limits what the data is used for; purpose limitation limits how much is shared",
+      "Minimisation limits how much data is shared; purpose limitation limits what the shared data may be used for",
+      "Minimisation limits how much is shared; purpose limitation limits who may access the shared data",
+      "Minimisation limits how much is shared before it is sent; purpose limitation limits how much is retained afterwards"
+    ],
+    "answer": 1,
+    "rationale": "Minimisation is about quantity shared; purpose limitation is about the use the shared data may be put to. Option A swaps the two; option B recasts purpose limitation as a retention rule; option C recasts it as access control. Each wrong option now pairs a claim with a wrong account of purpose limitation, so the candidate must know specifically what purpose limitation governs rather than eliminating a self-contradiction."
+  },
+  {
+    "id": "K19-028",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation could achieve its aim either by linking two datasets in full or by linking a smaller extract that would meet the same aim. Proportionality directs it to:",
+    "options": [
+      "choose the option that achieves the aim with the least intrusion into privacy",
+      "choose whichever option shares the fewest individual data fields",
+      "choose whichever option confines use to the single agreed purpose",
+      "choose whichever option the partner organisation prefers"
+    ],
+    "answer": 0,
+    "rationale": "Proportionality favours the route that achieves the aim with the least intrusion into privacy. Confining use to the agreed purpose is purpose limitation; counting fields is minimisation; and deferring to the partner's preference is not a principle at all. The stem no longer contains the word intrusion, so the candidate cannot simply match it to the key."
+  },
+  {
+    "id": "K19-029",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "How does proportionality differ from data minimisation?",
+    "options": [
+      "Proportionality weighs whether, and how far, the sharing is warranted given the aim; minimisation limits the data to what the purpose needs",
+      "Proportionality and minimisation both limit the quantity of data shared",
+      "Proportionality limits the data to what the purpose needs; minimisation weighs whether the sharing is warranted",
+      "Proportionality sets who may access the data; minimisation sets how long it is kept"
+    ],
+    "answer": 0,
+    "rationale": "Proportionality is the broader judgement of whether and how far a share is justified by the aim; minimisation is the narrower rule to include only necessary data. Option B swaps the two; option C misassigns both to access and retention; option D collapses proportionality into minimisation. Trimming the key so it is not the longest option removes the pick the fullest cue."
+  },
+  {
+    "id": "K19-030",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A linkage needs to match records about the same individuals across two datasets. How does data minimisation shape which identifiers are shared?",
+    "options": [
+      "Share as many identifiers as are available, to make the match as accurate as possible",
+      "Share a standard set of identifiers so every linkage uses the same fields",
+      "Share whichever identifiers the matching team asks for",
+      "Share only the identifiers needed to achieve a reliable match"
+    ],
+    "answer": 3,
+    "rationale": "Minimisation limits the shared identifiers to those genuinely needed for a reliable match. A fixed standard set ignores what this particular match needs; sharing everything for accuracy defeats minimisation; and deferring to whatever the team requests lets the recipient set the scope. The options no longer split into full versus fewer, so the candidate must apply minimisation rather than pick the smallest-sounding option."
+  },
+  {
+    "id": "K19-031",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation shares data with a partner for an agreed evaluation. Some months later the partner begins using the same data for an unrelated marketing exercise. Which principle has been breached?",
+    "options": [
+      "Proportionality of the original share",
+      "Purpose limitation",
+      "Data minimisation",
+      "Secure transfer"
+    ],
+    "answer": 1,
+    "rationale": "Using the data for a new, unrelated purpose breaches purpose limitation, which binds the receiving party to the agreed purpose. Minimisation concerns how much was shared, secure transfer concerns how it moved, and proportionality concerns whether the original share was warranted; none of those is what fails here."
+  },
+  {
+    "id": "K19-032",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "When deciding whether to link two datasets that together reveal sensitive information, proportionality asks:",
+    "options": [
+      "whether the linkage can be performed using the fewest possible identifiers",
+      "whether the intrusion involved is justified by the benefit the linkage is expected to bring",
+      "whether a less sensitive combination of data could serve the same aim",
+      "whether the datasets can be transferred over an encrypted connection"
+    ],
+    "answer": 1,
+    "rationale": "Proportionality weighs the intrusion against the expected benefit. Asking whether a less sensitive combination could serve the aim is a minimisation-flavoured question about the data chosen; using the fewest identifiers is minimisation; and an encrypted connection is secure transfer. Option C is now also a weighing-shaped question, so the key is not the only judgement among concrete checks."
+  },
+  {
+    "id": "K19-033",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation is about to share a dataset and finds it contains several fields the partner's agreed purpose does not require. Which principle most directly applies?",
+    "options": [
+      "Access control",
+      "Data minimisation",
+      "Purpose limitation",
+      "Secure transfer"
+    ],
+    "answer": 1,
+    "rationale": "Sharing only the fields the purpose requires is data minimisation. Purpose limitation governs later use, access control governs who may open the data, and secure transfer governs how it moves; none is the principle engaged by trimming unneeded fields before sharing."
+  },
+  {
+    "id": "K19-034",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A team proposes sharing a full dataset rather than a tailored extract, reasoning that the extra fields 'might be useful later'. How should this be judged under data minimisation?",
+    "options": [
+      "As a matter for the data sharing agreement, which can permit the extra fields if both parties agree",
+      "As a retention question about how long the extra fields are kept, not a sharing question",
+      "As going beyond minimisation, since only the data the current purpose needs should be shared",
+      "As acceptable once the fuller dataset is encrypted for transfer"
+    ],
+    "answer": 2,
+    "rationale": "Minimisation limits the share to what the current purpose needs, so the extra might be useful fields go beyond it. The parties cannot agree the fields in regardless, because minimisation is not waived by consent; how long fields are kept is retention, not the quantity shared; and encrypting a larger dataset addresses transfer security, not whether too much was shared. The key no longer simply echoes excessive, and option A is a plausible governance move rather than a telegraphed straw man."
+  },
+  {
+    "id": "K19-035",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "How does accountability relate to proportionality when an organisation shares data?",
+    "options": [
+      "Accountability is met by recording the proportionality judgement, whether or not it was sound",
+      "Proportionality is judged first, and accountability applies only if the share is later challenged",
+      "Proportionality is the receiving party's judgement; accountability rests with the sharer",
+      "The organisation should be able to justify that the extent of the sharing was proportionate to the aim"
+    ],
+    "answer": 3,
+    "rationale": "Accountability includes being able to justify that the share's extent was proportionate, not merely that a judgement was made. It is not deferred until a challenge arises; recording a judgement does not satisfy accountability if the judgement was unsound; and proportionality is the sharer's to justify, not the receiver's. Each distractor is now a believable but wrong account of how the two relate rather than an obvious overreach, and the key is no longer the lone measured option."
+  },
+  {
+    "id": "K19-036",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner that received data for an agreed purpose now wishes to pass it to a third organisation. Under purpose limitation, this onward sharing:",
+    "options": [
+      "is permitted because the data has already been lawfully shared once",
+      "is covered by the original purpose as long as the third organisation pursues a similar aim",
+      "is permitted provided the third organisation signs up to the same data sharing agreement",
+      "requires its own justification against the agreed purpose and cannot be assumed to be covered"
+    ],
+    "answer": 3,
+    "rationale": "Onward sharing must be justified against the agreed purpose; holding the data lawfully does not confer freedom to pass it on. A signature by the third party does not cure a purpose mismatch; a merely similar aim does not fall within the agreed purpose; and one lawful share does not license the next. Each wrong option is a real way the purpose boundary gets blurred, and B no longer sits in the wrong category."
+  },
+  {
+    "id": "K19-037",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Of the risks that can affect shared data across its lifecycle, which one is secure transfer specifically there to reduce?",
+    "options": [
+      "The data being intercepted or read by an outsider while it is in transit",
+      "The data being accessed by more of the receiving organisation's staff than necessary",
+      "The data being kept by the receiving organisation for longer than agreed",
+      "The data being used by the receiving organisation for an unagreed purpose"
+    ],
+    "answer": 0,
+    "rationale": "Secure transfer reduces the risk of interception while the data moves. Over-broad staff access is an access-control risk, keeping data too long is a retention risk, and unagreed use is a purpose-limitation risk. Each distractor is a genuine risk to shared data at a different stage, so the candidate must locate the one transfer addresses rather than match the stem to in transit."
+  },
+  {
+    "id": "K19-038",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Encrypting the channel used to send shared data between organisations primarily protects against:",
+    "options": [
+      "the data being delayed or failing to arrive during the transfer",
+      "the data being read by someone who intercepts it during transfer",
+      "the data being altered by someone while it is being sent",
+      "the file being sent to the wrong recipient by mistake"
+    ],
+    "answer": 1,
+    "rationale": "Channel encryption chiefly protects the confidentiality of data in transit: it cannot be read if intercepted. It does not by itself guarantee the data is unaltered (integrity), does not ensure delivery or timeliness (availability), and does not prevent misaddressing to the wrong recipient. All four options concern the transfer itself, so the candidate must know encryption's specific job is confidentiality against interception, not the neighbouring transfer risks."
+  },
+  {
+    "id": "K19-039",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner organisation has received a shared dataset. Access control determines which of the following?",
+    "options": [
+      "Which fields were included in the dataset before it was sent",
+      "Which channel the dataset was transmitted through",
+      "Which of the partner's staff may open the dataset",
+      "Which flows of the dataset are recorded in the partner's data map"
+    ],
+    "answer": 2,
+    "rationale": "Access control governs who may reach the data once held: which staff may open it. Which fields were included is minimisation, the channel used is secure transfer, and recording flows is data mapping. Each distractor is a real K19 mechanism operating at a different point, so the candidate must know what access control specifically decides."
+  },
+  {
+    "id": "K19-040",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Defining roles and responsibilities for shared data is intended to ensure that:",
+    "options": [
+      "the two organisations divide the data equally between them",
+      "a single lead organisation answers for everything the other does",
+      "every member of staff involved is named individually in the agreement",
+      "each stage of handling the data has a named party responsible for it"
+    ],
+    "answer": 3,
+    "rationale": "Defining roles ensures each stage of handling, protecting and using the data has a named responsible party. It does not mean the data is split equally, that one lead organisation answers for the other's actions, or that every individual member of staff is named; those misread how responsibility is allocated. The distractors are specific misallocations rather than an off-topic option."
+  },
+  {
+    "id": "K19-041",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "What is the difference between secure transfer and access control?",
+    "options": [
+      "Secure transfer applies while the data moves; access control applies only after the project ends",
+      "Secure transfer decides who may open the data; access control protects it as it moves",
+      "Secure transfer protects the data as it moves; access control decides who may open it once held",
+      "Secure transfer and access control both restrict who can open the shared data"
+    ],
+    "answer": 2,
+    "rationale": "Secure transfer protects data in motion; access control governs who may reach it once held. Option B swaps the two; option C collapses both into access restriction; option D invents a timing split, since access control applies throughout the data is held, not only at project end. Each wrong option is a believable confusion rather than an obvious throwaway."
+  },
+  {
+    "id": "K19-042",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An analyst needs to send a linked dataset to a partner organisation. Which approach reflects secure transfer?",
+    "options": [
+      "Sending it through an encrypted channel",
+      "Recording the transfer in the organisation's data map",
+      "Restricting, within the partner, who is allowed to open the file",
+      "Removing the fields the partner does not need before sending"
+    ],
+    "answer": 0,
+    "rationale": "Secure transfer is about protecting the data as it moves, so an encrypted channel is the relevant measure. Restricting who may open it is access control, removing unneeded fields is minimisation, and recording the transfer is data mapping; all are good practice but none is the transfer method itself."
+  },
+  {
+    "id": "K19-043",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner organisation is setting who may access a shared dataset. Which approach reflects access control as it applies to that data?",
+    "options": [
+      "Access is limited to staff who need the data for the agreed purpose",
+      "Access is granted to all staff on the team that requested the share",
+      "Access is granted to any member of staff holding a general data clearance",
+      "Access is granted to staff at or above a set grade in the organisation"
+    ],
+    "answer": 0,
+    "rationale": "Access control ties access to a need for the data for the agreed purpose. Whole-team access, general-clearance access, and grade-based access are all real-looking access models, but each grants the data to people who may have no need for it, so none reflects need-to-know. The candidate must know the basis is purpose-related need, not membership, clearance, or grade."
+  },
+  {
+    "id": "K19-044",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Secure transfer of shared data between organisations is chiefly aimed at protecting the data's:",
+    "options": [
+      "integrity, so it cannot be altered without detection",
+      "availability, so it can always be retrieved when needed",
+      "confidentiality, so it cannot be read by anyone other than the intended recipient",
+      "accuracy, so any errors in it are corrected before sending"
+    ],
+    "answer": 2,
+    "rationale": "Secure transfer chiefly protects confidentiality: keeping the data from being read by anyone other than the intended recipient. Integrity and availability are genuine security properties but not the primary aim of a secure channel, and correcting errors before sending is a data-quality step. Removing the in transit wording stops the key matching the stem, so the candidate must know which property a secure channel targets."
+  },
+  {
+    "id": "K19-045",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Why does naming roles and responsibilities in a sharing arrangement matter for accountability?",
+    "options": [
+      "Without named roles, a failure could fall in a gap where neither party considers itself answerable",
+      "Named roles let each party rely on the other to hold the overall responsibility",
+      "Named roles move responsibility to whichever party the regulator designates as lead",
+      "Named roles matter for planning the work but not for who answers if something goes wrong"
+    ],
+    "answer": 0,
+    "rationale": "Naming roles matters because, without them, responsibility for a given aspect can fall into a gap where neither party owns it; accountability needs a specific party identifiable for each aspect. It does not let each party defer to the other, it is not the regulator who assigns a lead, and it bears directly on who answers when something goes wrong, not just planning. The key explains why naming matters rather than restating the definition, distinguishing it from items 008 and 040."
+  },
+  {
+    "id": "K19-046",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner organisation stores a shared file on a drive that every member of its staff can open. Which safeguard has most clearly failed?",
+    "options": [
+      "Secure transfer",
+      "Data minimisation",
+      "The lawful basis for sharing",
+      "Access control"
+    ],
+    "answer": 3,
+    "rationale": "Letting all staff open the file is a failure of access control, which should limit access to those who need it. Secure transfer concerns movement, minimisation concerns how much was shared, and the lawful basis concerns whether the sharing was permitted; none of those is the safeguard breached here."
+  },
+  {
+    "id": "K19-047",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation encrypts a dataset before sending it, but has not established whether it is permitted to share it. What does the encryption not address?",
+    "options": [
+      "Whether the data stays unreadable to an unauthorised person who obtains the file",
+      "Whether there is a lawful basis and authorisation for the sharing",
+      "Whether the contents remain protected if the storage device is later lost or stolen",
+      "Whether the data could be read by someone who intercepts the transfer"
+    ],
+    "answer": 1,
+    "rationale": "Encryption keeps the data unreadable to others, whether it is intercepted in transit, sitting on a device that is later lost, or otherwise obtained by someone unauthorised. What it does not address is whether the organisation is permitted to share at all, which is a matter of lawful basis and authorisation. The three wrong options are distinct situations encryption does cover, rather than one claim repeated."
+  },
+  {
+    "id": "K19-048",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "How does access control relate to having a lawful basis and a Data Sharing Agreement?",
+    "options": [
+      "It is the mechanism that puts the lawful basis into effect once the basis is established",
+      "It replaces the need for a Data Sharing Agreement where access is tightly restricted",
+      "It is a further safeguard on the shared data, working alongside the basis and the agreement",
+      "It is set by the sharing organisation and forms part of the basis rather than a separate control"
+    ],
+    "answer": 2,
+    "rationale": "Access control is an additional safeguard operating alongside the lawful basis and the DSA, each doing a distinct job. It does not enact the basis, it does not substitute for an agreement however tight the access, and it is not part of the basis itself. Each wrong option ties access control too closely to one of the other instruments rather than being obviously false."
+  },
+  {
+    "id": "K19-049",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation wants a recognised, standardised way to assess itself and produce evidence that it handles data safely to the expected national standard. Which of these is designed for that?",
+    "options": [
+      "A data sharing agreement with each partner",
+      "The Data Security and Protection Toolkit",
+      "A data mapping exercise across its systems",
+      "A risk assessment for a specific sharing project"
+    ],
+    "answer": 1,
+    "rationale": "The DSPT is the standard self-assessment through which an organisation evidences that its data handling meets the expected national standard. A DSA governs a specific share, a data mapping exercise records where data flows, and a project risk assessment examines one share's risks; none provides organisation-wide assurance. The candidate must know what the toolkit is for rather than matching its name to the stem."
+  },
+  {
+    "id": "K19-050",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner sees that an organisation has completed the DSPT. What can the partner reasonably take from that?",
+    "options": [
+      "That the organisation has checked itself against a recognised national data-handling standard",
+      "That the organisation keeps its data handling under regular independent audit",
+      "That the organisation has a lawful basis for the sharing it is proposing",
+      "That the organisation has assessed the risks of the particular share being proposed"
+    ],
+    "answer": 0,
+    "rationale": "A completed DSPT shows the organisation has assessed itself against a recognised national standard for handling data. It is not evidence of a lawful basis for a particular share, nor of a project-specific risk assessment, and it is a self-assessment rather than a regular independent audit. Varying the distractors and removing the name echo stops the candidate matching the name or picking the lone general option."
+  },
+  {
+    "id": "K19-051",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation audits one of its data-sharing arrangements. What is the audit primarily doing?",
+    "options": [
+      "Investigating a specific incident that has occurred in the sharing",
+      "Judging whether the controls chosen at the outset were the right ones",
+      "Checking that the sharing is being carried out as agreed, and giving assurance of that",
+      "Deciding whether the sharing arrangement should be renewed for another term"
+    ],
+    "answer": 2,
+    "rationale": "An audit primarily checks that the sharing is being conducted as agreed and provides assurance of that. Deciding on renewal is a management decision informed by the audit; judging whether the original controls were well chosen is a design review; and investigating a specific incident is a targeted investigation. Each distractor is a genuine review-type activity, so the candidate cannot pick the key just because audit means looking back."
+  },
+  {
+    "id": "K19-052",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Carrying out a risk assessment before a data-sharing or linkage project is intended to:",
+    "options": [
+      "establish the lawful basis on which the sharing will rest",
+      "record which data flows between the organisations, and to whom",
+      "find in advance what could go wrong with the sharing so it can be addressed before the data moves",
+      "confirm that the organisation meets recognised data security standards overall"
+    ],
+    "answer": 2,
+    "rationale": "A risk assessment done at the outset finds in advance what could go wrong so it can be addressed before any data moves. Recording flows is data mapping, confirming overall standards is the DSPT's role, and establishing the basis is a separate legal step. The key no longer contains the word risk, so the candidate cannot match it to the stem."
+  },
+  {
+    "id": "K19-053",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation wants to be transparent about a data-sharing arrangement. Which of these does transparency require it to do?",
+    "options": [
+      "give each individual a copy of the data held about them on request",
+      "explain publicly what data it shares and for what purposes",
+      "publish the shared dataset itself so that anyone can download it",
+      "obtain each individual's agreement before their data is shared"
+    ],
+    "answer": 1,
+    "rationale": "Transparency requires the organisation to explain publicly what it shares and why. Obtaining individual agreement is consent; giving individuals a copy of their data is a subject access right; and publishing the dataset is open data. Each is a genuine obligation a candidate could confuse with transparency, and none is simply the antonym of transparent, so the word in the stem no longer resolves the item."
+  },
+  {
+    "id": "K19-054",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Why does maintaining public trust matter for data sharing and linkage?",
+    "options": [
+      "Because low public confidence would remove the organisation's lawful basis for sharing",
+      "Because public confidence is measured and reported as part of the DSPT",
+      "Because maintaining confidence is chiefly a matter for the communications team rather than data governance",
+      "Because sustained public confidence supports people's willingness to have their data used for legitimate purposes"
+    ],
+    "answer": 3,
+    "rationale": "Public trust matters because sustained confidence underpins people's willingness to have their data used for legitimate purposes. It does not create or remove the lawful basis, which stands on its own; it is not a metric captured by the DSPT; and it is a substantive governance concern, not merely a communications matter. Each distractor is a believable but mistaken account rather than an obvious overclaim."
+  },
+  {
+    "id": "K19-055",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "How does the DSPT differ from a risk assessment for a specific sharing project?",
+    "options": [
+      "The DSPT covers technical security and a risk assessment covers only legal questions",
+      "The DSPT examines one particular share; a risk assessment gives standing assurance about the organisation overall",
+      "The DSPT is completed once, whereas a project risk assessment is repeated every time data is shared",
+      "The DSPT gives standing assurance about the organisation's data security overall; a risk assessment examines the risks of one particular share"
+    ],
+    "answer": 3,
+    "rationale": "The DSPT provides organisation-wide standing assurance; a project risk assessment looks at the risks of one specific share. Option C swaps the two; option A misstates their frequency as the key difference rather than their scope; and option D invents a technical-versus-legal split neither has. Trimming the key removes the pick the fullest cue."
+  },
+  {
+    "id": "K19-056",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A prospective partner asks an organisation to show, before any sharing begins, that it handles data to the expected national standard. Which mechanism most directly serves this?",
+    "options": [
+      "Its lawful basis for the proposed sharing",
+      "Its encrypted transfer arrangements",
+      "Its completed Data Security and Protection Toolkit",
+      "Its Data Sharing Agreement with the partner"
+    ],
+    "answer": 2,
+    "rationale": "Showing that data is handled to the expected national standard is what the DSPT evidences. A DSA sets terms, a lawful basis establishes permission to share, and encrypted transfer protects data in movement; none evidences the standard. The stem no longer names data security, so the toolkit title is not a free match."
+  },
+  {
+    "id": "K19-057",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "An organisation wants to strengthen public trust in how it shares data. Being transparent contributes to this specifically by:",
+    "options": [
+      "reducing the amount of data shared to the minimum needed",
+      "ensuring the shared data is protected while it is transferred",
+      "giving people an accurate account of what is done with their data",
+      "restricting who within each organisation can access the shared data"
+    ],
+    "answer": 2,
+    "rationale": "Transparency builds trust by giving people an accurate account of what is done with their data. Minimising the data, securing its transfer, and controlling access are genuine safeguards that may support trust indirectly, but they are not what transparency contributes. The key states the substance rather than unpacking the word transparent, so the candidate cannot match on the stem term."
+  },
+  {
+    "id": "K19-058",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A linkage project runs a risk assessment at the outset. What does doing it at that point allow, that doing it later would not?",
+    "options": [
+      "It provides a record that a governance step was completed",
+      "It allows problems to be anticipated and headed off before any data moves",
+      "It confirms, once the project ends, that the linkage was worthwhile",
+      "It sets the organisation's overall data security standard for the year"
+    ],
+    "answer": 0,
+    "rationale": "Done at the outset, the assessment lets problems be anticipated and headed off before any data moves, which a later assessment cannot do. Setting an annual security standard is the DSPT's role; confirming worth at the end is a closing review; and treating it merely as a completed-step record misses its preventive point. The key no longer says risk or stands alone as the only forward-looking option."
+  },
+  {
+    "id": "K19-059",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "A partner asks to see evidence that an organisation handles data to the expected national standard before agreeing to share. The organisation has nothing to show. Which compliance mechanism is it missing?",
+    "options": [
+      "A transparency notice to the public",
+      "An access control policy for staff",
+      "A completed Data Security and Protection Toolkit",
+      "A record of secure transfer arrangements"
+    ],
+    "answer": 2,
+    "rationale": "Evidence that an organisation meets the expected national standard for handling data is what a completed DSPT provides, so that is the mechanism it lacks. A transparency notice informs the public but does not evidence the standard; secure transfer records and an access policy are specific controls, not the standard-level assurance the partner is asking for. This gives the family a DSPT-shortfall scenario and reduces transparency clustering."
+  },
+  {
+    "id": "K19-060",
+    "ksb": [
+      "K19"
+    ],
+    "stem": "Which best describes how compliance and assurance for a data-sharing arrangement are kept in good order?",
+    "options": [
+      "By periodic renewal of the lawful basis, which refreshes assurance each time",
+      "By ongoing checks over time, evidenced through audits and assurance toolkits",
+      "By a thorough sign-off at the start that fixes the arrangement for its duration",
+      "By the receiving organisation running periodic checks that stand in for the sharer's own"
+    ],
+    "answer": 1,
+    "rationale": "Compliance and assurance are kept up by ongoing checks over time, evidenced through audits and assurance toolkits. The receiver's checks do not discharge the sharer's own assurance even if periodic; renewing the lawful basis does not itself provide continuing assurance; and a single start-of-arrangement sign-off, however thorough, does not keep pace with change. Options A and C are now also recurring-activity shaped, so the key is not the only ongoing option."
   }
 ]
