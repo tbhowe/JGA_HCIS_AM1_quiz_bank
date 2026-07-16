@@ -12643,5 +12643,905 @@
     ],
     "answer": 3,
     "rationale": "In terms of team development, teams usually pass through earlier stages, forming and then storming and norming, working through conflict and settling how they operate, before they reach the performing stage. A lack of clear goals can certainly hold a new team back, but that is a matter of direction rather than the team's own development. Time to build technical skills can matter too, yet the development model is about how members come to work together, not their individual skill level. And limited resources can slow any team, but that is a practical constraint rather than the developmental reason the question asks about."
+  },
+  {
+    "id": "K24-001",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project's business case exists mainly to:",
+    "options": [
+      "record the sequenced schedule of tasks and the dates by which each must be finished",
+      "define who is accountable and who is consulted for each project decision",
+      "specify the technical design of the product the project will deliver",
+      "set out the justification for undertaking the project against its costs and risks"
+    ],
+    "answer": 3,
+    "rationale": "The business case answers whether the project is worth doing, by setting its expected benefits against cost and risk. The sequenced schedule sits in the project plan; decision accountability sits in a responsibility assignment such as a RACI; the technical design is a delivery artefact, not the investment justification."
+  },
+  {
+    "id": "K24-002",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "At the start of a project a sponsor asks for a single document that defines the project's scope, objectives, governance and plan so that everyone has one agreed baseline to work from. This document is the:",
+    "options": [
+      "communication plan",
+      "RAID log",
+      "project initiation document",
+      "business case"
+    ],
+    "answer": 2,
+    "rationale": "The project initiation document baselines scope, objectives, governance and plan at initiation. The business case justifies doing the project rather than defining how it will run; the communication plan covers only stakeholder messaging; the RAID log tracks risks, assumptions, issues and dependencies, not the whole project definition."
+  },
+  {
+    "id": "K24-003",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Which document is chiefly concerned with how and when the work will be sequenced and scheduled, rather than why the project is worth doing or how it is governed?",
+    "options": [
+      "the business case",
+      "the project plan",
+      "the assurance report",
+      "the project initiation document"
+    ],
+    "answer": 1,
+    "rationale": "The project plan sets out the sequencing and scheduling of the work. The business case addresses justification; the PID baselines the whole project definition including governance; an assurance report is an independent check on how the project is run, not a schedule."
+  },
+  {
+    "id": "K24-004",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In the project lifecycle, the business case is normally first produced:",
+    "options": [
+      "during delivery, once the team has begun building the product",
+      "at closure, to record what the project achieved",
+      "before the project is formally initiated, to secure the decision to invest",
+      "at initiation, once the project team has been assembled and mobilised"
+    ],
+    "answer": 2,
+    "rationale": "The business case is made before initiation, to justify committing resources at all. Placing it at initiation confuses justifying the project with setting it up; delivery is where the work is built, not where the case is first argued; and closure records outcomes rather than arguing the original case."
+  },
+  {
+    "id": "K24-005",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "The project plan is primarily the document that captures:",
+    "options": [
+      "the financial justification for investing in the project",
+      "the sequence of activities, their dependencies and the timeline for delivering them",
+      "the agreed protocol for who is told about progress and when",
+      "the independent assurance findings on the project's health"
+    ],
+    "answer": 1,
+    "rationale": "The project plan captures the sequenced, dependency-aware timeline of the work. The financial justification is the business case; assurance findings come from an independent review; who is told what and when is the communication plan."
+  },
+  {
+    "id": "K24-006",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project is partway through, with the product being actively built and tested against its agreed plan. Which phase of the lifecycle is the project in?",
+    "options": [
+      "closure",
+      "initiation",
+      "delivery",
+      "benefits realisation"
+    ],
+    "answer": 2,
+    "rationale": "Actively building and testing the product against the plan is the delivery phase. Initiation defines and authorises the project before building starts, closure formally winds it up once the work is complete, and benefits realisation checks after delivery whether the promised improvements have landed, so none of those describes work in active build."
+  },
+  {
+    "id": "K24-007",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A team is keen to start building immediately, but the sponsor insists the project first passes through an initiation phase. The main purpose of that phase is to:",
+    "options": [
+      "define the project's scope, objectives and governance and secure formal authority to proceed",
+      "carry out the independent assurance review of the finished work",
+      "produce the first working version of the product for early feedback",
+      "capture the lessons learned so future projects can benefit"
+    ],
+    "answer": 0,
+    "rationale": "Initiation defines the project and secures authority before building starts. Producing a first working version is delivery; the assurance review of finished work and the lessons-learned capture both come later, not at the outset."
+  },
+  {
+    "id": "K24-008",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Which statement best reflects how a business case is treated over the life of a project?",
+    "options": [
+      "it is drafted after delivery begins, once the real costs have become clear",
+      "it is owned and maintained by the delivery team rather than the sponsor",
+      "it is written once at the start and then left unchanged through to closure",
+      "it is revisited at key decision points to confirm the project is still worth continuing"
+    ],
+    "answer": 3,
+    "rationale": "A business case is revisited at decision points such as stage gates to confirm continued viability. Treating it as write-once ignores those reviews; it is produced before delivery, not after it begins; and it is owned by the sponsor or senior responsible party, not the delivery team."
+  },
+  {
+    "id": "K24-009",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "From a governance point of view, the main value of a project initiation document is that it:",
+    "options": [
+      "records the detailed technical design so the team can begin building without further specification",
+      "provides an agreed baseline of scope, objectives and controls against which progress and changes can be judged",
+      "moves accountability for the project from the sponsor onto the delivery team",
+      "settles the governance arrangements so that stage-gate reviews are no longer needed"
+    ],
+    "answer": 1,
+    "rationale": "The PID's governance value is the agreed baseline it sets, against which progress and change are assessed. It is not the technical design specification, which is a delivery artefact; it does not remove the need for stage gates, which check delivery against that baseline; and it does not shift accountability away from the sponsor."
+  },
+  {
+    "id": "K24-010",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "The project constraints triangle is most commonly described as the interplay between:",
+    "options": [
+      "time, cost and stakeholder satisfaction",
+      "scope, quality and risk",
+      "cost, resource and communication",
+      "scope, time and cost"
+    ],
+    "answer": 3,
+    "rationale": "The classic constraints triangle names scope, time and cost, the three that trade off against one another. Quality, risk, stakeholder satisfaction, resource and communication are all real project concerns, but they are not the three variables the triangle is conventionally drawn from."
+  },
+  {
+    "id": "K24-011",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A sponsor asks a project manager to add a significant new feature without moving the delivery date or increasing the budget. Understood through the constraints triangle, the most likely consequence is that:",
+    "options": [
+      "something else has to give, most probably the quality or the amount of other scope delivered",
+      "the budget will rise while the date holds, because money can be found more readily than time",
+      "the change can be absorbed at no real cost, since a well-run project keeps spare capacity for extras",
+      "the delivery date will slip while the budget holds, because time flexes more readily than cost"
+    ],
+    "answer": 0,
+    "rationale": "The triangle's point is that scope, time and cost are linked, so fixing time and cost while adding scope forces a trade elsewhere, typically in quality or other scope. Assuming free absorption denies the link; assuming the trade must fall on time, or must fall on cost, each picks one variable when the triangle says any of them, or quality, could take the strain."
+  },
+  {
+    "id": "K24-012",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "The main purpose of change control on a project is to:",
+    "options": [
+      "assess proposed changes to the agreed baseline and decide, by a defined route, whether to accept them",
+      "prevent any change to the project once the plan has been approved",
+      "keep a record of changes after they have been made, so there is an audit trail",
+      "estimate the cost and effort each proposed change would add before work restarts"
+    ],
+    "answer": 0,
+    "rationale": "Change control is the defined process for assessing and authorising changes against the baseline before they are made. Blocking all change is too rigid and is not its aim; costing a proposed change is one input to that assessment rather than the purpose of the process itself; and recording changes only after the fact is logging, not control."
+  },
+  {
+    "id": "K24-013",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "On a well-governed project, an issue is escalated to a higher level of authority mainly when:",
+    "options": [
+      "it cannot be resolved within the current level's authority, resources or tolerance",
+      "it can be handled locally but senior managers have asked to see all issues",
+      "the project manager wants to share responsibility for a routine decision",
+      "it is the first issue of its kind to arise on the project"
+    ],
+    "answer": 0,
+    "rationale": "Escalation exists to move a decision to where the authority or resources to resolve it actually sit, when it exceeds the current level's tolerance. Novelty alone, a wish to offload a routine call, or a blanket reporting appetite are not what triggers a genuine escalation."
+  },
+  {
+    "id": "K24-014",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A stage gate in a project is best understood as:",
+    "options": [
+      "a scheduled break in the work to let the team rest before the next phase",
+      "a checkpoint where the team confirms the technical design is internally consistent",
+      "the moment at which the finished product is handed over to the customer",
+      "a decision point between phases at which the project is reviewed and either allowed to proceed, altered or stopped"
+    ],
+    "answer": 3,
+    "rationale": "A stage gate is a go/no-go review between phases, deciding whether the project continues, changes or halts. A rest break, the final handover, and a technical design check are all real events but none is the governance decision point the gate provides."
+  },
+  {
+    "id": "K24-015",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In a RAID log, the four letters stand for:",
+    "options": [
+      "risks, assurance, information and documentation",
+      "risks, actions, incidents and decisions",
+      "risks, assumptions, issues and dependencies",
+      "resources, assumptions, issues and deliverables"
+    ],
+    "answer": 2,
+    "rationale": "RAID stands for risks, assumptions, issues and dependencies. The other expansions mix in real project terms (actions, decisions, resources, deliverables, assurance) that are not what the acronym denotes, which is exactly the confusion the item tests."
+  },
+  {
+    "id": "K24-016",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project manager keeps a RAID log but only opens it when writing the monthly report. The main weakness of using it this way is that:",
+    "options": [
+      "a RAID log works as a live register, reviewed often enough for entries to be acted on in time",
+      "monthly review is too frequent for a RAID log, which is normally revisited only at each stage gate",
+      "a RAID log is an auditors' record, so day-to-day managers are not expected to consult it at all",
+      "the sponsor owns the RAID log, so the project manager reviewing it monthly oversteps their role"
+    ],
+    "answer": 0,
+    "rationale": "A RAID log earns its keep as a living register, reviewed frequently enough that its entries are managed before they bite, so monthly-only use is too infrequent. Calling monthly too frequent inverts this; treating it as auditors-only or sponsor-owned both misplace a tool that exists for active day-to-day management."
+  },
+  {
+    "id": "K24-017",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Project assurance is best described as:",
+    "options": [
+      "the process of gathering requirements from stakeholders at the start",
+      "the project manager's own regular review of progress against the plan",
+      "the sign-off that formally closes the project at the end",
+      "an independent check that the project is being managed well and is likely to deliver as intended"
+    ],
+    "answer": 3,
+    "rationale": "Assurance is an independent view on how well the project is being run and its likelihood of success, deliberately separate from the manager's own control. The manager's progress review is not independent; closure sign-off and requirements gathering are different activities entirely."
+  },
+  {
+    "id": "K24-018",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "On a project, decisions are taken in private meetings with no record kept of who decided what, or why. Read against good governance, the practice most directly undermines:",
+    "options": [
+      "consultation and communication",
+      "assurance and escalation",
+      "accountability and transparency",
+      "delegation and tolerance"
+    ],
+    "answer": 2,
+    "rationale": "Keeping no record of who decided what, or why, removes exactly the visibility and answerability that accountability and transparency provide. Assurance and escalation, delegation and tolerance, and consultation and communication are all real governance ideas, but each is affected only indirectly; the direct casualty of unrecorded, hidden decisions is the ability to see and answer for them."
+  },
+  {
+    "id": "K24-019",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project quietly grows well beyond its agreed scope because small additions keep being made without any formal review. This is best described as:",
+    "options": [
+      "benefits realisation, checking that the promised benefits have been achieved",
+      "escalation, moving decisions to a higher level of authority",
+      "scope creep, an uncontrolled expansion of scope that has bypassed change control",
+      "resource levelling, adjusting the work to fit the people available"
+    ],
+    "answer": 2,
+    "rationale": "Uncontrolled, unreviewed growth in scope is scope creep, and its hallmark is that it has slipped past change control. Resource levelling, escalation and benefits realisation are all genuine project concepts but describe different activities, not uncontrolled scope growth."
+  },
+  {
+    "id": "K24-020",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "The critical path of a project is best described as:",
+    "options": [
+      "the shortest route through the schedule that skips any non-essential tasks",
+      "the sequence of the highest-risk activities that most need close management",
+      "the set of activities assigned to the most heavily loaded team members",
+      "the longest chain of dependent activities, which sets the shortest time in which the project can finish"
+    ],
+    "answer": 3,
+    "rationale": "The critical path is the longest dependent chain, and its length fixes the minimum overall duration, since those tasks have no slack. It is not a shortcut through the schedule, not defined by risk level, and not defined by who is busiest, though each of those sounds plausible if the term is only half understood."
+  },
+  {
+    "id": "K24-021",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A task on a project's critical path finishes three days late. All other tasks are on schedule. The most likely effect on the project is that:",
+    "options": [
+      "there is no effect on the finish date, because slack elsewhere in the schedule tends to absorb a single late task",
+      "the project's finish date moves out by about three days, unless time can be recovered later on the path",
+      "the finish date is unaffected, since critical-path tasks are the ones with the most slack",
+      "the finish date moves out only if the late task was also the most expensive one"
+    ],
+    "answer": 1,
+    "rationale": "Critical-path tasks have no slack, so a slip on the path pushes the whole finish date out unless the time is recovered downstream. The claim that lateness is absorbed denies the definition; cost is irrelevant to schedule impact; and critical-path tasks have the least slack, not the most, which is the misconception the last option trades on."
+  },
+  {
+    "id": "K24-022",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Dependency mapping on a project is chiefly concerned with establishing:",
+    "options": [
+      "which activities carry the greatest risk to delivery",
+      "how much the project is expected to cost in total",
+      "which activities must be completed before others can start",
+      "how many people are available to work on each activity"
+    ],
+    "answer": 2,
+    "rationale": "Dependency mapping sets out the order constraints between activities, which must precede which. Staffing levels are resource planning, risk ranking is risk management, and total cost is the business case or budget, none of which is what a dependency map captures."
+  },
+  {
+    "id": "K24-023",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Resource planning on a project is mainly about:",
+    "options": [
+      "judging whether the project's expected benefits justify its cost",
+      "setting the go or no-go decision points between project phases",
+      "matching the people and capacity available to the work that has to be done, over time",
+      "deciding the order in which dependent tasks must be carried out"
+    ],
+    "answer": 2,
+    "rationale": "Resource planning matches available people and capacity to the scheduled work across time. Ordering dependent tasks is dependency mapping, the phase decision points are stage gates, and weighing benefits against cost is the business case."
+  },
+  {
+    "id": "K24-024",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Some activities in a schedule can start or finish later than planned without delaying the project as a whole. This spare room in the schedule is known as:",
+    "options": [
+      "float",
+      "the critical path",
+      "a dependency",
+      "a milestone"
+    ],
+    "answer": 0,
+    "rationale": "The spare time an activity has before it would delay the project is its float, or slack. The critical path is the chain with no such spare time; a dependency is an ordering constraint; and a milestone is a marked point in the schedule, not spare time within it."
+  },
+  {
+    "id": "K24-025",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Why is it usual to map the dependencies between activities before fixing the dates in the schedule?",
+    "options": [
+      "because reliable date estimates depend on the full dependency map having been signed off first",
+      "because funders require the dependency map to be produced before any dates are discussed",
+      "because the order in which tasks must run constrains when each of them can actually be scheduled",
+      "because dependency mapping replaces the need for a separate schedule once it is done"
+    ],
+    "answer": 2,
+    "rationale": "Dependencies fix the order tasks can run in, and that ordering constrains the dates, so mapping them first makes the schedule realistic. Dates can be estimated before full sign-off, a dependency map does not replace the schedule, and the sequence is driven by logic rather than a funder rule."
+  },
+  {
+    "id": "K24-026",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A schedule shows one analyst assigned full-time to three different tasks that all run in the same week. This is best recognised as:",
+    "options": [
+      "resource over-allocation, where more work is assigned to a person than their available time allows",
+      "a critical-path problem, since the three tasks must form the longest chain",
+      "a dependency conflict, since the three tasks cannot logically run in parallel",
+      "a scope change, since assigning three tasks expands what the project will deliver"
+    ],
+    "answer": 0,
+    "rationale": "One person committed to more concurrent work than their time allows is resource over-allocation, a resource-planning issue. It is not a critical-path matter, which is about chain length; not a dependency conflict, since the tasks may be independent; and not a scope change, since the deliverables have not changed."
+  },
+  {
+    "id": "K24-027",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Which of these tells you the earliest date by which a project could realistically finish?",
+    "options": [
+      "the critical path, whose length sets the minimum overall duration",
+      "the communication plan, which shows reporting timings but not delivery timings",
+      "the dependency map on its own, which shows ordering but not overall duration",
+      "the resource plan, which shows who is available but not the finish date"
+    ],
+    "answer": 0,
+    "rationale": "The critical path's length gives the shortest possible overall duration and hence the earliest realistic finish. A dependency map shows order but not duration, a resource plan shows availability, and a communication plan shows reporting timings, so none of them alone yields the finish date."
+  },
+  {
+    "id": "K24-028",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In agile working, a sprint is best described as:",
+    "options": [
+      "the running list of all outstanding work still to be done",
+      "a board on which work items are moved through stages as they progress",
+      "a short, fixed period of time in which a team delivers an agreed increment of working output",
+      "a short daily meeting to share progress and surface blockers"
+    ],
+    "answer": 2,
+    "rationale": "A sprint is a short, time-boxed period producing an agreed increment. The running list of outstanding work is the backlog, the short daily meeting is the stand-up, and the board of items moving through stages is a Kanban board, the three neighbouring agile concepts this family tests against each other."
+  },
+  {
+    "id": "K24-029",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In agile working, the backlog is best described as:",
+    "options": [
+      "the ordered list of outstanding work still to be delivered, from which upcoming work is drawn",
+      "the fixed period of time in which the team delivers the next increment",
+      "the record of risks, assumptions, issues and dependencies for the project",
+      "the short meeting at which the team plans the coming day's work"
+    ],
+    "answer": 0,
+    "rationale": "The backlog is the ordered list of outstanding work, the source from which items are taken into upcoming work. The fixed delivery period is a sprint, the short planning meeting is a stand-up, and the risks-and-dependencies record is a RAID log, not the backlog."
+  },
+  {
+    "id": "K24-030",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "What most distinguishes a Kanban approach from other ways of organising work?",
+    "options": [
+      "work is coordinated through a short daily meeting focused on progress and blockers",
+      "work is planned in a single detailed schedule agreed in full before delivery starts",
+      "work is visualised as it flows through stages, and the amount in progress at once is deliberately limited",
+      "work is delivered in fixed-length timeboxes, each ending with a review and a retrospective"
+    ],
+    "answer": 2,
+    "rationale": "Kanban's hallmark is visualising flow and limiting work in progress so items are pulled through rather than pushed. Fixed-length timeboxes describe Scrum sprints, a single up-front schedule describes a plan-driven approach, and the daily meeting is the stand-up, an event rather than the defining feature of Kanban."
+  },
+  {
+    "id": "K24-031",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Scrum is best described as:",
+    "options": [
+      "a single up-front plan that fixes the full sequence of work before delivery begins",
+      "a defined agile framework that organises work into sprints, with set roles, events and artefacts",
+      "a technique for visualising work on a board and limiting how much is in progress at once",
+      "the short daily meeting a team holds to share progress and raise blockers"
+    ],
+    "answer": 1,
+    "rationale": "Scrum is a structured agile framework built around sprints with defined roles, events and artefacts. Visualising work and limiting work in progress is Kanban, a fixed up-front plan is a plan-driven approach, and the short daily meeting is the stand-up, which is one event within Scrum rather than the framework itself."
+  },
+  {
+    "id": "K24-032",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "The main purpose of a daily stand-up is to:",
+    "options": [
+      "give the team a brief, regular point to share progress and surface anything blocking the work",
+      "serve as the formal review at which a completed increment is signed off",
+      "set the full scope and sequence of the project for the months ahead",
+      "rank the whole backlog in priority order for the remainder of the project"
+    ],
+    "answer": 0,
+    "rationale": "A stand-up is a short, regular sync for sharing progress and raising blockers. Setting the whole project's scope is up-front planning, signing off a completed increment is a review or demo, and ranking the full backlog is a separate refinement or planning activity, not the daily sync."
+  },
+  {
+    "id": "K24-033",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A team chooses to deliver a large system in a series of small working increments rather than all at once. The main advantage of doing so is that:",
+    "options": [
+      "the team can skip integrating the increments, because small pieces work independently of one another",
+      "the total amount of work is reduced, because increments need less testing than a single release",
+      "the requirements can be settled in full at the start, since increments lock each part down as it ships",
+      "each increment can be reviewed and used, so feedback shapes the work before too much is committed"
+    ],
+    "answer": 3,
+    "rationale": "Incremental delivery lets each piece be reviewed and used, so feedback adjusts direction early and cheaply. It does not reduce the total work or testing, it does not let requirements be settled once for all, indeed it assumes they will evolve, and it does not remove the need to integrate the increments into a working whole."
+  },
+  {
+    "id": "K24-034",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A team member confuses two agile terms. Which pair is correctly distinguished below?",
+    "options": [
+      "a sprint is a short daily meeting; a stand-up is the fixed period over which an increment is delivered",
+      "a sprint and a stand-up are the same fixed delivery period, and the words are used interchangeably",
+      "a sprint is the list of outstanding work; a stand-up is the board on which that work is tracked",
+      "a sprint is a fixed period for delivering an increment; a stand-up is a short meeting held within it"
+    ],
+    "answer": 3,
+    "rationale": "A sprint is the fixed delivery period and a stand-up is a short meeting held within it, so the first pairing is right. The second swaps their meanings, the third wrongly treats them as synonyms, and the fourth confuses them with the backlog and the board."
+  },
+  {
+    "id": "K24-035",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A team keeps one long list of everything still to be built, and at the start of each fixed delivery period pulls a small selection from it to work on. In these terms, the long list and the selection are respectively the:",
+    "options": [
+      "sprint and the backlog",
+      "critical path and its float",
+      "backlog and the sprint's committed work",
+      "stand-up and the Kanban board"
+    ],
+    "answer": 2,
+    "rationale": "The long list of outstanding work is the backlog, and the small selection committed to a fixed period is the sprint's work, so that pairing is correct. Reversing them, or reaching for stand-up and board, or for critical path and float, all misname the two things the scenario describes."
+  },
+  {
+    "id": "K24-036",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Which statement best captures the difference between Kanban and Scrum?",
+    "options": [
+      "Kanban organises work into fixed-length sprints; Scrum manages a continuous flow with work-in-progress limits",
+      "Kanban is a planning document while Scrum is a type of daily meeting",
+      "Kanban and Scrum are two names for the same fixed-timebox approach",
+      "Kanban manages a continuous flow of work with limits on work in progress; Scrum organises work into fixed-length sprints"
+    ],
+    "answer": 3,
+    "rationale": "Kanban runs a continuous, flow-based process with work-in-progress limits, while Scrum works in fixed-length sprints, so the first statement is right. The second reverses them, the third wrongly equates them, and the fourth miscategorises both as a document and a meeting."
+  },
+  {
+    "id": "K24-037",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "An agile, iterative approach is generally most suitable when:",
+    "options": [
+      "the requirements are fully understood and fixed, and change is very unlikely",
+      "the schedule and scope must both be locked before any work can begin",
+      "the work must be delivered in one single release with no intermediate versions",
+      "the requirements are expected to evolve and early feedback is valuable"
+    ],
+    "answer": 3,
+    "rationale": "Agile suits situations where requirements will evolve and frequent feedback improves the result. Fully fixed requirements, a single all-at-once release, and a fully locked scope and schedule up front all describe conditions that favour a plan-driven approach instead."
+  },
+  {
+    "id": "K24-038",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A Waterfall approach to a project is best characterised by:",
+    "options": [
+      "delivering repeatedly in short cycles, adjusting the plan after each one",
+      "working through sequential phases, with each phase largely completed before the next begins",
+      "limiting the amount of work in progress and pulling new work as capacity frees up",
+      "leaving scope deliberately open so it can be reshaped throughout delivery"
+    ],
+    "answer": 1,
+    "rationale": "Waterfall runs as a sequence of phases, each substantially finished before the next starts. Repeated short cycles describe an iterative approach, limiting work in progress and pulling work describe Kanban, and leaving scope open throughout describes an adaptive approach, the opposite of Waterfall."
+  },
+  {
+    "id": "K24-039",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A team is building something whose requirements are well understood, stable and unlikely to change, with a fixed regulatory specification to meet. Which approach is this best suited to?",
+    "options": [
+      "an approach built around frequently changing scope between short cycles",
+      "a traditional, plan-driven approach such as Waterfall",
+      "a purely flow-based Kanban approach with no fixed plan",
+      "an approach that leaves the requirements deliberately open until late"
+    ],
+    "answer": 1,
+    "rationale": "Stable, well-understood requirements with a fixed specification play to the strengths of a plan-driven approach like Waterfall, where the sequence can be planned up front. The other options all assume evolving or open requirements, which is not the situation described."
+  },
+  {
+    "id": "K24-040",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A hybrid project management approach is best described as one that:",
+    "options": [
+      "alternates project managers between traditional and agile specialists each phase",
+      "follows the Waterfall sequence exactly but with more frequent progress reports",
+      "runs entirely in short iterative cycles with no up-front planning at all",
+      "combines plan-driven and iterative elements, applying each where it fits the work"
+    ],
+    "answer": 3,
+    "rationale": "A hybrid approach deliberately blends plan-driven and iterative ways of working, using each where it suits. More frequent reporting on a pure Waterfall is still Waterfall, running entirely in iterations with no planning is pure agile, and rotating the type of manager is not what hybrid means."
+  },
+  {
+    "id": "K24-041",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "What is the core trade-off between a traditional Waterfall approach and an agile one?",
+    "options": [
+      "Waterfall offers more certainty up front but less room to adapt; agile offers more adaptability but less fixed certainty early on",
+      "Waterfall gives a firm final cost early but a later first delivery; agile gives an earlier first delivery but a firmer final cost",
+      "Waterfall front-loads the testing while agile leaves testing to the end; the trade is about when quality is checked",
+      "Waterfall suits large teams while agile suits small ones; the trade is really about team size rather than requirements"
+    ],
+    "answer": 0,
+    "rationale": "The genuine trade is between Waterfall's up-front certainty with limited later flexibility and agile's adaptability with less fixed early certainty. The cost-and-delivery option muddles which approach fixes cost early, the team-size option mislocates the trade in team size rather than how settled the requirements are, and the testing option inverts when each approach tests, so each is a plausible-sounding but wrong account of the trade."
+  },
+  {
+    "id": "K24-042",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Several criticisms are made of traditional, plan-driven projects. Which is the weakness that follows most directly from fixing scope and design early?",
+    "options": [
+      "stakeholders can disengage during long phases with little to review",
+      "changes that emerge late are costly and disruptive to accommodate",
+      "documentation can grow large and go out of date as the work proceeds",
+      "progress can be hard to show until late, since working output arrives near the end"
+    ],
+    "answer": 1,
+    "rationale": "Fixing scope and design early is precisely what makes late change expensive and disruptive, so that weakness follows most directly from the approach. Late-arriving output, stakeholder disengagement and stale documentation are all real criticisms of plan-driven working too, but they are consequences of its length and formality rather than of committing to the design early, which is what the stem asks for."
+  },
+  {
+    "id": "K24-043",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project has a fixed, regulated core that must be planned and signed off in full, alongside a user-facing part whose details will be refined through feedback as it is built. The most fitting approach is:",
+    "options": [
+      "a hybrid approach, planning the regulated core up front and building the user-facing part iteratively",
+      "a pure agile approach applied uniformly to both parts of the project",
+      "to split the work into two entirely separate projects with no shared plan",
+      "a pure Waterfall approach applied uniformly to both parts of the project"
+    ],
+    "answer": 0,
+    "rationale": "A fixed regulated core plus an evolving user-facing part is the classic case for a hybrid approach, plan-driven where certainty is needed and iterative where feedback helps. Forcing one pure method on both parts ignores that the two parts have different needs, and splitting into two unrelated projects loses the shared plan that keeps them coherent."
+  },
+  {
+    "id": "K24-044",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A key difference in how Waterfall and iterative approaches treat requirements is that:",
+    "options": [
+      "Waterfall aims to settle requirements in detail before building, while iterative approaches expect them to be refined as work proceeds",
+      "both approaches fix all requirements at the start and neither allows any later change",
+      "Waterfall captures requirements as a short outline only, while iterative approaches document them in full before any building starts",
+      "iterative approaches settle all requirements up front, while Waterfall discovers them during delivery"
+    ],
+    "answer": 0,
+    "rationale": "Waterfall tries to pin requirements down before building, whereas iterative approaches expect to refine them as they go, which is the real distinction. Waterfall documents requirements in detail rather than as a bare outline, the two do not both fix everything up front, and the last option reverses the two approaches."
+  },
+  {
+    "id": "K24-045",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In project management, the difference between a risk and an issue is best described as:",
+    "options": [
+      "a risk is recorded by the team, while an issue is recorded only by the sponsor",
+      "a risk is minor, while an issue is always serious enough to stop the project",
+      "a risk is something that might happen in future, while an issue is something that has already happened",
+      "a risk affects cost, while an issue affects only the schedule"
+    ],
+    "answer": 2,
+    "rationale": "A risk is a potential future event and an issue is one that has already materialised, which is the core distinction. Severity does not separate them, they are not divided by whether they touch cost or schedule, and who records them is not what makes one a risk and the other an issue."
+  },
+  {
+    "id": "K24-046",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Mitigation planning for a risk is mainly about:",
+    "options": [
+      "recording the risk in a log so that it can be reported to the sponsor",
+      "transferring the risk to another party so it need not be considered further",
+      "waiting until the risk occurs and then dealing with its consequences",
+      "taking action in advance to reduce how likely the risk is, or how much harm it would do"
+    ],
+    "answer": 3,
+    "rationale": "Mitigation is acting ahead of time to lower a risk's likelihood or impact. Waiting to react is the absence of mitigation, logging a risk is recording rather than reducing it, and transferring a risk is a different response that does not itself reduce the underlying likelihood or impact."
+  },
+  {
+    "id": "K24-047",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In risk management, a contingency trigger is best described as:",
+    "options": [
+      "the person given authority to decide how a risk should be handled",
+      "a pre-agreed condition which, once met, sets a prepared fallback plan into action",
+      "the meeting at which the project's risks are reviewed and re-scored",
+      "the sum of money set aside to cover unexpected problems on the project"
+    ],
+    "answer": 1,
+    "rationale": "A contingency trigger is a defined condition that, when reached, launches a ready-made fallback plan. The money set aside is a contingency reserve or budget, the person with authority is a risk owner, and the review meeting is a risk review, so each distractor is a real risk-management term that is not the trigger."
+  },
+  {
+    "id": "K24-048",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "When change management is described as controlling changes against the baseline, the baseline is:",
+    "options": [
+      "the minimum acceptable quality standard the finished product must meet",
+      "the list of stakeholders whose approval any change must receive",
+      "the earliest possible start date from which the whole schedule is calculated",
+      "the agreed reference version of scope, schedule and cost that changes are measured against"
+    ],
+    "answer": 3,
+    "rationale": "The baseline is the agreed reference version of scope, schedule and cost, and change is assessed as departures from it. The earliest start date is a scheduling term, the minimum quality standard is an acceptance criterion, and the list of approvers is part of the change process rather than the baseline itself."
+  },
+  {
+    "id": "K24-049",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project faces a risk that a key supplier may fail to deliver on time. The team arranges a contract with a second supplier who can step in if needed. This response is best described as:",
+    "options": [
+      "realising the risk, by allowing the supplier's failure to occur",
+      "reducing the risk, by putting an arrangement in place that lessens its likely impact",
+      "ignoring the risk, by leaving it out of the risk log altogether",
+      "accepting the risk, by deciding to take no action and absorb any consequences"
+    ],
+    "answer": 1,
+    "rationale": "Lining up a backup supplier lessens the impact if the first fails, which is reducing the risk. Accepting would mean taking no action, ignoring would mean leaving it unmanaged, and realising describes the risk actually occurring, none of which fits the action taken."
+  },
+  {
+    "id": "K24-050",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A risk that the team had been tracking now actually occurs. The appropriate next step is to:",
+    "options": [
+      "close it with no action, because a realised risk can no longer be managed",
+      "escalate it automatically to the sponsor regardless of its severity",
+      "leave it in the risk log unchanged, since it was already recorded there",
+      "manage it as an issue, taking action to address the situation now that it has materialised"
+    ],
+    "answer": 3,
+    "rationale": "Once a tracked risk occurs it becomes an issue and is managed as one, with action taken now that it is real. Leaving it as a risk ignores that its status has changed, closing it as unmanageable is wrong since realised problems still need handling, and automatic escalation regardless of severity skips the judgement escalation calls for."
+  },
+  {
+    "id": "K24-051",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "How does a contingency plan differ from a mitigation action?",
+    "options": [
+      "mitigation is used for issues while contingency is used only for risks that never occur",
+      "mitigation applies to cost risks while contingency applies to schedule risks",
+      "mitigation acts beforehand to lower a risk's likelihood or impact; contingency is a prepared response used if the risk happens anyway",
+      "mitigation is the sponsor's responsibility while contingency is the team's"
+    ],
+    "answer": 2,
+    "rationale": "Mitigation reduces likelihood or impact in advance, while contingency is the fallback held ready in case the risk occurs regardless, so the two act at different points. The risk-versus-issue split, the sponsor-versus-team split and the cost-versus-schedule split are all invented divisions that do not describe the real difference."
+  },
+  {
+    "id": "K24-052",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Why does allowing changes to accumulate without control tend to threaten successful delivery?",
+    "options": [
+      "accumulated small changes cancel out over time, so their combined effect on the plan stays negligible",
+      "the project drifts from its agreed baseline, so plans, estimates and commitments no longer match the work",
+      "change only threatens delivery when it increases cost, and has no effect if it touches scope or time",
+      "controlled and uncontrolled change are equally risky, so the manner of change makes little real difference"
+    ],
+    "answer": 1,
+    "rationale": "Uncontrolled change lets the work drift from the agreed baseline, so the plans, estimates and commitments built on it stop matching reality. Treating controlled and uncontrolled change as equal ignores the point of control, assuming small changes cancel out overlooks how they compound, and confining the threat to cost ignores that scope and time drift matter just as much."
+  },
+  {
+    "id": "K24-053",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In a RACI matrix, the four letters stand for:",
+    "options": [
+      "responsible, accountable, consulted and informed",
+      "reporting, authorising, consulted and informed",
+      "responsible, approving, contributing and informed",
+      "responsible, accountable, coordinated and involved"
+    ],
+    "answer": 0,
+    "rationale": "RACI stands for responsible, accountable, consulted and informed. The other expansions swap in plausible-sounding but wrong words (coordinated, involved, reporting, authorising, approving, contributing) for one or more letters, which is exactly the confusion the item tests."
+  },
+  {
+    "id": "K24-054",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "In a RACI matrix, the distinction between responsible and accountable is that:",
+    "options": [
+      "the responsible person answers for the outcome, while the accountable person carries out the task",
+      "responsible and accountable mean the same thing and are interchangeable labels",
+      "the responsible person does the work, while the accountable person answers for whether it is done properly",
+      "both can be shared among as many people as convenient for any single task"
+    ],
+    "answer": 2,
+    "rationale": "The responsible party performs the work and the accountable party answers for its proper completion, which is the core RACI distinction. Treating the two as synonyms erases the distinction, the third option reverses their meanings, and good practice keeps a single accountable person per task rather than spreading the role freely."
+  },
+  {
+    "id": "K24-055",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project's communication plan mainly sets out:",
+    "options": [
+      "the order in which dependent project tasks must be carried out",
+      "who needs which information, when they need it and how it will reach them",
+      "the criteria by which the project's benefits will later be judged",
+      "the reference version of scope and cost that changes are measured against"
+    ],
+    "answer": 1,
+    "rationale": "A communication plan sets out who needs what information, when and by what means. The ordering of dependent tasks is the schedule or dependency map, the benefit criteria belong to benefits realisation, and the reference version of scope and cost is the baseline, none of which is the communication plan."
+  },
+  {
+    "id": "K24-056",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A stakeholder has high influence over a project but currently takes little interest in it. Standard stakeholder-management practice is to:",
+    "options": [
+      "give them the same light, occasional updates suitable for a low-influence, low-interest stakeholder",
+      "wait until they show interest before engaging them, to avoid spending effort prematurely",
+      "route all dealings with them through the sponsor rather than engaging them directly",
+      "keep them actively engaged and satisfied, since their influence could affect the project if their interest rises"
+    ],
+    "answer": 3,
+    "rationale": "A high-influence stakeholder is managed closely and kept satisfied even when their current interest is low, because that influence can bear on the project at any point. Treating them as low-influence under-manages them, waiting for them to show interest cedes the initiative, and channelling everything through the sponsor avoids the direct engagement their influence warrants."
+  },
+  {
+    "id": "K24-057",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "A project manager needs a reluctant department head to support a change but has no authority over them. Approaching the department head by setting out how the change will help that department's own priorities is best described as:",
+    "options": [
+      "an escalation approach, taking the disagreement to a higher authority to force a decision",
+      "an influencing approach, building support by appealing to the other party's interests",
+      "a contingency approach, preparing a fallback in case the department head refuses",
+      "a change-control approach, formally logging the disagreement as a change request"
+    ],
+    "answer": 1,
+    "rationale": "Winning support by appealing to the other party's own interests, without formal authority, is an influencing approach. Escalation would push the matter upward for a ruling, change control would process it as a baseline change, and contingency would prepare a fallback, none of which is what is being done here."
+  },
+  {
+    "id": "K24-058",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Benefits realisation is chiefly concerned with:",
+    "options": [
+      "confirming that the project was delivered within its agreed time and cost",
+      "checking whether the improvements the project promised have actually been achieved, often after delivery",
+      "ensuring the project team followed the agreed governance process throughout",
+      "verifying that the product meets its technical specification at handover"
+    ],
+    "answer": 1,
+    "rationale": "Benefits realisation asks whether the promised improvements have actually materialised, which is often assessed after the product is in use. Delivering to time and cost, meeting the technical specification, and following governance are all worthwhile checks, but each concerns how the project ran rather than whether its intended benefits landed."
+  },
+  {
+    "id": "K24-059",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "Formal project closure chiefly involves:",
+    "options": [
+      "confirming the work is complete, handing over the outputs and formally releasing the project's resources",
+      "resolving the day-to-day issues that arise while the work is being built",
+      "carrying out the first review of whether the promised benefits have been achieved",
+      "setting the scope and objectives that the project will be delivered against"
+    ],
+    "answer": 0,
+    "rationale": "Closure confirms completion, hands over the outputs and releases the resources, drawing the project to an orderly end. The first benefits review often comes later, setting scope and objectives happens at initiation, and resolving day-to-day issues belongs to delivery, so none of those is what closure centres on."
+  },
+  {
+    "id": "K24-060",
+    "ksb": [
+      "K24"
+    ],
+    "stem": "The main purpose of a lessons-learned exercise at the end of a project is to:",
+    "options": [
+      "confirm that each team member met their individual performance targets",
+      "capture what went well and what did not, so future projects can benefit from the experience",
+      "establish who was at fault for any problems, so responsibility can be assigned",
+      "produce a final report required before the project's budget can be closed"
+    ],
+    "answer": 1,
+    "rationale": "A lessons-learned exercise captures what worked and what did not so future projects improve. It is not there to assign blame, it is not merely a budget-closing formality, and it is not an appraisal of individual performance, all of which would undercut the honest reflection the exercise depends on."
   }
 ]
