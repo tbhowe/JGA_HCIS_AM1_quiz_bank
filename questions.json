@@ -13543,5 +13543,905 @@
     ],
     "answer": 1,
     "rationale": "A lessons-learned exercise captures what worked and what did not so future projects improve. It is not there to assign blame, it is not merely a budget-closing formality, and it is not an appraisal of individual performance, all of which would undercut the honest reflection the exercise depends on."
+  },
+  {
+    "id": "K10-001",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Within an integrated care system, the main role of an integrated care board (ICB) is to:",
+    "options": [
+      "plan and commission NHS services to meet the needs of the people in its area",
+      "lead national workforce planning and set training numbers for the NHS",
+      "deliver hospital care directly to patients across the integrated care system",
+      "inspect health and care providers and rate the quality and safety of their services"
+    ],
+    "answer": 0,
+    "rationale": "An ICB is the statutory NHS body that plans and commissions services for its area. Inspecting and rating providers is the regulator's role, delivering hospital care is a provider's role, and national workforce planning sits at national level, not with a single area ICB."
+  },
+  {
+    "id": "K10-002",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "How does an integrated care partnership (ICP) differ from an integrated care board (ICB)?",
+    "options": [
+      "the ICP inspects providers, while the ICB rates them on quality and safety",
+      "the ICP sets the area's health and wellbeing strategy, while the ICB commissions NHS services",
+      "the ICP and ICB are two names for the same statutory NHS commissioning body",
+      "the ICP commissions NHS services, while the ICB advises it on clinical priorities"
+    ],
+    "answer": 1,
+    "rationale": "The ICP is the wider strategic partnership, including the local authority and other partners, that sets a health and wellbeing strategy, while the ICB is the statutory NHS commissioner. The other options misassign commissioning to the ICP, invent a regulatory role, or wrongly treat the two as identical."
+  },
+  {
+    "id": "K10-003",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In the current structure of the NHS in England, an integrated care system (ICS) is best described as:",
+    "options": [
+      "a partnership of organisations covering an area, working together to plan and join up health and care",
+      "a neighbourhood group of GP practices sharing staff and services across their patient lists",
+      "the strategic committee that brings NHS and council partners together to agree a health and wellbeing strategy",
+      "a single statutory organisation that holds the NHS budget and commissions services for the area"
+    ],
+    "answer": 0,
+    "rationale": "An ICS is the overall partnership arrangement across a geography, within which other bodies sit. The single statutory budget-holder and commissioner is the ICB, the strategic committee agreeing the health and wellbeing strategy is the ICP, and the neighbourhood group of practices is a PCN, so each distractor names a real part of the system that is not the whole ICS."
+  },
+  {
+    "id": "K10-004",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A primary care network (PCN) is best described as:",
+    "options": [
+      "a group of neighbouring GP practices working together to provide services at a larger scale",
+      "the overall system-wide arrangement under which all the area's health and care partners collaborate",
+      "the statutory NHS body that holds the budget and commissions services for the whole area",
+      "the wider partnership of NHS and council bodies that sets the area's health and wellbeing strategy"
+    ],
+    "answer": 0,
+    "rationale": "A PCN operates at neighbourhood scale, a group of GP practices sharing staff and services. The area budget-holder and commissioner is the ICB, the partnership setting the health and wellbeing strategy is the ICP, and the overall system-wide arrangement is the ICS, so the distractors are the larger structures a candidate must not confuse with a PCN by scale."
+  },
+  {
+    "id": "K10-005",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "The main role of the Care Quality Commission (CQC) in the health and care system is to:",
+    "options": [
+      "plan the future health and care workforce for the whole country",
+      "commission and pay for NHS services on behalf of a local population",
+      "independently register, inspect and rate providers on the quality and safety of their care",
+      "lead the response to outbreaks of infectious disease"
+    ],
+    "answer": 2,
+    "rationale": "The CQC is the independent regulator that registers, inspects and rates providers on quality and safety. Commissioning services is an ICB's role, workforce planning is national, and infectious-disease response is a health-protection function, not regulation."
+  },
+  {
+    "id": "K10-006",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "The UK Health Security Agency (UKHSA) is chiefly responsible for:",
+    "options": [
+      "running general practice and community pharmacy services",
+      "commissioning routine NHS services for local populations",
+      "protecting the population from infectious diseases and other threats to health",
+      "inspecting hospitals and care homes for quality and safety"
+    ],
+    "answer": 2,
+    "rationale": "UKHSA is the health-protection body, dealing with infectious disease and external threats to health. Inspection is the regulator's job, commissioning is the ICB's, and running primary care services is neither of those, so each distractor is a real system function that belongs elsewhere."
+  },
+  {
+    "id": "K10-007",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "The Office for Health Improvement and Disparities (OHID) is distinguished from UKHSA mainly in that OHID:",
+    "options": [
+      "improves the population's health and reduces health inequalities, rather than protecting against acute threats",
+      "regulates the quality and safety of registered health and care providers across the country",
+      "acts as the statutory NHS commissioner for the services in an integrated care system",
+      "operates the ambulance and 999 emergency response service in each region"
+    ],
+    "answer": 0,
+    "rationale": "OHID leads on health improvement and reducing disparities, whereas UKHSA leads on protection from acute threats such as infectious disease, so the two divide improvement from protection. Regulation, commissioning and emergency response are the roles of other bodies entirely."
+  },
+  {
+    "id": "K10-008",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which organisation sits at national level, overseeing the NHS, setting national priorities and directly commissioning some specialised services?",
+    "options": [
+      "the Care Quality Commission (CQC)",
+      "an individual integrated care board (ICB)",
+      "NHS England",
+      "a primary care network (PCN)"
+    ],
+    "answer": 2,
+    "rationale": "National oversight, national priorities and direct commissioning of some specialised services sit with NHS England. An ICB works at area level, the CQC regulates rather than oversees and commissions, and a PCN is a neighbourhood grouping of practices."
+  },
+  {
+    "id": "K10-009",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Within the health and care system, local authorities are chiefly responsible for:",
+    "options": [
+      "public health functions and adult social care for the residents they serve",
+      "regulating the quality and safety of NHS providers",
+      "protecting the population against outbreaks of infectious disease",
+      "commissioning acute hospital services across an integrated care system"
+    ],
+    "answer": 0,
+    "rationale": "Local authorities hold responsibility for public health and adult social care locally. Commissioning acute NHS services is the ICB's role, regulation is the CQC's, and health protection is UKHSA's, so the distractors are real functions belonging to other bodies."
+  },
+  {
+    "id": "K10-010",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A provider organisation is preparing for a visit from the body that will inspect and rate the quality and safety of its services. A different body decides which services to pay it to deliver. Respectively, these two bodies are the:",
+    "options": [
+      "primary care network and the local authority",
+      "Care Quality Commission and the integrated care board",
+      "integrated care board and the Care Quality Commission",
+      "UK Health Security Agency and the primary care network"
+    ],
+    "answer": 1,
+    "rationale": "Inspecting and rating quality is the CQC's role, and deciding which services to commission is the ICB's, so that pairing is correct. Reversing them swaps regulator and commissioner, and the other pairings name bodies that do neither of the two described jobs."
+  },
+  {
+    "id": "K10-011",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "An analyst's proposal would change how much the NHS pays for hospital and community services across the area. Which body must approve that change?",
+    "options": [
+      "UK Health Security Agency",
+      "integrated care board",
+      "Care Quality Commission",
+      "local authority"
+    ],
+    "answer": 1,
+    "rationale": "The integrated care board is the NHS commissioner for the area, while the local authority runs council services such as adult social care. The CQC regulates rather than commissions, and UKHSA is the health-protection body, so neither commissions the services described."
+  },
+  {
+    "id": "K10-012",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Two structures are described: one is a small group of GP practices serving a neighbourhood, the other plans and commissions services for a whole area. These are, respectively, the:",
+    "options": [
+      "integrated care board and the primary care network",
+      "primary care network and the integrated care board",
+      "primary care network and the integrated care partnership",
+      "integrated care partnership and the primary care network"
+    ],
+    "answer": 1,
+    "rationale": "The neighbourhood group of GP practices is the primary care network and the area-wide commissioner is the integrated care board, so that pairing is correct. The other options reverse the two or substitute the integrated care partnership, which is the strategic partnership rather than the area commissioner."
+  },
+  {
+    "id": "K10-013",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "An outbreak of an infectious disease is spreading across several regions. Which national body leads the response?",
+    "options": [
+      "Office for Health Improvement and Disparities",
+      "Care Quality Commission",
+      "UK Health Security Agency",
+      "integrated care board"
+    ],
+    "answer": 2,
+    "rationale": "Health protection during an infectious-disease outbreak is UKHSA's remit. The CQC regulates provider quality, the ICB commissions services, and OHID leads health improvement rather than protection against acute threats, so none of those is the outbreak-response body."
+  },
+  {
+    "id": "K10-014",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "The integrated care partnership (ICP) in an area is best described as:",
+    "options": [
+      "the statutory body that holds the NHS budget and commissions services for the area",
+      "the independent regulator that inspects and rates health and care provider quality",
+      "the joint committee of NHS, council and other partners setting the health and wellbeing strategy",
+      "a network of neighbouring GP practices delivering primary care at neighbourhood level"
+    ],
+    "answer": 2,
+    "rationale": "The ICP is the joint strategic committee of NHS, council and other partners that agrees the area's health and wellbeing strategy. Holding the budget and commissioning is the ICB, regulation is the CQC, and the neighbourhood GP grouping is the PCN."
+  },
+  {
+    "id": "K10-015",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which national body leads work to make the population healthier and to narrow the gap in outcomes between richer and poorer areas?",
+    "options": [
+      "the Care Quality Commission",
+      "an integrated care board",
+      "the UK Health Security Agency",
+      "the Office for Health Improvement and Disparities"
+    ],
+    "answer": 3,
+    "rationale": "Leading national health improvement and reducing disparities is OHID's role. UKHSA protects against acute health threats, the CQC regulates quality, and an ICB commissions services at area level, so each distractor is a real body with a different remit."
+  },
+  {
+    "id": "K10-016",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which of these functions sits at national level rather than being carried out by an individual integrated care board for its own area?",
+    "options": [
+      "arranging primary care services for the local neighbourhood populations",
+      "agreeing the local health and wellbeing strategy with council partners",
+      "planning and commissioning the area's routine hospital and community services",
+      "setting national NHS priorities and directly commissioning some specialised services"
+    ],
+    "answer": 3,
+    "rationale": "Setting national priorities and directly commissioning specialised services is a national-level function, held by NHS England rather than a single ICB. Commissioning the area's routine services is the ICB's own role, agreeing the local strategy is the ICP's, and arranging neighbourhood primary care sits with local structures, so those three are area-level rather than national."
+  },
+  {
+    "id": "K10-017",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A care home wants to understand who will judge, independently, whether its care is safe and of good quality, and publish a rating. That body is the:",
+    "options": [
+      "integrated care board",
+      "Care Quality Commission",
+      "UK Health Security Agency",
+      "primary care network"
+    ],
+    "answer": 1,
+    "rationale": "Independent judgement and public rating of care quality and safety is the CQC's role. The ICB commissions services, the PCN is a GP grouping, and UKHSA handles health protection, so none of those is the body that rates the home."
+  },
+  {
+    "id": "K10-018",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In the health and care system, the distinction between commissioning and provision is that:",
+    "options": [
+      "commissioning and provision both mean paying providers, so there is no real difference",
+      "commissioning is inspecting services, while provision is planning the future workforce",
+      "commissioning is deciding on and paying for services, while provision is delivering care",
+      "commissioning is delivering care to patients, while provision is regulating the quality of it"
+    ],
+    "answer": 2,
+    "rationale": "Commissioning is planning, deciding on and paying for services, and provision is the delivery of care itself, so the two are the buy side and the deliver side. The other options confuse delivery with regulation, treat the two as identical, or swap in inspection and workforce planning, which are different functions again."
+  },
+  {
+    "id": "K10-019",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In the NHS, primary care is best described as:",
+    "options": [
+      "the emergency response provided at the scene by the ambulance service",
+      "specialist care that can be accessed only by referral from a hospital consultant",
+      "the first point of contact, including general practice, community pharmacy, dentistry and optometry",
+      "inpatient treatment provided on the wards of an acute general hospital"
+    ],
+    "answer": 2,
+    "rationale": "Primary care is the usual first point of contact and includes general practice, community pharmacy, dentistry and optometry. Acute inpatient treatment, consultant-referred specialist care and ambulance emergency response are all other parts of the system, not primary care."
+  },
+  {
+    "id": "K10-020",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A district nurse employed by an NHS trust changes dressings and supports recovery for patients who are no longer inpatients. This care is delivered by:",
+    "options": [
+      "an acute hospital",
+      "community health services",
+      "a primary care network",
+      "the ambulance service"
+    ],
+    "answer": 1,
+    "rationale": "Care delivered in patients' homes and in the community, such as district nursing, is provided by community health services. An acute hospital delivers inpatient and emergency care on site, the ambulance service provides emergency transport and response, and a PCN is a structure of GP practices rather than the community nursing service itself."
+  },
+  {
+    "id": "K10-021",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "When a hospital is described as providing acute care, this mainly means it provides:",
+    "options": [
+      "short-term active treatment for serious injury, illness or urgent and planned surgery",
+      "ongoing care delivered to patients in their own homes",
+      "long-term residential support for people who can no longer live independently",
+      "routine first-contact care such as general practice and community pharmacy"
+    ],
+    "answer": 0,
+    "rationale": "Acute care is short-term active treatment, including emergency and planned surgical and medical care. Long-term residential support is social care, first-contact care is primary care, and care in the home is community health services, so each distractor is a different setting."
+  },
+  {
+    "id": "K10-022",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In the way NHS services are organised, mental health services are best understood as:",
+    "options": [
+      "a service delivered entirely within general practice as part of routine primary care",
+      "a form of support with daily living arranged and funded as adult social care",
+      "a set of clinics run within acute hospitals as a branch of general medical care",
+      "a distinct sector with its own community and inpatient services, separate from acute physical care"
+    ],
+    "answer": 3,
+    "rationale": "Mental health services form their own sector with dedicated community and inpatient provision, planned and delivered distinctly from acute physical care. They are not merely a branch of acute hospital medicine, not delivered wholly within general practice, and not simply adult social care, though they interact with all of these."
+  },
+  {
+    "id": "K10-023",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which of these best describes what adult social care provides, as distinct from healthcare?",
+    "options": [
+      "diagnosis and treatment of acute illness by hospital medical and nursing staff",
+      "support with personal care and daily living, such as washing, dressing and staying safe",
+      "prescribing and dispensing of medicines for people with long-term conditions",
+      "emergency assessment and resuscitation for people with life-threatening conditions"
+    ],
+    "answer": 1,
+    "rationale": "Adult social care supports personal care and daily living rather than treating illness. Diagnosis and treatment, emergency resuscitation and prescribing are all healthcare activities, which is the distinction the item draws."
+  },
+  {
+    "id": "K10-024",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Within urgent and emergency care, the ambulance service is chiefly responsible for:",
+    "options": [
+      "providing routine planned surgery on scheduled hospital operating lists",
+      "running the telephone assessment line that directs patients to services",
+      "deciding which NHS services should be commissioned for the local area",
+      "responding to emergencies, giving care at the scene and taking patients onward"
+    ],
+    "answer": 3,
+    "rationale": "The ambulance service responds to emergencies, treats patients at the scene and transports them to appropriate care. Commissioning is an ICB function, planned surgery is acute elective care, and the telephone assessment line that directs patients is NHS 111, a different part of urgent and emergency care, so the distractors are functions of other parts of the system."
+  },
+  {
+    "id": "K10-025",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which of these would normally be counted as part of urgent and emergency care?",
+    "options": [
+      "a scheduled outpatient appointment booked weeks in advance",
+      "a planned physiotherapy course for a long-standing back problem",
+      "a routine dental check-up in a high-street practice",
+      "a hospital accident and emergency department treating serious unplanned injuries"
+    ],
+    "answer": 3,
+    "rationale": "An accident and emergency department dealing with serious unplanned injury is core urgent and emergency care. A pre-booked outpatient appointment, a routine dental check-up and a planned physiotherapy course are all planned, non-urgent care, which is the contrast being tested."
+  },
+  {
+    "id": "K10-026",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient sees their GP about a new symptom, and separately receives regular home visits from a district nursing team. These two contacts are, respectively, with:",
+    "options": [
+      "adult social care and community health services",
+      "community health services and primary care",
+      "primary care and community health services",
+      "acute hospital care and primary care"
+    ],
+    "answer": 2,
+    "rationale": "The GP contact is primary care, the first point of contact, and the district nursing home visits are community health services delivered in the patient's home. The other options reverse the two or substitute acute or social care, which describe neither contact."
+  },
+  {
+    "id": "K10-027",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient is supported by a specialist community team, and may be admitted to a dedicated inpatient unit during a crisis. Their condition is a long-term psychiatric one rather than a physical illness. This care sits within:",
+    "options": [
+      "adult social care",
+      "primary care",
+      "the ambulance service",
+      "mental health services"
+    ],
+    "answer": 3,
+    "rationale": "A community team plus a specialist inpatient unit for severe mental illness is mental health services. Adult social care supports daily living rather than treating illness, the ambulance service provides emergency response, and primary care is first-contact general practice, so none of those is the setting described."
+  },
+  {
+    "id": "K10-028",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient has surgery and a short inpatient stay, then continues their recovery with visits from a community nursing team at home. Where does each part of this care sit?",
+    "options": [
+      "the surgery is primary care, and the home visits are adult social care",
+      "the surgery and inpatient stay are acute care; the home visits are community health services",
+      "both the inpatient stay and the later home visits are acute hospital care",
+      "both the inpatient stay and the home visits are community health services"
+    ],
+    "answer": 1,
+    "rationale": "The operation and inpatient stay are acute hospital care, while the follow-up visits at home are community health services, so care moves from acute to community. The other options wrongly extend acute care to the home visits, mislabel surgery as primary care, or collapse both parts into community services."
+  },
+  {
+    "id": "K10-029",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which part of the system is chiefly responsible for arranging and funding adult social care?",
+    "options": [
+      "local authorities",
+      "integrated care boards",
+      "the UK Health Security Agency",
+      "primary care networks"
+    ],
+    "answer": 0,
+    "rationale": "Arranging and funding adult social care is chiefly a local authority responsibility. ICBs commission NHS services, UKHSA handles health protection, and PCNs are neighbourhood GP groupings, so none of those leads on social care."
+  },
+  {
+    "id": "K10-030",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "An NHS-employed physiotherapist runs a clinic in a local health centre and visits housebound patients to continue their rehabilitation. This service is best classified as:",
+    "options": [
+      "an acute hospital service",
+      "a community health service",
+      "an adult social care service",
+      "an urgent and emergency care service"
+    ],
+    "answer": 1,
+    "rationale": "NHS therapy delivered in a health centre and in patients' homes, outside hospital, is a community health service. It is not acute hospital care, since no inpatient stay is involved, not adult social care, since it is clinical therapy, and not urgent and emergency care, since it is planned rather than an emergency response."
+  },
+  {
+    "id": "K10-031",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient at home receives wound care from an NHS district nurse and, separately, help with washing and dressing from a council-arranged care worker. These two forms of support are, respectively:",
+    "options": [
+      "adult social care and a community health service",
+      "a community health service and adult social care",
+      "an acute hospital service and adult social care",
+      "a community health service and an urgent and emergency care service"
+    ],
+    "answer": 1,
+    "rationale": "NHS district nursing for wound care is a community health service, and council-arranged help with washing and dressing is adult social care, so that pairing is right. The other options reverse the two, or substitute acute or urgent and emergency care, which describe neither form of support."
+  },
+  {
+    "id": "K10-032",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which pair correctly separates urgent and emergency care from primary care?",
+    "options": [
+      "both handle only pre-booked appointments made well in advance of the patient being seen",
+      "urgent and emergency care is delivered only by GPs, while primary care is delivered in hospitals",
+      "urgent and emergency care provides planned check-ups, while primary care handles life-threatening emergencies",
+      "urgent and emergency care handles unplanned same-day needs; primary care provides planned first-contact care"
+    ],
+    "answer": 3,
+    "rationale": "Urgent and emergency care deals with unplanned same-day needs while primary care is planned first-contact care, so the first pairing is right. The second reverses them, the third wrongly limits both to pre-booked care, and the fourth misassigns who delivers each."
+  },
+  {
+    "id": "K10-033",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "The difference between an elective and a non-elective admission is that an elective admission is:",
+    "options": [
+      "planned in advance, whereas a non-elective admission is unplanned and usually urgent or an emergency",
+      "always more serious than a non-elective admission",
+      "admitted through the emergency department, whereas a non-elective admission comes from a waiting list",
+      "arranged by the ambulance service, whereas a non-elective admission is arranged by a GP"
+    ],
+    "answer": 0,
+    "rationale": "An elective admission is planned in advance and a non-elective admission is unplanned, typically urgent or emergency, which is the core distinction. Severity does not define the split, neither is tied to a particular referrer, and the last option reverses the routes, since it is the non-elective admission that typically comes through emergency and the elective one that comes from a planned list."
+  },
+  {
+    "id": "K10-034",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In a patient pathway, a referral is best described as:",
+    "options": [
+      "directing a patient on to another service or clinician for assessment or treatment",
+      "the decision to place a patient on a planned surgery waiting list",
+      "the point at which a patient is formally admitted to a hospital bed",
+      "the discharge of a patient from hospital back to their home"
+    ],
+    "answer": 0,
+    "rationale": "A referral directs a patient onward to another service or clinician, often starting a pathway. Being admitted to a bed is admission, leaving hospital is discharge, and being listed for surgery is a later step, so each distractor is a different point in the pathway."
+  },
+  {
+    "id": "K10-035",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient collapses at home, is brought to hospital by ambulance and admitted straight from the emergency department the same day. This admission is:",
+    "options": [
+      "elective, because the patient was admitted to a hospital bed",
+      "non-elective, only if the patient had no GP referral",
+      "non-elective, because it was unplanned and urgent",
+      "elective, because they arrived through the emergency department"
+    ],
+    "answer": 2,
+    "rationale": "An unplanned, urgent admission arriving via emergency is a non-elective admission. Being given a bed does not make it elective, arriving through the emergency department is the opposite of elective, and whether a GP referral existed does not change that an emergency admission is non-elective."
+  },
+  {
+    "id": "K10-036",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In a hospital pathway, the discharge process refers to:",
+    "options": [
+      "the point at which a patient is first referred into the hospital's services",
+      "the assessment carried out when a patient first arrives at the emergency department",
+      "the scheduling of a patient's planned operation on a hospital theatre list",
+      "the steps by which a patient leaves hospital care, with any further care arranged"
+    ],
+    "answer": 3,
+    "rationale": "Discharge is the process of a patient leaving hospital with follow-on care arranged as needed. A referral into services, an arrival assessment and theatre scheduling are all earlier points in the pathway, not the point of leaving."
+  },
+  {
+    "id": "K10-037",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "What makes a cancer pathway a distinct, actively managed pathway rather than an ordinary referral?",
+    "options": [
+      "suspected cancer triggers an urgent referral managed against defined time standards from referral to diagnosis and treatment",
+      "the referral for suspected cancer is made by the patient directly, rather than through a clinician",
+      "cancer care follows the ordinary elective route, with no timing arrangements that differ from other planned care",
+      "the pathway is defined by the treatment used, so it begins only once chemotherapy or surgery starts"
+    ],
+    "answer": 0,
+    "rationale": "A cancer pathway is driven by urgent suspected-cancer referral and managed against specific time standards through diagnosis to treatment, which is what makes it distinct. It is not simply the ordinary elective route, it does not begin only at treatment, since the managed clock starts at referral, and the suspected-cancer referral is made by a clinician rather than the patient."
+  },
+  {
+    "id": "K10-038",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient feels unwell in the evening, is unsure whether to go to A&E, and calls a free NHS number that assesses their symptoms and directs them to the most appropriate care. This service is:",
+    "options": [
+      "the 999 ambulance emergency line",
+      "their GP practice's routine daytime reception",
+      "NHS 111",
+      "the local pharmacy's prescription collection line"
+    ],
+    "answer": 2,
+    "rationale": "A free NHS phone service that assesses symptoms and directs patients to the right care in the urgent care pathway is NHS 111. The 999 line is for life-threatening emergencies rather than uncertain symptom triage, the GP's daytime reception is closed in the evening and books routine appointments, and a pharmacy collection line handles prescriptions, so none provides the evening symptom assessment described."
+  },
+  {
+    "id": "K10-039",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Which of these best describes a typical elective pathway?",
+    "options": [
+      "a GP refers a patient, who waits for a planned outpatient appointment and, if needed, planned treatment",
+      "a patient is resuscitated on arrival and taken directly to intensive care",
+      "a patient calls a helpline and is directed to an urgent treatment centre the same evening",
+      "a patient arrives by ambulance and is admitted straight from the emergency department"
+    ],
+    "answer": 0,
+    "rationale": "An elective pathway is a planned route: referral, a planned outpatient appointment and planned treatment if needed. The other options all describe unplanned, urgent or emergency routes, which are non-elective."
+  },
+  {
+    "id": "K10-040",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "How does discharge differ from a transfer of care?",
+    "options": [
+      "discharge applies only to planned admissions, while transfer of care applies only to emergency ones",
+      "discharge is arranged by the ambulance service, while transfer of care is arranged by a GP",
+      "discharge is a patient leaving a service's care; a transfer of care passes responsibility to another service",
+      "discharge and transfer of care mean exactly the same thing, and the terms are interchangeable"
+    ],
+    "answer": 2,
+    "rationale": "Discharge is a patient leaving a service's care, whereas a transfer of care hands responsibility from one service or setting to another, so they are related but distinct. They are not identical, neither is limited to planned or emergency cases, and neither is tied to a single arranger."
+  },
+  {
+    "id": "K10-041",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In a patient pathway, how does a referral differ from an admission?",
+    "options": [
+      "every referral leads in time to an admission, so in practice the two always happen together",
+      "a referral and an admission are the same event, simply described in two different ways",
+      "a referral is a request to another service, while an admission is the regulator recording that request",
+      "a referral directs a patient on to a service; an admission is that patient being taken onto inpatient care"
+    ],
+    "answer": 3,
+    "rationale": "A referral directs a patient onward to a service, while an admission is the patient being taken onto inpatient care, so they are different points in the pathway. They are not the same event, an admission is not a regulator's record of a referral, and many referrals never lead to an admission, so the two do not always occur together."
+  },
+  {
+    "id": "K10-042",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient's problem is more than routine but not life-threatening. Which route through the urgent care pathway fits their needs?",
+    "options": [
+      "book a routine GP appointment for several weeks' time and take no other action meanwhile",
+      "call 999 for an ambulance immediately, regardless of how serious the problem turns out to be",
+      "go straight to the planned outpatient clinics and wait for the next available appointment",
+      "contact NHS 111 or attend an urgent treatment centre, with A&E kept for serious problems"
+    ],
+    "answer": 3,
+    "rationale": "For a more-than-routine but not life-threatening problem, NHS 111 or an urgent treatment centre is the appropriate route, with A&E kept for serious cases. Planned outpatient clinics and routine GP appointments are too slow for an urgent need, and calling 999 regardless overuses the emergency route for a non-emergency."
+  },
+  {
+    "id": "K10-043",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "How does a cancer pathway differ from a general elective pathway?",
+    "options": [
+      "a cancer pathway involves no referral at all, whereas an elective pathway always begins with one",
+      "a cancer pathway's time standard starts only once treatment begins, unlike the elective clock",
+      "a cancer pathway is unplanned and arrives through the emergency department, unlike an elective one",
+      "a cancer pathway follows an urgent suspected-cancer referral with its own time standards"
+    ],
+    "answer": 3,
+    "rationale": "A cancer pathway runs from an urgent suspected-cancer referral against specific time standards, while a general elective pathway is planned care without that cancer-specific urgency, so both are referral-based but timed differently. A cancer pathway is not an emergency route, it does involve a referral, and its managed clock starts at referral rather than at the start of treatment."
+  },
+  {
+    "id": "K10-044",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "After a hospital stay, a patient's ongoing recovery and support at home are most likely to be provided through:",
+    "options": [
+      "community health services and social care, continuing the patient's care after they leave the acute setting",
+      "the integrated care board, which delivers the patient's day-to-day care directly",
+      "the ambulance service, which visits to manage the patient's ongoing recovery at home",
+      "the acute hospital's inpatient ward, which keeps the patient admitted until they have fully recovered"
+    ],
+    "answer": 0,
+    "rationale": "Ongoing recovery and support at home after discharge are provided by community health services and social care. Keeping the patient admitted until full recovery defeats the purpose of discharge and blocks a bed, the ambulance service provides emergency response rather than ongoing home recovery, and the ICB commissions rather than delivers care."
+  },
+  {
+    "id": "K10-045",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient's operation is booked six weeks ahead, and they are admitted on the morning of surgery as arranged. This admission is:",
+    "options": [
+      "elective, because it was planned and booked in advance",
+      "elective, only if the patient arrived by ambulance",
+      "non-elective, because the patient was admitted to a hospital bed",
+      "non-elective, because surgery always counts as urgent"
+    ],
+    "answer": 0,
+    "rationale": "A pre-booked, planned admission for scheduled surgery is elective. Being admitted to a bed does not make it non-elective, surgery is not automatically urgent, and arriving by ambulance is irrelevant to a planned admission, so the distractors offer wrong reasons."
+  },
+  {
+    "id": "K10-046",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Why is discharge planning important to the flow of patients through a hospital?",
+    "options": [
+      "discharge planning mainly reduces the number of new referrals that a hospital receives",
+      "discharge planning is carried out in order to decide which patients to admit next",
+      "discharge planning is only relevant to those patients admitted for planned elective surgery",
+      "timely, well-planned discharge frees beds and prevents delays building up through the hospital"
+    ],
+    "answer": 3,
+    "rationale": "Planning discharge well frees beds and keeps patients moving through the hospital, preventing bottlenecks, which is its importance to flow. It does not chiefly affect referral numbers, it applies well beyond planned surgery, and it concerns patients leaving rather than deciding who to admit."
+  },
+  {
+    "id": "K10-047",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "An electronic patient record (EPR) is best described as:",
+    "options": [
+      "a system for scheduling operating-theatre lists and managing a hospital's surgical capacity",
+      "a digital record of a patient's clinical information, used by staff to record care",
+      "a national register recording which bodies commission which services in each area",
+      "a telephone service that assesses callers' symptoms and directs them to care"
+    ],
+    "answer": 1,
+    "rationale": "An EPR is the digital clinical record staff use to view and document a patient's care. Theatre scheduling, a commissioning register and a symptom-assessment phone line are all different systems or services, not the clinical record itself."
+  },
+  {
+    "id": "K10-048",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient administration system (PAS) in a hospital is chiefly used to:",
+    "options": [
+      "record the detailed clinical notes and test results for each episode of care",
+      "inspect and rate the hospital on the quality and safety of its care",
+      "manage administrative and operational information such as admissions, appointments, and patient demographics",
+      "assess callers' symptoms and direct them to the most appropriate service"
+    ],
+    "answer": 2,
+    "rationale": "A PAS handles the administrative and operational side, admissions, appointments, transfers and demographics. Detailed clinical notes sit in the clinical record, symptom assessment is NHS 111's role, and inspection is the regulator's, so each distractor is a different system or function."
+  },
+  {
+    "id": "K10-049",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "How does an electronic patient record (EPR) differ from a patient administration system (PAS)?",
+    "options": [
+      "the EPR handles admissions and appointments, while the PAS holds the clinical record of care",
+      "the EPR and PAS are two names for the same hospital system, used interchangeably",
+      "the EPR holds the clinical record of care, while the PAS handles admissions and appointments",
+      "the EPR is used by patients at home, while the PAS is used only by the regulator"
+    ],
+    "answer": 2,
+    "rationale": "The EPR is the clinical record of a patient's care, while the PAS manages administrative and operational data such as admissions and appointments, so the two serve different purposes. The second option reverses them, the third wrongly equates them, and the fourth misassigns who uses each."
+  },
+  {
+    "id": "K10-050",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A hospital reports its performance against the RTT standard. What does this standard measure?",
+    "options": [
+      "how closely clinicians follow the agreed protocol for treating a condition",
+      "how long patients wait between being referred and starting treatment",
+      "how efficiently the hospital sequences its operating-theatre lists",
+      "how many staff the service employs relative to the patients on its list"
+    ],
+    "answer": 1,
+    "rationale": "RTT measures the waiting time from referral to the start of treatment. It is not a clinical treatment protocol, not a staffing requirement for registration, and not the sequencing of theatre lists, which are separate operational matters."
+  },
+  {
+    "id": "K10-051",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "NHS waiting time standards are chiefly concerned with:",
+    "options": [
+      "how many beds a hospital is required to keep open overnight",
+      "the maximum time patients should wait at defined stages of their care",
+      "which clinical treatment a patient should be offered for a given condition",
+      "which organisation is responsible for commissioning a service"
+    ],
+    "answer": 1,
+    "rationale": "Waiting time standards set out the maximum acceptable waits at defined points in a patient's care. They do not prescribe which treatment to give, do not set bed numbers, and do not determine commissioning responsibility, which are separate matters."
+  },
+  {
+    "id": "K10-052",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Theatre scheduling in a hospital is the process of:",
+    "options": [
+      "deciding the maximum time a patient may wait before their planned treatment starts",
+      "recording the clinical details of each operation once it has been carried out on the patient",
+      "arranging the support a patient will need at home after they are discharged from the ward",
+      "planning which operations take place in which theatre and when, to use surgical capacity well"
+    ],
+    "answer": 3,
+    "rationale": "Theatre scheduling plans the use of operating theatres, deciding which operations run where and when. Recording clinical details is the clinical record's job, maximum waits are set by waiting time standards, and arranging home support is discharge planning."
+  },
+  {
+    "id": "K10-053",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In hospital operational terms, an admission is:",
+    "options": [
+      "the transfer of a patient's records from one system to another",
+      "the formal point at which a patient is taken onto the hospital's care as an inpatient",
+      "the moment a GP writes to the hospital asking for a patient to be seen",
+      "the point at which a patient's treatment is finished and they go home"
+    ],
+    "answer": 1,
+    "rationale": "An admission is the formal start of a patient's inpatient stay. A GP writing to request an appointment is a referral, finishing treatment and going home is discharge, and moving records between systems is a data process, not an admission."
+  },
+  {
+    "id": "K10-054",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "In a hospital, flow management is concerned with:",
+    "options": [
+      "recording each patient's diagnosis and treatment in the clinical record",
+      "moving patients through the hospital's beds and departments without avoidable delays or bottlenecks",
+      "setting the national maximum waiting times that the hospital must meet",
+      "deciding which services the hospital should be commissioned to provide"
+    ],
+    "answer": 1,
+    "rationale": "Flow management is the operational work of keeping patients moving through beds and departments without bottlenecks. Setting national maximum waits is the role of waiting time standards, recording diagnosis and treatment belongs to the clinical record, and deciding commissioned services is the commissioner's role."
+  },
+  {
+    "id": "K10-055",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "Discharge planning as an operational process involves:",
+    "options": [
+      "arranging the support, equipment and follow-up in advance so a patient can leave safely",
+      "deciding on the day of discharge itself whether the patient is well enough to go home",
+      "recording the patient's discharge in the hospital's systems after they have already left",
+      "selecting which patients should be admitted to the ward next as beds become free"
+    ],
+    "answer": 0,
+    "rationale": "Discharge planning arranges support, equipment and follow-up ahead of time so a patient can leave safely and without delay. A same-day judgement alone is not planning, recording the discharge afterwards is administration, and choosing who to admit next is a separate decision."
+  },
+  {
+    "id": "K10-056",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A transfer of care takes place when:",
+    "options": [
+      "a patient is moved between two beds on the same ward for convenience",
+      "the nurses on a ward hand over to the incoming shift at the end of the day",
+      "a patient's paper notes are scanned into an electronic system",
+      "responsibility for a patient's care passes from one service, team or setting to another"
+    ],
+    "answer": 3,
+    "rationale": "A transfer of care is the handover of responsibility for a patient between services, teams or settings. Scanning notes is a records task, moving a patient between beds on one ward does not change who is responsible for them, and a shift handover passes the same team's responsibility to colleagues within one service rather than transferring care between services."
+  },
+  {
+    "id": "K10-057",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient is referred by their GP with suspected cancer and the hospital monitors how quickly they are seen and diagnosed against a specific target. The standard being applied here is:",
+    "options": [
+      "the general referral-to-treatment standard applied to routine elective care",
+      "a flow management measure of movement between hospital departments",
+      "a cancer waiting time standard",
+      "a theatre scheduling target for the use of operating lists"
+    ],
+    "answer": 2,
+    "rationale": "An urgent suspected-cancer referral monitored for speed to being seen and diagnosed falls under cancer waiting time standards. The general referral-to-treatment standard covers routine elective waits rather than the suspected-cancer route, theatre scheduling concerns operating list use, and flow management concerns movement within the hospital."
+  },
+  {
+    "id": "K10-058",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A hospital analyst needs the date a patient was admitted and the ward they were moved to, and separately needs the clinician's notes on how the patient responded to treatment. These two kinds of information are normally held in:",
+    "options": [
+      "the electronic patient record for both, since it holds all hospital information",
+      "the theatre scheduling system and the patient administration system respectively",
+      "the electronic patient record and the patient administration system respectively",
+      "the patient administration system and the electronic patient record respectively"
+    ],
+    "answer": 3,
+    "rationale": "Admission dates and ward moves are administrative and operational data held in the patient administration system, while clinical notes on a patient's response to treatment sit in the electronic patient record. The second option reverses the two, the third wrongly assigns admission data to theatre scheduling, and the fourth assumes one system holds everything, which is not how the two are divided."
+  },
+  {
+    "id": "K10-059",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "How does a waiting time standard differ from flow management?",
+    "options": [
+      "the two are the same thing described in different words, so the distinction is only historical",
+      "a waiting time standard applies only in the community, while flow management applies in general practice",
+      "a waiting time standard is a target the service is measured against; flow management is the work of moving patients",
+      "a waiting time standard is the daily work of moving patients, while flow management is the target measured"
+    ],
+    "answer": 2,
+    "rationale": "A waiting time standard is a measured target, whereas flow management is the day-to-day operational activity of keeping patients moving, so one is the measure and the other the work. The second option reverses them, the third wrongly equates them, and the fourth misplaces where each applies."
+  },
+  {
+    "id": "K10-060",
+    "ksb": [
+      "K10"
+    ],
+    "stem": "A patient leaves an acute hospital ward and moves to a community rehabilitation unit, where a different team takes over responsibility for their care. In operational terms this involves:",
+    "options": [
+      "both a discharge from the acute ward and a transfer of care to the community team",
+      "a transfer of care only, since a patient is discharged only when they go to their own home",
+      "a discharge only, since transfer of care applies solely to moves within one hospital",
+      "neither, since the patient remains under NHS care throughout"
+    ],
+    "answer": 0,
+    "rationale": "The patient is discharged from the acute ward and responsibility passes to the community team, so both a discharge and a transfer of care occur. Transfer of care is not limited to moves inside one hospital, discharge is not limited to going home, and remaining within the NHS does not mean neither event has taken place."
   }
 ]
