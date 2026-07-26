@@ -664,15 +664,15 @@
     "ksb": [
       "K3"
     ],
-    "stem": "Time-series methods are particularly suited to data that are:",
+    "stem": "A team has eight years of monthly counts of one measure and wants to separate the long-run drift, the repeating within-year pattern and the remaining irregular variation. The family of analytical tools built for this is:",
     "options": [
-      "aggregate exposure and outcome rates compared across regions",
-      "ordered observations of the same measure taken sequentially over time",
-      "matched pairs of exposed and unexposed individuals",
-      "independent observations from a single cross-sectional snapshot"
+      "discrete-event simulation",
+      "time-series methods",
+      "system dynamics",
+      "Markov models"
     ],
     "answer": 1,
-    "rationale": "Time-series analysis is built for sequential observations of a quantity over time, where order and dependence between successive points matter. A single cross-sectional snapshot has no time ordering. Matched pairs belong to study-design control, not time-series. Comparing aggregate rates across regions is an ecological comparison, not a temporal sequence."
+    "rationale": "Separating an ordered record into a long-run trend, a repeating within-year pattern and the irregular remainder is the decomposition job that time-series methods are built for. Discrete-event simulation follows individual entities through queues as events occur, so it models a process forward rather than describing an existing record. System dynamics represents aggregate stocks and flows linked by feedback loops, which suits whole-system behaviour rather than the components of one measured quantity. Markov models cycle a cohort between defined health states, which answers a different question again."
   },
   {
     "id": "K3-046",
@@ -2119,7 +2119,7 @@
     "ksb": [
       "K5"
     ],
-    "stem": "A commissioner must choose between funding a hip replacement service and a smoking cessation service from one budget. The evaluation method that lets these be compared directly is:",
+    "stem": "A director of public health must choose between funding a falls prevention programme and a drug and alcohol treatment service from a single local authority public health grant. The evaluation method that lets these be compared directly is:",
     "options": [
       "cost-effectiveness analysis",
       "cost-utility analysis",
@@ -2127,7 +2127,7 @@
       "return on investment"
     ],
     "answer": 1,
-    "rationale": "The two services produce quite different outcomes, so a generic utility measure is needed to compare them, which is cost-utility analysis. Cost-effectiveness analysis fails here because there is no natural unit shared by mobility and quitting smoking. Budget impact analysis would tell you affordability, not which offers more health. Return on investment would compare financial returns, not health gain across the two."
+    "rationale": "The two services produce quite different outcomes, so a generic utility measure is needed to compare them, which is cost-utility analysis. Cost-effectiveness analysis fails here because falls averted and successful treatment completions share no natural unit. Budget impact analysis would tell you affordability, not which offers more health. Return on investment would compare financial returns, not health gain across the two."
   },
   {
     "id": "K5-023",
@@ -2532,7 +2532,7 @@
       "the two are interchangeable, so either can cover any cost as needed"
     ],
     "answer": 2,
-    "rationale": "Capital and revenue are governed and funded on different rules, so a plan has to match each cost to the right type. The revenue-always-recovered reading is untrue. The capital-never-needs-running-costs reading ignores the revenue consequences that follow capital investment. The interchangeable reading denies the very distinction the item is about."
+    "rationale": "Capital and revenue are governed and funded on different rules, so a plan has to match each cost to the right type. The revenue-always-recovered reading is untrue. The capital-never-needs-running-costs reading ignores the revenue consequences that follow capital investment. Treating the two as interchangeable denies the distinction altogether."
   },
   {
     "id": "K5-050",
@@ -3762,7 +3762,7 @@
       "physical inactivity"
     ],
     "answer": 3,
-    "rationale": "Physical inactivity is a modifiable health behaviour, alongside smoking, alcohol use and substance misuse. Income is a social and economic determinant, air quality an environmental determinant, and deprivation a structural driver of inequality, so each belongs to a different layer of the framework."
+    "rationale": "Physical inactivity is a modifiable health behaviour, alongside smoking, alcohol use and drug use. Income is a social and economic determinant, air quality an environmental determinant, and deprivation a structural driver of inequality, so each belongs to a different layer of the framework."
   },
   {
     "id": "K12-012",
@@ -3799,7 +3799,7 @@
     "ksb": [
       "K12"
     ],
-    "stem": "An analyst is grouping risk factors by type. Alcohol use, smoking and substance misuse would most appropriately be grouped together as:",
+    "stem": "An analyst is grouping risk factors by type. Alcohol use, smoking and drug use would most appropriately be grouped together as:",
     "options": [
       "environmental determinants",
       "structural drivers of inequality",
@@ -3807,7 +3807,7 @@
       "population vulnerability factors"
     ],
     "answer": 2,
-    "rationale": "Alcohol use, smoking and substance misuse are all modifiable health behaviours and sit in the same category. Environmental determinants, structural drivers and vulnerability factors are the other layers of the framework and contain different kinds of factor."
+    "rationale": "Alcohol use, smoking and drug use are all modifiable health behaviours and sit in the same category. Environmental determinants, structural drivers and vulnerability factors are the other layers of the framework and contain different kinds of factor."
   },
   {
     "id": "K12-015",
@@ -4114,7 +4114,7 @@
     "ksb": [
       "K12"
     ],
-    "stem": "From a determinants of health perspective, problematic substance misuse is best understood as:",
+    "stem": "From a determinants of health perspective, problematic substance use is best understood as:",
     "options": [
       "both a response to, and a driver of, social disadvantage, not simply an individual failing",
       "a purely clinical condition that is best addressed through medical treatment alone",
@@ -4122,7 +4122,7 @@
       "a problem confined to a few areas with little wider relevance"
     ],
     "answer": 0,
-    "rationale": "Substance misuse tends to be both shaped by disadvantage and a cause of further disadvantage, so it is poorly understood as a simple individual failing. Treating it as a purely clinical matter, an isolated personal choice, or a narrow local problem all miss these social roots and consequences."
+    "rationale": "Problematic substance use tends to be both shaped by disadvantage and a cause of further disadvantage, so it is poorly understood as a simple individual failing. Treating it as a purely clinical matter, an isolated personal choice, or a narrow local problem all miss these social roots and consequences."
   },
   {
     "id": "K12-036",
@@ -4954,7 +4954,7 @@
     "ksb": [
       "K6"
     ],
-    "stem": "An analyst needs the most detailed counts of residents by age, sex and small-area geography for a single reference point. Which source is designed to provide this?",
+    "stem": "An analyst needs counts of residents by age, sex and small-area geography for the year 2021. Which source provides those counts with the least uncertainty?",
     "options": [
       "The Census",
       "Office for National Statistics (ONS) mid-year population estimates",
@@ -4962,7 +4962,7 @@
       "Nomis"
     ],
     "answer": 0,
-    "rationale": "The Census is the near-complete count taken once a decade, giving the most detailed breakdowns down to very small geographies. Mid-year estimates update the count between censuses but carry more uncertainty at small-area level; projections describe the future population rather than a current count; Nomis is a portal through which Census and labour market statistics are accessed rather than a separate count. All four are demographic or population products, so the item cannot be solved by eliminating off-topic options."
+    "rationale": "2021 was a census year, and the Census is a near-complete count rather than a modelled estimate, so its small-area breakdowns for that year carry the least uncertainty. Mid-year population estimates give the same age, sex and small-area breakdowns and are the better choice for years between censuses, but they are modelled and carry more uncertainty, particularly at small-area level. Projections describe a future population rather than counting a current one. Nomis is the portal through which Census and labour market statistics are accessed rather than a separate count."
   },
   {
     "id": "K6-002",
@@ -5097,7 +5097,7 @@
       "an extract of coded GP data assembled centrally for planning and research"
     ],
     "answer": 2,
-    "rationale": "GPPR are the records held at the practice itself about its registered patients, including coded clinical information at the individual level. The alternatives are all genuine primary care products an analyst could confuse with them: practice-level prevalence is the Quality and Outcomes Framework (QOF), reported experience is the GP Patient Survey (GPPS), and the central planning-and-research extract is GPES Data for Planning and Research (GDPPR). The item therefore turns on knowing what GPPR holds, not on spotting the only primary care option."
+    "rationale": "GPPR are the records held at the practice itself about its registered patients, including coded clinical information at the individual level. The alternatives are all genuine primary care products an analyst could confuse with them: practice-level prevalence is the Quality and Outcomes Framework (QOF), reported experience is the GP Patient Survey (GPPS), and the central planning-and-research extract is GPES Data for Planning and Research (GDPPR)."
   },
   {
     "id": "K6-011",
@@ -5187,7 +5187,7 @@
       "care provided to women and babies through maternity services"
     ],
     "answer": 0,
-    "rationale": "ECDS is the national data set for emergency department attendances, replacing the older accident and emergency flow. The alternatives are the neighbouring secondary care flows it must be distinguished from: admitted patient care is the main Hospital Episode Statistics (HES) dataset, outpatient activity is the HES outpatient dataset, and maternity care is the Maternity Services Data Set (MSDS). The learner must therefore separate the parts of hospital activity rather than rule out unrelated domains."
+    "rationale": "ECDS is the national data set for emergency department attendances, replacing the older accident and emergency flow. The alternatives are the neighbouring secondary care flows it must be distinguished from: admitted patient care is the main Hospital Episode Statistics (HES) dataset, outpatient activity is the HES outpatient dataset, and maternity care is the Maternity Services Data Set (MSDS)."
   },
   {
     "id": "K6-017",
@@ -5202,7 +5202,7 @@
       "contacts with community health services such as health visiting"
     ],
     "answer": 2,
-    "rationale": "MSDS captures maternity care for women and their babies across the pathway. The alternatives are other patient-level activity datasets it could be confused with: emergency attendances are the Emergency Care Data Set (ECDS), mental health contacts are the Mental Health Services Data Set (MHSDS), and community contacts are the Community Services Data Set (CSDS). The item tests discrimination among activity datasets rather than domain-spotting."
+    "rationale": "MSDS captures maternity care for women and their babies across the pathway. The alternatives are other patient-level activity datasets it could be confused with: emergency attendances are the Emergency Care Data Set (ECDS), mental health contacts are the Mental Health Services Data Set (MHSDS), and community contacts are the Community Services Data Set (CSDS)."
   },
   {
     "id": "K6-018",
@@ -5262,7 +5262,7 @@
       "people in contact with mental health, learning disability and autism services"
     ],
     "answer": 3,
-    "rationale": "MHSDS covers people using mental health, learning disability and autism services. The alternatives are the adjacent community, psychological-therapy and social-care datasets that sit alongside it: community contacts are the Community Services Data Set (CSDS), talking therapies are the Improving Access to Psychological Therapies (IAPT) data set, now NHS Talking Therapies, and council-arranged support is the Short and Long Term Support (SALT) return. The learner must separate mental health services from these neighbours rather than discard unrelated options."
+    "rationale": "MHSDS covers people using mental health, learning disability and autism services. The alternatives are the adjacent community, psychological-therapy and social-care datasets that sit alongside it: community contacts are the Community Services Data Set (CSDS), talking therapies are the Improving Access to Psychological Therapies (IAPT) data set, now NHS Talking Therapies, and council-arranged support is the Short and Long Term Support (SALT) return."
   },
   {
     "id": "K6-022",
@@ -5277,7 +5277,7 @@
       "short- and long-term adult social care support arranged by councils"
     ],
     "answer": 2,
-    "rationale": "CSDS records community health services, for example district nursing and health visiting. The alternatives are the datasets most easily confused with it: mental health contacts are the Mental Health Services Data Set (MHSDS), talking therapies are the Improving Access to Psychological Therapies (IAPT) data set, now NHS Talking Therapies, and council-arranged care is the Short and Long Term Support (SALT) return. The item therefore tests what 'community health services' means rather than letting the learner eliminate off-domain options."
+    "rationale": "CSDS records community health services, for example district nursing and health visiting. The alternatives are the datasets most easily confused with it: mental health contacts are the Mental Health Services Data Set (MHSDS), talking therapies are the Improving Access to Psychological Therapies (IAPT) data set, now NHS Talking Therapies, and council-arranged care is the Short and Long Term Support (SALT) return."
   },
   {
     "id": "K6-023",
@@ -5307,7 +5307,7 @@
       "eligibility for NHS-funded continuing healthcare"
     ],
     "answer": 0,
-    "rationale": "ASCOF reports outcome and quality measures for council-delivered adult social care. The alternatives are the other adult social care collections it must be distinguished from: expenditure is the Adult Social Care Finance Return (ASC-FR), support volume and type is the Short and Long Term Support (SALT) return, and NHS-funded long-term care is Continuing Healthcare (CHC) data. The item tests discrimination within social care rather than domain elimination."
+    "rationale": "ASCOF reports outcome and quality measures for council-delivered adult social care. The alternatives are the other adult social care collections it must be distinguished from: expenditure is the Adult Social Care Finance Return (ASC-FR), support volume and type is the Short and Long Term Support (SALT) return, and NHS-funded long-term care is Continuing Healthcare (CHC) data."
   },
   {
     "id": "K6-025",
@@ -5322,7 +5322,7 @@
       "the volume and type of short- and long-term support councils arrange"
     ],
     "answer": 3,
-    "rationale": "SALT is the local authority return describing the short- and long-term adult social care support provided to people. The alternatives are the neighbouring social care collections: outcomes and quality are the Adult Social Care Outcomes Framework (ASCOF), expenditure is the Adult Social Care Finance Return (ASC-FR), and NHS-funded long-term care is Continuing Healthcare (CHC) data. The learner must separate support activity from outcomes, finance and CHC rather than rule out unrelated domains."
+    "rationale": "SALT is the local authority return describing the short- and long-term adult social care support provided to people. The alternatives are the neighbouring social care collections: outcomes and quality are the Adult Social Care Outcomes Framework (ASCOF), expenditure is the Adult Social Care Finance Return (ASC-FR), and NHS-funded long-term care is Continuing Healthcare (CHC) data."
   },
   {
     "id": "K6-026",
@@ -5337,7 +5337,7 @@
       "eligibility for NHS-funded continuing healthcare"
     ],
     "answer": 0,
-    "rationale": "ASC-FR collects councils' adult social care expenditure. The alternatives are the other adult social care collections an analyst might reach for: outcomes are the Adult Social Care Outcomes Framework (ASCOF), support volume and type is the Short and Long Term Support (SALT) return, and NHS-funded long-term care is Continuing Healthcare (CHC) data. The item turns on separating finance from outcomes, activity and CHC."
+    "rationale": "ASC-FR collects councils' adult social care expenditure. The alternatives are the other adult social care collections an analyst might reach for: outcomes are the Adult Social Care Outcomes Framework (ASCOF), support volume and type is the Short and Long Term Support (SALT) return, and NHS-funded long-term care is Continuing Healthcare (CHC) data."
   },
   {
     "id": "K6-027",
@@ -5352,7 +5352,7 @@
       "the volume and type of short- and long-term support councils arrange"
     ],
     "answer": 1,
-    "rationale": "CHC data relate to NHS-funded continuing healthcare for people with substantial ongoing health needs, distinct from council-funded social care. The alternatives are the council social care collections it is most often confused with: outcomes are the Adult Social Care Outcomes Framework (ASCOF), expenditure is the Adult Social Care Finance Return (ASC-FR), and support volume and type is the Short and Long Term Support (SALT) return. The item tests the NHS-funded versus council-funded distinction rather than domain-spotting."
+    "rationale": "CHC data relate to NHS-funded continuing healthcare for people with substantial ongoing health needs, distinct from council-funded social care. The alternatives are the council social care collections it is most often confused with: outcomes are the Adult Social Care Outcomes Framework (ASCOF), expenditure is the Adult Social Care Finance Return (ASC-FR), and support volume and type is the Short and Long Term Support (SALT) return."
   },
   {
     "id": "K6-028",
@@ -5382,7 +5382,7 @@
       "ready-made public health indicators benchmarked across local areas"
     ],
     "answer": 2,
-    "rationale": "UKHSA surveillance tracks the occurrence and spread of communicable diseases. The alternatives are the other public health sources it sits alongside: vaccine coverage comes from the National Immunisation Management Service (NIMS), self-reported measures from the Health Survey for England (HSE), and benchmarked local indicators from Fingertips. The learner must distinguish surveillance from immunisation, survey and indicator sources rather than eliminate off-domain options."
+    "rationale": "UKHSA surveillance tracks the occurrence and spread of communicable diseases. The alternatives are the other public health sources it sits alongside: vaccine coverage comes from the National Immunisation Management Service (NIMS), self-reported measures from the Health Survey for England (HSE), and benchmarked local indicators from Fingertips."
   },
   {
     "id": "K6-030",
@@ -5412,7 +5412,7 @@
       "syndromic surveillance indicators compiled from emergency department attendances"
     ],
     "answer": 0,
-    "rationale": "NIMS holds person-level immunisation records and is the basis for calculating vaccine coverage across the population. The other options are all public health sources too, which is what makes the item test real discrimination rather than domain-spotting: laboratory-confirmed notifiable disease reports come from UK Health Security Agency (UKHSA) surveillance, self-reported health and lifestyle measures come from the Health Survey for England (HSE), and syndromic indicators from emergency departments are a separate UKHSA surveillance feed."
+    "rationale": "NIMS holds person-level immunisation records and is the basis for calculating vaccine coverage across the population. The other options are all public health sources too: laboratory-confirmed notifiable disease reports come from UK Health Security Agency (UKHSA) surveillance, self-reported health and lifestyle measures come from the Health Survey for England (HSE), and syndromic indicators from emergency departments are a separate UKHSA surveillance feed."
   },
   {
     "id": "K6-032",
@@ -5517,7 +5517,7 @@
       "the resident population by age and sex"
     ],
     "answer": 0,
-    "rationale": "DWP data on benefits and economic circumstances inform analysis of deprivation and the wider determinants of health. The alternatives are the neighbouring wider-determinants and population sources: labour market statistics come through Nomis, education and attainment from Department for Education (DfE) datasets, and population counts from Office for National Statistics (ONS) estimates. The item tests what DWP specifically adds rather than letting the learner discard health datasets."
+    "rationale": "DWP data on benefits and economic circumstances inform analysis of deprivation and the wider determinants of health. The alternatives are the neighbouring wider-determinants and population sources: labour market statistics come through Nomis, education and attainment from Department for Education (DfE) datasets, and population counts from Office for National Statistics (ONS) estimates."
   },
   {
     "id": "K6-039",
@@ -5532,7 +5532,7 @@
       "the resident population by age, sex and small-area geography"
     ],
     "answer": 1,
-    "rationale": "DfE data cover schooling, attainment and indicators such as free school meal eligibility, all relevant to wider determinants. The alternatives are the adjacent wider-determinants and population sources: benefits and income come from Department for Work and Pensions (DWP) datasets, labour market statistics through Nomis, and population counts from Office for National Statistics (ONS) estimates. The learner must separate what each department's data describes."
+    "rationale": "DfE data cover schooling, attainment and indicators such as free school meal eligibility, all relevant to wider determinants. The alternatives are the adjacent wider-determinants and population sources: benefits and income come from Department for Work and Pensions (DWP) datasets, labour market statistics through Nomis, and population counts from Office for National Statistics (ONS) estimates."
   },
   {
     "id": "K6-040",
@@ -5547,7 +5547,7 @@
       "Office for National Statistics (ONS) population projections"
     ],
     "answer": 0,
-    "rationale": "Nomis is the official portal for labour market statistics including employment, unemployment and earnings. DWP datasets describe benefits and income rather than the labour market as such; DfE datasets cover education and attainment; population projections estimate future population structure. All four are population, economic or wider-determinants sources, so the learner must distinguish what each covers rather than discard off-domain options."
+    "rationale": "Nomis is the official portal for labour market statistics including employment, unemployment and earnings. DWP datasets describe benefits and income rather than the labour market as such; DfE datasets cover education and attainment; population projections estimate future population structure. All four are population, economic or wider-determinants sources."
   },
   {
     "id": "K6-041",
@@ -5592,7 +5592,7 @@
       "a benchmarking tool comparing trusts on cost and productivity"
     ],
     "answer": 2,
-    "rationale": "Fingertips is a freely available tool presenting public health indicators and profiles across geographies. The alternatives are the other platforms and environments it must be told apart from: secure record-level analysis is the Office for National Statistics (ONS) Secure Research Service (SRS) or NHS Data Access Environment (DAE), operational and performance dashboards are NHS England dashboards, and trust cost and productivity comparison is the Model Health System. The item tests what kind of platform Fingertips is rather than ruling out unrelated domains."
+    "rationale": "Fingertips is a freely available tool presenting public health indicators and profiles across geographies. The alternatives are the other platforms and environments it must be told apart from: secure record-level analysis is the Office for National Statistics (ONS) Secure Research Service (SRS) or NHS Data Access Environment (DAE), operational and performance dashboards are NHS England dashboards, and trust cost and productivity comparison is the Model Health System."
   },
   {
     "id": "K6-044",
@@ -6852,7 +6852,7 @@
       "SNOMED CT for both tasks, since one terminology can serve recording and statistical grouping equally"
     ],
     "answer": 0,
-    "rationale": "SNOMED CT is built for recording detailed clinical care; ICD-10 is built for classifying diagnoses into groups for statistics, so the key pairs each system with the task it is designed for. Pairing ICD-10 with the clinical detail and SNOMED CT with the counts reverses the two. Using SNOMED CT for both tasks treats a recording terminology as if it were also a statistical classification, which is the distinction being tested. Substituting OPCS-4 for the recording role puts a procedure classification where the clinical recording terminology belongs."
+    "rationale": "SNOMED CT is built for recording detailed clinical care; ICD-10 is built for classifying diagnoses into groups for statistics. Pairing ICD-10 with the clinical detail and SNOMED CT with the counts reverses the two. Using SNOMED CT for both tasks treats a recording terminology as if it were also a statistical classification, which is the distinction being tested. Substituting OPCS-4 for the recording role puts a procedure classification where the clinical recording terminology belongs."
   },
   {
     "id": "K8-005",
@@ -6942,7 +6942,7 @@
       "transport data securely between separate systems, while a classification stores that data locally in one place"
     ],
     "answer": 0,
-    "rationale": "A terminology records detailed clinical truth; a classification groups cases for analysis, so the key states the distinction the right way round. Casting the terminology as the grouper and the classification as the detailed recorder reverses the two roles. Framing the pair as transport versus local storage swaps in an interoperability idea, not the terminology-classification distinction. Framing it as identifying patients versus identifying procedures describes identifiers, not either of the two concepts in question."
+    "rationale": "A terminology records detailed clinical truth; a classification groups cases for analysis. Casting the terminology as the grouper and the classification as the detailed recorder reverses the two roles. Framing the pair as transport versus local storage swaps in an interoperability idea, not the terminology-classification distinction. Framing it as identifying patients versus identifying procedures describes identifiers, not either of the two concepts in question."
   },
   {
     "id": "K8-011",
@@ -7107,7 +7107,7 @@
       "which patient a record belongs to, while an information standard governs how records are exchanged"
     ],
     "answer": 2,
-    "rationale": "The DSPT is about the security of data handling, whereas an information standard sets how the data is defined and structured, so the key separates the two by their true concerns. Casting the DSPT as concerned with naming items and the standard with secure storage reverses them, putting definition on the wrong side. Casting the pair as patient identity versus record exchange swaps in the NHS number and messaging, not either concept here. Casting it as how records move versus who may access them swaps in transport and access control, again neither of the two concepts in question."
+    "rationale": "The DSPT is about the security of data handling, whereas an information standard sets how the data is defined and structured. Casting the DSPT as concerned with naming items and the standard with secure storage reverses them, putting definition on the wrong side. Casting the pair as patient identity versus record exchange swaps in the NHS number and messaging, not either concept here. Casting it as how records move versus who may access them swaps in transport and access control, again neither of the two concepts in question."
   },
   {
     "id": "K8-022",
@@ -7257,7 +7257,7 @@
       "MESH for the format of the data, and HL7 FHIR for the secure route"
     ],
     "answer": 1,
-    "rationale": "HL7 FHIR is a standard for how the data is structured, and MESH is a mechanism for moving it securely, so the key pairs each with the need it serves. Pairing MESH with the format and FHIR with the route reverses the two. Using FHIR for both the format and the route gives one standard both jobs, ignoring that FHIR does not provide the secure transport itself. Using an API for the format and FHIR for the route miscasts an API as a data format and FHIR as a transport, swapping both roles."
+    "rationale": "HL7 FHIR is a standard for how the data is structured, and MESH is a mechanism for moving it securely. Pairing MESH with the format and FHIR with the route reverses the two. Using FHIR for both the format and the route gives one standard both jobs, ignoring that FHIR does not provide the secure transport itself. Using an API for the format and FHIR for the route miscasts an API as a data format and FHIR as a transport, swapping both roles."
   },
   {
     "id": "K8-032",
@@ -7527,7 +7527,7 @@
       "identifies patients uniquely across datasets, while the model classifies their recorded diagnoses"
     ],
     "answer": 2,
-    "rationale": "The dictionary defines what each data item means and the model describes how items relate, so the key states the distinction the right way round. Casting the dictionary as describing relationships and the model as defining meanings reverses the two. Casting the pair as moving data versus storing it securely swaps in interoperability and warehousing ideas, not either concept here. Casting it as identifying patients versus classifying diagnoses swaps in identification and classification, again neither of the two concepts in question."
+    "rationale": "The dictionary defines what each data item means and the model describes how items relate. Casting the dictionary as describing relationships and the model as defining meanings reverses the two. Casting the pair as moving data versus storing it securely swaps in interoperability and warehousing ideas, not either concept here. Casting it as identifying patients versus classifying diagnoses swaps in identification and classification, again neither of the two concepts in question."
   },
   {
     "id": "K8-050",
@@ -7617,7 +7617,7 @@
       "assign each patient a unique identifier within the dataset"
     ],
     "answer": 1,
-    "rationale": "Validation checks the collected data for quality, and publication makes the agreed outputs available, so the key describes both stages correctly. Moving data securely to the collection is the transport step that precedes collection, not validation or publication. Defining data item meanings is the Data Dictionary, done before recording. Assigning a unique identifier is the NHS number's role."
+    "rationale": "Validation checks the collected data for quality, and publication makes the agreed outputs available. Moving data securely to the collection is the transport step that precedes collection, not validation or publication. Defining data item meanings is the Data Dictionary, done before recording. Assigning a unique identifier is the NHS number's role."
   },
   {
     "id": "K8-056",
@@ -7677,7 +7677,7 @@
       "transmits data securely, whereas a federated model defines how it is recorded"
     ],
     "answer": 2,
-    "rationale": "A warehouse brings data into a central store while a federated model leaves it in place, so the key states the contrast the right way round. Casting the warehouse as leaving data in place and the federated model as centralising it reverses the two. Casting the pair as secure transmission versus how data is recorded swaps in messaging and dictionary ideas, not either concept here. Casting it as identifying patients versus classifying diagnoses swaps in identification and classification, again neither of the two concepts in question."
+    "rationale": "A warehouse brings data into a central store while a federated model leaves it in place. Casting the warehouse as leaving data in place and the federated model as centralising it reverses the two. Casting the pair as secure transmission versus how data is recorded swaps in messaging and dictionary ideas, not either concept here. Casting it as identifying patients versus classifying diagnoses swaps in identification and classification, again neither of the two concepts in question."
   },
   {
     "id": "K8-060",
@@ -9237,7 +9237,7 @@
       "refers to the pattern of conditions across a whole population rather than within a single individual"
     ],
     "answer": 0,
-    "rationale": "Multimorbidity considers coexisting conditions together with no single index condition, which is what sets it apart from comorbidity. It is not defined by a higher count of conditions; the difference is framing, not number. Both terms describe conditions within an individual, not a population, so shifting to population level misstates it. Framing the additional conditions around one main condition is the description of comorbidity itself, so it is the inverse of what the stem asks for."
+    "rationale": "Multimorbidity considers coexisting conditions together with no single index condition, which is what sets it apart from comorbidity. It is not defined by a higher count of conditions; the difference is framing, not number. Both terms describe conditions within an individual, not a population, so shifting to population level misstates it. Framing the additional conditions around one main condition is the description of comorbidity itself."
   },
   {
     "id": "K7-044",
@@ -9507,7 +9507,7 @@
       "the Mental Capacity Act 2005"
     ],
     "answer": 2,
-    "rationale": "Working Together to Safeguard Children is the statutory guidance for multi-agency work where a child's welfare is in question. The Care Act 2014 sets the equivalent duties for adults with care and support needs, not children. The Mental Capacity Act 2005 governs decisions for people who lack capacity, which is a different question again. The Data Protection Act 2018 governs the handling of personal data, not the safeguarding response itself. Each is real legislation in this landscape, so the candidate has to match the child multi-agency case to the guidance that covers it."
+    "rationale": "Working Together to Safeguard Children is the statutory guidance for multi-agency work where a child's welfare is in question. The Care Act 2014 sets the equivalent duties for adults with care and support needs, not children. The Mental Capacity Act 2005 governs decisions for people who lack capacity, which is a different question again. The Data Protection Act 2018 governs the handling of personal data, not the safeguarding response itself. Each is real legislation in this landscape."
   },
   {
     "id": "K30-002",
@@ -9522,7 +9522,7 @@
       "the Mental Capacity Act 2005"
     ],
     "answer": 1,
-    "rationale": "The Care Act 2014 places the safeguarding duties in respect of adults at risk. The Mental Capacity Act 2005 governs decision-making for people who lack capacity, which can be relevant but is not the safeguarding basis itself. The Health and Social Care Act 2012 concerns the structure and commissioning of health services. The Equality Act 2010 concerns discrimination and protected characteristics. Each is real legislation an analyst might encounter, so the candidate must identify the one that carries adult safeguarding duties."
+    "rationale": "The Care Act 2014 places the safeguarding duties in respect of adults at risk. The Mental Capacity Act 2005 governs decision-making for people who lack capacity, which can be relevant but is not the safeguarding basis itself. The Health and Social Care Act 2012 concerns the structure and commissioning of health services. The Equality Act 2010 concerns discrimination and protected characteristics. Each is real legislation an analyst might encounter."
   },
   {
     "id": "K30-003",
@@ -9537,7 +9537,7 @@
       "safeguarding and promoting the welfare of children in need"
     ],
     "answer": 1,
-    "rationale": "Prevent is the duty to have regard to the need to stop people being drawn into terrorism. The adult-abuse option describes Care Act 2014 safeguarding. The high-risk domestic abuse option describes what a MARAC coordinates. The children's welfare option describes the aim of Working Together. Each is a genuine safeguarding function in this KSB, so the candidate must know what marks Prevent out from the others."
+    "rationale": "Prevent is the duty to have regard to the need to stop people being drawn into terrorism. The adult-abuse option describes Care Act 2014 safeguarding. The high-risk domestic abuse option describes what a MARAC coordinates. The children's welfare option describes the aim of Working Together."
   },
   {
     "id": "K30-004",
@@ -9552,7 +9552,7 @@
       "the adult safeguarding duties of the Care Act 2014"
     ],
     "answer": 3,
-    "rationale": "An adult at risk of neglect engages Care Act 2014 adult safeguarding. The Mental Capacity Act 2005 governs decisions where a person lacks capacity, which may or may not apply here and is not the safeguarding basis itself. Prevent concerns radicalisation, which is not what the scenario describes. The Local Authority Designated Officer deals with allegations against people who work with children, which does not fit an older adult. The candidate has to route the subject to the correct regime rather than the most familiar-sounding one."
+    "rationale": "An adult at risk of neglect engages Care Act 2014 adult safeguarding. The Mental Capacity Act 2005 governs decisions where a person lacks capacity, which may or may not apply here and is not the safeguarding basis itself. Prevent concerns radicalisation, which is not what the scenario describes. The Local Authority Designated Officer deals with allegations against people who work with children, which does not fit an older adult."
   },
   {
     "id": "K30-005",
@@ -9582,7 +9582,7 @@
       "local procedures override national guidance where the two differ on a duty"
     ],
     "answer": 1,
-    "rationale": "National statutory guidance sets the duties; local procedures translate them into named contacts and steps for the area, which is where 'who to contact for advice' is found. The inverted option wrongly puts the specific duties in local procedure and the framework in national guidance. The override option is wrong because local procedure implements rather than overrides statutory duty. The alternative-routes option is wrong because the two are layered, not interchangeable. The candidate must grasp how the national and local levels relate."
+    "rationale": "National statutory guidance sets the duties; local procedures translate them into named contacts and steps for the area, which is where 'who to contact for advice' is found. The inverted option wrongly puts the specific duties in local procedure and the framework in national guidance. The override option is wrong because local procedure implements rather than overrides statutory duty. The alternative-routes option is wrong because the two are layered, not interchangeable."
   },
   {
     "id": "K30-007",
@@ -9597,7 +9597,7 @@
       "take lead responsibility for safeguarding within a single organisation"
     ],
     "answer": 1,
-    "rationale": "A MASH brings agencies together to pool information and triage referrals. Taking lead responsibility within one organisation describes a Designated Safeguarding Lead. Handling allegations against people who work with children describes the LADO. Agreeing a safety plan for high-risk domestic abuse describes a MARAC. Each is a real safeguarding function in this KSB, so the candidate must know which body does which job rather than reading it off the grammar."
+    "rationale": "A MASH brings agencies together to pool information and triage referrals. Taking lead responsibility within one organisation describes a Designated Safeguarding Lead. Handling allegations against people who work with children describes the LADO. Agreeing a safety plan for high-risk domestic abuse describes a MARAC."
   },
   {
     "id": "K30-008",
@@ -9612,7 +9612,7 @@
       "decisions about how a patient's confidential information may be used"
     ],
     "answer": 0,
-    "rationale": "The LADO handles allegations against adults who work with children. A concern about a child harmed by a family member is a general safeguarding referral, routed to the MASH or children's social care, not the LADO. Confidential-information decisions sit with a Caldicott Guardian. High-risk domestic abuse coordination is a MARAC function. The candidate must separate allegations against staff from safeguarding concerns about children in general."
+    "rationale": "The LADO handles allegations against adults who work with children. A concern about a child harmed by a family member is a general safeguarding referral, routed to the MASH or children's social care, not the LADO. Confidential-information decisions sit with a Caldicott Guardian. High-risk domestic abuse coordination is a MARAC function. Allegations against staff follow a different route from general safeguarding concerns about children."
   },
   {
     "id": "K30-009",
@@ -9627,7 +9627,7 @@
       "take lead responsibility for safeguarding arrangements within a single organisation"
     ],
     "answer": 1,
-    "rationale": "A MARAC is the multi-agency forum for the highest-risk domestic abuse cases. Triaging the full range of referrals describes a MASH. Advising on confidential information describes a Caldicott Guardian. Taking lead responsibility within one organisation describes a Designated Safeguarding Lead. Each is a real function in this KSB, and the candidate has to fix the MARAC on high-risk domestic abuse specifically."
+    "rationale": "A MARAC is the multi-agency forum for the highest-risk domestic abuse cases. Triaging the full range of referrals describes a MASH. Advising on confidential information describes a Caldicott Guardian. Taking lead responsibility within one organisation describes a Designated Safeguarding Lead."
   },
   {
     "id": "K30-010",
@@ -9642,7 +9642,7 @@
       "chair the multi-agency response to high-risk domestic abuse"
     ],
     "answer": 1,
-    "rationale": "A Caldicott Guardian protects patient confidential information and advises on when sharing is appropriate. Triaging referrals describes a MASH. Managing allegations against staff describes the LADO. Chairing the domestic-abuse response describes a MARAC. The three wrong answers are the other named roles and forums, so the candidate must tie the Caldicott Guardian to information rather than to a safeguarding process."
+    "rationale": "A Caldicott Guardian protects patient confidential information and advises on when sharing is appropriate. Triaging referrals describes a MASH. Managing allegations against staff describes the LADO. Chairing the domestic-abuse response describes a MARAC. The three wrong answers are the other named roles and forums."
   },
   {
     "id": "K30-011",
@@ -9657,7 +9657,7 @@
       "the Designated Safeguarding Lead and the Local Authority Designated Officer"
     ],
     "answer": 3,
-    "rationale": "An allegation against a person who works with children goes to the internal Designated Safeguarding Lead first and then to the LADO, whose remit is exactly allegations against such staff. The MASH and LADO pairing puts the right allegations officer with a general triage hub rather than the internal lead. The MARAC and Caldicott pairing applies a domestic-abuse forum and an information role, neither of which fits. The MASH and DSL pairing has the right internal lead but routes onward to general triage rather than the LADO. The candidate must pair the internal lead with the LADO for a staff allegation."
+    "rationale": "An allegation against a person who works with children goes to the internal Designated Safeguarding Lead first and then to the LADO, whose remit is exactly allegations against such staff. The MASH and LADO pairing puts the right allegations officer with a general triage hub rather than the internal lead. The MARAC and Caldicott pairing applies a domestic-abuse forum and an information role, neither of which fits. The MASH and DSL pairing has the right internal lead but routes onward to general triage rather than the LADO."
   },
   {
     "id": "K30-012",
@@ -9672,7 +9672,7 @@
       "submit a referral directly to the Multi-Agency Safeguarding Hub"
     ],
     "answer": 1,
-    "rationale": "The usual internal step is to raise a concern with the Designated Safeguarding Lead, who advises on referral. Going straight to the MASH bypasses the organisation's own internal process. Treating it as a line-management matter understates a safeguarding concern. Waiting for confirmation risks leaving a child at risk while the analyst self-verifies. The candidate must know the internal first point of contact."
+    "rationale": "The usual internal step is to raise a concern with the Designated Safeguarding Lead, who advises on referral. Going straight to the MASH bypasses the organisation's own internal process. Treating it as a line-management matter understates a safeguarding concern. Waiting for confirmation risks leaving a child at risk while the analyst self-verifies."
   },
   {
     "id": "K30-013",
@@ -9687,7 +9687,7 @@
       "the Designated Safeguarding Lead"
     ],
     "answer": 0,
-    "rationale": "The Caldicott Guardian advises on whether a use of patient confidential information is appropriate and in patients' interests, which is the judgement described. The Data Protection Officer's focus is legal compliance with data protection law, a related but narrower and more legalistic remit. The Designated Safeguarding Lead leads safeguarding, not information use. The Local Authority Designated Officer handles allegations against staff who work with children. The candidate has to separate the confidentiality judgement from adjacent legal and safeguarding roles."
+    "rationale": "The Caldicott Guardian advises on whether a use of patient confidential information is appropriate and in patients' interests, which is the judgement described. The Data Protection Officer's focus is legal compliance with data protection law, a related but narrower and more legalistic remit. The Designated Safeguarding Lead leads safeguarding, not information use. The Local Authority Designated Officer handles allegations against staff who work with children."
   },
   {
     "id": "K30-014",
@@ -9702,7 +9702,7 @@
       "a Multi-Agency Risk Assessment Conference (MARAC)"
     ],
     "answer": 3,
-    "rationale": "A MARAC is the forum for coordinating safety planning for high-risk domestic abuse. A MASH triages incoming referrals generally rather than running the safety plan for a high-risk case. The LADO handles allegations against people who work with children, which is not what this case is. A Caldicott Guardian review concerns information use, not safety planning. The candidate must distinguish the risk conference from the triage hub in particular."
+    "rationale": "A MARAC is the forum for coordinating safety planning for high-risk domestic abuse. A MASH triages incoming referrals generally rather than running the safety plan for a high-risk case. The LADO handles allegations against people who work with children, which is not what this case is. A Caldicott Guardian review concerns information use, not safety planning."
   },
   {
     "id": "K30-015",
@@ -9717,7 +9717,7 @@
       "observe, assess, diagnose, treat"
     ],
     "answer": 2,
-    "rationale": "The four Rs of safeguarding are recognise, respond, record and report. The observe-assess-diagnose-treat sequence is a clinical framing, not a safeguarding one. The identify-escalate-resolve-close wording describes generic incident or case management. The notice-discuss-delay-review wording embeds delay, which runs against prompt safeguarding action. The candidate must recognise the specific four-word safeguarding sequence."
+    "rationale": "The four Rs of safeguarding are recognise, respond, record and report. The observe-assess-diagnose-treat sequence is a clinical framing, not a safeguarding one. The identify-escalate-resolve-close wording describes generic incident or case management. The notice-discuss-delay-review wording embeds delay, which runs against prompt safeguarding action."
   },
   {
     "id": "K30-016",
@@ -9732,7 +9732,7 @@
       "deciding independently whether the threshold for a statutory referral is met"
     ],
     "answer": 0,
-    "rationale": "For a non-specialist, responding means taking appropriate action on the concern, chiefly by raising it promptly with the right person, not investigating. Carrying out an investigation goes beyond the analyst's role and can compromise a later enquiry. Deciding the statutory threshold alone is a specialist judgement, not the analyst's. Offering reassurance that nothing further is needed pre-empts the process. The candidate must grasp that responding is about routing, not resolving."
+    "rationale": "For a non-specialist, responding means taking appropriate action on the concern, chiefly by raising it promptly with the right person, not investigating. Carrying out an investigation goes beyond the analyst's role and can compromise a later enquiry. Deciding the statutory threshold alone is a specialist judgement, not the analyst's. Offering reassurance that nothing further is needed pre-empts the process. Responding means routing the concern, not resolving it."
   },
   {
     "id": "K30-017",
@@ -9747,7 +9747,7 @@
       "the maximum number of concerns an analyst may hold before they must report them together"
     ],
     "answer": 0,
-    "rationale": "A threshold is the level of seriousness at which a concern warrants a formal referral. It is not a quota of accumulated concerns, which misreads 'threshold' as a count. It is not a seniority bar on who may raise a concern, since anyone can raise one. It is not a closure deadline, which confuses the threshold with timescales. The candidate must read threshold as a level of concern, not a number, rank or date."
+    "rationale": "A threshold is the level of seriousness at which a concern warrants a formal referral. It is not a quota of accumulated concerns, which misreads 'threshold' as a count. It is not a seniority bar on who may raise a concern, since anyone can raise one. It is not a closure deadline, which confuses the threshold with timescales. A threshold here is a level of concern, not a number, rank or date."
   },
   {
     "id": "K30-018",
@@ -9762,7 +9762,7 @@
       "take the concern to a different agency in the hope of a quicker response"
     ],
     "answer": 0,
-    "rationale": "Local arrangements include an escalation route for when a concern seems not to have been acted on, and the analyst should use it. Taking it to a different agency instead sidesteps the agreed escalation route. Recording that the concern was raised and treating the duty as discharged leaves a live risk unaddressed. Simply re-sending through the same channel that has not responded is not the same as formally escalating. The candidate must know that escalation follows a defined route until a concern is properly resolved."
+    "rationale": "Local arrangements include an escalation route for when a concern seems not to have been acted on, and the analyst should use it. Taking it to a different agency instead sidesteps the agreed escalation route. Recording that the concern was raised and treating the duty as discharged leaves a live risk unaddressed. Simply re-sending through the same channel that has not responded is not the same as formally escalating. Escalation follows a defined route until the concern is properly resolved."
   },
   {
     "id": "K30-019",
@@ -9777,7 +9777,7 @@
       "a coding inconsistency to be standardised during the cleaning step"
     ],
     "answer": 2,
-    "rationale": "A pattern of poorly explained injuries in a vulnerable adult is a possible safeguarding concern and should be raised through the proper channel. Excluding it as an outlier treats a welfare signal as a statistical nuisance. Logging it as a data quality issue files it away as an error rather than acting on it. Standardising it as a coding inconsistency erases the very pattern that matters. The candidate must recognise that this is a safeguarding matter, not one of the ordinary data-handling responses."
+    "rationale": "A pattern of poorly explained injuries in a vulnerable adult is a possible safeguarding concern and should be raised through the proper channel. Excluding it as an outlier treats a welfare signal as a statistical nuisance. Logging it as a data quality issue files it away as an error rather than acting on it. Standardising it as a coding inconsistency erases the very pattern that matters. This is a safeguarding matter rather than an ordinary data-handling response."
   },
   {
     "id": "K30-020",
@@ -9792,7 +9792,7 @@
       "keep the details informal and unwritten to protect the person's privacy"
     ],
     "answer": 0,
-    "rationale": "Recording means a prompt, factual note of what was seen and done, kept separate from opinion. Writing a considered account only once the outcome is known loses detail and delays the record. Recording a judgement on whether abuse occurred overreaches the analyst's role and omits the underlying facts. Keeping it unwritten for privacy leaves no reliable account and can obstruct a later enquiry. The candidate must know recording is prompt, factual and contemporaneous."
+    "rationale": "Recording means a prompt, factual note of what was seen and done, kept separate from opinion. Writing a considered account only once the outcome is known loses detail and delays the record. Recording a judgement on whether abuse occurred overreaches the analyst's role and omits the underlying facts. Keeping it unwritten for privacy leaves no reliable account and can obstruct a later enquiry. Recording should be prompt, factual and contemporaneous."
   },
   {
     "id": "K30-021",
@@ -9807,7 +9807,7 @@
       "suspended entirely, so any information may be shared freely once a concern arises"
     ],
     "answer": 2,
-    "rationale": "Confidentiality is important but can be outweighed when sharing is necessary to protect someone at risk. Treating it as overriding unless the person consents would block protective sharing that consent is not required for. Treating it as entirely suspended goes too far the other way and invites disproportionate sharing. Calling it a matter of discretion with no bearing on safeguarding ignores that it is a real duty to be weighed. The candidate must hold the middle position: weighable, not absolute and not void."
+    "rationale": "Confidentiality is important but can be outweighed when sharing is necessary to protect someone at risk. Treating it as overriding unless the person consents would block protective sharing that consent is not required for. Treating it as entirely suspended goes too far the other way and invites disproportionate sharing. Calling it a matter of discretion with no bearing on safeguarding ignores that it is a real duty to be weighed. Confidentiality is weighable: neither absolute nor void."
   },
   {
     "id": "K30-022",
@@ -9822,7 +9822,7 @@
       "lawful where it is necessary to protect a person at risk and there is a proper basis for doing so"
     ],
     "answer": 3,
-    "rationale": "Sharing without consent can be lawful where it is necessary to protect someone at risk and there is a proper basis. Saying it is unlawful without prior agreement misstates the law, which does allow protective sharing without consent. Saying it is required in every case regardless of risk removes the necessity test. Saying it needs a court order first invents a barrier that does not apply to safeguarding sharing. The candidate must know consent is not the only lawful basis."
+    "rationale": "Sharing without consent can be lawful where it is necessary to protect someone at risk and there is a proper basis. Saying it is unlawful without prior agreement misstates the law, which does allow protective sharing without consent. Saying it is required in every case regardless of risk removes the necessity test. Saying it needs a court order first invents a barrier that does not apply to safeguarding sharing."
   },
   {
     "id": "K30-023",
@@ -9837,7 +9837,7 @@
       "the information may still be shared where doing so is necessary to protect the child, because consent is not the only lawful basis"
     ],
     "answer": 3,
-    "rationale": "Where sharing is necessary to protect a child, it can proceed without consent, since consent is not the only lawful basis. Treating the refusal as settling the matter wrongly makes consent decisive. Limiting sharing to cases where the concern involves a family member invents a condition that does not govern protective sharing. Insisting on renewed written consent first imposes a step that protective sharing does not require. The candidate must place necessity above consent when a child is at risk."
+    "rationale": "Where sharing is necessary to protect a child, it can proceed without consent, since consent is not the only lawful basis. Treating the refusal as settling the matter wrongly makes consent decisive. Limiting sharing to cases where the concern involves a family member invents a condition that does not govern protective sharing. Insisting on renewed written consent first imposes a step that protective sharing does not require. Where a child is at risk, necessity takes precedence over consent."
   },
   {
     "id": "K30-024",
@@ -9852,7 +9852,7 @@
       "what is shared should be relevant and limited to what the recipient needs for the safeguarding purpose"
     ],
     "answer": 3,
-    "rationale": "Proportionate sharing means disclosing what is relevant and no more than the recipient needs for the purpose. Sharing as much as possible ignores the limiting principle. Sharing equally with every partner regardless of need over-discloses to those who do not need it. Restricting to anonymised information only would often defeat the safeguarding purpose, which usually needs identifiable detail. The candidate must read proportionality as relevance and necessity, not maximal or blanket sharing."
+    "rationale": "Proportionate sharing means disclosing what is relevant and no more than the recipient needs for the purpose. Sharing as much as possible ignores the limiting principle. Sharing equally with every partner regardless of need over-discloses to those who do not need it. Restricting to anonymised information only would often defeat the safeguarding purpose, which usually needs identifiable detail. Proportionality means sharing what is relevant and necessary, not sharing everything."
   },
   {
     "id": "K30-025",
@@ -9867,7 +9867,7 @@
       "the duty of confidentiality no longer applies once a concern has been raised"
     ],
     "answer": 2,
-    "rationale": "An objection must be weighed but does not override sharing that is necessary to protect someone at risk. Treating the objection as removing any basis for sharing gives it a veto it does not have. Saying confidentiality no longer applies at all overstates the position and licenses disproportionate sharing. Pausing to persuade the person to withdraw the objection can leave a live risk unaddressed. The candidate must weigh the objection without treating it as decisive or as voiding the duty entirely."
+    "rationale": "An objection must be weighed but does not override sharing that is necessary to protect someone at risk. Treating the objection as removing any basis for sharing gives it a veto it does not have. Saying confidentiality no longer applies at all overstates the position and licenses disproportionate sharing. Pausing to persuade the person to withdraw the objection can leave a live risk unaddressed."
   },
   {
     "id": "K30-026",
@@ -9882,7 +9882,7 @@
       "confidentiality and sharing are separate concerns that need not be weighed against each other"
     ],
     "answer": 2,
-    "rationale": "The Caldicott principles include the idea that a duty to share can be as important as the duty to protect confidential information where safety is at stake. Putting confidentiality ahead of safeguarding concerns ignores that balance. Restricting the duty to share to anonymised data misstates it, since safeguarding sharing is often identifiable. Saying the two never need weighing denies the trade-off the principles are built to manage. The candidate must recognise sharing and protecting as balanced duties."
+    "rationale": "The Caldicott principles include the idea that a duty to share can be as important as the duty to protect confidential information where safety is at stake. Putting confidentiality ahead of safeguarding concerns ignores that balance. Restricting the duty to share to anonymised data misstates it, since safeguarding sharing is often identifiable. Saying the two never need weighing denies the trade-off the principles are built to manage. Sharing and protecting are duties to be balanced against each other."
   },
   {
     "id": "K30-027",
@@ -9897,7 +9897,7 @@
       "keep a summary and discard the underlying records"
     ],
     "answer": 0,
-    "rationale": "Records relevant to a concern should be preserved intact so an accurate account survives. Tidying them to remove what might be misread alters the evidence and can obscure the picture. Deleting sensitive details after reporting removes exactly what a later enquiry may need. Keeping only a summary loses the underlying detail. The candidate must know preservation means leaving relevant records unaltered."
+    "rationale": "Records relevant to a concern should be preserved intact so an accurate account survives. Tidying them to remove what might be misread alters the evidence and can obscure the picture. Deleting sensitive details after reporting removes exactly what a later enquiry may need. Keeping only a summary loses the underlying detail. Preservation means leaving relevant records unaltered."
   },
   {
     "id": "K30-028",
@@ -9912,7 +9912,7 @@
       "wait to see whether a colleague raises the same concern first"
     ],
     "answer": 1,
-    "rationale": "When unsure, the analyst should follow local procedures and seek advice from the named contact. Devising an independent approach without consulting anyone bypasses arrangements designed for consistency. Waiting for a colleague to raise it first risks inaction on a live concern. Importing a process from a previous employer ignores that arrangements are local and may differ. The candidate must default to the local process and its named contacts."
+    "rationale": "When unsure, the analyst should follow local procedures and seek advice from the named contact. Devising an independent approach without consulting anyone bypasses arrangements designed for consistency. Waiting for a colleague to raise it first risks inaction on a live concern. Importing a process from a previous employer ignores that arrangements are local and may differ. The local process and its named contacts are the default route."
   },
   {
     "id": "K30-029",
@@ -9927,7 +9927,7 @@
       "timing makes little difference provided the note is written at some point"
     ],
     "answer": 2,
-    "rationale": "A prompt, contemporaneous note captures detail more accurately before memory fades. Claiming a later note carries more weight for reflecting the outcome inverts the point, since hindsight can distort the account. Tying prompt notes to public sharing misstates why timing matters. Saying timing makes little difference denies the value of contemporaneous recording. The candidate must know why prompt recording is preferred."
+    "rationale": "A prompt, contemporaneous note captures detail more accurately before memory fades. Claiming a later note carries more weight for reflecting the outcome inverts the point, since hindsight can distort the account. Tying prompt notes to public sharing misstates why timing matters. Saying timing makes little difference denies the value of contemporaneous recording."
   },
   {
     "id": "K30-030",
@@ -9942,7 +9942,7 @@
       "their organisation's local safeguarding procedures, which set out the named contacts and routes for that area"
     ],
     "answer": 3,
-    "rationale": "Local safeguarding procedures set out the named contacts and routes for the area, so they are where to look first. National statutory guidance sets duties but does not list local contacts, so it will not give the specific name. A helpline from a general search may be neither correct nor local. A colleague's recollection is informal and may be out of date. The candidate must know that the local procedures hold the named contacts, which is the heart of this KSB."
+    "rationale": "Local safeguarding procedures set out the named contacts and routes for the area, so they are where to look first. National statutory guidance sets duties but does not list local contacts, so it will not give the specific name. A helpline from a general search may be neither correct nor local. A colleague's recollection is informal and may be out of date. The local procedures are where the named contacts are held."
   },
   {
     "id": "K18-001",
@@ -10017,7 +10017,7 @@
       "a data sharing agreement"
     ],
     "answer": 1,
-    "rationale": "A Data Protection Impact Assessment identifies and mitigates the risks a proposed activity poses to individuals, done before the processing begins. A data sharing agreement sets terms between organisations. A record of processing activities documents what processing is carried out. A data protection policy states the organisation's general rules. Each is a real governance document with a different job."
+    "rationale": "A Data Protection Impact Assessment identifies and mitigates the risks a proposed activity poses to individuals, done before the processing begins. A data sharing agreement sets terms between organisations. A record of processing activities documents what processing is carried out. A data protection policy states the organisation's general rules."
   },
   {
     "id": "K18-006",
@@ -10317,7 +10317,7 @@
       "the lawful bases available for processing personal data"
     ],
     "answer": 1,
-    "rationale": "The Caldicott Principles govern how confidential patient information is used and protected. The lawful bases for processing sit in UK GDPR. The rights individuals hold over their own data are also a data protection matter, not a Caldicott one. International transfer conditions are a separate part of data protection law. Each wrong option is a real governance topic a candidate might attribute to Caldicott."
+    "rationale": "The Caldicott Principles govern how confidential patient information is used and protected. The lawful bases for processing sit in UK GDPR. The rights individuals hold over their own data are also a data protection matter, not a Caldicott one. International transfer conditions are a separate part of data protection law."
   },
   {
     "id": "K18-026",
@@ -10347,7 +10347,7 @@
       "do not use confidential information unless it is necessary"
     ],
     "answer": 3,
-    "rationale": "Testing whether the purpose can be met without any confidential information is the necessity principle. The minimum-necessary principle applies once some confidential information will be used, limiting how much. Justifying the purpose concerns having a defined reason. Complying with the law is a separate obligation. Necessity and minimum-necessary are the pair most often confused, which is what this item tests."
+    "rationale": "Testing whether the purpose can be met without any confidential information is the necessity principle. The minimum-necessary principle applies once some confidential information will be used, limiting how much. Justifying the purpose concerns having a defined reason. Complying with the law is a separate obligation. Necessity and minimum-necessary are the pair most often confused."
   },
   {
     "id": "K18-028",
@@ -10497,7 +10497,7 @@
       "any purpose that was not part of the original reason for collecting the data"
     ],
     "answer": 0,
-    "rationale": "Secondary use is use beyond the individual's direct care, such as planning, commissioning or research. It is not defined by whether another organisation is involved, whether the purpose differs from the original collection reason, or whether linkage is required. Each wrong option is a plausible but incorrect way of drawing the line."
+    "rationale": "Secondary use is use beyond the individual's direct care, such as planning, commissioning or research. It is not defined by whether another organisation is involved, whether the purpose differs from the original collection reason, or whether linkage is required."
   },
   {
     "id": "K18-038",
@@ -10707,7 +10707,7 @@
       "an audit trail, which records who accessed the figure"
     ],
     "answer": 1,
-    "rationale": "Information describing what a figure covers, how it was compiled and its limitations is metadata, which supports correct interpretation. An audit trail records access. Secondary suppression is a disclosure-control step within a table. A data sharing agreement sets terms between organisations. Each wrong option is a real governance item with a different role."
+    "rationale": "Information describing what a figure covers, how it was compiled and its limitations is metadata, which supports correct interpretation. An audit trail records access. Secondary suppression is a disclosure-control step within a table. A data sharing agreement sets terms between organisations."
   },
   {
     "id": "K18-052",
@@ -10797,7 +10797,7 @@
       "confirming that the data arrived complete and unaltered"
     ],
     "answer": 0,
-    "rationale": "Encryption in transit keeps the data unreadable to anyone who intercepts it in transfer. Confirming the data is complete and unaltered is integrity checking. Recording sender and receiver is logging. Controlling who can log in at the far end is authentication. Each wrong option is a real network-security function that is not what encryption in transit does."
+    "rationale": "Encryption in transit keeps the data unreadable to anyone who intercepts it in transfer. Confirming the data is complete and unaltered is integrity checking. Recording sender and receiver is logging. Controlling who can log in at the far end is authentication."
   },
   {
     "id": "K18-058",
@@ -10857,7 +10857,7 @@
       "A data processing agreement appointing one organisation to act on the other's instructions"
     ],
     "answer": 0,
-    "rationale": "A DSA sets the binding terms of a controller-to-controller share. A data processing agreement governs a processor acting on a controller's instructions, a different relationship; a DPIA assesses the sharing's risks but sets no terms; an MOU on the sharing records shared aims without binding terms. Each is a document a candidate could genuinely reach for when two organisations share data."
+    "rationale": "A DSA sets the binding terms of a controller-to-controller share. A data processing agreement governs a processor acting on a controller's instructions, a different relationship; a DPIA assesses the sharing's risks but sets no terms; an MOU on the sharing records shared aims without binding terms."
   },
   {
     "id": "K19-002",
@@ -10872,7 +10872,7 @@
       "The parties, the purpose, the data items shared, and the controls that apply"
     ],
     "answer": 3,
-    "rationale": "A DSA records who the parties are, the purpose, the specific data items, and the controls governing the share. Risks and mitigations belong in a DPIA; aims and expected benefits belong in an MOU or business case; retention and destruction timing belong in a retention schedule. Each wrong option is a genuine governance documents contents, matched in breadth to the key so the item cannot be solved by picking the fullest list."
+    "rationale": "A DSA records who the parties are, the purpose, the specific data items, and the controls governing the share. Risks and mitigations belong in a DPIA; aims and expected benefits belong in an MOU or business case; retention and destruction timing belong in a retention schedule."
   },
   {
     "id": "K19-003",
@@ -10887,7 +10887,7 @@
       "A public body publishing an open dataset that any organisation may reuse"
     ],
     "answer": 0,
-    "rationale": "A DSA governs a controller-to-controller disclosure, where the receiving organisation uses the data for its own purposes. A supplier acting on instructions is a processor arrangement governed by a processing agreement; publishing open data is a publication decision, not a governed share to a named party; distributing within one corporate body is internal governance. Each is a real data movement a candidate might think a DSA covers."
+    "rationale": "A DSA governs a controller-to-controller disclosure, where the receiving organisation uses the data for its own purposes. A supplier acting on instructions is a processor arrangement governed by a processing agreement; publishing open data is a publication decision, not a governed share to a named party; distributing within one corporate body is internal governance."
   },
   {
     "id": "K19-004",
@@ -10902,7 +10902,7 @@
       "Because the arrangements need to be settled between the parties, and a verbal understanding would be enough if both agreed"
     ],
     "answer": 2,
-    "rationale": "Joint determination means responsibility is shared, so the arrangements must be jointly agreed and written down. Regulators do not require parties to file each others internal policies; a joint document does not merge two lawful bases into one, since each party still needs its own basis; and a verbal understanding is not enough precisely because the arrangements must be recorded, not just agreed. Each wrong option is a believable but mistaken reason rather than an obvious overreach."
+    "rationale": "Joint determination means responsibility is shared, so the arrangements must be jointly agreed and written down. Regulators do not require parties to file each others internal policies; a joint document does not merge two lawful bases into one, since each party still needs its own basis; and a verbal understanding is not enough precisely because the arrangements must be recorded, not just agreed."
   },
   {
     "id": "K19-005",
@@ -10917,7 +10917,7 @@
       "producing a plain-language summary of the sharing for the public"
     ],
     "answer": 0,
-    "rationale": "Data mapping documents the flows: what data moves, between whom, and why. Matching records across datasets is linkage; a plain-language summary for the public is a transparency notice; listing permitted data items is part of a sharing agreements schedule. Each is a real governance activity a candidate must distinguish from mapping, rather than a pun or a technical chore."
+    "rationale": "Data mapping documents the flows: what data moves, between whom, and why. Matching records across datasets is linkage; a plain-language summary for the public is a transparency notice; listing permitted data items is part of a sharing agreements schedule."
   },
   {
     "id": "K19-006",
@@ -10932,7 +10932,7 @@
       "Whether the data flows happening in practice match the flows that were documented and agreed"
     ],
     "answer": 3,
-    "rationale": "A mapping audit compares actual flows against the documented, agreed ones. Checking notification is a transparency step, checking a recorded basis is a governance check on paperwork rather than on flows, and checking data volume against purpose is a minimisation review. Each is a real assurance activity aimed at something other than flow-versus-record."
+    "rationale": "A mapping audit compares actual flows against the documented, agreed ones. Checking notification is a transparency step, checking a recorded basis is a governance check on paperwork rather than on flows, and checking data volume against purpose is a minimisation review."
   },
   {
     "id": "K19-007",
@@ -10962,7 +10962,7 @@
       "set out which staff in each organisation are permitted to access the data"
     ],
     "answer": 1,
-    "rationale": "Defining roles and responsibilities fixes which party is answerable for each aspect of the shared data. Naming permitted staff is access control, sequencing the work is project planning, and resolving policy conflicts is a governance detail; each is a real thing a sharing arrangement might address, but none is what roles and responsibilities is there to establish."
+    "rationale": "Defining roles and responsibilities fixes which party is answerable for each aspect of the shared data."
   },
   {
     "id": "K19-009",
@@ -10977,7 +10977,7 @@
       "Because a lawful basis covers sharing the data, and a separate agreement is needed to link it"
     ],
     "answer": 1,
-    "rationale": "A lawful basis makes the sharing permissible; the DSA governs how it is actually handled between the parties. It is not the agreement that supplies legal force to the basis; a single basis is not split into one per organisation; and linkage does not require its own separate authorising agreement beyond the sharing terms. Each wrong option is a plausible confusion about the division of labour between basis and agreement, without leaning on an absolute."
+    "rationale": "A lawful basis makes the sharing permissible; the DSA governs how it is actually handled between the parties. It is not the agreement that supplies legal force to the basis; a single basis is not split into one per organisation; and linkage does not require its own separate authorising agreement beyond the sharing terms."
   },
   {
     "id": "K19-010",
@@ -11007,7 +11007,7 @@
       "A data protection impact assessment covering the evaluation"
     ],
     "answer": 1,
-    "rationale": "A DSA is the binding instrument that formalises a controller-to-controller share between the two trusts. A processing agreement fits only if one trust acts on the others instructions, which is not this joint evaluation; an MOU records aims without binding terms; a DPIA assesses the evaluations risks but formalises nothing between the parties. Each is a document genuinely in play when two trusts share data."
+    "rationale": "A DSA is the binding instrument that formalises a controller-to-controller share between the two trusts. A processing agreement fits only if one trust acts on the others instructions, which is not this joint evaluation; an MOU records aims without binding terms; a DPIA assesses the evaluations risks but formalises nothing between the parties."
   },
   {
     "id": "K19-012",
@@ -11022,7 +11022,7 @@
       "A signed agreement is enough for non-identifiable data, but identifiable data needs more"
     ],
     "answer": 2,
-    "rationale": "A DSA settles how sharing is done, but a lawful basis must exist independently, so a signature alone is not sufficient. A DPIA may be advisable but is not a precondition for the agreement taking effect; a DSA governs an ongoing arrangement without re-signing per share; and it applies regardless of whether the data is identifiable. Each wrong option is a believable procedural misconception rather than something a non-expert can rule out by general reasoning."
+    "rationale": "A DSA settles how sharing is done, but a lawful basis must exist independently, so a signature alone is not sufficient. A DPIA may be advisable but is not a precondition for the agreement taking effect; a DSA governs an ongoing arrangement without re-signing per share; and it applies regardless of whether the data is identifiable."
   },
   {
     "id": "K19-013",
@@ -11037,7 +11037,7 @@
       "That the individuals concerned have been told their data is being shared"
     ],
     "answer": 2,
-    "rationale": "A lawful basis establishes that the sharing is permitted in principle. Agreeing the practical terms is the job of a data sharing agreement, assessing and mitigating risk is a risk assessment, and telling individuals is a transparency step. Each distractor is a real, adjacent governance activity a candidate could confuse with the basis."
+    "rationale": "A lawful basis establishes that the sharing is permitted in principle. Agreeing the practical terms is the job of a data sharing agreement, assessing and mitigating risk is a risk assessment, and telling individuals is a transparency step."
   },
   {
     "id": "K19-014",
@@ -11052,7 +11052,7 @@
       "the sharing serves a broad benefit to the wider public"
     ],
     "answer": 0,
-    "rationale": "A statutory-functions basis rests on a duty or power the organisation has been given to carry out its role. A broad public benefit is the separate public-interest basis; protecting someones life is the vital-interests basis; prior agreement by individuals is consent. Each distractor is a genuine alternative basis a candidate must tell apart from statutory functions, and the key no longer simply echoes the word statutory."
+    "rationale": "A statutory-functions basis rests on a duty or power the organisation has been given to carry out its role. A broad public benefit is the separate public-interest basis; protecting someones life is the vital-interests basis; prior agreement by individuals is consent."
   },
   {
     "id": "K19-015",
@@ -11067,7 +11067,7 @@
       "the sharing being required by a specific legal duty the organisation holds"
     ],
     "answer": 1,
-    "rationale": "A public-interest basis turns on a genuine benefit to society or the community. A specific legal duty is the statutory-functions basis; protecting vital interests is a separate basis; agreement by most individuals is closer to consent and is not what public interest means. The key states the substance rather than echoing the phrase public interest."
+    "rationale": "A public-interest basis turns on a genuine benefit to society or the community. A specific legal duty is the statutory-functions basis; protecting vital interests is a separate basis; agreement by most individuals is closer to consent and is not what public interest means."
   },
   {
     "id": "K19-016",
@@ -11082,7 +11082,7 @@
       "A statutory-functions basis rests on a specific legal duty or power; a public-interest basis rests on a benefit to society"
     ],
     "answer": 3,
-    "rationale": "The two differ in what they rest on: a defined legal duty or power versus a benefit to society. Option B swaps the two; option D wrongly claims a statutory basis needs no purpose; option A invents a data-type limit neither basis carries. Using society rather than the public removes the plain-word cue, so the candidate must know which basis rests on which ground."
+    "rationale": "The two differ in what they rest on: a defined legal duty or power versus a benefit to society. Option B swaps the two; option D wrongly claims a statutory basis needs no purpose; option A invents a data-type limit neither basis carries."
   },
   {
     "id": "K19-017",
@@ -11097,7 +11097,7 @@
       "the organisation can identify who made the decision and justify why the sharing was appropriate"
     ],
     "answer": 3,
-    "rationale": "Accountability means being able to show who took the decision and why it was appropriate. Documenting the flow in a data map, holding a signed agreement, and getting the receivers sign-off are all real governance steps that support a share but none discharges accountability for the decision itself, which is about being able to justify it. Each wrong option is a genuine control a candidate might mistake for accountability rather than an obvious dodge."
+    "rationale": "Accountability means being able to show who took the decision and why it was appropriate. Documenting the flow in a data map, holding a signed agreement, and getting the receivers sign-off are all real governance steps that support a share but none discharges accountability for the decision itself, which is about being able to justify it."
   },
   {
     "id": "K19-018",
@@ -11112,7 +11112,7 @@
       "The original basis for direct care extends to the new purpose because the data is unchanged"
     ],
     "answer": 2,
-    "rationale": "A lawful basis attaches to a purpose, so a new sharing purpose needs its own basis regardless of how the data was first collected. The original direct-care basis does not stretch to an unrelated purpose; the partners basis does not retrospectively legitimise the disclosure to it; and the need for a basis does not depend on whether the data is identifiable. The three distractors now pull in different directions rather than repeating no further basis needed."
+    "rationale": "A lawful basis attaches to a purpose, so a new sharing purpose needs its own basis regardless of how the data was first collected. The original direct-care basis does not stretch to an unrelated purpose; the partners basis does not retrospectively legitimise the disclosure to it; and the need for a basis does not depend on whether the data is identifiable."
   },
   {
     "id": "K19-019",
@@ -11127,7 +11127,7 @@
       "The organisation's statutory functions"
     ],
     "answer": 3,
-    "rationale": "A mandatory reporting return the organisation is required to submit engages its statutory functions: it shares to discharge a duty attached to its role. Public interest is a real basis but a looser fit than a specific obligation; prior agreement of individuals does not apply to a compulsory return; and the recipients consent to receive figures is not a basis for the sharer to disclose. The stem no longer signals statutory by naming the law."
+    "rationale": "A mandatory reporting return the organisation is required to submit engages its statutory functions: it shares to discharge a duty attached to its role. Public interest is a real basis but a looser fit than a specific obligation; prior agreement of individuals does not apply to a compulsory return; and the recipients consent to receive figures is not a basis for the sharer to disclose."
   },
   {
     "id": "K19-020",
@@ -11142,7 +11142,7 @@
       "A Data Sharing Agreement covers the sharing organisation, whereas a lawful basis covers the receiving one"
     ],
     "answer": 0,
-    "rationale": "A DSA and a lawful basis do different jobs: the agreement sets out how the share is conducted, the basis is what makes it permissible in the first place, so citing the agreement as the basis confuses the two. A basis is not something a regulator approves; a basis is not split into one for each party; and a basis attaches to the sharing purpose, not to each named individual. Each distractor is a believable misconception about how the two documents relate, and the item tests the distinction rather than repeating item 012."
+    "rationale": "A DSA and a lawful basis do different jobs: the agreement sets out how the share is conducted, the basis is what makes it permissible in the first place, so citing the agreement as the basis confuses the two. A basis is not something a regulator approves; a basis is not split into one for each party; and a basis attaches to the sharing purpose, not to each named individual."
   },
   {
     "id": "K19-021",
@@ -11157,7 +11157,7 @@
       "the security of the method used to share it"
     ],
     "answer": 1,
-    "rationale": "A lawful basis is judged against the purpose of the sharing. Sensitivity and transfer security affect how a share must be safeguarded but not whether a basis exists; and the recipients expected benefit is not what determines the sharers basis. Replacing volume with the recipients benefit gives a second reason-shaped option, so the key is no longer the only abstract one."
+    "rationale": "A lawful basis is judged against the purpose of the sharing. Sensitivity and transfer security affect how a share must be safeguarded but not whether a basis exists; and the recipients expected benefit is not what determines the sharers basis. Replacing volume with the recipients benefit gives a second reason-shaped option."
   },
   {
     "id": "K19-022",
@@ -11172,7 +11172,7 @@
       "Because usefulness describes what the data is for, which is the purpose rather than the basis"
     ],
     "answer": 0,
-    "rationale": "A lawful basis must be an identifiable ground tied to the sharing purpose; it would be useful names a benefit, not a basis. Usefulness is for the partner to weigh, not the sharer; usefulness describes the purpose, which still needs a basis behind it; and benefit does not become a basis by being recast as public interest. The three distractors are distinct claims rather than a parallel only once X template, and the key is no longer the conspicuously longest option."
+    "rationale": "A lawful basis must be an identifiable ground tied to the sharing purpose; it would be useful names a benefit, not a basis. Usefulness is for the partner to weigh, not the sharer; usefulness describes the purpose, which still needs a basis behind it; and benefit does not become a basis by being recast as public interest."
   },
   {
     "id": "K19-023",
@@ -11187,7 +11187,7 @@
       "an identifiable lawful basis together with a defined purpose for the sharing"
     ],
     "answer": 3,
-    "rationale": "A legitimate share needs a basis tied to a defined purpose. Individuals' agreement is one possible basis but not a general requirement; a signed agreement governs conduct without itself legitimising the share; and the receiver having its own basis to hold the data does not authorise the disclosure to it. Removing the near-duplicate whatever the purpose option takes away the matched-pair cue, so the candidate must know what legitimacy actually requires."
+    "rationale": "A legitimate share needs a basis tied to a defined purpose. Individuals' agreement is one possible basis but not a general requirement; a signed agreement governs conduct without itself legitimising the share; and the receiver having its own basis to hold the data does not authorise the disclosure to it."
   },
   {
     "id": "K19-024",
@@ -11202,7 +11202,7 @@
       "be able to demonstrate the basis and reasoning for the sharing, not merely assert that one exists"
     ],
     "answer": 3,
-    "rationale": "Accountability means being able to demonstrate the basis and reasoning on request, rather than simply claiming a basis exists. A DPO may advise but their approval is not what accountability requires; the receiver duplicating the justification does not discharge the sharer's own accountability; and there is no general requirement to register each sharing decision with a regulator. Each distractor is a believable governance step a candidate might mistake for the core of accountability."
+    "rationale": "Accountability means being able to demonstrate the basis and reasoning on request, rather than simply claiming a basis exists. A DPO may advise but their approval is not what accountability requires; the receiver duplicating the justification does not discharge the sharer's own accountability; and there is no general requirement to register each sharing decision with a regulator."
   },
   {
     "id": "K19-025",
@@ -11217,7 +11217,7 @@
       "send only the fields the partner's agreed purpose actually needs"
     ],
     "answer": 3,
-    "rationale": "Minimisation means sending only the data the agreed purpose needs, so the extra fields are withheld. Flagging which to rely on still discloses everything; deferring to whatever the partner asks for lets the recipient set the scope rather than the purpose; and sending everything to pre-empt a later request is the might be useful reasoning minimisation rules out. The options no longer split into send all versus send less, so the candidate cannot pick on the word minimise alone."
+    "rationale": "Minimisation means sending only the data the agreed purpose needs, so the extra fields are withheld. Flagging which to rely on still discloses everything; deferring to whatever the partner asks for lets the recipient set the scope rather than the purpose; and sending everything to pre-empt a later request is the might be useful reasoning minimisation rules out. The options no longer split into send all versus send less."
   },
   {
     "id": "K19-026",
@@ -11247,7 +11247,7 @@
       "Minimisation limits how much is shared before it is sent; purpose limitation limits how much is retained afterwards"
     ],
     "answer": 1,
-    "rationale": "Minimisation is about quantity shared; purpose limitation is about the use the shared data may be put to. Option A swaps the two; option B recasts purpose limitation as a retention rule; option C recasts it as access control. Each wrong option now pairs a claim with a wrong account of purpose limitation, so the candidate must know specifically what purpose limitation governs rather than eliminating a self-contradiction."
+    "rationale": "Minimisation is about quantity shared; purpose limitation is about the use the shared data may be put to. Option A swaps the two; option B recasts purpose limitation as a retention rule; option C recasts it as access control. Each wrong option now pairs a claim with a wrong account of purpose limitation."
   },
   {
     "id": "K19-028",
@@ -11262,7 +11262,7 @@
       "choose whichever option the partner organisation prefers"
     ],
     "answer": 0,
-    "rationale": "Proportionality favours the route that achieves the aim with the least intrusion into privacy. Confining use to the agreed purpose is purpose limitation; counting fields is minimisation; and deferring to the partner's preference is not a principle at all. The stem no longer contains the word intrusion, so the candidate cannot simply match it to the key."
+    "rationale": "Proportionality favours the route that achieves the aim with the least intrusion into privacy. Confining use to the agreed purpose is purpose limitation; counting fields is minimisation; and deferring to the partner's preference is not a principle at all."
   },
   {
     "id": "K19-029",
@@ -11277,7 +11277,7 @@
       "Proportionality sets who may access the data; minimisation sets how long it is kept"
     ],
     "answer": 0,
-    "rationale": "Proportionality is the broader judgement of whether and how far a share is justified by the aim; minimisation is the narrower rule to include only necessary data. Option B swaps the two; option C misassigns both to access and retention; option D collapses proportionality into minimisation. Trimming the key so it is not the longest option removes the pick the fullest cue."
+    "rationale": "Proportionality is the broader judgement of whether and how far a share is justified by the aim; minimisation is the narrower rule to include only necessary data. Option B swaps the two; option C misassigns both to access and retention; option D collapses proportionality into minimisation."
   },
   {
     "id": "K19-030",
@@ -11292,7 +11292,7 @@
       "Share only the identifiers needed to achieve a reliable match"
     ],
     "answer": 3,
-    "rationale": "Minimisation limits the shared identifiers to those genuinely needed for a reliable match. A fixed standard set ignores what this particular match needs; sharing everything for accuracy defeats minimisation; and deferring to whatever the team requests lets the recipient set the scope. The options no longer split into full versus fewer, so the candidate must apply minimisation rather than pick the smallest-sounding option."
+    "rationale": "Minimisation limits the shared identifiers to those genuinely needed for a reliable match. A fixed standard set ignores what this particular match needs; sharing everything for accuracy defeats minimisation; and deferring to whatever the team requests lets the recipient set the scope. The options no longer split into full versus fewer."
   },
   {
     "id": "K19-031",
@@ -11322,7 +11322,7 @@
       "whether the datasets can be transferred over an encrypted connection"
     ],
     "answer": 1,
-    "rationale": "Proportionality weighs the intrusion against the expected benefit. Asking whether a less sensitive combination could serve the aim is a minimisation-flavoured question about the data chosen; using the fewest identifiers is minimisation; and an encrypted connection is secure transfer. Option C is now also a weighing-shaped question, so the key is not the only judgement among concrete checks."
+    "rationale": "Proportionality weighs the intrusion against the expected benefit. Asking whether a less sensitive combination could serve the aim is a minimisation-flavoured question about the data chosen; using the fewest identifiers is minimisation; and an encrypted connection is secure transfer. Option C is now also a weighing-shaped question."
   },
   {
     "id": "K19-033",
@@ -11352,7 +11352,7 @@
       "As acceptable once the fuller dataset is encrypted for transfer"
     ],
     "answer": 2,
-    "rationale": "Minimisation limits the share to what the current purpose needs, so the extra might be useful fields go beyond it. The parties cannot agree the fields in regardless, because minimisation is not waived by consent; how long fields are kept is retention, not the quantity shared; and encrypting a larger dataset addresses transfer security, not whether too much was shared. The key no longer simply echoes excessive, and option A is a plausible governance move rather than a telegraphed straw man."
+    "rationale": "Minimisation limits the share to what the current purpose needs, so the extra might be useful fields go beyond it. The parties cannot agree the fields in regardless, because minimisation is not waived by consent; how long fields are kept is retention, not the quantity shared; and encrypting a larger dataset addresses transfer security, not whether too much was shared."
   },
   {
     "id": "K19-035",
@@ -11367,7 +11367,7 @@
       "The organisation should be able to justify that the extent of the sharing was proportionate to the aim"
     ],
     "answer": 3,
-    "rationale": "Accountability includes being able to justify that the share's extent was proportionate, not merely that a judgement was made. It is not deferred until a challenge arises; recording a judgement does not satisfy accountability if the judgement was unsound; and proportionality is the sharer's to justify, not the receiver's. Each distractor is now a believable but wrong account of how the two relate rather than an obvious overreach, and the key is no longer the lone measured option."
+    "rationale": "Accountability includes being able to justify that the share's extent was proportionate, not merely that a judgement was made. It is not deferred until a challenge arises; recording a judgement does not satisfy accountability if the judgement was unsound; and proportionality is the sharer's to justify, not the receiver's."
   },
   {
     "id": "K19-036",
@@ -11382,7 +11382,7 @@
       "requires its own justification against the agreed purpose and cannot be assumed to be covered"
     ],
     "answer": 3,
-    "rationale": "Onward sharing must be justified against the agreed purpose; holding the data lawfully does not confer freedom to pass it on. A signature by the third party does not cure a purpose mismatch; a merely similar aim does not fall within the agreed purpose; and one lawful share does not license the next. Each wrong option is a real way the purpose boundary gets blurred, and B no longer sits in the wrong category."
+    "rationale": "Onward sharing must be justified against the agreed purpose; holding the data lawfully does not confer freedom to pass it on. A signature by the third party does not cure a purpose mismatch; a merely similar aim does not fall within the agreed purpose; and one lawful share does not license the next."
   },
   {
     "id": "K19-037",
@@ -11397,7 +11397,7 @@
       "The data being used by the receiving organisation for an unagreed purpose"
     ],
     "answer": 0,
-    "rationale": "Secure transfer reduces the risk of interception while the data moves. Over-broad staff access is an access-control risk, keeping data too long is a retention risk, and unagreed use is a purpose-limitation risk. Each distractor is a genuine risk to shared data at a different stage, so the candidate must locate the one transfer addresses rather than match the stem to in transit."
+    "rationale": "Secure transfer reduces the risk of interception while the data moves. Over-broad staff access is an access-control risk, keeping data too long is a retention risk, and unagreed use is a purpose-limitation risk."
   },
   {
     "id": "K19-038",
@@ -11412,7 +11412,7 @@
       "the file being sent to the wrong recipient by mistake"
     ],
     "answer": 1,
-    "rationale": "Channel encryption chiefly protects the confidentiality of data in transit: it cannot be read if intercepted. It does not by itself guarantee the data is unaltered (integrity), does not ensure delivery or timeliness (availability), and does not prevent misaddressing to the wrong recipient. All four options concern the transfer itself, so the candidate must know encryption's specific job is confidentiality against interception, not the neighbouring transfer risks."
+    "rationale": "Channel encryption chiefly protects the confidentiality of data in transit: it cannot be read if intercepted. It does not by itself guarantee the data is unaltered (integrity), does not ensure delivery or timeliness (availability), and does not prevent misaddressing to the wrong recipient. All four options concern the transfer itself."
   },
   {
     "id": "K19-039",
@@ -11427,7 +11427,7 @@
       "Which flows of the dataset are recorded in the partner's data map"
     ],
     "answer": 2,
-    "rationale": "Access control governs who may reach the data once held: which staff may open it. Which fields were included is minimisation, the channel used is secure transfer, and recording flows is data mapping. Each distractor is a real K19 mechanism operating at a different point, so the candidate must know what access control specifically decides."
+    "rationale": "Access control governs who may reach the data once held: which staff may open it. Which fields were included is minimisation, the channel used is secure transfer, and recording flows is data mapping."
   },
   {
     "id": "K19-040",
@@ -11442,7 +11442,7 @@
       "each stage of handling the data has a named party responsible for it"
     ],
     "answer": 3,
-    "rationale": "Defining roles ensures each stage of handling, protecting and using the data has a named responsible party. It does not mean the data is split equally, that one lead organisation answers for the other's actions, or that every individual member of staff is named; those misread how responsibility is allocated. The distractors are specific misallocations rather than an off-topic option."
+    "rationale": "Defining roles ensures each stage of handling, protecting and using the data has a named responsible party. It does not mean the data is split equally, that one lead organisation answers for the other's actions, or that every individual member of staff is named; those misread how responsibility is allocated."
   },
   {
     "id": "K19-041",
@@ -11457,7 +11457,7 @@
       "Secure transfer and access control both restrict who can open the shared data"
     ],
     "answer": 2,
-    "rationale": "Secure transfer protects data in motion; access control governs who may reach it once held. Option B swaps the two; option C collapses both into access restriction; option D invents a timing split, since access control applies throughout the data is held, not only at project end. Each wrong option is a believable confusion rather than an obvious throwaway."
+    "rationale": "Secure transfer protects data in motion; access control governs who may reach it once held. Option B swaps the two; option C collapses both into access restriction; option D invents a timing split, since access control applies throughout the data is held, not only at project end."
   },
   {
     "id": "K19-042",
@@ -11487,7 +11487,7 @@
       "Access is granted to staff at or above a set grade in the organisation"
     ],
     "answer": 0,
-    "rationale": "Access control ties access to a need for the data for the agreed purpose. Whole-team access, general-clearance access, and grade-based access are all real-looking access models, but each grants the data to people who may have no need for it, so none reflects need-to-know. The candidate must know the basis is purpose-related need, not membership, clearance, or grade."
+    "rationale": "Access control ties access to a need for the data for the agreed purpose. Whole-team access, general-clearance access, and grade-based access are all real-looking access models, but each grants the data to people who may have no need for it, so none reflects need-to-know. The basis is purpose-related need, not membership, clearance or grade."
   },
   {
     "id": "K19-044",
@@ -11502,7 +11502,7 @@
       "accuracy, so any errors in it are corrected before sending"
     ],
     "answer": 2,
-    "rationale": "Secure transfer chiefly protects confidentiality: keeping the data from being read by anyone other than the intended recipient. Integrity and availability are genuine security properties but not the primary aim of a secure channel, and correcting errors before sending is a data-quality step. Removing the in transit wording stops the key matching the stem, so the candidate must know which property a secure channel targets."
+    "rationale": "Secure transfer chiefly protects confidentiality: keeping the data from being read by anyone other than the intended recipient. Integrity and availability are genuine security properties but not the primary aim of a secure channel, and correcting errors before sending is a data-quality step."
   },
   {
     "id": "K19-045",
@@ -11517,7 +11517,7 @@
       "Named roles matter for planning the work but not for who answers if something goes wrong"
     ],
     "answer": 0,
-    "rationale": "Naming roles matters because, without them, responsibility for a given aspect can fall into a gap where neither party owns it; accountability needs a specific party identifiable for each aspect. It does not let each party defer to the other, it is not the regulator who assigns a lead, and it bears directly on who answers when something goes wrong, not just planning. The key explains why naming matters rather than restating the definition, distinguishing it from items 008 and 040."
+    "rationale": "Naming roles matters because, without them, responsibility for a given aspect can fall into a gap where neither party owns it; accountability needs a specific party identifiable for each aspect. It does not let each party defer to the other, it is not the regulator who assigns a lead, and it bears directly on who answers when something goes wrong, not just planning."
   },
   {
     "id": "K19-046",
@@ -11577,7 +11577,7 @@
       "A risk assessment for a specific sharing project"
     ],
     "answer": 1,
-    "rationale": "The DSPT is the standard self-assessment through which an organisation evidences that its data handling meets the expected national standard. A DSA governs a specific share, a data mapping exercise records where data flows, and a project risk assessment examines one share's risks; none provides organisation-wide assurance. The candidate must know what the toolkit is for rather than matching its name to the stem."
+    "rationale": "The DSPT is the standard self-assessment through which an organisation evidences that its data handling meets the expected national standard. A DSA governs a specific share, a data mapping exercise records where data flows, and a project risk assessment examines one share's risks; none provides organisation-wide assurance."
   },
   {
     "id": "K19-050",
@@ -11592,7 +11592,7 @@
       "That the organisation has assessed the risks of the particular share being proposed"
     ],
     "answer": 0,
-    "rationale": "A completed DSPT shows the organisation has assessed itself against a recognised national standard for handling data. It is not evidence of a lawful basis for a particular share, nor of a project-specific risk assessment, and it is a self-assessment rather than a regular independent audit. Varying the distractors and removing the name echo stops the candidate matching the name or picking the lone general option."
+    "rationale": "A completed DSPT shows the organisation has assessed itself against a recognised national standard for handling data. It is not evidence of a lawful basis for a particular share, nor of a project-specific risk assessment, and it is a self-assessment rather than a regular independent audit."
   },
   {
     "id": "K19-051",
@@ -11607,7 +11607,7 @@
       "Deciding whether the sharing arrangement should be renewed for another term"
     ],
     "answer": 2,
-    "rationale": "An audit primarily checks that the sharing is being conducted as agreed and provides assurance of that. Deciding on renewal is a management decision informed by the audit; judging whether the original controls were well chosen is a design review; and investigating a specific incident is a targeted investigation. Each distractor is a genuine review-type activity, so the candidate cannot pick the key just because audit means looking back."
+    "rationale": "An audit primarily checks that the sharing is being conducted as agreed and provides assurance of that. Deciding on renewal is a management decision informed by the audit; judging whether the original controls were well chosen is a design review; and investigating a specific incident is a targeted investigation."
   },
   {
     "id": "K19-052",
@@ -11622,7 +11622,7 @@
       "confirm that the organisation meets recognised data security standards overall"
     ],
     "answer": 2,
-    "rationale": "A risk assessment done at the outset finds in advance what could go wrong so it can be addressed before any data moves. Recording flows is data mapping, confirming overall standards is the DSPT's role, and establishing the basis is a separate legal step. The key no longer contains the word risk, so the candidate cannot match it to the stem."
+    "rationale": "A risk assessment done at the outset finds in advance what could go wrong so it can be addressed before any data moves. Recording flows is data mapping, confirming overall standards is the DSPT's role, and establishing the basis is a separate legal step."
   },
   {
     "id": "K19-053",
@@ -11637,7 +11637,7 @@
       "obtain each individual's agreement before their data is shared"
     ],
     "answer": 1,
-    "rationale": "Transparency requires the organisation to explain publicly what it shares and why. Obtaining individual agreement is consent; giving individuals a copy of their data is a subject access right; and publishing the dataset is open data. Each is a genuine obligation a candidate could confuse with transparency, and none is simply the antonym of transparent, so the word in the stem no longer resolves the item."
+    "rationale": "Transparency requires the organisation to explain publicly what it shares and why. Obtaining individual agreement is consent; giving individuals a copy of their data is a subject access right; and publishing the dataset is open data."
   },
   {
     "id": "K19-054",
@@ -11652,7 +11652,7 @@
       "Because sustained public confidence supports people's willingness to have their data used for legitimate purposes"
     ],
     "answer": 3,
-    "rationale": "Public trust matters because sustained confidence underpins people's willingness to have their data used for legitimate purposes. It does not create or remove the lawful basis, which stands on its own; it is not a metric captured by the DSPT; and it is a substantive governance concern, not merely a communications matter. Each distractor is a believable but mistaken account rather than an obvious overclaim."
+    "rationale": "Public trust matters because sustained confidence underpins people's willingness to have their data used for legitimate purposes. It does not create or remove the lawful basis, which stands on its own; it is not a metric captured by the DSPT; and it is a substantive governance concern, not merely a communications matter."
   },
   {
     "id": "K19-055",
@@ -11667,7 +11667,7 @@
       "The DSPT gives standing assurance about the organisation's data security overall; a risk assessment examines the risks of one particular share"
     ],
     "answer": 3,
-    "rationale": "The DSPT provides organisation-wide standing assurance; a project risk assessment looks at the risks of one specific share. Option C swaps the two; option A misstates their frequency as the key difference rather than their scope; and option D invents a technical-versus-legal split neither has. Trimming the key removes the pick the fullest cue."
+    "rationale": "The DSPT provides organisation-wide standing assurance; a project risk assessment looks at the risks of one specific share. Option C swaps the two; option A misstates their frequency as the key difference rather than their scope; and option D invents a technical-versus-legal split neither has."
   },
   {
     "id": "K19-056",
@@ -11682,7 +11682,7 @@
       "Its Data Sharing Agreement with the partner"
     ],
     "answer": 2,
-    "rationale": "Showing that data is handled to the expected national standard is what the DSPT evidences. A DSA sets terms, a lawful basis establishes permission to share, and encrypted transfer protects data in movement; none evidences the standard. The stem no longer names data security, so the toolkit title is not a free match."
+    "rationale": "Showing that data is handled to the expected national standard is what the DSPT evidences. A DSA sets terms, a lawful basis establishes permission to share, and encrypted transfer protects data in movement; none evidences the standard."
   },
   {
     "id": "K19-057",
@@ -11697,7 +11697,7 @@
       "restricting who within each organisation can access the shared data"
     ],
     "answer": 2,
-    "rationale": "Transparency builds trust by giving people an accurate account of what is done with their data. Minimising the data, securing its transfer, and controlling access are genuine safeguards that may support trust indirectly, but they are not what transparency contributes. The key states the substance rather than unpacking the word transparent, so the candidate cannot match on the stem term."
+    "rationale": "Transparency builds trust by giving people an accurate account of what is done with their data. Minimising the data, securing its transfer, and controlling access are genuine safeguards that may support trust indirectly, but they are not what transparency contributes."
   },
   {
     "id": "K19-058",
@@ -11712,7 +11712,7 @@
       "It sets the organisation's overall data security standard for the year"
     ],
     "answer": 0,
-    "rationale": "Done at the outset, the assessment lets problems be anticipated and headed off before any data moves, which a later assessment cannot do. Setting an annual security standard is the DSPT's role; confirming worth at the end is a closing review; and treating it merely as a completed-step record misses its preventive point. The key no longer says risk or stands alone as the only forward-looking option."
+    "rationale": "Done at the outset, the assessment lets problems be anticipated and headed off before any data moves, which a later assessment cannot do. Setting an annual security standard is the DSPT's role; confirming worth at the end is a closing review; and treating it merely as a completed-step record misses its preventive point."
   },
   {
     "id": "K19-059",
@@ -11742,7 +11742,7 @@
       "By the receiving organisation running periodic checks that stand in for the sharer's own"
     ],
     "answer": 1,
-    "rationale": "Compliance and assurance are kept up by ongoing checks over time, evidenced through audits and assurance toolkits. The receiver's checks do not discharge the sharer's own assurance even if periodic; renewing the lawful basis does not itself provide continuing assurance; and a single start-of-arrangement sign-off, however thorough, does not keep pace with change. Options A and C are now also recurring-activity shaped, so the key is not the only ongoing option."
+    "rationale": "Compliance and assurance are kept up by ongoing checks over time, evidenced through audits and assurance toolkits. The receiver's checks do not discharge the sharer's own assurance even if periodic; renewing the lawful basis does not itself provide continuing assurance; and a single start-of-arrangement sign-off, however thorough, does not keep pace with change. Options A and C are now also recurring-activity shaped."
   },
   {
     "id": "K22-001",
@@ -12867,7 +12867,7 @@
       "resources, assumptions, issues and deliverables"
     ],
     "answer": 2,
-    "rationale": "RAID stands for risks, assumptions, issues and dependencies. The other expansions mix in real project terms (actions, decisions, resources, deliverables, assurance) that are not what the acronym denotes, which is exactly the confusion the item tests."
+    "rationale": "RAID stands for risks, assumptions, issues and dependencies. The other expansions mix in real project terms (actions, decisions, resources, deliverables, assurance) that are not what the acronym denotes."
   },
   {
     "id": "K24-016",
@@ -13257,7 +13257,7 @@
       "Waterfall suits large teams while agile suits small ones; the trade is really about team size rather than requirements"
     ],
     "answer": 0,
-    "rationale": "The genuine trade is between Waterfall's up-front certainty with limited later flexibility and agile's adaptability with less fixed early certainty. The cost-and-delivery option muddles which approach fixes cost early, the team-size option mislocates the trade in team size rather than how settled the requirements are, and the testing option inverts when each approach tests, so each is a plausible-sounding but wrong account of the trade."
+    "rationale": "The genuine trade is between Waterfall's up-front certainty with limited later flexibility and agile's adaptability with less fixed early certainty. The cost-and-delivery option muddles which approach fixes cost early, the team-size option mislocates the trade in team size rather than how settled the requirements are, and the testing option inverts when each approach tests."
   },
   {
     "id": "K24-042",
@@ -13272,7 +13272,7 @@
       "progress can be hard to show until late, since working output arrives near the end"
     ],
     "answer": 1,
-    "rationale": "Fixing scope and design early is precisely what makes late change expensive and disruptive, so that weakness follows most directly from the approach. Late-arriving output, stakeholder disengagement and stale documentation are all real criticisms of plan-driven working too, but they are consequences of its length and formality rather than of committing to the design early, which is what the stem asks for."
+    "rationale": "Fixing scope and design early is precisely what makes late change expensive and disruptive, so that weakness follows most directly from the approach. Late-arriving output, stakeholder disengagement and stale documentation are all real criticisms of plan-driven working too, but they are consequences of its length and formality rather than of committing to the design early."
   },
   {
     "id": "K24-043",
@@ -13347,7 +13347,7 @@
       "the sum of money set aside to cover unexpected problems on the project"
     ],
     "answer": 1,
-    "rationale": "A contingency trigger is a defined condition that, when reached, launches a ready-made fallback plan. The money set aside is a contingency reserve or budget, the person with authority is a risk owner, and the review meeting is a risk review, so each distractor is a real risk-management term that is not the trigger."
+    "rationale": "A contingency trigger is a defined condition that, when reached, launches a ready-made fallback plan. The money set aside is a contingency reserve or budget, the person with authority is a risk owner, and the review meeting is a risk review."
   },
   {
     "id": "K24-048",
@@ -13437,7 +13437,7 @@
       "responsible, accountable, coordinated and involved"
     ],
     "answer": 0,
-    "rationale": "RACI stands for responsible, accountable, consulted and informed. The other expansions swap in plausible-sounding but wrong words (coordinated, involved, reporting, authorising, approving, contributing) for one or more letters, which is exactly the confusion the item tests."
+    "rationale": "RACI stands for responsible, accountable, consulted and informed. The other expansions swap in plausible-sounding but wrong words (coordinated, involved, reporting, authorising, approving, contributing) for one or more letters."
   },
   {
     "id": "K24-054",
@@ -13587,7 +13587,7 @@
       "a single statutory organisation that holds the NHS budget and commissions services for the area"
     ],
     "answer": 0,
-    "rationale": "An ICS is the overall partnership arrangement across a geography, within which other bodies sit. The single statutory budget-holder and commissioner is the ICB, the strategic committee agreeing the health and wellbeing strategy is the ICP, and the neighbourhood group of practices is a PCN, so each distractor names a real part of the system that is not the whole ICS."
+    "rationale": "An ICS is the overall partnership arrangement across a geography, within which other bodies sit. The single statutory budget-holder and commissioner is the ICB, the strategic committee agreeing the health and wellbeing strategy is the ICP, and the neighbourhood group of practices is a PCN."
   },
   {
     "id": "K10-004",
@@ -13602,7 +13602,7 @@
       "the wider partnership of NHS and council bodies that sets the area's health and wellbeing strategy"
     ],
     "answer": 0,
-    "rationale": "A PCN operates at neighbourhood scale, a group of GP practices sharing staff and services. The area budget-holder and commissioner is the ICB, the partnership setting the health and wellbeing strategy is the ICP, and the overall system-wide arrangement is the ICS, so the distractors are the larger structures a candidate must not confuse with a PCN by scale."
+    "rationale": "A PCN operates at neighbourhood scale, a group of GP practices sharing staff and services. The area budget-holder and commissioner is the ICB, the partnership setting the health and wellbeing strategy is the ICP, and the overall system-wide arrangement is the ICS."
   },
   {
     "id": "K10-005",
@@ -13632,7 +13632,7 @@
       "inspecting hospitals and care homes for quality and safety"
     ],
     "answer": 2,
-    "rationale": "UKHSA is the health-protection body, dealing with infectious disease and external threats to health. Inspection is the regulator's job, commissioning is the ICB's, and running primary care services is neither of those, so each distractor is a real system function that belongs elsewhere."
+    "rationale": "UKHSA is the health-protection body, dealing with infectious disease and external threats to health. Inspection is the regulator's job, commissioning is the ICB's, and running primary care services is neither of those."
   },
   {
     "id": "K10-007",
@@ -13677,7 +13677,7 @@
       "commissioning acute hospital services across an integrated care system"
     ],
     "answer": 0,
-    "rationale": "Local authorities hold responsibility for public health and adult social care locally. Commissioning acute NHS services is the ICB's role, regulation is the CQC's, and health protection is UKHSA's, so the distractors are real functions belonging to other bodies."
+    "rationale": "Local authorities hold responsibility for public health and adult social care locally. Commissioning acute NHS services is the ICB's role, regulation is the CQC's, and health protection is UKHSA's."
   },
   {
     "id": "K10-010",
@@ -13767,7 +13767,7 @@
       "the Office for Health Improvement and Disparities"
     ],
     "answer": 3,
-    "rationale": "Leading national health improvement and reducing disparities is OHID's role. UKHSA protects against acute health threats, the CQC regulates quality, and an ICB commissions services at area level, so each distractor is a real body with a different remit."
+    "rationale": "Leading national health improvement and reducing disparities is OHID's role. UKHSA protects against acute health threats, the CQC regulates quality, and an ICB commissions services at area level."
   },
   {
     "id": "K10-016",
@@ -13857,7 +13857,7 @@
       "routine first-contact care such as general practice and community pharmacy"
     ],
     "answer": 0,
-    "rationale": "Acute care is short-term active treatment, including emergency and planned surgical and medical care. Long-term residential support is social care, first-contact care is primary care, and care in the home is community health services, so each distractor is a different setting."
+    "rationale": "Acute care is short-term active treatment, including emergency and planned surgical and medical care. Long-term residential support is social care, first-contact care is primary care, and care in the home is community health services."
   },
   {
     "id": "K10-022",
@@ -13887,7 +13887,7 @@
       "emergency assessment and resuscitation for people with life-threatening conditions"
     ],
     "answer": 1,
-    "rationale": "Adult social care supports personal care and daily living rather than treating illness. Diagnosis and treatment, emergency resuscitation and prescribing are all healthcare activities, which is the distinction the item draws."
+    "rationale": "Adult social care supports personal care and daily living rather than treating illness. Diagnosis and treatment, emergency resuscitation and prescribing are all healthcare activities."
   },
   {
     "id": "K10-024",
@@ -13902,7 +13902,7 @@
       "responding to emergencies, giving care at the scene and taking patients onward"
     ],
     "answer": 3,
-    "rationale": "The ambulance service responds to emergencies, treats patients at the scene and transports them to appropriate care. Commissioning is an ICB function, planned surgery is acute elective care, and the telephone assessment line that directs patients is NHS 111, a different part of urgent and emergency care, so the distractors are functions of other parts of the system."
+    "rationale": "The ambulance service responds to emergencies, treats patients at the scene and transports them to appropriate care. Commissioning is an ICB function, planned surgery is acute elective care, and the telephone assessment line that directs patients is NHS 111, a different part of urgent and emergency care."
   },
   {
     "id": "K10-025",
@@ -14052,7 +14052,7 @@
       "the discharge of a patient from hospital back to their home"
     ],
     "answer": 0,
-    "rationale": "A referral directs a patient onward to another service or clinician, often starting a pathway. Being admitted to a bed is admission, leaving hospital is discharge, and being listed for surgery is a later step, so each distractor is a different point in the pathway."
+    "rationale": "A referral directs a patient onward to another service or clinician, often starting a pathway. Being admitted to a bed is admission, leaving hospital is discharge, and being listed for surgery is a later step."
   },
   {
     "id": "K10-035",
@@ -14217,7 +14217,7 @@
       "non-elective, because surgery always counts as urgent"
     ],
     "answer": 0,
-    "rationale": "A pre-booked, planned admission for scheduled surgery is elective. Being admitted to a bed does not make it non-elective, surgery is not automatically urgent, and arriving by ambulance is irrelevant to a planned admission, so the distractors offer wrong reasons."
+    "rationale": "A pre-booked, planned admission for scheduled surgery is elective. Being admitted to a bed does not make it non-elective, surgery is not automatically urgent, and arriving by ambulance is irrelevant to a planned admission."
   },
   {
     "id": "K10-046",
@@ -14262,7 +14262,7 @@
       "assess callers' symptoms and direct them to the most appropriate service"
     ],
     "answer": 2,
-    "rationale": "A PAS handles the administrative and operational side, admissions, appointments, transfers and demographics. Detailed clinical notes sit in the clinical record, symptom assessment is NHS 111's role, and inspection is the regulator's, so each distractor is a different system or function."
+    "rationale": "A PAS handles the administrative and operational side, admissions, appointments, transfers and demographics. Detailed clinical notes sit in the clinical record, symptom assessment is NHS 111's role, and inspection is the regulator's."
   },
   {
     "id": "K10-049",
